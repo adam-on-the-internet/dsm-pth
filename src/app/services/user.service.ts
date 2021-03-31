@@ -16,7 +16,7 @@ export class UserService {
 
   public getAllUsers(): Observable<User[]> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user"
     });
     return this.http.get(url, CookieHelper.authHeaders) as Observable<User[]>;
@@ -24,7 +24,7 @@ export class UserService {
 
   public register(email: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: "register"
     });
@@ -36,7 +36,7 @@ export class UserService {
 
   public updateEmailSelf(email: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: "emailUpdate/self"
     });
@@ -48,7 +48,7 @@ export class UserService {
 
   public editAccess(email: string, specialAccess: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: "specialAccess"
     });
@@ -61,7 +61,7 @@ export class UserService {
 
   public setAdmin(email: string, isAdmin: boolean): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: "setAdmin"
     });
@@ -74,7 +74,7 @@ export class UserService {
 
   public resetPasswordAutomatic(email: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: "passwordReset/automatic"
     });
@@ -86,7 +86,7 @@ export class UserService {
 
   public resetPasswordManual(password: string, confirmPassword: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: "passwordReset/manual"
     });
@@ -99,7 +99,7 @@ export class UserService {
 
   public deleteUser(id: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "user",
       collection: id
     });

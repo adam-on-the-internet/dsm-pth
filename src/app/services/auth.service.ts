@@ -17,7 +17,7 @@ export class AuthService {
 
   public login(email: string, password: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "auth",
       collection: "login"
     });

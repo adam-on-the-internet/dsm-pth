@@ -22,7 +22,7 @@ export class LogService {
       application: "dsm-pth"
     };
     const url = RestUrlBuilder.buildRestUrl({
-      service: ServiceUrl.BasicExpress,
+      service: ServiceUrl.MainService,
       controller: "log"
     });
     return this.http.post(url, log, CookieHelper.authHeaders) as Observable<any>;

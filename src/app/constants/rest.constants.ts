@@ -1,3 +1,3 @@
 export const enum ServiceUrl {
-  BasicExpress = "https://aoti-basic-express-app.herokuapp.com"
+  MainService = "https://aoti-basic-express-app.herokuapp.com"
 }

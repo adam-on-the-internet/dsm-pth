@@ -8,14 +8,10 @@ import { ServiceUrl } from "src/app/constants/rest.constants";
   styleUrls: ["./admin.component.css"]
 })
 export class AdminComponent {
-  public basicExpressServiceUrl = ServiceUrl.BasicExpress;
+  public basicExpressServiceUrl = ServiceUrl.MainService;
 
   constructor(
     private navHelper: NavHelperService,
   ) { }
-
-  public goBookmarkOverview() {
-    this.navHelper.goBookmarkOverview();
-  }
 
 }
