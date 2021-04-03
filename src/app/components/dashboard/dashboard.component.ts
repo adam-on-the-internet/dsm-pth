@@ -1,6 +1,7 @@
 import {Component} from "@angular/core";
 import {NavHelperService} from "src/app/services/nav-helper.service";
 import {SettingsService} from "../../services/settings.service";
+import {LinkService} from "../../services/link.service";
 
 @Component({
   selector: "app-dashboard",
@@ -12,6 +13,7 @@ export class DashboardComponent {
   constructor(
     private navHelper: NavHelperService,
     private settings: SettingsService,
+    public linkService: LinkService,
   ) {
     this.settings.showNav = true;
   }
