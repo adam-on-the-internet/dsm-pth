@@ -1,6 +1,7 @@
 import {Component} from "@angular/core";
 import {NavHelperService} from "src/app/services/nav-helper.service";
 import {CookieHelper} from "src/app/utilities/cookie.util";
+import {LinkService} from "../../services/link.service";
 
 @Component({
   selector: "app-footer",
@@ -18,6 +19,7 @@ export class FooterComponent {
 
   constructor(
     private navHelper: NavHelperService,
+    public linkService: LinkService,
   ) {
   }
 
