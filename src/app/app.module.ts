@@ -23,6 +23,10 @@ import {SelectInputComponent} from "./components/select-input/select-input.compo
 import {OnOffSwitchComponent} from "./components/simple/form/on-off-switch/on-off-switch.component";
 import {StringListInputComponent} from "./components/simple/form/string-list-input/string-list-input.component";
 import {StringListDisplayComponent} from "./components/simple/string-list-display/string-list-display.component";
+import { DocumentArchiveComponent } from "./components/document-archive/document-archive.component";
+import { CommunityCalendarComponent } from "./components/community-calendar/community-calendar.component";
+import { DocumentInfoComponent } from "./components/document-info/document-info.component";
+import { ContactListComponent } from "./components/contact-list/contact-list.component";
 
 @NgModule({
   declarations: [
@@ -45,6 +49,10 @@ import {StringListDisplayComponent} from "./components/simple/string-list-displa
     OnOffSwitchComponent,
     StringListInputComponent,
     StringListDisplayComponent,
+    DocumentArchiveComponent,
+    CommunityCalendarComponent,
+    DocumentInfoComponent,
+    ContactListComponent,
   ],
   imports: [
     BrowserModule,

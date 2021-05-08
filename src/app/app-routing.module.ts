@@ -6,6 +6,10 @@ import {ROUTES_ENUM} from "./constants/routing.constants";
 import {LoginComponent} from "./components/login/login.component";
 import {ProfileComponent} from "./components/profile/profile.component";
 import {AdminComponent} from "./components/admin/admin.component";
+import {CommunityCalendarComponent} from "./components/community-calendar/community-calendar.component";
+import {DocumentArchiveComponent} from "./components/document-archive/document-archive.component";
+import {DocumentInfoComponent} from "./components/document-info/document-info.component";
+import {ContactListComponent} from "./components/contact-list/contact-list.component";
 
 const routes: Routes = [
   // main
@@ -14,8 +18,12 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Login, component: LoginComponent},
   {path: ROUTES_ENUM.Profile, component: ProfileComponent},
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
+  {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
+  {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
+  {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
+  {path: ROUTES_ENUM.Document + "/:link", component: DocumentInfoComponent},
   // default
-  {path: "**", redirectTo: "dashboard"},
+  {path: "**", redirectTo: ROUTES_ENUM.Dashboard},
 ];
 
 @NgModule({

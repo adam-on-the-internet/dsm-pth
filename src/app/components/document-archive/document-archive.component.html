@@ -1,0 +1,23 @@
+<div class="bg-alt">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Document Archive</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-backup">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="list-group my-3">
+          <li class="list-group-item" *ngFor="let doc of documents" (click)="goToDocument(doc)">
+             {{doc.name}}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

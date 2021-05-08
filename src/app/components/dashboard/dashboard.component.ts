@@ -18,4 +18,16 @@ export class DashboardComponent {
     this.settings.showNav = true;
   }
 
+  public goToDocs() {
+    this.navHelper.goToDocs();
+  }
+
+  public goToCommunityCalendar() {
+    this.navHelper.goToCommunityCalendar();
+  }
+
+  public goToContactList() {
+    this.navHelper.goToContactList();
+  }
+
 }

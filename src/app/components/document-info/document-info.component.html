@@ -1,0 +1,44 @@
+<div class="bg-alt">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>
+          Document Info
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-backup">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 my-3">
+        <ng-container *ngIf="ready && !error; else backup">
+          <app-card>
+            <h2>
+              {{doc.name}}
+            </h2>
+            <p>
+              <a class="btn btn-primary" [href]="'assets/' + doc.link" target="_blank">
+                <i class="fa fa-link"></i>
+                View the document
+              </a>
+            </p>
+          </app-card>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #backup>
+  <ng-container *ngIf="error">
+    <p>
+      Oops! Something is wrong.
+    </p>
+  </ng-container>
+  <ng-container *ngIf="!ready">
+    <app-loading></app-loading>
+  </ng-container>
+</ng-template>

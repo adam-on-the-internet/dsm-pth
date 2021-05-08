@@ -33,11 +33,31 @@
         </a>
       </div>
       <div class="col-md-6 my-3">
-        <a class="card h-100" [href]="linkService.myHouseTool" target="_blank">
+        <a class="card h-100" (click)="goToContactList()">
           <div class="card-body text-center">
-            <h3>Find Your Ward</h3>
+            <h3>Who to Contact</h3>
             <p>
-              This tool shows you your Ward, Neighborhood, who your representatives are, and more.
+              Contact info for people holding office.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 my-3">
+        <a class="card h-100" (click)="goToDocs()">
+          <div class="card-body text-center">
+            <h3>Document Archive</h3>
+            <p>
+              Archive of some important documents.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 my-3">
+        <a class="card h-100" (click)="goToCommunityCalendar()">
+          <div class="card-body text-center">
+            <h3>Community Calendar</h3>
+            <p>
+              Our list of community events.
             </p>
           </div>
         </a>
@@ -71,11 +91,11 @@
         </a>
       </div>
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.councilInfo" target="_blank">
+        <a class="card h-100" [href]="linkService.myHouseTool" target="_blank">
           <div class="card-body text-center">
-            <h3>City Contacts</h3>
+            <h3>Find Your Ward</h3>
             <p>
-              Information on City Council and other staff, along with how to contact them.
+              This tool shows you your Ward, Neighborhood, who your representatives are, and more.
             </p>
           </div>
         </a>
