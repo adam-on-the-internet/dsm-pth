@@ -1,5 +1,7 @@
 import {DocumentInfo} from "../models/DocumentInfo.model";
 
+/* tslint:disable */
+
 export const DOCUMENTS: DocumentInfo[] = [
   {
     name: "DMPS Student Resource Officer Report",
