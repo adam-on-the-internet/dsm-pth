@@ -1,5 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import {Component, OnInit} from "@angular/core";
 import {LinkService} from "../../services/link.service";
+import {CONTACTS} from "../../constants/contact-constants";
 
 @Component({
   selector: "app-contact-list",
@@ -7,10 +8,12 @@ import {LinkService} from "../../services/link.service";
   styleUrls: ["./contact-list.component.scss"]
 })
 export class ContactListComponent implements OnInit {
+  public contactList = CONTACTS;
 
   constructor(
     public linkService: LinkService,
-  ) { }
+  ) {
+  }
 
   ngOnInit() {
   }

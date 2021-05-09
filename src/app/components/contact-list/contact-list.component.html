@@ -1,23 +1,36 @@
-<div class="bg-alt">
+<div class="bg-townhall">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 my-3 text-center transparent">
         <h1>Contact List</h1>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="bg-backup">
-  <div class="container">
     <div class="row">
       <div class="col-md-12 my-3">
         <app-card>
+          <table class="table">
+            <thead>
+            <tr>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Phone #</th>
+              <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let contact of contactList">
+              <td>{{contact.name}}</td>
+              <td>{{contact.role}}</td>
+              <td>{{contact.phoneNumber}}</td>
+              <td>{{contact.email}}</td>
+            </tr>
+            </tbody>
+          </table>
           <p>
-            Coming soon...
+            * Ward 4 does not have representation. The sitting council person Joe Gatto does not live in Ward 4.
           </p>
           <p>
-            <a class="btn btn-primary" [href]="linkService.councilInfo" target="_blank">
+            <a class="btn btn-outline-primary" [href]="linkService.councilInfo" target="_blank">
               <i class="fa fa-link"></i>
               City Contact Info Page
             </a>
