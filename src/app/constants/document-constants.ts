@@ -18,7 +18,7 @@ export const DOCUMENTS: DocumentInfo[] = [
   {
     name: "DMPD Gold Braid Union Threatening Letter",
     link: "gold-braid-letter.pdf",
-    description: "Threatening letter sent by a DMPD cop 'union' to Council after Josh Mandelbaum raised questions about DMPD Conduct. Contains lies referencing to events that never happened including a story that someone threw poop at cops.",
+    description: "Threatening letter sent by a DMPD cop 'union' to Council after Josh Mandelbaum raised questions about DMPD Conduct. Includes lies and references to stories that never happened.",
     date: "08/26/20",
   },
   {
