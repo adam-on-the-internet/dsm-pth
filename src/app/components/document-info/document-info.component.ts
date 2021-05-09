@@ -2,6 +2,7 @@ import {Component, OnInit} from "@angular/core";
 import {ActivatedRoute} from "@angular/router";
 import {DOCUMENTS} from "../../constants/document-constants";
 import {DocumentInfo} from "../../models/DocumentInfo.model";
+import {DomSanitizer, SafeResourceUrl, SafeUrl} from "@angular/platform-browser";
 
 @Component({
   selector: "app-document-info",
@@ -19,8 +20,21 @@ export class DocumentInfoComponent implements OnInit {
     return this.doc === undefined;
   }
 
+  public get src(): SafeResourceUrl {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.link);
+  }
+
+  public get href(): SafeUrl {
+    return this.sanitizer.bypassSecurityTrustUrl(this.link);
+  }
+
+  private get link(): string {
+    return `/assets/${this.doc.link}`;
+  }
+
   constructor(
     private route: ActivatedRoute,
+    private sanitizer: DomSanitizer,
   ) {
   }
 

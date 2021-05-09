@@ -11,7 +11,7 @@
         <div class="col-md-12 my-3">
           <app-card>
             <p>
-              <a class="btn btn-outline-primary" [href]="'assets/' + doc.link" target="_blank">
+              <a class="btn btn-outline-primary" [href]="href" target="_blank">
                 <i class="fa fa-link"></i>
                 View the document
               </a>
@@ -19,6 +19,21 @@
             <p>
               {{doc.description}}
             </p>
+            <iframe class="d-block d-md-none"
+                    height="500"
+                    width="350"
+                    [src]="src">
+            </iframe>
+            <iframe class="d-none d-md-block d-lg-none"
+                    height="700"
+                    width="500"
+                    [src]="src">
+            </iframe>
+            <iframe class="d-none d-lg-block"
+                    height="1000"
+                    width="750"
+                    [src]="src">
+            </iframe>
           </app-card>
         </div>
       </div>
