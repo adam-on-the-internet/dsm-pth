@@ -1,133 +1,116 @@
-<div class="bg-alt">
+<div class="bg-townhall">
   <div class="container">
     <div class="row py-3">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 my-3 text-center transparent">
         <h1>Des Moines People's Town Hall</h1>
         <h3>Under Construction</h3>
         <p>
-          This site isn't finished yet, check back soon!
+          We're still working on the site, check back soon!
         </p>
-        <!--            <h3>Mission Statement</h3>-->
-        <!--            <p>-->
-        <!--              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga natus nulla odit officiis quae. Ea eos-->
-        <!--              ipsum-->
-        <!--              iure laudantium necessitatibus sint suscipit voluptatem! Blanditiis molestiae odit quod voluptates!-->
-        <!--              Aspernatur, excepturi?-->
-        <!--            </p>-->
       </div>
     </div>
-  </div>
-</div>
-
-<div class="bg-backup">
-  <div class="container">
-    <div class="row py-3">
+    <div class="row">
       <div class="col-md-6 my-3">
-        <a class="card h-100" [href]="linkService.petitionLink" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.petitionLink" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Sign Our Petition</h3>
             <p>
               Demand council restore public speaking at City Council meetings.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-6 my-3">
-        <a class="card h-100" (click)="goToContactList()">
-          <div class="card-body text-center">
+        <a (click)="goToContactList()">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Who to Contact</h3>
             <p>
               Contact info for people holding office.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-6 my-3">
-        <a class="card h-100" (click)="goToDocs()">
-          <div class="card-body text-center">
+        <a (click)="goToDocs()">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Document Archive</h3>
             <p>
               Archive of some important documents.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-6 my-3">
-        <a class="card h-100" (click)="goToCommunityCalendar()">
-          <div class="card-body text-center">
+        <a (click)="goToCommunityCalendar()">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Community Calendar</h3>
             <p>
               Our list of community events.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="bg-backup-alt">
-  <div class="container">
     <div class="row py-3">
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.signUpToSpeak" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.signUpToSpeak" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Sign Up to Speak</h3>
             <p>
               You can sign up to speak at Des Moines City Council Meetings.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.councilMeetings" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.councilMeetings" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Council Meetings</h3>
             <p>
               More information on Des Moines Council Meetings, past and upcoming, including schedules, agendas, and
               videos.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.myHouseTool" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.myHouseTool" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Find Your Ward</h3>
             <p>
               This tool shows you your Ward, Neighborhood, who your representatives are, and more.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.subscribeDSM" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.subscribeDSM" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>Subscribe to DSM Alerts</h3>
             <p>
               Sign up for email alerts when the city announces things.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.newsDSM" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.newsDSM" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>DSM News</h3>
             <p>
               Read DSM News & Press Releases
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
       <div class="col-md-4 my-3">
-        <a class="card h-100" [href]="linkService.cityCalendar" target="_blank">
-          <div class="card-body text-center">
+        <a [href]="linkService.cityCalendar" target="_blank">
+          <app-card [useHover]="true" [autoHeight]="true">
             <h3>City Calendar</h3>
             <p>
               More city-wide events including Board Meetings and City Services.
             </p>
-          </div>
+          </app-card>
         </a>
       </div>
     </div>

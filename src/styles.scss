@@ -19,3 +19,19 @@ img {
 .hover:hover {
   background-color: #d6cfcf;
 }
+
+.bg-townhall {
+  background-image: url("assets/townhall-page.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -800px;
+}
+
+.transparent {
+  background: rgba(198, 192, 192, 0.9);
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
