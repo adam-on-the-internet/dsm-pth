@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import {DOCUMENTS} from "../../constants/document-constants";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {DocumentInfo} from "../../models/DocumentInfo.model";
+import {LinkService} from "../../services/link.service";
 
 @Component({
   selector: "app-document-archive",
@@ -13,6 +14,7 @@ export class DocumentArchiveComponent implements OnInit {
 
   constructor(
     private navHelper: NavHelperService,
+    public linkService: LinkService,
   ) { }
 
   public ngOnInit() {

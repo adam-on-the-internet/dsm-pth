@@ -1,44 +1,45 @@
-<div class="bg-alt">
+<div class="bg-townhall">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>
-          Document Info
-        </h1>
+    <ng-container *ngIf="ready && !error; else backup">
+      <div class="row">
+        <div class="col-md-12 my-3 text-center transparent">
+          <h1>{{doc.name}}</h1>
+          <h2 *ngIf="doc.date">{{doc.date}}</h2>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="bg-backup">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 my-3">
-        <ng-container *ngIf="ready && !error; else backup">
+      <div class="row">
+        <div class="col-md-12 my-3">
           <app-card>
-            <h2>
-              {{doc.name}}
-            </h2>
             <p>
-              <a class="btn btn-primary" [href]="'assets/' + doc.link" target="_blank">
+              <a class="btn btn-outline-primary" [href]="'assets/' + doc.link" target="_blank">
                 <i class="fa fa-link"></i>
                 View the document
               </a>
             </p>
+            <p>
+              {{doc.description}}
+            </p>
           </app-card>
-        </ng-container>
+        </div>
       </div>
-    </div>
+    </ng-container>
   </div>
 </div>
 
 <ng-template #backup>
-  <ng-container *ngIf="error">
-    <p>
-      Oops! Something is wrong.
-    </p>
-  </ng-container>
-  <ng-container *ngIf="!ready">
-    <app-loading></app-loading>
-  </ng-container>
+  <div class="row">
+    <div class="col-md-12 my-3">
+      <app-card>
+        <ng-container *ngIf="error">
+          <h1>Oops!</h1>
+          <p>
+            Something went wrong, we couldn't find what you're looking for.
+          </p>
+        </ng-container>
+        <ng-container *ngIf="!ready">
+          <app-loading></app-loading>
+        </ng-container>
+      </app-card>
+    </div>
+  </div>
 </ng-template>

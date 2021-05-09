@@ -1,6 +1,7 @@
-import { Component } from "@angular/core";
-import { NavHelperService } from "src/app/services/nav-helper.service";
-import { CookieHelper } from "src/app/utilities/cookie.util";
+import {Component} from "@angular/core";
+import {NavHelperService} from "src/app/services/nav-helper.service";
+import {CookieHelper} from "src/app/utilities/cookie.util";
+import {LinkService} from "../../services/link.service";
 
 @Component({
   selector: "app-navbar",
@@ -17,17 +18,23 @@ export class NavbarComponent {
     return CookieHelper.getUserDetails().admin;
   }
 
-  public get userEmail(): string {
-    if (this.isLoggedIn) {
-      return CookieHelper.getUserDetails().email;
-    } else {
-      return null;
-    }
-  }
-
   constructor(
     private navHelper: NavHelperService,
-  ) { }
+    public linkService: LinkService,
+  ) {
+  }
+
+  public goToContacts(): void {
+    this.navHelper.goToContactList();
+  }
+
+  public goToCalendar(): void {
+    this.navHelper.goToCommunityCalendar();
+  }
+
+  public goToDocuments(): void {
+    this.navHelper.goToDocs();
+  }
 
   public goToDashboard(): void {
     this.navHelper.goToDashboard();

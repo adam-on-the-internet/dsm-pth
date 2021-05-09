@@ -73,4 +73,10 @@ export const CONTACTS: ContactInfo[] = [
     email: "smdonovan@dmgov.org",
     phoneNumber: "",
   },
+  {
+    role: "Congresswoman: 3rd District of Iowa",
+    name: "Cindy Axne",
+    email: "",
+    phoneNumber: "515-400-8180",
+  },
 ];

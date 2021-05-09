@@ -1,22 +1,27 @@
-<div class="bg-alt">
+<div class="bg-townhall">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Document Archive</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-12 my-3 text-center transparent">
+        <h1>Documents</h1>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="bg-backup">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <ul class="list-group my-3">
-          <li class="list-group-item" *ngFor="let doc of documents" (click)="goToDocument(doc)">
-             {{doc.name}}
-          </li>
-        </ul>
+    <div class="row justify-content-center">
+      <div class="col-md-12 my-3">
+        <app-card>
+          <p>
+            A lot of public documents are not readily available. We're doing what we can to publish some of those
+            documents. If you have documents you think we should publish here, email us at {{linkService.email}}.
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item hover" *ngFor="let doc of documents" (click)="goToDocument(doc)">
+              {{doc.name}}
+              <span *ngIf="doc.date">
+              ({{doc.date}})
+              </span>
+              <i class="fa fa-arrow-right pull-right"></i>
+            </li>
+          </ul>
+        </app-card>
       </div>
     </div>
   </div>
