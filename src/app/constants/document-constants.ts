@@ -27,4 +27,22 @@ export const DOCUMENTS: DocumentInfo[] = [
     description: "The rules of DSM City Council. NOTE: the rules do not reflect how meetings are actually run.",
     date: "as amended on 11/09/20",
   },
+  {
+    name: "EMAIL: Police Union vs Policy Change",
+    link: "email3.pdf",
+    description: "Email between Stewart Barnes (from DMPD Bargainin Unit Union), Joe Gatto (Council Member) and others about the council meetings and policy proposals.",
+    date: "sent on 06/08/20",
+  },
+  {
+    name: "EMAIL: Sanders to Clergy",
+    link: "email2.pdf",
+    description: "Sanders responds to an email about DMPD Brutality in a rage.",
+    date: "sent on 08/23/20",
+  },
+  {
+    name: "EMAIL: Dana Wingert to council about registered speakers",
+    link: "email1.pdf",
+    description: "Dana Wingert sent an email to council proactively going through the names of people signed up to speak at City Council meetings, highlighting profanity and political beliefs as well as surveilling their social media.",
+    date: "sent 07/31/20",
+  },
 ];
