@@ -1,12 +1,11 @@
 import {ContactInfo} from "../models/ContactInfo.model";
 
-export const CONTACTS: ContactInfo[] = [
-  {
-    role: "Mayor",
-    name: "T.M. Franklin Cownie",
-    email: "Fcownie@dmgov.org",
-    phoneNumber: "515-283-4944",
-  },
+export const MAIN_CITY_CONTACTS = [{
+  role: "Mayor",
+  name: "T.M. Franklin Cownie",
+  email: "Fcownie@dmgov.org",
+  phoneNumber: "515-283-4944",
+},
   {
     role: "Council Member: At Large",
     name: "Carl Voss",
@@ -48,7 +47,9 @@ export const CONTACTS: ContactInfo[] = [
     name: "Scott Sanders",
     email: "Citymanager@dmgov.org",
     phoneNumber: "515-283-4141",
-  },
+  }];
+export const CONTACTS: ContactInfo[] = [
+  ...MAIN_CITY_CONTACTS,
   {
     role: "City Attorney",
     name: "Jeff Lester",
