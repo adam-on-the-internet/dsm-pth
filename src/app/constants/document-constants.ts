@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "DSM PTH Statement on Accessibility & Retaliation 07/12/21",
+    link: "statement_071221.pdf",
+    description: "A statement on the escalating attacks on accessibility to local government in Des Moines.",
+    date: "07/12/21",
+  },
+  {
     name: "DMPS Student Resource Officer Report",
     link: "sro-report.pdf",
     description: "A report on Student Resource Officers (SROs) in schools. This was presented to Des Moines Public Schools who went on to remove SROs from schools.",
