@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "DSM PTH Statement on July 19, 2021 Council Meeting",
+    link: "council-meeting-7-19-21.pdf",
+    description: "A statement on DSM Council's escalation of violence on critical speech.",
+    date: "07/21/21",
+  },
+  {
     name: "DSM PTH Statement on Accessibility & Retaliation 07/12/21",
     link: "statement_071221.pdf",
     description: "A statement on the escalating attacks on accessibility to local government in Des Moines.",
