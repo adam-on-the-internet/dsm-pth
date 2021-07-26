@@ -10,6 +10,8 @@ import {CommunityCalendarComponent} from "./components/community-calendar/commun
 import {DocumentArchiveComponent} from "./components/document-archive/document-archive.component";
 import {DocumentInfoComponent} from "./components/document-info/document-info.component";
 import {ContactListComponent} from "./components/contact-list/contact-list.component";
+import {MeetingAgendaManagementComponent} from "./components/meeting-agenda-management/meeting-agenda-management.component";
+import {MeetingAgendaFormComponent} from "./components/meeting-agenda-form/meeting-agenda-form.component";
 
 const routes: Routes = [
   // main
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Login, component: LoginComponent},
   {path: ROUTES_ENUM.Profile, component: ProfileComponent},
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
+  {path: ROUTES_ENUM.AgendaManagement, component: MeetingAgendaManagementComponent},
+  {path: ROUTES_ENUM.AgendaForm, component: MeetingAgendaFormComponent},
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},

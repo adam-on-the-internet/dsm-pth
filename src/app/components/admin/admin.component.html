@@ -1,25 +1,37 @@
-<app-header [title]="'Admin Panel'"></app-header>
-<app-body>
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <h3>Admin</h3>
-      <p>
-        <button class="btn btn-primary" disabled>
-          Settings
-        </button>
-      </p>
+<div class="bg-townhall">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 my-3 text-center transparent">
+        <h1>Admin Panel</h1>
+      </div>
     </div>
-    <div class="col-md-6 mb-3">
-      <h3>Advanced Settings</h3>
-      <p>
-        <a
-          class="btn btn-primary"
-          href="https://aoti-user-management-ui.herokuapp.com/dashboard"
-          target="_blank"
-        >
-          User Management
-        </a>
-      </p>
+    <div class="row">
+      <div class="col-md-12 my-3">
+        <app-card>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <h3>Admin</h3>
+              <p>
+                <button class="btn btn-primary" (click)="goToAgendaManagement()">
+                  Agenda Management
+                </button>
+              </p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h3>Advanced Settings</h3>
+              <p>
+                <a
+                  class="btn btn-primary"
+                  href="https://aoti-user-management-ui.herokuapp.com/dashboard"
+                  target="_blank"
+                >
+                  User Management
+                </a>
+              </p>
+            </div>
+          </div>
+        </app-card>
+      </div>
     </div>
   </div>
-</app-body>
+</div>

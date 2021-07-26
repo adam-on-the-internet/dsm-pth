@@ -17,18 +17,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Dashboard);
   }
 
-  public goToProfile(): void {
-    this.goToRoute(ROUTES_ENUM.Profile);
-  }
-
-  public goToAdmin(): void {
-    this.goToRoute(ROUTES_ENUM.Admin);
-  }
-
-  public goToLogin(): void {
-    this.goToRoute(ROUTES_ENUM.Login);
-  }
-
   public goToDocs(): void {
     this.goToRoute(ROUTES_ENUM.DocumentArchive);
   }
@@ -43,6 +31,28 @@ export class NavHelperService {
 
   public goToDocument(document: DocumentInfo): void {
     this.goToRoutes([ROUTES_ENUM.Document, document.link]);
+  }
+
+  // ADMIN
+
+  public goToProfile(): void {
+    this.goToRoute(ROUTES_ENUM.Profile);
+  }
+
+  public goToAdmin(): void {
+    this.goToRoute(ROUTES_ENUM.Admin);
+  }
+
+  public goToLogin(): void {
+    this.goToRoute(ROUTES_ENUM.Login);
+  }
+
+  public goToAgendaManagement(): void {
+    this.goToRoute(ROUTES_ENUM.AgendaManagement);
+  }
+
+  public goToAgendaFormAdd(): void {
+    this.goToRoute(ROUTES_ENUM.AgendaForm);
   }
 
   // GENERAL

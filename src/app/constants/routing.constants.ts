@@ -8,4 +8,6 @@ export const enum ROUTES_ENUM {
   DocumentArchive = "document-archive",
   Document = "document",
   CommunityCalendar = "community-calendar",
+  AgendaManagement = "meeting-agenda-management",
+  AgendaForm = "meeting-agenda-form",
 }
