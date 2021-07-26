@@ -15,7 +15,36 @@
           No meeting agendas.
         </p>
         <ng-container *ngIf="meetingAgendas.length > 0">
-          {{meetingAgendas | json}}
+          <table class="table">
+            <thead>
+            <tr>
+              <th>Name</th>
+              <th>Details</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let meetingAgenda of meetingAgendas">
+              <td>{{meetingAgenda.name}}</td>
+              <td>
+                <button class="btn btn-outline-dark btn-small" disabled>
+                  <i class="fa fa-info"></i> Details
+                </button>
+              </td>
+              <td>
+                <button class="btn btn-outline-dark btn-small" (click)="goToEdit(meetingAgenda)">
+                  <i class="fa fa-pencil"></i> Edit
+                </button>
+              </td>
+              <td>
+                <button class="btn btn-outline-dark btn-small" disabled>
+                  <i class="fa fa-trash"></i> Delete
+                </button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
         </ng-container>
       </ng-container>
     </div>

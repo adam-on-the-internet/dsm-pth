@@ -30,6 +30,10 @@ export class MeetingAgendaManagementComponent implements OnInit {
     this.navHelper.goToAgendaFormAdd();
   }
 
+  public goToEdit(meetingAgenda: MeetingAgenda) {
+    this.navHelper.goToAgendaFormEdit(meetingAgenda._id);
+  }
+
   private loadMeetingAgendas(): void {
     this.meetingAgendas = null;
     this.meetingAgendaService.getAllMeetingAgendas()

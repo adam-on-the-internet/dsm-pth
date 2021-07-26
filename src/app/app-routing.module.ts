@@ -22,6 +22,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
   {path: ROUTES_ENUM.AgendaManagement, component: MeetingAgendaManagementComponent},
   {path: ROUTES_ENUM.AgendaForm, component: MeetingAgendaFormComponent},
+  {path: ROUTES_ENUM.AgendaForm + "/:id", component: MeetingAgendaFormComponent},
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},

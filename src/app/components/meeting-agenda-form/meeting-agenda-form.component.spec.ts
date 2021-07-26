@@ -5,6 +5,7 @@ import {LoadingComponent} from "../simple/loading/loading.component";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {RouterTestingModule} from "@angular/router/testing";
 import {FormsModule} from "@angular/forms";
+import {StringInputComponent} from "../simple/form/string-input/string-input.component";
 
 describe('MeetingAgendaFormComponent', () => {
   let component: MeetingAgendaFormComponent;
@@ -12,7 +13,9 @@ describe('MeetingAgendaFormComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [MeetingAgendaFormComponent, LoadingComponent],
+      declarations: [
+        MeetingAgendaFormComponent, LoadingComponent, StringInputComponent,
+      ],
       imports: [HttpClientTestingModule, RouterTestingModule, FormsModule]
     })
       .compileComponents();

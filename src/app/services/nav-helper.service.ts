@@ -55,6 +55,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.AgendaForm);
   }
 
+  public goToAgendaFormEdit(id: string): void {
+    this.goToRoute(ROUTES_ENUM.AgendaForm + `/${id}`);
+  }
+
   // GENERAL
 
   private goToRoute(route: string): void {
