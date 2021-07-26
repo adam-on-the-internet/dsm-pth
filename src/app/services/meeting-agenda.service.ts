@@ -50,4 +50,13 @@ export class MeetingAgendaService {
     });
     return this.http.put(url, meetingAgenda, CookieHelper.authHeaders) as Observable<MeetingAgenda>;
   }
+
+  public delete(id: string): Observable<any> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: "meetingAgenda",
+      collection: "meeting/" + id,
+    });
+    return this.http.delete(url, CookieHelper.authHeaders) as Observable<any>;
+  }
 }

@@ -38,10 +38,28 @@ export class MeetingAgendaManagementComponent implements OnInit {
     this.navHelper.goToAgendaFormEdit(meetingAgenda._id);
   }
 
+  public requestDelete(meetingAgenda: MeetingAgenda) {
+    const confirmDelete = confirm(`Are you sure you want to delete ${meetingAgenda.name}?`);
+    if (confirmDelete) {
+      this.delete(meetingAgenda);
+    }
+  }
+
   private loadMeetingAgendas(): void {
     this.meetingAgendas = null;
     this.meetingAgendaService.getAllMeetingAgendas()
       .subscribe((res) => this.meetingAgendas = res);
+  }
+
+  private delete(meetingAgenda: MeetingAgenda) {
+    let response;
+    this.meetingAgendaService.delete(meetingAgenda._id)
+      .subscribe((res) => response = res,
+        () => {
+        },
+        () => {
+          this.loadMeetingAgendas();
+        });
   }
 
 }
