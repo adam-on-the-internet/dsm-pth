@@ -7,7 +7,7 @@ export interface MeetingAgenda {
 }
 
 export interface MeetingAgendaComplete extends MeetingAgenda {
-  agendaItems: string[];
+  agendaItems: AgendaItem[];
 }
 
 export interface AgendaItem {

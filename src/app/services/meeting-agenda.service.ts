@@ -4,7 +4,7 @@ import {Observable} from "rxjs";
 import {RestUrlBuilder} from "../utilities/rest-url-builder.util";
 import {ServiceUrl} from "../constants/rest.constants";
 import {CookieHelper} from "../utilities/cookie.util";
-import {AgendaItem, MeetingAgenda} from "../models/MeetingAgenda.model";
+import {AgendaItem, MeetingAgenda, MeetingAgendaComplete} from "../models/MeetingAgenda.model";
 
 @Injectable({
   providedIn: 'root'
@@ -24,13 +24,13 @@ export class MeetingAgendaService {
     return this.http.get(url, CookieHelper.authHeaders) as Observable<MeetingAgenda[]>;
   }
 
-  public getSingleMeetingAgenda(id: string): Observable<MeetingAgenda> {
+  public getSingleMeetingAgenda(id: string): Observable<MeetingAgendaComplete> {
     const url = RestUrlBuilder.buildRestUrl({
       service: ServiceUrl.MainService,
       controller: "meetingAgenda",
       collection: "meeting/" + id,
     });
-    return this.http.get(url, CookieHelper.authHeaders) as Observable<MeetingAgenda>;
+    return this.http.get(url, CookieHelper.authHeaders) as Observable<MeetingAgendaComplete>;
   }
 
   public createMeetingAgenda(meetingAgenda: MeetingAgenda): Observable<MeetingAgenda> {
@@ -87,7 +87,7 @@ export class MeetingAgendaService {
     return this.http.put(url, agendaItem, CookieHelper.authHeaders) as Observable<AgendaItem>;
   }
 
-  public delete(id: string): Observable<any> {
+  public deleteAgendaItem(id: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
       service: ServiceUrl.MainService,
       controller: "meetingAgenda",
