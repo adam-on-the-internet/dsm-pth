@@ -2,8 +2,18 @@
   <div class="row">
     <div class="col-md-12 my-3">
       <h1 class="text-center">
-        Add a Meeting Agenda
+        {{modeText}}
+        a Meeting Agenda
       </h1>
+      <hr>
+      <section id="errors" class="alert alert-warning" *ngIf="showErrors && !valid">
+        <p>Please correct the following errors:</p>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let error of errors">
+            {{ error }}
+          </li>
+        </ul>
+      </section>
       <button class="btn btn-success btn-block" (click)="submit()">
         <i class="fa fa-save"></i>
         SUBMIT
