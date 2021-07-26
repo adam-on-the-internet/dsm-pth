@@ -1,23 +1,41 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12 my-3">
-      <h1 class="text-center">
-        {{modeText}}
-        a Meeting Agenda
-      </h1>
-      <hr>
-      <section id="errors" class="alert alert-warning" *ngIf="showErrors && !valid">
-        <p>Please correct the following errors:</p>
-        <ul class="list-group">
-          <li class="list-group-item" *ngFor="let error of errors">
-            {{ error }}
-          </li>
-        </ul>
-      </section>
-      <button class="btn btn-success btn-block" (click)="submit()">
-        <i class="fa fa-save"></i>
-        SUBMIT
-      </button>
+      <ng-container *ngIf="ready; else loading">
+        <h1 class="text-center">
+          {{modeText}}
+          a Meeting Agenda
+        </h1>
+        <hr>
+
+        <form>
+          <section id="general-info">
+            <h2>1. General Info</h2>
+            <app-string-input [(value)]="meetingAgenda.name" [valueName]="'name'"></app-string-input>
+            <app-string-input [(value)]="meetingAgenda.type" [valueName]="'type'"></app-string-input>
+            <app-string-input [(value)]="meetingAgenda.time" [valueName]="'time'"></app-string-input>
+            <app-string-input [(value)]="meetingAgenda.place" [valueName]="'place'"></app-string-input>
+          </section>
+        </form>
+
+        <hr>
+        <section id="errors" class="alert alert-warning" *ngIf="showErrors && !valid">
+          <p>Please correct the following errors:</p>
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let error of errors">
+              {{ error }}
+            </li>
+          </ul>
+        </section>
+        <button class="btn btn-success btn-block" (click)="submit()">
+          <i class="fa fa-save"></i>
+          SUBMIT
+        </button>
+      </ng-container>
     </div>
   </div>
 </div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

@@ -32,6 +32,15 @@ export class MeetingAgendaFormComponent implements OnInit {
     if (this.nameInvalid) {
       myErrors.push("Please provide a name.");
     }
+    if (this.typeInvalid) {
+      myErrors.push("Please provide a type.");
+    }
+    if (this.timeInvalid) {
+      myErrors.push("Please provide a time.");
+    }
+    if (this.placeInvalid) {
+      myErrors.push("Please provide a place.");
+    }
     return myErrors;
   }
 
@@ -41,6 +50,18 @@ export class MeetingAgendaFormComponent implements OnInit {
 
   private get nameInvalid(): boolean {
     return !BooleanHelper.hasValue(this.meetingAgenda.name);
+  }
+
+  private get timeInvalid(): boolean {
+    return !BooleanHelper.hasValue(this.meetingAgenda.time);
+  }
+
+  private get typeInvalid(): boolean {
+    return !BooleanHelper.hasValue(this.meetingAgenda.type);
+  }
+
+  private get placeInvalid(): boolean {
+    return !BooleanHelper.hasValue(this.meetingAgenda.place);
   }
 
   constructor(
@@ -105,6 +126,9 @@ export class MeetingAgendaFormComponent implements OnInit {
   private setupAdd() {
     this.meetingAgenda = {
       name: "",
+      time: "",
+      type: "",
+      place: "",
       _id: null,
     }
   }
