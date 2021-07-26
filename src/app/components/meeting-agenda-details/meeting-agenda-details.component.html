@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 my-3">
+      <ng-container *ngIf="ready; else loading">
+        <h1 class="text-center">
+          Meeting Agenda: {{meetingAgenda.name}}
+        </h1>
+        <hr>
+        <p>More details coming soon!</p>
+      </ng-container>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

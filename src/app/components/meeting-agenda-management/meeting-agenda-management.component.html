@@ -28,7 +28,7 @@
             <tr *ngFor="let meetingAgenda of meetingAgendas">
               <td>{{meetingAgenda.name}}</td>
               <td>
-                <button class="btn btn-outline-dark btn-small" disabled>
+                <button class="btn btn-outline-dark btn-small" (click)="goToDetails(meetingAgenda)">
                   <i class="fa fa-info"></i> Details
                 </button>
               </td>

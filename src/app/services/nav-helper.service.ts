@@ -7,7 +7,6 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
   providedIn: "root"
 })
 export class NavHelperService {
-
   constructor(
     private router: Router,
   ) {
@@ -57,6 +56,10 @@ export class NavHelperService {
 
   public goToAgendaFormEdit(id: string): void {
     this.goToRoute(ROUTES_ENUM.AgendaForm + `/${id}`);
+  }
+
+  public goToAgendaDetails(id: string): void {
+    this.goToRoute(ROUTES_ENUM.AgendaDetails + `/${id}`);
   }
 
   // GENERAL

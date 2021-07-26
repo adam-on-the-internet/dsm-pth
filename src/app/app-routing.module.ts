@@ -12,6 +12,7 @@ import {DocumentInfoComponent} from "./components/document-info/document-info.co
 import {ContactListComponent} from "./components/contact-list/contact-list.component";
 import {MeetingAgendaManagementComponent} from "./components/meeting-agenda-management/meeting-agenda-management.component";
 import {MeetingAgendaFormComponent} from "./components/meeting-agenda-form/meeting-agenda-form.component";
+import {MeetingAgendaDetailsComponent} from './components/meeting-agenda-details/meeting-agenda-details.component';
 
 const routes: Routes = [
   // main
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.AgendaManagement, component: MeetingAgendaManagementComponent},
   {path: ROUTES_ENUM.AgendaForm, component: MeetingAgendaFormComponent},
   {path: ROUTES_ENUM.AgendaForm + "/:id", component: MeetingAgendaFormComponent},
+  {path: ROUTES_ENUM.AgendaDetails + "/:id", component: MeetingAgendaDetailsComponent},
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
