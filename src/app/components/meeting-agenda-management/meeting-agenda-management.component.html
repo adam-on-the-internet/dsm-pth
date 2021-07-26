@@ -1,7 +1,27 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 my-3">
       <h1 class="text-center">Meeting Agenda Management</h1>
+      <button class="btn btn-success btn-block" (click)="goToAddAgenda()">
+        <i class="fa fa-plus"></i>
+        Add a Meeting Agenda
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ng-container *ngIf="ready; else loading">
+        <p class="text-center" *ngIf="meetingAgendas.length === 0">
+          No meeting agendas.
+        </p>
+        <ng-container *ngIf="meetingAgendas.length > 0">
+          {{meetingAgendas | json}}
+        </ng-container>
+      </ng-container>
     </div>
   </div>
 </div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

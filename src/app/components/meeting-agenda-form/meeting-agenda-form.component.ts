@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {NavHelperService} from "../../services/nav-helper.service";
 
 @Component({
   selector: 'app-meeting-agenda-form',
@@ -7,10 +8,16 @@ import {Component, OnInit} from '@angular/core';
 })
 export class MeetingAgendaFormComponent implements OnInit {
 
-  constructor() {
+  constructor(
+    private navHelper: NavHelperService,
+  ) {
   }
 
-  ngOnInit() {
+  public ngOnInit() {
+  }
+
+  public submit(): void {
+    this.navHelper.goToAgendaManagement();
   }
 
 }
