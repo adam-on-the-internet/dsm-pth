@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 my-3">
+      <ng-container *ngIf="ready; else loading">
+        <h1 class="text-center">
+          {{modeText}}
+          an Agenda Item
+        </h1>
+        <hr>
+
+        <form>
+          <section id="general-info">
+            <h2>1. General Info</h2>
+            <app-string-input [(value)]="agendaItem.name" [valueName]="'name'"></app-string-input>
+            <app-string-input [(value)]="agendaItem.section" [valueName]="'section'"></app-string-input>
+            <app-string-input [(value)]="agendaItem.cityText" [valueName]="'cityText'"></app-string-input>
+          </section>
+        </form>
+
+        <hr>
+        <section id="errors" class="alert alert-warning" *ngIf="showErrors && !valid">
+          <p>Please correct the following errors:</p>
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let error of errors">
+              {{ error }}
+            </li>
+          </ul>
+        </section>
+        <button class="btn btn-success btn-block" (click)="submit()">
+          <i class="fa fa-save"></i>
+          SUBMIT
+        </button>
+      </ng-container>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

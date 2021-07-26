@@ -1,30 +1,31 @@
 import {Component, OnInit} from '@angular/core';
+import {AgendaItem} from "../../models/MeetingAgenda.model";
+import {BooleanHelper} from "../../utilities/boolean.util";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
-import {MeetingAgenda} from "../../models/MeetingAgenda.model";
-import {BooleanHelper} from "../../utilities/boolean.util";
 import {ActivatedRoute} from "@angular/router";
 
 @Component({
-  selector: 'app-meeting-agenda-form',
-  templateUrl: './meeting-agenda-form.component.html',
-  styleUrls: ['./meeting-agenda-form.component.scss']
+  selector: 'app-agenda-item-form',
+  templateUrl: './agenda-item-form.component.html',
+  styleUrls: ['./agenda-item-form.component.scss']
 })
-export class MeetingAgendaFormComponent implements OnInit {
-  public meetingAgenda: MeetingAgenda = null;
+export class AgendaItemFormComponent implements OnInit {
+  public agendaItem: AgendaItem = null;
   public showErrors = false;
-  private id: string = null;
+  private itemId: string = null;
+  private meetingId: string = null;
 
   public get modeText(): string {
     return this.editMode ? "Edit" : "Add";
   }
 
   public get editMode(): boolean {
-    return BooleanHelper.hasValue(this.id);
+    return BooleanHelper.hasValue(this.itemId);
   }
 
   public get ready(): boolean {
-    return BooleanHelper.hasValue(this.meetingAgenda);
+    return BooleanHelper.hasValue(this.agendaItem);
   }
 
   public get errors(): string[] {
@@ -32,14 +33,11 @@ export class MeetingAgendaFormComponent implements OnInit {
     if (this.nameInvalid) {
       myErrors.push("Please provide a name.");
     }
-    if (this.typeInvalid) {
-      myErrors.push("Please provide a type.");
+    if (this.sectionInvalid) {
+      myErrors.push("Please provide a section.");
     }
-    if (this.timeInvalid) {
-      myErrors.push("Please provide a time.");
-    }
-    if (this.placeInvalid) {
-      myErrors.push("Please provide a place.");
+    if (this.cityTextInvalid) {
+      myErrors.push("Please provide city text.");
     }
     return myErrors;
   }
@@ -49,19 +47,15 @@ export class MeetingAgendaFormComponent implements OnInit {
   }
 
   private get nameInvalid(): boolean {
-    return !BooleanHelper.hasValue(this.meetingAgenda.name);
+    return !BooleanHelper.hasValue(this.agendaItem.name);
   }
 
-  private get timeInvalid(): boolean {
-    return !BooleanHelper.hasValue(this.meetingAgenda.time);
+  private get cityTextInvalid(): boolean {
+    return !BooleanHelper.hasValue(this.agendaItem.cityText);
   }
 
-  private get typeInvalid(): boolean {
-    return !BooleanHelper.hasValue(this.meetingAgenda.type);
-  }
-
-  private get placeInvalid(): boolean {
-    return !BooleanHelper.hasValue(this.meetingAgenda.place);
+  private get sectionInvalid(): boolean {
+    return !BooleanHelper.hasValue(this.agendaItem.section);
   }
 
   constructor(
@@ -88,27 +82,27 @@ export class MeetingAgendaFormComponent implements OnInit {
 
   private runCreate() {
     let response;
-    this.meetingAgendaService.createMeetingAgenda(this.meetingAgenda)
+    this.meetingAgendaService.createAgendaItem(this.agendaItem)
       .subscribe((res) => response = res, (error) => {
         console.log(error);
       }, () => {
-        this.navHelper.goToAgendaDetails(response._id);
+        this.navHelper.goToAgendaItemDetails(response._id);
       });
   }
 
   private runUpdate() {
     let response;
-    this.meetingAgendaService.updateMeetingAgenda(this.meetingAgenda)
+    this.meetingAgendaService.updateAgendaItem(this.agendaItem)
       .subscribe((res) => response = res, (error) => {
         console.log(error);
       }, () => {
-        this.navHelper.goToAgendaDetails(response._id);
+        this.navHelper.goToAgendaItemDetails(response._id);
       });
   }
 
   private setup(): void {
-    this.meetingAgenda = null;
-    this.id = this.route.snapshot.paramMap.get("id");
+    this.agendaItem = null;
+    this.itemId = this.route.snapshot.paramMap.get("itemId");
     if (this.editMode) {
       this.setupEdit();
     } else {
@@ -117,17 +111,19 @@ export class MeetingAgendaFormComponent implements OnInit {
   }
 
   private setupEdit() {
-    this.meetingAgendaService.getSingleMeetingAgenda(this.id)
-      .subscribe((res) => this.meetingAgenda = res);
+    this.meetingAgendaService.getSingleAgendaItem(this.itemId)
+      .subscribe((res) => this.agendaItem = res);
   }
 
   private setupAdd() {
-    this.meetingAgenda = {
+    this.meetingId = this.route.snapshot.paramMap.get("meetingId");
+    this.agendaItem = {
       name: "",
-      time: "",
-      type: "",
-      place: "",
+      section: "",
+      cityText: "",
+      meetingAgendaId: this.meetingId,
       _id: null,
     }
   }
+
 }

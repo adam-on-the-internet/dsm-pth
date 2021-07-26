@@ -11,4 +11,6 @@ export const enum ROUTES_ENUM {
   AgendaManagement = "meeting-agenda-management",
   AgendaForm = "meeting-agenda-form",
   AgendaDetails = "meeting-agenda-details",
+  AgendaItemForm = "agenda-item-form",
+  AgendaItemDetails = "agenda-item-details",
 }

@@ -53,7 +53,7 @@ export class MeetingAgendaManagementComponent implements OnInit {
 
   private delete(meetingAgenda: MeetingAgenda) {
     let response;
-    this.meetingAgendaService.delete(meetingAgenda._id)
+    this.meetingAgendaService.deleteMeetingAgenda(meetingAgenda._id)
       .subscribe((res) => response = res,
         () => {
         },

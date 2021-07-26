@@ -13,4 +13,7 @@ export interface MeetingAgendaComplete extends MeetingAgenda {
 export interface AgendaItem {
   _id: string;
   name: string;
+  cityText: string;
+  section: string;
+  meetingAgendaId: string;
 }

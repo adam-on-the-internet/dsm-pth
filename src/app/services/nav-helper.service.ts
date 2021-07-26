@@ -62,6 +62,18 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.AgendaDetails + `/${id}`);
   }
 
+  public goToAgendaItemFormAdd(meetingId: string): void {
+    this.goToRoute(ROUTES_ENUM.AgendaItemForm + `/meeting/${meetingId}`);
+  }
+
+  public goToAgendaItemFormEdit(itemId: string): void {
+    this.goToRoute(ROUTES_ENUM.AgendaItemForm + `/item/${itemId}`);
+  }
+
+  public goToAgendaItemDetails(itemId: string): void {
+    this.goToRoute(ROUTES_ENUM.AgendaItemDetails + `/${itemId}`);
+  }
+
   // GENERAL
 
   private goToRoute(route: string): void {

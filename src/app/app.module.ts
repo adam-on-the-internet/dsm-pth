@@ -30,6 +30,8 @@ import {ContactListComponent} from "./components/contact-list/contact-list.compo
 import {MeetingAgendaManagementComponent} from './components/meeting-agenda-management/meeting-agenda-management.component';
 import {MeetingAgendaFormComponent} from './components/meeting-agenda-form/meeting-agenda-form.component';
 import {MeetingAgendaDetailsComponent} from './components/meeting-agenda-details/meeting-agenda-details.component';
+import {AgendaItemFormComponent} from './components/agenda-item-form/agenda-item-form.component';
+import {AgendaItemDetailsComponent} from './components/agenda-item-details/agenda-item-details.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +61,8 @@ import {MeetingAgendaDetailsComponent} from './components/meeting-agenda-details
     MeetingAgendaManagementComponent,
     MeetingAgendaFormComponent,
     MeetingAgendaDetailsComponent,
+    AgendaItemFormComponent,
+    AgendaItemDetailsComponent,
   ],
   imports: [
     BrowserModule,

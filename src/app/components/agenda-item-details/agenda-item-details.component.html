@@ -3,13 +3,8 @@
     <div class="col-md-12 my-3">
       <ng-container *ngIf="ready; else loading">
         <h1 class="text-center">
-          Meeting Agenda: {{meetingAgenda.name}}
+          Agenda Item: {{agendaItem.name}}
         </h1>
-
-        <button class="btn btn-success btn-block" (click)="goToAddAgendaItem()">
-          <i class="fa fa-plus"></i>
-          Add an Agenda Item
-        </button>
 
         <hr>
 

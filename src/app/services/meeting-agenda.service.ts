@@ -4,7 +4,7 @@ import {Observable} from "rxjs";
 import {RestUrlBuilder} from "../utilities/rest-url-builder.util";
 import {ServiceUrl} from "../constants/rest.constants";
 import {CookieHelper} from "../utilities/cookie.util";
-import {MeetingAgenda} from "../models/MeetingAgenda.model";
+import {AgendaItem, MeetingAgenda} from "../models/MeetingAgenda.model";
 
 @Injectable({
   providedIn: 'root'
@@ -51,11 +51,47 @@ export class MeetingAgendaService {
     return this.http.put(url, meetingAgenda, CookieHelper.authHeaders) as Observable<MeetingAgenda>;
   }
 
-  public delete(id: string): Observable<any> {
+  public deleteMeetingAgenda(id: string): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
       service: ServiceUrl.MainService,
       controller: "meetingAgenda",
       collection: "meeting/" + id,
+    });
+    return this.http.delete(url, CookieHelper.authHeaders) as Observable<any>;
+  }
+
+  public getSingleAgendaItem(id: string): Observable<AgendaItem> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: "meetingAgenda",
+      collection: "item/" + id,
+    });
+    return this.http.get(url, CookieHelper.authHeaders) as Observable<AgendaItem>;
+  }
+
+  public createAgendaItem(agendaItem: AgendaItem): Observable<AgendaItem> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: "meetingAgenda",
+      collection: "item",
+    });
+    return this.http.post(url, agendaItem, CookieHelper.authHeaders) as Observable<AgendaItem>;
+  }
+
+  public updateAgendaItem(agendaItem: AgendaItem): Observable<AgendaItem> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: "meetingAgenda",
+      collection: "item",
+    });
+    return this.http.put(url, agendaItem, CookieHelper.authHeaders) as Observable<AgendaItem>;
+  }
+
+  public delete(id: string): Observable<any> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: "meetingAgenda",
+      collection: "item/" + id,
     });
     return this.http.delete(url, CookieHelper.authHeaders) as Observable<any>;
   }
