@@ -2,6 +2,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {LinkListComponent} from './link-list.component';
 import {FormsModule} from "@angular/forms";
+import {StringInputComponent} from "../form/string-input/string-input.component";
 
 describe('LinkListComponent', () => {
   let component: LinkListComponent;
@@ -9,7 +10,7 @@ describe('LinkListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [LinkListComponent],
+      declarations: [LinkListComponent, StringInputComponent],
       imports: [FormsModule]
     })
       .compileComponents();
