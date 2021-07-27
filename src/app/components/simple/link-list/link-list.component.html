@@ -1,0 +1,36 @@
+<table class="table" *ngIf="links.length > 0">
+  <thead>
+  <tr>
+    <th>Text</th>
+    <th>URL</th>
+    <th>Description</th>
+    <th>Remove</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let link of links; let i = index">
+    <td>
+      <app-string-input [showLabel]="false" [(value)]="link.text"
+                        [valueName]="'link-' + i + '-text'"></app-string-input>
+    </td>
+    <td>
+      <app-string-input [showLabel]="false" [(value)]="link.url"
+                        [valueName]="'link-' + i + '-url'"></app-string-input>
+    </td>
+    <td>
+      <app-string-input [showLabel]="false" [(value)]="link.description"
+                        [valueName]="'link-' + i + '-description'"></app-string-input>
+    </td>
+    <td>
+      <button class="btn btn-outline-secondary" (click)="removeLink(i)">
+        <i class="fa fa-trash"></i>
+        Remove
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<button class="btn btn-secondary" (click)="addLink()">
+  <i class="fa fa-plus"></i>
+  Add Link
+</button>

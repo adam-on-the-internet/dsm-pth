@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 import {MeetingAgenda} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {ActivatedRoute} from "@angular/router";
+import {LinkListComponent} from "../simple/link-list/link-list.component";
 
 @Component({
   selector: 'app-meeting-agenda-form',
@@ -11,6 +12,8 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./meeting-agenda-form.component.scss']
 })
 export class MeetingAgendaFormComponent implements OnInit {
+  @ViewChild("linkInput", null) public linkList: LinkListComponent;
+
   public meetingAgenda: MeetingAgenda = null;
   public showErrors = false;
   private id: string = null;
@@ -41,7 +44,7 @@ export class MeetingAgendaFormComponent implements OnInit {
     if (this.placeInvalid) {
       myErrors.push("Please provide a place.");
     }
-    if (this.linksInvalid) {
+    if (this.linkList.linksInvalid) {
       myErrors.push("Please provide text and a url for each link.");
     }
     return myErrors;
@@ -67,12 +70,6 @@ export class MeetingAgendaFormComponent implements OnInit {
     return !BooleanHelper.hasValue(this.meetingAgenda.place);
   }
 
-  private get linksInvalid(): boolean {
-    return this.meetingAgenda.links.some((link) => {
-      return BooleanHelper.hasNoValue(link.url) || BooleanHelper.hasNoValue(link.text);
-    });
-  }
-
   constructor(
     private navHelper: NavHelperService,
     private meetingAgendaService: MeetingAgendaService,
@@ -93,18 +90,6 @@ export class MeetingAgendaFormComponent implements OnInit {
         this.runCreate();
       }
     }
-  }
-
-  public addLink() {
-    this.meetingAgenda.links.push({
-      text: "",
-      url: "",
-      description: "",
-    });
-  }
-
-  public removeLink(index: number) {
-    this.meetingAgenda.links.splice(index, 1);
   }
 
   private runCreate() {
