@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {AgendaItem, MeetingAgenda, MeetingAgendaComplete} from "../../models/MeetingAgenda.model";
+import {AgendaItem, MeetingAgendaComplete} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
@@ -28,8 +28,16 @@ export class MeetingAgendaDetailsComponent implements OnInit {
     this.load();
   }
 
+  public goToAllAgendas(): void {
+    this.navHelper.goToAgendaManagement();
+  }
+
+  public goToEditAgenda(): void {
+    this.navHelper.goToAgendaFormEdit(this.meetingAgenda._id);
+  }
+
   public goToAddAgendaItem(): void {
-    this.navHelper.goToAgendaItemFormAdd(this.meetingAgenda._id)
+    this.navHelper.goToAgendaItemFormAdd(this.meetingAgenda._id);
   }
 
   public goToDetails(agendaItem: AgendaItem): void {

@@ -41,6 +41,9 @@ export class MeetingAgendaFormComponent implements OnInit {
     if (this.placeInvalid) {
       myErrors.push("Please provide a place.");
     }
+    if (this.linksInvalid) {
+      myErrors.push("Please provide text and a url for each link.");
+    }
     return myErrors;
   }
 
@@ -64,6 +67,12 @@ export class MeetingAgendaFormComponent implements OnInit {
     return !BooleanHelper.hasValue(this.meetingAgenda.place);
   }
 
+  private get linksInvalid(): boolean {
+    return this.meetingAgenda.links.some((link) => {
+      return BooleanHelper.hasNoValue(link.url) || BooleanHelper.hasNoValue(link.text);
+    });
+  }
+
   constructor(
     private navHelper: NavHelperService,
     private meetingAgendaService: MeetingAgendaService,
@@ -84,6 +93,18 @@ export class MeetingAgendaFormComponent implements OnInit {
         this.runCreate();
       }
     }
+  }
+
+  public addLink() {
+    this.meetingAgenda.links.push({
+      text: "",
+      url: "",
+      description: "",
+    });
+  }
+
+  public removeLink(index: number) {
+    this.meetingAgenda.links.splice(index, 1);
   }
 
   private runCreate() {
@@ -127,6 +148,11 @@ export class MeetingAgendaFormComponent implements OnInit {
       time: "",
       type: "",
       place: "",
+      links: [],
+      tags: [],
+      highlights: [],
+      description: "",
+      subtitle: "",
       _id: null,
     }
   }

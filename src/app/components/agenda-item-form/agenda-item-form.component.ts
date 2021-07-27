@@ -121,6 +121,12 @@ export class AgendaItemFormComponent implements OnInit {
       name: "",
       section: "",
       cityText: "",
+      ourText: "",
+      cityAttachments: [],
+      ourComments: [],
+      ourLinks: [],
+      tags: [],
+      ourPriority: 1,
       meetingAgendaId: this.meetingId,
       _id: null,
     }

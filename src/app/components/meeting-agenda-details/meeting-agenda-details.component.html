@@ -2,14 +2,29 @@
   <div class="row">
     <div class="col-md-12 my-3">
       <ng-container *ngIf="ready; else loading">
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <button class="btn btn-secondary btn-block" (click)="goToAllAgendas()">
+              <i class="fa fa-arrow-left"></i>
+              All Meeting Agendas
+            </button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-secondary btn-block" (click)="goToEditAgenda()">
+              <i class="fa fa-pencil"></i>
+              Edit
+            </button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-secondary btn-block" (click)="goToAddAgendaItem()">
+              <i class="fa fa-plus"></i>
+              Add an Agenda Item
+            </button>
+          </div>
+        </div>
         <h1 class="text-center">
           Meeting Agenda: {{meetingAgenda.name}}
         </h1>
-
-        <button class="btn btn-success btn-block" (click)="goToAddAgendaItem()">
-          <i class="fa fa-plus"></i>
-          Add an Agenda Item
-        </button>
 
         <hr>
 
@@ -52,6 +67,10 @@
         <hr>
 
         <p>More details coming soon!</p>
+        <hr>
+        <p>
+          <small>Added On: {{meetingAgenda.dateAdded}}</small>
+        </p>
       </ng-container>
     </div>
   </div>

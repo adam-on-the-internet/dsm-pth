@@ -4,6 +4,12 @@ export interface MeetingAgenda {
   time: string;
   type: string;
   place: string;
+  links: LinkItem[];
+  tags: string[];
+  highlights: string[];
+  description: string;
+  subtitle: string;
+  dateAdded?;
 }
 
 export interface MeetingAgendaComplete extends MeetingAgenda {
@@ -16,4 +22,17 @@ export interface AgendaItem {
   cityText: string;
   section: string;
   meetingAgendaId: string;
+  ourText: string;
+  cityAttachments: LinkItem[];
+  ourLinks: LinkItem[];
+  tags: string[];
+  ourComments: string[];
+  ourPriority: number;
+  dateAdded?;
+}
+
+export interface LinkItem {
+  text: string;
+  url: string;
+  description?: string;
 }
