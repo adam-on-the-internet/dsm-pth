@@ -1,6 +1,7 @@
 import {Component, Input} from '@angular/core';
 import {BooleanHelper} from "../../../utilities/boolean.util";
 import {LinkItem} from "../../../models/MeetingAgenda.model";
+import {StringHelper} from "../../../utilities/string.util";
 
 @Component({
   selector: 'app-link-list',
@@ -9,6 +10,11 @@ import {LinkItem} from "../../../models/MeetingAgenda.model";
 })
 export class LinkListComponent {
   @Input() public links: LinkItem[] = [];
+  @Input() public valueName = "value-name";
+
+  public get labelName(): string {
+    return StringHelper.fromHtmlToLabel(this.valueName);
+  }
 
   public get linksInvalid(): boolean {
     return this.links.some((link) => {

@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {AgendaItem} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 import {ActivatedRoute} from "@angular/router";
+import {LinkListComponent} from "../simple/link-list/link-list.component";
 
 @Component({
   selector: 'app-agenda-item-form',
@@ -11,6 +12,9 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./agenda-item-form.component.scss']
 })
 export class AgendaItemFormComponent implements OnInit {
+  @ViewChild("cityAttachmentsInput", null) public cityAttachmentsInput: LinkListComponent;
+  @ViewChild("ourLinksInput", null) public ourLinksInput: LinkListComponent;
+
   public agendaItem: AgendaItem = null;
   public showErrors = false;
   private itemId: string = null;
@@ -38,6 +42,12 @@ export class AgendaItemFormComponent implements OnInit {
     }
     if (this.cityTextInvalid) {
       myErrors.push("Please provide city text.");
+    }
+    if (this.cityAttachmentsInput.linksInvalid) {
+      myErrors.push("Please provide text and a url for each 'city attachments' link.");
+    }
+    if (this.ourLinksInput.linksInvalid) {
+      myErrors.push("Please provide text and a url for each 'our links' link.");
     }
     return myErrors;
   }

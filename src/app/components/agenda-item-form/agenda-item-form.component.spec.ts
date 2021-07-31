@@ -6,6 +6,9 @@ import {StringInputComponent} from "../simple/form/string-input/string-input.com
 import {FormsModule} from "@angular/forms";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {RouterTestingModule} from "@angular/router/testing";
+import {NumberInputComponent} from "../simple/form/number-input/number-input.component";
+import {LinkListComponent} from "../simple/link-list/link-list.component";
+import {StringListInputComponent} from "../simple/form/string-list-input/string-list-input.component";
 
 describe('AgendaItemFormComponent', () => {
   let component: AgendaItemFormComponent;
@@ -13,7 +16,10 @@ describe('AgendaItemFormComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [AgendaItemFormComponent, LoadingComponent, StringInputComponent],
+      declarations: [
+        AgendaItemFormComponent, LoadingComponent, StringInputComponent,
+        NumberInputComponent, LinkListComponent, StringListInputComponent,
+      ],
       imports: [FormsModule, HttpClientTestingModule, RouterTestingModule]
     })
       .compileComponents();

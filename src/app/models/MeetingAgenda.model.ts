@@ -23,11 +23,11 @@ export interface AgendaItem {
   section: string;
   meetingAgendaId: string;
   ourText: string;
-  cityAttachments: LinkItem[];
-  ourLinks: LinkItem[];
+  ourPriority: number;
   tags: string[];
   ourComments: string[];
-  ourPriority: number;
+  cityAttachments: LinkItem[];
+  ourLinks: LinkItem[];
   dateAdded?;
 }
 
