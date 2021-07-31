@@ -6,7 +6,7 @@
           <div class="col-md-4">
             <button class="btn btn-secondary btn-block" (click)="goToMeetingAgenda()">
               <i class="fa fa-arrow-left"></i>
-              Meeting Agenda
+              {{meetingAgenda.name}}
             </button>
           </div>
           <div class="col-md-4">
@@ -30,12 +30,28 @@
             <table class="table">
               <tbody>
               <tr>
+                <td>Meeting</td>
+                <td>
+                  {{meetingAgenda.name}}
+                  <br>{{meetingAgenda.time}}
+                  <br>{{meetingAgenda.place}}
+                </td>
+              </tr>
+              <tr>
                 <td>Section</td>
                 <td>{{agendaItem.section}}</td>
               </tr>
               <tr>
                 <td>Citytext</td>
                 <td>{{agendaItem.cityText}}</td>
+              </tr>
+              <tr>
+                <td>Our text</td>
+                <td>{{agendaItem.ourText}}</td>
+              </tr>
+              <tr>
+                <td>Our priority</td>
+                <td>{{agendaItem.ourPriority}}</td>
               </tr>
               <tr>
                 <td>Tags</td>
@@ -47,8 +63,7 @@
               </tr>
               </tbody>
             </table>
-          </div>
-          <div class="col-md-6" id="other">
+            <hr>
             <h3>Our comments</h3>
             <p *ngIf="agendaItem.ourComments.length === 0">
               No comments.
@@ -56,6 +71,25 @@
             <ul class="list-group" *ngIf="agendaItem.ourComments.length > 0">
               <li class="list-group-item" *ngFor="let comment of agendaItem.ourComments">
                 {{comment}}
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6" id="other">
+            <h3>City Attachments</h3>
+            <p *ngIf="agendaItem.cityAttachments.length === 0">
+              No links.
+            </p>
+            <ul class="list-group" *ngIf="agendaItem.cityAttachments.length > 0">
+              <li class="list-group-item" *ngFor="let link of agendaItem.cityAttachments">
+                <a class="btn btn-link" [href]="link.url">
+                  <i class="fa fa-link"></i>
+                  {{link.text}}
+                </a>
+                <p class="mb-0" *ngIf="link.details">
+                  <em>
+                    {{link.details}}
+                  </em>
+                </p>
               </li>
             </ul>
             <hr>

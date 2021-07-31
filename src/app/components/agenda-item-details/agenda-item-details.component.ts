@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {AgendaItem} from "../../models/MeetingAgenda.model";
+import {AgendaItem, MeetingAgenda} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
@@ -12,9 +12,10 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class AgendaItemDetailsComponent implements OnInit {
   public agendaItem: AgendaItem = null;
+  public meetingAgenda: MeetingAgenda = null;
 
   public get ready(): boolean {
-    return BooleanHelper.hasValue(this.agendaItem);
+    return BooleanHelper.hasValue(this.agendaItem) && BooleanHelper.hasValue(this.meetingAgenda);
   }
 
   constructor(
@@ -25,7 +26,7 @@ export class AgendaItemDetailsComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.load();
+    this.loadAgendaItem();
   }
 
   public goToMeetingAgenda() {
@@ -40,10 +41,18 @@ export class AgendaItemDetailsComponent implements OnInit {
     this.navHelper.goToAgendaItemFormAdd(this.agendaItem.meetingAgendaId);
   }
 
-  private load() {
+  private loadAgendaItem() {
     const itemId = this.route.snapshot.paramMap.get("itemId");
     this.meetingAgendaService.getSingleAgendaItem(itemId)
-      .subscribe((res) => this.agendaItem = res);
+      .subscribe((res) => this.agendaItem = res, () => {
+      }, () => {
+        this.loadMeetingAgenda();
+      });
+  }
+
+  private loadMeetingAgenda() {
+    this.meetingAgendaService.getSingleMeetingAgenda(this.agendaItem.meetingAgendaId)
+      .subscribe((res) => this.meetingAgenda = res);
   }
 
 }
