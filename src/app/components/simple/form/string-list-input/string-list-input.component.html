@@ -10,11 +10,21 @@
         </button>
       </div>
     </div>
-    <ng-container *ngFor="let item of value; let i = index">
-    <span class="badge badge-info mr-2" (click)="removeItem(i)">
-      {{item}}
-      <i class="fa fa-trash ml-2"></i>
-    </span>
+    <ng-container *ngIf="!longDisplay">
+      <ng-container *ngFor="let item of value; let i = index">
+        <span class="badge badge-info mr-2" (click)="removeItem(i)">
+          {{item}}
+          <i class="fa fa-trash ml-2"></i>
+        </span>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngIf="longDisplay">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of value; let i = index">
+          {{item}}
+          <i class="fa fa-trash pull-right" (click)="removeItem(i)"></i>
+        </li>
+      </ul>
     </ng-container>
   </section>
 </ng-container>

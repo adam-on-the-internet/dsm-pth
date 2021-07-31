@@ -6,7 +6,7 @@ export abstract class StringHelper {
       .join(" ");
   }
   public static fromHtmlToLabel(text) {
-    const spacedName = text.replace("-", " ");
+    const spacedName = text.replaceAll("-", " ");
     return StringHelper.toTitleCase(spacedName);
   }
 }

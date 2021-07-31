@@ -34,5 +34,5 @@ export interface AgendaItem {
 export interface LinkItem {
   text: string;
   url: string;
-  description?: string;
+  details?: string;
 }

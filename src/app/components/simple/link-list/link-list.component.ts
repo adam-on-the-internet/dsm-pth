@@ -20,7 +20,7 @@ export class LinkListComponent {
     this.links.push({
       text: "",
       url: "",
-      description: "",
+      details: "",
     });
   }
 
