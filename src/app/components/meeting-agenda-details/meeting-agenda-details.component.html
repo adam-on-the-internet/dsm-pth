@@ -22,55 +22,118 @@
             </button>
           </div>
         </div>
-        <h1 class="text-center">
-          Meeting Agenda: {{meetingAgenda.name}}
+        <h1 class="text-center mb-3">
+          {{meetingAgenda.name}}
         </h1>
-
-        <hr>
-
-        <p class="text-center" *ngIf="meetingAgenda.agendaItems.length === 0">
-          No agenda items.
-        </p>
-        <ng-container *ngIf="meetingAgenda.agendaItems.length > 0">
-          <table class="table">
-            <thead>
-            <tr>
-              <th>Name</th>
-              <th>Details</th>
-              <th>Edit</th>
-              <th>Delete</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr *ngFor="let agendaItem of meetingAgenda.agendaItems">
-              <td>{{agendaItem.name}}</td>
-              <td>
-                <button class="btn btn-outline-dark btn-small" (click)="goToDetails(agendaItem)">
-                  <i class="fa fa-info"></i> Details
-                </button>
-              </td>
-              <td>
-                <button class="btn btn-outline-dark btn-small" (click)="goToEdit(agendaItem)">
-                  <i class="fa fa-pencil"></i> Edit
-                </button>
-              </td>
-              <td>
-                <button class="btn btn-outline-dark btn-small" (click)="requestDelete(agendaItem)">
-                  <i class="fa fa-trash"></i> Delete
-                </button>
-              </td>
-            </tr>
-            </tbody>
-          </table>
-        </ng-container>
-
-        <hr>
-
-        <p>More details coming soon!</p>
-        <hr>
-        <p>
-          <small>Added On: {{meetingAgenda.dateAdded}}</small>
-        </p>
+        <div class="row">
+          <div class="col-md-6" id="details">
+            <table class="table">
+              <tbody>
+              <tr>
+                <td>Type</td>
+                <td>{{meetingAgenda.type}}</td>
+              </tr>
+              <tr>
+                <td>Date And Time</td>
+                <td>{{meetingAgenda.time}}</td>
+              </tr>
+              <tr>
+                <td>Place</td>
+                <td>{{meetingAgenda.place}}</td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td>{{meetingAgenda.description}}</td>
+              </tr>
+              <tr>
+                <td>Subtitle</td>
+                <td>{{meetingAgenda.subtitle}}</td>
+              </tr>
+              <tr>
+                <td>Tags</td>
+                <td>
+                  <span class="badge badge-info mr-2" *ngFor="let tag of meetingAgenda.tags">
+                    {{tag}}
+                  </span>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6" id="other">
+            <h3>Highlights</h3>
+            <p *ngIf="meetingAgenda.highlights.length === 0">
+              No highlights.
+            </p>
+            <ul class="list-group" *ngIf="meetingAgenda.highlights.length > 0">
+              <li class="list-group-item" *ngFor="let highlight of meetingAgenda.highlights">
+                {{highlight}}
+              </li>
+            </ul>
+            <hr>
+            <h3>Links</h3>
+            <p *ngIf="meetingAgenda.links.length === 0">
+              No links.
+            </p>
+            <ul class="list-group" *ngIf="meetingAgenda.links.length > 0">
+              <li class="list-group-item" *ngFor="let link of meetingAgenda.links">
+                <a class="btn btn-link" [href]="link.url">
+                  <i class="fa fa-link"></i>
+                  {{link.text}}
+                </a>
+                <p class="mb-0" *ngIf="link.details">
+                  <em>
+                    {{link.details}}
+                  </em>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12" id="items">
+            <hr>
+            <p class="text-center" *ngIf="meetingAgenda.agendaItems.length === 0">
+              No agenda items.
+            </p>
+            <ng-container *ngIf="meetingAgenda.agendaItems.length > 0">
+              <table class="table">
+                <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Details</th>
+                  <th>Edit</th>
+                  <th>Delete</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let agendaItem of meetingAgenda.agendaItems">
+                  <td>{{agendaItem.name}}</td>
+                  <td>
+                    <button class="btn btn-outline-dark btn-small" (click)="goToDetails(agendaItem)">
+                      <i class="fa fa-info"></i> Details
+                    </button>
+                  </td>
+                  <td>
+                    <button class="btn btn-outline-dark btn-small" (click)="goToEdit(agendaItem)">
+                      <i class="fa fa-pencil"></i> Edit
+                    </button>
+                  </td>
+                  <td>
+                    <button class="btn btn-outline-dark btn-small" (click)="requestDelete(agendaItem)">
+                      <i class="fa fa-trash"></i> Delete
+                    </button>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </ng-container>
+          </div>
+          <div class="col-md-12" id="footer">
+            <hr>
+            <p>
+              <small>Added On: {{meetingAgenda.dateAdded}}</small>
+            </p>
+          </div>
+        </div>
       </ng-container>
     </div>
   </div>
