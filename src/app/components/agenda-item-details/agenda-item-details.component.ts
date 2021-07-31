@@ -28,6 +28,18 @@ export class AgendaItemDetailsComponent implements OnInit {
     this.load();
   }
 
+  public goToMeetingAgenda() {
+    this.navHelper.goToAgendaDetails(this.agendaItem.meetingAgendaId);
+  }
+
+  public goToEditItem() {
+    this.navHelper.goToAgendaItemFormEdit(this.agendaItem._id);
+  }
+
+  public goToAddAgendaItem() {
+    this.navHelper.goToAgendaItemFormAdd(this.agendaItem.meetingAgendaId);
+  }
+
   private load() {
     const itemId = this.route.snapshot.paramMap.get("itemId");
     this.meetingAgendaService.getSingleAgendaItem(itemId)

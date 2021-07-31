@@ -2,13 +2,88 @@
   <div class="row">
     <div class="col-md-12 my-3">
       <ng-container *ngIf="ready; else loading">
-        <h1 class="text-center">
-          Agenda Item: {{agendaItem.name}}
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <button class="btn btn-secondary btn-block" (click)="goToMeetingAgenda()">
+              <i class="fa fa-arrow-left"></i>
+              Meeting Agenda
+            </button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-secondary btn-block" (click)="goToEditItem()">
+              <i class="fa fa-pencil"></i>
+              Edit
+            </button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-secondary btn-block" (click)="goToAddAgendaItem()">
+              <i class="fa fa-plus"></i>
+              Add another Agenda Item
+            </button>
+          </div>
+        </div>
+        <h1 class="text-center mb-3">
+          {{agendaItem.name}}
         </h1>
-
-        <hr>
-
-        <p>More details coming soon!</p>
+        <div class="row">
+          <div class="col-md-6" id="details">
+            <table class="table">
+              <tbody>
+              <tr>
+                <td>Section</td>
+                <td>{{agendaItem.section}}</td>
+              </tr>
+              <tr>
+                <td>Citytext</td>
+                <td>{{agendaItem.cityText}}</td>
+              </tr>
+              <tr>
+                <td>Tags</td>
+                <td>
+                  <span class="badge badge-info mr-2" *ngFor="let tag of agendaItem.tags">
+                    {{tag}}
+                  </span>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6" id="other">
+            <h3>Our comments</h3>
+            <p *ngIf="agendaItem.ourComments.length === 0">
+              No comments.
+            </p>
+            <ul class="list-group" *ngIf="agendaItem.ourComments.length > 0">
+              <li class="list-group-item" *ngFor="let comment of agendaItem.ourComments">
+                {{comment}}
+              </li>
+            </ul>
+            <hr>
+            <h3>Our Links</h3>
+            <p *ngIf="agendaItem.ourLinks.length === 0">
+              No links.
+            </p>
+            <ul class="list-group" *ngIf="agendaItem.ourLinks.length > 0">
+              <li class="list-group-item" *ngFor="let link of agendaItem.ourLinks">
+                <a class="btn btn-link" [href]="link.url">
+                  <i class="fa fa-link"></i>
+                  {{link.text}}
+                </a>
+                <p class="mb-0" *ngIf="link.details">
+                  <em>
+                    {{link.details}}
+                  </em>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12" id="footer">
+            <hr>
+            <p>
+              <small>Added On: {{agendaItem.dateAdded}}</small>
+            </p>
+          </div>
+        </div>
       </ng-container>
     </div>
   </div>
