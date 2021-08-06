@@ -17,6 +17,11 @@ export class MeetingAgendaDetailsComponent implements OnInit {
     return BooleanHelper.hasValue(this.meetingAgenda);
   }
 
+  public get sortedAgendaItems(): AgendaItem[] {
+    const itemsCopy = this.meetingAgenda.agendaItems;
+    return itemsCopy.sort((a, b) => (a.ourPriority < b.ourPriority) ? 1 : -1);
+  }
+
   constructor(
     private navHelper: NavHelperService,
     private meetingAgendaService: MeetingAgendaService,

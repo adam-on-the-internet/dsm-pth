@@ -99,14 +99,18 @@
                 <thead>
                 <tr>
                   <th>Name</th>
+                  <th>Section</th>
+                  <th>Our Priority</th>
                   <th>Details</th>
                   <th>Edit</th>
                   <th>Delete</th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr *ngFor="let agendaItem of meetingAgenda.agendaItems">
+                <tr *ngFor="let agendaItem of sortedAgendaItems">
                   <td>{{agendaItem.name}}</td>
+                  <td>{{agendaItem.section}}</td>
+                  <td>{{agendaItem.ourPriority}}</td>
                   <td>
                     <button class="btn btn-outline-dark btn-small" (click)="goToDetails(agendaItem)">
                       <i class="fa fa-info"></i> Details
