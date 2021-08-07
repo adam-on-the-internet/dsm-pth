@@ -25,8 +25,14 @@
                 <h2>2. Optional Info</h2>
                 <app-string-input [(value)]="meetingAgenda.description" [valueName]="'description'"></app-string-input>
                 <app-string-input [(value)]="meetingAgenda.subtitle" [valueName]="'subtitle'"></app-string-input>
-                <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentStart" [valueName]="'consent-start'"></app-number-input>
-                <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentEnd" [valueName]="'consent-end'"></app-number-input>
+                <div class="row">
+                  <div class="col-md-6">
+                    <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentStart" [valueName]="'consent-start'"></app-number-input>
+                  </div>
+                  <div class="col-md-6">
+                    <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentEnd" [valueName]="'consent-end'"></app-number-input>
+                  </div>
+                </div>
                 <app-string-list-input [(value)]="meetingAgenda.tags" [valueName]="'tags'"></app-string-list-input>
                 <app-string-list-input [(value)]="meetingAgenda.highlights" [longDisplay]="true"
                                        [valueName]="'highlights'"></app-string-list-input>
@@ -35,7 +41,7 @@
             <div class="col-md-6 mb-1">
               <section id="advanced-info">
                 <h2>3. Links</h2>
-                <app-link-list #linkInput [links]="meetingAgenda.links"></app-link-list>
+                <app-link-list #linkInput [valueName]="'meeting-links'" [links]="meetingAgenda.links"></app-link-list>
               </section>
             </div>
             <div class="col-md-6 mb-1">

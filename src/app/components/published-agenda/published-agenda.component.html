@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row justify-content-center text-center" *ngIf="ready; else loading">
-    <div class="col-md-12">
+    <div class="col-md-12 mt-3">
       <h1>{{meetingAgenda.name}}</h1>
       <h2 *ngIf="meetingAgenda.subtitle">{{meetingAgenda.subtitle}}</h2>
       <hr>
@@ -11,20 +11,26 @@
     </div>
     <div class="col-md-6">
       <h3>Details</h3>
-      <p>{{meetingAgenda.time}}</p>
-      <p>{{meetingAgenda.place}}</p>
-      <p>{{meetingAgenda.type}}</p>
+      <p><em>When:</em> {{meetingAgenda.time}}</p>
+      <p><em>Where:</em> {{meetingAgenda.place}}</p>
+      <p><em>What:</em> {{meetingAgenda.type}}</p>
       <p *ngIf="meetingAgenda.description">{{meetingAgenda.description}}</p>
     </div>
     <div class="col-md-12" *ngIf="meetingAgenda.agendaItems.length > 0">
       <hr>
       <h4>Agenda Items</h4>
-      <p>
+      <p class="text-left">
         You can display agenda items in a few different ways. By default, only our highest priority items will be shown.
       </p>
-      <p>
-        <app-select-input [valueName]="'Filter'" [(value)]="mode" [options]="filterOptions"></app-select-input>
-      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <app-select-input [valueName]="'Filter'" [(value)]="mode" [options]="filterOptions"></app-select-input>
+        </div>
+        <div class="col-md-6">
+          <br>
+          Showing {{sortedAgendaItems.length}} of {{meetingAgenda.agendaItems.length}} agenda items...
+        </div>
+      </div>
       <p class="text-center" *ngIf="sortedAgendaItems.length === 0">
         No agenda items to show.
       </p>
@@ -35,20 +41,20 @@
             </h4>
             <hr>
             <section *ngIf="item.ourText">
-              <p>Our Text:</p>
-              <p>{{item.ourText}}</p>
+              <h5>Summary</h5>
+              <p class="text-left">{{item.ourText}}</p>
               <hr>
             </section>
-            <p>City's Text:</p>
-            <p>{{item.cityText}}</p>
+            <h5>Official Text</h5>
+            <p class="text-left">{{item.cityText}}</p>
             <hr>
             <div class="row">
               <div class="col-md-6">
-                <p>City's Attachments</p>
+                <h5>City Documents</h5>
                 <app-link-display [links]="item.cityAttachments"></app-link-display>
               </div>
               <div class="col-md-6">
-                <p>Relevant Links</p>
+                <h5>Relevant Links</h5>
                 <app-link-display [links]="item.ourLinks"></app-link-display>
               </div>
             </div>
