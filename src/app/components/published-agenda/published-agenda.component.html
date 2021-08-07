@@ -6,11 +6,11 @@
       <hr>
     </div>
     <div class="col-md-6">
-      <h3>Links</h3>
+      <h3 class="mt-2">Links</h3>
       <app-link-display [links]="meetingAgenda.links"></app-link-display>
     </div>
     <div class="col-md-6">
-      <h3>Details</h3>
+      <h3 class="mt-2">Details</h3>
       <p><em>When:</em> {{meetingAgenda.time}}</p>
       <p><em>Where:</em> {{meetingAgenda.place}}</p>
       <p><em>What:</em> {{meetingAgenda.type}}</p>
@@ -22,7 +22,7 @@
       <p class="text-left">
         You can display agenda items in a few different ways. By default, only our highest priority items will be shown.
       </p>
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-md-6">
           <app-select-input [valueName]="'Filter'" [(value)]="mode" [options]="filterOptions"></app-select-input>
         </div>
@@ -49,11 +49,11 @@
             <p class="text-left">{{item.cityText}}</p>
             <hr>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 mt-2">
                 <h5>City Documents</h5>
                 <app-link-display [links]="item.cityAttachments"></app-link-display>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mt-2">
                 <h5>Relevant Links</h5>
                 <app-link-display [links]="item.ourLinks"></app-link-display>
               </div>
