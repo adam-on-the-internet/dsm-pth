@@ -28,6 +28,14 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.ContactList);
   }
 
+  public goToAgendaInfoList(): void {
+    this.goToRoute(ROUTES_ENUM.AgendaPublished);
+  }
+
+  public goToAgendaInfo(id: string): void {
+    this.goToRoutes([ROUTES_ENUM.AgendaPublished, id]);
+  }
+
   public goToDocument(document: DocumentInfo): void {
     this.goToRoutes([ROUTES_ENUM.Document, document.link]);
   }

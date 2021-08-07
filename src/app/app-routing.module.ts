@@ -15,6 +15,8 @@ import {MeetingAgendaFormComponent} from "./components/meeting-agenda-form/meeti
 import {MeetingAgendaDetailsComponent} from './components/meeting-agenda-details/meeting-agenda-details.component';
 import {AgendaItemFormComponent} from "./components/agenda-item-form/agenda-item-form.component";
 import {AgendaItemDetailsComponent} from "./components/agenda-item-details/agenda-item-details.component";
+import {PublishedAgendaListComponent} from "./components/published-agenda-list/published-agenda-list.component";
+import {PublishedAgendaComponent} from "./components/published-agenda/published-agenda.component";
 
 const routes: Routes = [
   // main
@@ -23,6 +25,9 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Login, component: LoginComponent},
   {path: ROUTES_ENUM.Profile, component: ProfileComponent},
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
+
+  {path: ROUTES_ENUM.AgendaPublished, component: PublishedAgendaListComponent},
+  {path: ROUTES_ENUM.AgendaPublished + "/:id", component: PublishedAgendaComponent},
 
   {path: ROUTES_ENUM.AgendaManagement, component: MeetingAgendaManagementComponent},
   {path: ROUTES_ENUM.AgendaForm, component: MeetingAgendaFormComponent},

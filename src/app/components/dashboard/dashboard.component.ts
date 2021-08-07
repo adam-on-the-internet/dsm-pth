@@ -30,4 +30,8 @@ export class DashboardComponent {
     this.navHelper.goToContactList();
   }
 
+  public goToAgendaList() {
+    this.navHelper.goToAgendaInfoList();
+  }
+
 }

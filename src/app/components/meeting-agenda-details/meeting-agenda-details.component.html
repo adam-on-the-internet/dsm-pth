@@ -72,22 +72,7 @@
             </ul>
             <hr>
             <h3>Links</h3>
-            <p *ngIf="meetingAgenda.links.length === 0">
-              No links.
-            </p>
-            <ul class="list-group" *ngIf="meetingAgenda.links.length > 0">
-              <li class="list-group-item" *ngFor="let link of meetingAgenda.links">
-                <a class="btn btn-link" [href]="link.url">
-                  <i class="fa fa-link"></i>
-                  {{link.text}}
-                </a>
-                <p class="mb-0" *ngIf="link.details">
-                  <em>
-                    {{link.details}}
-                  </em>
-                </p>
-              </li>
-            </ul>
+            <app-link-display [links]="meetingAgenda.links"></app-link-display>
           </div>
           <div class="col-md-12" id="items">
             <hr>
