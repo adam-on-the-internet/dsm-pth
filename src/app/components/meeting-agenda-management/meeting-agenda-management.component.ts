@@ -1,13 +1,13 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgenda} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 
 @Component({
-  selector: 'app-meeting-agenda-management',
-  templateUrl: './meeting-agenda-management.component.html',
-  styleUrls: ['./meeting-agenda-management.component.scss']
+  selector: "app-meeting-agenda-management",
+  templateUrl: "./meeting-agenda-management.component.html",
+  styleUrls: ["./meeting-agenda-management.component.scss"]
 })
 export class MeetingAgendaManagementComponent implements OnInit {
   public meetingAgendas: MeetingAgenda[] = null;
@@ -39,6 +39,7 @@ export class MeetingAgendaManagementComponent implements OnInit {
   }
 
   public requestDelete(meetingAgenda: MeetingAgenda) {
+    // tslint:disable-next-line
     const message = `Are you sure you want to delete ${meetingAgenda.name}? If you do, all Agenda Items for this meeting will also be deleted.`;
     const confirmDelete = confirm(message);
     if (confirmDelete) {

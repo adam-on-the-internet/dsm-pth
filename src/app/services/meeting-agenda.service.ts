@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {RestUrlBuilder} from "../utilities/rest-url-builder.util";
@@ -7,7 +7,7 @@ import {CookieHelper} from "../utilities/cookie.util";
 import {AgendaItem, MeetingAgenda, MeetingAgendaComplete} from "../models/MeetingAgenda.model";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class MeetingAgendaService {
   constructor(

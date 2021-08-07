@@ -1,10 +1,10 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import {LinkListComponent} from './link-list.component';
+import {LinkListComponent} from "./link-list.component";
 import {FormsModule} from "@angular/forms";
 import {StringInputComponent} from "../form/string-input/string-input.component";
 
-describe('LinkListComponent', () => {
+describe("LinkListComponent", () => {
   let component: LinkListComponent;
   let fixture: ComponentFixture<LinkListComponent>;
 
@@ -22,7 +22,7 @@ describe('LinkListComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

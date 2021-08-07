@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit, ViewChild} from "@angular/core";
 import {AgendaItem} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {NavHelperService} from "../../services/nav-helper.service";
@@ -7,9 +7,9 @@ import {ActivatedRoute} from "@angular/router";
 import {LinkListComponent} from "../simple/link-list/link-list.component";
 
 @Component({
-  selector: 'app-agenda-item-form',
-  templateUrl: './agenda-item-form.component.html',
-  styleUrls: ['./agenda-item-form.component.scss']
+  selector: "app-agenda-item-form",
+  templateUrl: "./agenda-item-form.component.html",
+  styleUrls: ["./agenda-item-form.component.scss"]
 })
 export class AgendaItemFormComponent implements OnInit {
   @ViewChild("cityAttachmentsInput", null) public cityAttachmentsInput: LinkListComponent;
@@ -139,7 +139,7 @@ export class AgendaItemFormComponent implements OnInit {
       ourPriority: 1,
       meetingAgendaId: this.meetingId,
       _id: null,
-    }
+    };
   }
 
 }

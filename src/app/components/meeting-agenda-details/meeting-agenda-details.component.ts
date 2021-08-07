@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {AgendaItem, MeetingAgendaComplete} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {NavHelperService} from "../../services/nav-helper.service";
@@ -6,9 +6,9 @@ import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 import {ActivatedRoute} from "@angular/router";
 
 @Component({
-  selector: 'app-meeting-agenda-details',
-  templateUrl: './meeting-agenda-details.component.html',
-  styleUrls: ['./meeting-agenda-details.component.scss']
+  selector: "app-meeting-agenda-details",
+  templateUrl: "./meeting-agenda-details.component.html",
+  styleUrls: ["./meeting-agenda-details.component.scss"]
 })
 export class MeetingAgendaDetailsComponent implements OnInit {
   public meetingAgenda: MeetingAgendaComplete = null;

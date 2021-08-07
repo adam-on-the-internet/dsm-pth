@@ -1,6 +1,6 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import {AgendaItemFormComponent} from './agenda-item-form.component';
+import {AgendaItemFormComponent} from "./agenda-item-form.component";
 import {LoadingComponent} from "../simple/loading/loading.component";
 import {StringInputComponent} from "../simple/form/string-input/string-input.component";
 import {FormsModule} from "@angular/forms";
@@ -10,7 +10,7 @@ import {NumberInputComponent} from "../simple/form/number-input/number-input.com
 import {LinkListComponent} from "../simple/link-list/link-list.component";
 import {StringListInputComponent} from "../simple/form/string-list-input/string-list-input.component";
 
-describe('AgendaItemFormComponent', () => {
+describe("AgendaItemFormComponent", () => {
   let component: AgendaItemFormComponent;
   let fixture: ComponentFixture<AgendaItemFormComponent>;
 
@@ -31,7 +31,7 @@ describe('AgendaItemFormComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

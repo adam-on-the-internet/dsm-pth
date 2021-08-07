@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit, ViewChild} from "@angular/core";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 import {MeetingAgenda} from "../../models/MeetingAgenda.model";
@@ -7,9 +7,9 @@ import {ActivatedRoute} from "@angular/router";
 import {LinkListComponent} from "../simple/link-list/link-list.component";
 
 @Component({
-  selector: 'app-meeting-agenda-form',
-  templateUrl: './meeting-agenda-form.component.html',
-  styleUrls: ['./meeting-agenda-form.component.scss']
+  selector: "app-meeting-agenda-form",
+  templateUrl: "./meeting-agenda-form.component.html",
+  styleUrls: ["./meeting-agenda-form.component.scss"]
 })
 export class MeetingAgendaFormComponent implements OnInit {
   @ViewChild("linkInput", null) public linkList: LinkListComponent;
@@ -139,6 +139,6 @@ export class MeetingAgendaFormComponent implements OnInit {
       description: "",
       subtitle: "",
       _id: null,
-    }
+    };
   }
 }

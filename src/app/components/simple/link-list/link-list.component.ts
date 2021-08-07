@@ -1,12 +1,12 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input} from "@angular/core";
 import {BooleanHelper} from "../../../utilities/boolean.util";
 import {LinkItem} from "../../../models/MeetingAgenda.model";
 import {StringHelper} from "../../../utilities/string.util";
 
 @Component({
-  selector: 'app-link-list',
-  templateUrl: './link-list.component.html',
-  styleUrls: ['./link-list.component.scss']
+  selector: "app-link-list",
+  templateUrl: "./link-list.component.html",
+  styleUrls: ["./link-list.component.scss"]
 })
 export class LinkListComponent {
   @Input() public links: LinkItem[] = [];

@@ -1,11 +1,11 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import {MeetingAgendaManagementComponent} from './meeting-agenda-management.component';
+import {MeetingAgendaManagementComponent} from "./meeting-agenda-management.component";
 import {LoadingComponent} from "../simple/loading/loading.component";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {RouterTestingModule} from "@angular/router/testing";
 
-describe('MeetingAgendaManagementComponent', () => {
+describe("MeetingAgendaManagementComponent", () => {
   let component: MeetingAgendaManagementComponent;
   let fixture: ComponentFixture<MeetingAgendaManagementComponent>;
 
@@ -23,7 +23,7 @@ describe('MeetingAgendaManagementComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

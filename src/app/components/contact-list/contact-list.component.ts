@@ -23,6 +23,7 @@ export class ContactListComponent implements OnInit {
   }
 
   public get mailtoLinkWithDemands(): string {
+    // tslint:disable-next-line
     return `${this.mailtoLink}?subject=Make Meetings Public&body=The City of Des Moines must immediately offer hybrid meetings, in-person and virtual, or return to virtual-only meetings. The current meetings are not accessible to the people of Des Moines.`;
   }
 

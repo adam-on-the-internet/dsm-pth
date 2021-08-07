@@ -27,15 +27,15 @@ import {DocumentArchiveComponent} from "./components/document-archive/document-a
 import {CommunityCalendarComponent} from "./components/community-calendar/community-calendar.component";
 import {DocumentInfoComponent} from "./components/document-info/document-info.component";
 import {ContactListComponent} from "./components/contact-list/contact-list.component";
-import {MeetingAgendaManagementComponent} from './components/meeting-agenda-management/meeting-agenda-management.component';
-import {MeetingAgendaFormComponent} from './components/meeting-agenda-form/meeting-agenda-form.component';
-import {MeetingAgendaDetailsComponent} from './components/meeting-agenda-details/meeting-agenda-details.component';
-import {AgendaItemFormComponent} from './components/agenda-item-form/agenda-item-form.component';
-import {AgendaItemDetailsComponent} from './components/agenda-item-details/agenda-item-details.component';
-import {LinkListComponent} from './components/simple/link-list/link-list.component';
-import {PublishedAgendaComponent} from './components/published-agenda/published-agenda.component';
-import {PublishedAgendaListComponent} from './components/published-agenda-list/published-agenda-list.component';
-import { LinkDisplayComponent } from './components/link-display/link-display.component';
+import {MeetingAgendaManagementComponent} from "./components/meeting-agenda-management/meeting-agenda-management.component";
+import {MeetingAgendaFormComponent} from "./components/meeting-agenda-form/meeting-agenda-form.component";
+import {MeetingAgendaDetailsComponent} from "./components/meeting-agenda-details/meeting-agenda-details.component";
+import {AgendaItemFormComponent} from "./components/agenda-item-form/agenda-item-form.component";
+import {AgendaItemDetailsComponent} from "./components/agenda-item-details/agenda-item-details.component";
+import {LinkListComponent} from "./components/simple/link-list/link-list.component";
+import {PublishedAgendaComponent} from "./components/published-agenda/published-agenda.component";
+import {PublishedAgendaListComponent} from "./components/published-agenda-list/published-agenda-list.component";
+import { LinkDisplayComponent } from "./components/link-display/link-display.component";
 
 @NgModule({
   declarations: [

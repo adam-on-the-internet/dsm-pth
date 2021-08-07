@@ -1,17 +1,18 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import {MeetingAgendaDetailsComponent} from './meeting-agenda-details.component';
+import {MeetingAgendaDetailsComponent} from "./meeting-agenda-details.component";
 import {LoadingComponent} from "../simple/loading/loading.component";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {RouterTestingModule} from "@angular/router/testing";
+import {LinkDisplayComponent} from "../link-display/link-display.component";
 
-describe('MeetingAgendaDetailsComponent', () => {
+describe("MeetingAgendaDetailsComponent", () => {
   let component: MeetingAgendaDetailsComponent;
   let fixture: ComponentFixture<MeetingAgendaDetailsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [MeetingAgendaDetailsComponent, LoadingComponent],
+      declarations: [MeetingAgendaDetailsComponent, LoadingComponent, LinkDisplayComponent],
       imports: [HttpClientTestingModule, RouterTestingModule]
     })
       .compileComponents();
@@ -23,7 +24,7 @@ describe('MeetingAgendaDetailsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

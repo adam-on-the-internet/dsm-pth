@@ -1,23 +1,14 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 import {ActivatedRoute} from "@angular/router";
 import {AgendaItem, MeetingAgendaComplete} from "../../models/MeetingAgenda.model";
 
 @Component({
-  selector: 'app-published-agenda',
-  templateUrl: './published-agenda.component.html',
-  styleUrls: ['./published-agenda.component.scss']
+  selector: "app-published-agenda",
+  templateUrl: "./published-agenda.component.html",
+  styleUrls: ["./published-agenda.component.scss"]
 })
 export class PublishedAgendaComponent implements OnInit {
-  public meetingAgenda: MeetingAgendaComplete = null;
-  public mode: string = "priority-only";
-
-  public filterOptions: string[] = [
-    "priority-only",
-    "priority-order",
-    "agenda-order",
-    "none",
-  ];
 
   public get sortedAgendaItems(): AgendaItem[] {
     let itemsCopy = this.meetingAgenda.agendaItems;
@@ -44,12 +35,15 @@ export class PublishedAgendaComponent implements OnInit {
     private route: ActivatedRoute,
   ) {
   }
+  public meetingAgenda: MeetingAgendaComplete = null;
+  public mode = "priority-only";
 
-  public ngOnInit() {
-    const id = this.route.snapshot.paramMap.get("id");
-    this.meetingAgendaService.getSingleMeetingAgenda(id)
-      .subscribe((res) => this.meetingAgenda = res);
-  }
+  public filterOptions: string[] = [
+    "priority-only",
+    "priority-order",
+    "agenda-order",
+    "none",
+  ];
 
   private static sortByPriority(itemsCopy: AgendaItem[]) {
     return itemsCopy.sort((a, b) => (a.ourPriority < b.ourPriority) ? 1 : -1);
@@ -61,5 +55,11 @@ export class PublishedAgendaComponent implements OnInit {
 
   private static scrub(a: AgendaItem) {
     return Number(a.name.split(" ")[0].replace("#", "").replace(":", ""));
+  }
+
+  public ngOnInit() {
+    const id = this.route.snapshot.paramMap.get("id");
+    this.meetingAgendaService.getSingleMeetingAgenda(id)
+      .subscribe((res) => this.meetingAgenda = res);
   }
 }
