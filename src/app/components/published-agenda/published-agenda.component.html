@@ -16,7 +16,7 @@
       <p>{{meetingAgenda.type}}</p>
       <p *ngIf="meetingAgenda.description">{{meetingAgenda.description}}</p>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-12" *ngIf="meetingAgenda.agendaItems.length > 0">
       <hr>
       <h4>Agenda Items</h4>
       <p>
