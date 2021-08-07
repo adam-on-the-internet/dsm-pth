@@ -29,20 +29,32 @@
         No agenda items to show.
       </p>
       <ng-container *ngIf="sortedAgendaItems.length > 0">
-        <table class="table">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Section</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let agendaItem of sortedAgendaItems">
-            <td>{{agendaItem.name}}</td>
-            <td>{{agendaItem.section}}</td>
-          </tr>
-          </tbody>
-        </table>
+        <ng-container *ngFor="let item of sortedAgendaItems">
+          <app-card [autoHeight]="false">
+            <h4>{{item.name}} <small>{{item.section}} <span *ngIf="isItemOnConsent(item)">- Consent Item</span></small>
+            </h4>
+            <hr>
+            <section *ngIf="item.ourText">
+              <p>Our Text:</p>
+              <p>{{item.ourText}}</p>
+              <hr>
+            </section>
+            <p>City's Text:</p>
+            <p>{{item.cityText}}</p>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <p>City's Attachments</p>
+                <app-link-display [links]="item.cityAttachments"></app-link-display>
+              </div>
+              <div class="col-md-6">
+                <p>Relevant Links</p>
+                <app-link-display [links]="item.ourLinks"></app-link-display>
+              </div>
+            </div>
+          </app-card>
+          <br>
+        </ng-container>
       </ng-container>
     </div>
   </div>

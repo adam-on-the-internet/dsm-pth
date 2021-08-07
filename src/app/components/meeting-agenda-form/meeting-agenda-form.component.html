@@ -25,6 +25,8 @@
                 <h2>2. Optional Info</h2>
                 <app-string-input [(value)]="meetingAgenda.description" [valueName]="'description'"></app-string-input>
                 <app-string-input [(value)]="meetingAgenda.subtitle" [valueName]="'subtitle'"></app-string-input>
+                <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentStart" [valueName]="'consent-start'"></app-number-input>
+                <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentEnd" [valueName]="'consent-end'"></app-number-input>
                 <app-string-list-input [(value)]="meetingAgenda.tags" [valueName]="'tags'"></app-string-list-input>
                 <app-string-list-input [(value)]="meetingAgenda.highlights" [longDisplay]="true"
                                        [valueName]="'highlights'"></app-string-list-input>

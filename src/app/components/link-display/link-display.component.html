@@ -1,5 +1,5 @@
 <ng-container *ngIf="links">
-  <p *ngIf="links.length === 0">
+  <p *ngIf="links.length === 0 && showNoLinks">
     No links.
   </p>
   <ul class="list-group" *ngIf="links.length > 0">

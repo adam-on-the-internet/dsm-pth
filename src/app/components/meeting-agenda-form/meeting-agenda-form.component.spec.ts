@@ -8,6 +8,7 @@ import {FormsModule} from "@angular/forms";
 import {StringInputComponent} from "../simple/form/string-input/string-input.component";
 import {StringListInputComponent} from "../simple/form/string-list-input/string-list-input.component";
 import {LinkListComponent} from "../simple/link-list/link-list.component";
+import {NumberInputComponent} from "../simple/form/number-input/number-input.component";
 
 describe("MeetingAgendaFormComponent", () => {
   let component: MeetingAgendaFormComponent;
@@ -17,7 +18,7 @@ describe("MeetingAgendaFormComponent", () => {
     TestBed.configureTestingModule({
       declarations: [
         MeetingAgendaFormComponent, LoadingComponent, StringInputComponent,
-        StringListInputComponent, LinkListComponent,
+        StringListInputComponent, LinkListComponent, NumberInputComponent,
       ],
       imports: [HttpClientTestingModule, RouterTestingModule, FormsModule]
     })

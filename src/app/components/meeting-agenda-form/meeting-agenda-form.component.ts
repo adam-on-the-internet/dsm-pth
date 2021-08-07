@@ -138,6 +138,8 @@ export class MeetingAgendaFormComponent implements OnInit {
       highlights: [],
       description: "",
       subtitle: "",
+      consentStart: null,
+      consentEnd: null,
       _id: null,
     };
   }

@@ -4,6 +4,8 @@ export interface MeetingAgenda {
   time: string;
   type: string;
   place: string;
+  consentStart: number;
+  consentEnd: number;
   links: LinkItem[];
   tags: string[];
   highlights: string[];
