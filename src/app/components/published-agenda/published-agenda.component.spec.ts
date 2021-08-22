@@ -9,6 +9,8 @@ import {LoadingComponent} from "../simple/loading/loading.component";
 import {RouterTestingModule} from "@angular/router/testing";
 import {FormsModule} from "@angular/forms";
 import {QuillViewDefaultComponent} from "../quill-view-default/quill-view-default.component";
+import {ModalBoxBasicComponent} from "../simple/modal-box-basic/modal-box-basic.component";
+import {ModalTriggerButtonComponent} from "../simple/modal-trigger-button/modal-trigger-button.component";
 
 describe("PublishedAgendaComponent", () => {
   let component: PublishedAgendaComponent;
@@ -19,6 +21,7 @@ describe("PublishedAgendaComponent", () => {
       declarations: [
         PublishedAgendaComponent, CardComponent, LinkDisplayComponent, SelectInputComponent,
         LoadingComponent, QuillViewDefaultComponent, QuillViewDefaultComponent,
+        ModalBoxBasicComponent, ModalTriggerButtonComponent,
       ],
       imports: [HttpClientTestingModule, RouterTestingModule, FormsModule]
     })

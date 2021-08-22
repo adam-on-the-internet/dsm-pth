@@ -39,6 +39,8 @@ import {LinkDisplayComponent} from "./components/link-display/link-display.compo
 import {QuillModule} from "ngx-quill";
 import {QuillEditorDefaultComponent} from "./components/quill-editor-default/quill-editor-default.component";
 import {QuillViewDefaultComponent} from "./components/quill-view-default/quill-view-default.component";
+import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
+import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
 
 @NgModule({
   declarations: [
@@ -76,6 +78,8 @@ import {QuillViewDefaultComponent} from "./components/quill-view-default/quill-v
     LinkDisplayComponent,
     QuillEditorDefaultComponent,
     QuillViewDefaultComponent,
+    ModalTriggerButtonComponent,
+    ModalBoxBasicComponent,
   ],
   imports: [
     BrowserModule,

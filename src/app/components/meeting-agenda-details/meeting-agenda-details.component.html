@@ -44,7 +44,13 @@
               <tr>
                 <td>Description</td>
                 <td>
-                  <app-quill-view-default [content]="meetingAgenda.description"></app-quill-view-default>
+                  <ng-container *ngIf="meetingAgenda.description">
+                    <app-modal-trigger-button [boxId]="'description'"><i class="fa fa-info mr-2"></i>Description
+                    </app-modal-trigger-button>
+                    <app-modal-box-basic [boxId]="'description'" [title]="'Description'">
+                      <app-quill-view-default [content]="meetingAgenda.description"></app-quill-view-default>
+                    </app-modal-box-basic>
+                  </ng-container>
                 </td>
               </tr>
               <tr>
