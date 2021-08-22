@@ -56,7 +56,7 @@
                     SUBMIT ONE
                   </button>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" *ngIf="!editMode">
                   <button class="btn btn-success btn-block" (click)="submit(true)">
                     <i class="fa fa-save"></i>
                     SUBMIT ANOTHER
