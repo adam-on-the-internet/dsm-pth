@@ -5,6 +5,7 @@ import {NavHelperService} from "../../services/nav-helper.service";
 import {MeetingAgendaService} from "../../services/meeting-agenda.service";
 import {ActivatedRoute} from "@angular/router";
 import {LinkListComponent} from "../simple/link-list/link-list.component";
+import {QuillEditorDefaultComponent} from "../quill-editor-default/quill-editor-default.component";
 
 @Component({
   selector: "app-agenda-item-form",
@@ -14,6 +15,9 @@ import {LinkListComponent} from "../simple/link-list/link-list.component";
 export class AgendaItemFormComponent implements OnInit {
   @ViewChild("cityAttachmentsInput", null) public cityAttachmentsInput: LinkListComponent;
   @ViewChild("ourLinksInput", null) public ourLinksInput: LinkListComponent;
+
+  @ViewChild("cityTextInput", null) public cityTextInput: QuillEditorDefaultComponent;
+  @ViewChild("ourTextInput", null) public ourTextInput: QuillEditorDefaultComponent;
 
   public agendaItem: AgendaItem = null;
   public showErrors = false;
@@ -80,6 +84,8 @@ export class AgendaItemFormComponent implements OnInit {
   }
 
   public submit(addAnother: boolean): void {
+    this.agendaItem.cityText = this.cityTextInput.content;
+    this.agendaItem.ourText = this.ourTextInput.content;
     this.showErrors = true;
     if (this.valid) {
       if (this.editMode) {

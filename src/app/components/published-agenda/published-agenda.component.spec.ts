@@ -8,6 +8,7 @@ import {SelectInputComponent} from "../select-input/select-input.component";
 import {LoadingComponent} from "../simple/loading/loading.component";
 import {RouterTestingModule} from "@angular/router/testing";
 import {FormsModule} from "@angular/forms";
+import {QuillViewDefaultComponent} from "../quill-view-default/quill-view-default.component";
 
 describe("PublishedAgendaComponent", () => {
   let component: PublishedAgendaComponent;
@@ -17,7 +18,7 @@ describe("PublishedAgendaComponent", () => {
     TestBed.configureTestingModule({
       declarations: [
         PublishedAgendaComponent, CardComponent, LinkDisplayComponent, SelectInputComponent,
-        LoadingComponent,
+        LoadingComponent, QuillViewDefaultComponent, QuillViewDefaultComponent,
       ],
       imports: [HttpClientTestingModule, RouterTestingModule, FormsModule]
     })

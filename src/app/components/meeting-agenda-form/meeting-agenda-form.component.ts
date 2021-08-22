@@ -5,6 +5,7 @@ import {MeetingAgenda} from "../../models/MeetingAgenda.model";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {ActivatedRoute} from "@angular/router";
 import {LinkListComponent} from "../simple/link-list/link-list.component";
+import {QuillEditorDefaultComponent} from "../quill-editor-default/quill-editor-default.component";
 
 @Component({
   selector: "app-meeting-agenda-form",
@@ -13,6 +14,7 @@ import {LinkListComponent} from "../simple/link-list/link-list.component";
 })
 export class MeetingAgendaFormComponent implements OnInit {
   @ViewChild("linkInput", null) public linkList: LinkListComponent;
+  @ViewChild("descriptionInput", null) public descriptionInput: QuillEditorDefaultComponent;
 
   public meetingAgenda: MeetingAgenda = null;
   public showErrors = false;
@@ -82,6 +84,7 @@ export class MeetingAgendaFormComponent implements OnInit {
   }
 
   public submit(): void {
+    this.meetingAgenda.description = this.descriptionInput.content;
     this.showErrors = true;
     if (this.valid) {
       if (this.editMode) {

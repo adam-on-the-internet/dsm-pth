@@ -4,6 +4,7 @@ import {AgendaItemDetailsComponent} from "./agenda-item-details.component";
 import {LoadingComponent} from "../simple/loading/loading.component";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {RouterTestingModule} from "@angular/router/testing";
+import {QuillViewDefaultComponent} from "../quill-view-default/quill-view-default.component";
 
 describe("AgendaItemDetailsComponent", () => {
   let component: AgendaItemDetailsComponent;
@@ -11,7 +12,7 @@ describe("AgendaItemDetailsComponent", () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [AgendaItemDetailsComponent, LoadingComponent],
+      declarations: [AgendaItemDetailsComponent, LoadingComponent, QuillViewDefaultComponent],
       imports: [HttpClientTestingModule, RouterTestingModule]
     })
       .compileComponents();

@@ -42,12 +42,16 @@
                 <td>{{agendaItem.section}}</td>
               </tr>
               <tr>
-                <td>Citytext</td>
-                <td>{{agendaItem.cityText}}</td>
+                <td>City text</td>
+                <td>
+                  <app-quill-view-default [content]="agendaItem.cityText"></app-quill-view-default>
+                </td>
               </tr>
               <tr>
                 <td>Our text</td>
-                <td>{{agendaItem.ourText}}</td>
+                <td>
+                  <app-quill-view-default [content]="agendaItem.ourText"></app-quill-view-default>
+                </td>
               </tr>
               <tr>
                 <td>Our priority</td>

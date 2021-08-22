@@ -9,6 +9,8 @@ import {StringInputComponent} from "../simple/form/string-input/string-input.com
 import {StringListInputComponent} from "../simple/form/string-list-input/string-list-input.component";
 import {LinkListComponent} from "../simple/link-list/link-list.component";
 import {NumberInputComponent} from "../simple/form/number-input/number-input.component";
+import {QuillEditorDefaultComponent} from "../quill-editor-default/quill-editor-default.component";
+import {QuillModule} from "ngx-quill";
 
 describe("MeetingAgendaFormComponent", () => {
   let component: MeetingAgendaFormComponent;
@@ -19,8 +21,9 @@ describe("MeetingAgendaFormComponent", () => {
       declarations: [
         MeetingAgendaFormComponent, LoadingComponent, StringInputComponent,
         StringListInputComponent, LinkListComponent, NumberInputComponent,
+        QuillEditorDefaultComponent,
       ],
-      imports: [HttpClientTestingModule, RouterTestingModule, FormsModule]
+      imports: [HttpClientTestingModule, RouterTestingModule, FormsModule, QuillModule.forRoot()]
     })
       .compileComponents();
   }));

@@ -16,13 +16,15 @@
                 <h2>1. General Info</h2>
                 <app-string-input [(value)]="agendaItem.name" [valueName]="'name'"></app-string-input>
                 <app-string-input [(value)]="agendaItem.section" [valueName]="'section'"></app-string-input>
-                <app-string-input [(value)]="agendaItem.cityText" [valueName]="'cityText'"></app-string-input>
+                <app-quill-editor-default #cityTextInput [content]="agendaItem.cityText"
+                                          [valueName]="'city-text'"></app-quill-editor-default>
               </section>
             </div>
             <div class="col-md-6 mb-1">
               <section id="optional-info">
                 <h2>2. Optional Info</h2>
-                <app-string-input [(value)]="agendaItem.ourText" [valueName]="'our-text'"></app-string-input>
+                <app-quill-editor-default #ourTextInput [content]="agendaItem.ourText"
+                                          [valueName]="'our-text'"></app-quill-editor-default>
                 <app-number-input [(value)]="agendaItem.ourPriority" [valueName]="'our-priority'"></app-number-input>
                 <app-string-list-input [(value)]="agendaItem.tags" [valueName]="'tags'"></app-string-list-input>
                 <app-string-list-input [(value)]="agendaItem.ourComments" [longDisplay]="true"

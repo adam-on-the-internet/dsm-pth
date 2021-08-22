@@ -43,7 +43,9 @@
               </tr>
               <tr>
                 <td>Description</td>
-                <td>{{meetingAgenda.description}}</td>
+                <td>
+                  <app-quill-view-default [content]="meetingAgenda.description"></app-quill-view-default>
+                </td>
               </tr>
               <tr>
                 <td>Subtitle</td>

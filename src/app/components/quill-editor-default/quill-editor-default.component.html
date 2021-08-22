@@ -1,0 +1,18 @@
+<ng-container *ngIf="valueName">
+  <div class="form-group">
+    <label [attr.for]="valueName">
+      {{labelName}}:
+    </label>
+    <quill-editor [id]="valueName"
+                  *ngIf="ready; else loading"
+                  [(ngModel)]="content"
+                  [modules]="modules"
+                  [styles]="{ height: '200px' }"
+    >
+    </quill-editor>
+  </div>
+</ng-container>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

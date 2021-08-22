@@ -14,7 +14,9 @@
       <p><em>When:</em> {{meetingAgenda.time}}</p>
       <p><em>Where:</em> {{meetingAgenda.place}}</p>
       <p><em>What:</em> {{meetingAgenda.type}}</p>
-      <p *ngIf="meetingAgenda.description">{{meetingAgenda.description}}</p>
+      <p *ngIf="meetingAgenda.description">
+        <app-quill-view-default [content]="meetingAgenda.description"></app-quill-view-default>
+      </p>
     </div>
     <div class="col-md-12" *ngIf="meetingAgenda.agendaItems.length > 0">
       <hr>
@@ -42,11 +44,15 @@
             <hr>
             <section *ngIf="item.ourText">
               <h5>Summary</h5>
-              <p class="text-left">{{item.ourText}}</p>
+              <p class="text-left">
+                <app-quill-view-default [content]="item.ourText"></app-quill-view-default>
+              </p>
               <hr>
             </section>
             <h5>Official Text</h5>
-            <p class="text-left">{{item.cityText}}</p>
+            <p class="text-left">
+              <app-quill-view-default [content]="item.cityText"></app-quill-view-default>
+            </p>
             <hr>
             <div class="row">
               <div class="col-md-6 mt-2">

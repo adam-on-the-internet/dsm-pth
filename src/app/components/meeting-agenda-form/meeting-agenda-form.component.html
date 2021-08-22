@@ -23,14 +23,17 @@
             <div class="col-md-6 mb-1">
               <section id="optional-info">
                 <h2>2. Optional Info</h2>
-                <app-string-input [(value)]="meetingAgenda.description" [valueName]="'description'"></app-string-input>
+                <app-quill-editor-default #descriptionInput [content]="meetingAgenda.description"
+                                          [valueName]="'description'"></app-quill-editor-default>
                 <app-string-input [(value)]="meetingAgenda.subtitle" [valueName]="'subtitle'"></app-string-input>
                 <div class="row">
                   <div class="col-md-6">
-                    <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentStart" [valueName]="'consent-start'"></app-number-input>
+                    <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentStart"
+                                      [valueName]="'consent-start'"></app-number-input>
                   </div>
                   <div class="col-md-6">
-                    <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentEnd" [valueName]="'consent-end'"></app-number-input>
+                    <app-number-input [min]="1" [max]="200" [(value)]="meetingAgenda.consentEnd"
+                                      [valueName]="'consent-end'"></app-number-input>
                   </div>
                 </div>
                 <app-string-list-input [(value)]="meetingAgenda.tags" [valueName]="'tags'"></app-string-list-input>

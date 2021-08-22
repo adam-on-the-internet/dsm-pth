@@ -8,5 +8,5 @@ import {LinkItem} from "../../models/MeetingAgenda.model";
 })
 export class LinkDisplayComponent {
   @Input() public links: LinkItem[];
-  @Input() public showNoLinks = true
+  @Input() public showNoLinks = true;
 }

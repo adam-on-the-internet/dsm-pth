@@ -35,7 +35,10 @@ import {AgendaItemDetailsComponent} from "./components/agenda-item-details/agend
 import {LinkListComponent} from "./components/simple/link-list/link-list.component";
 import {PublishedAgendaComponent} from "./components/published-agenda/published-agenda.component";
 import {PublishedAgendaListComponent} from "./components/published-agenda-list/published-agenda-list.component";
-import { LinkDisplayComponent } from "./components/link-display/link-display.component";
+import {LinkDisplayComponent} from "./components/link-display/link-display.component";
+import {QuillModule} from "ngx-quill";
+import {QuillEditorDefaultComponent} from "./components/quill-editor-default/quill-editor-default.component";
+import {QuillViewDefaultComponent} from "./components/quill-view-default/quill-view-default.component";
 
 @NgModule({
   declarations: [
@@ -71,12 +74,15 @@ import { LinkDisplayComponent } from "./components/link-display/link-display.com
     PublishedAgendaComponent,
     PublishedAgendaListComponent,
     LinkDisplayComponent,
+    QuillEditorDefaultComponent,
+    QuillViewDefaultComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    QuillModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
