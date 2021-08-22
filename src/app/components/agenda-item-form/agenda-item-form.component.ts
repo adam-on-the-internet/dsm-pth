@@ -79,35 +79,51 @@ export class AgendaItemFormComponent implements OnInit {
     this.setup();
   }
 
-  public submit(): void {
+  public submit(addAnother: boolean): void {
     this.showErrors = true;
     if (this.valid) {
       if (this.editMode) {
-        this.runUpdate();
+        this.runUpdate(addAnother);
       } else {
-        this.runCreate();
+        this.runCreate(addAnother);
       }
     }
   }
 
-  private runCreate() {
+  private runCreate(addAnother: boolean) {
     let response;
     this.meetingAgendaService.createAgendaItem(this.agendaItem)
-      .subscribe((res) => response = res, (error) => {
-        console.log(error);
-      }, () => {
-        this.navHelper.goToAgendaItemDetails(response._id);
-      });
+      .subscribe((res) => response = res,
+        (error) => {
+          console.log(error);
+        }, () => {
+          this.finish(response._id, addAnother);
+        });
   }
 
-  private runUpdate() {
+  private runUpdate(addAnother: boolean) {
     let response;
     this.meetingAgendaService.updateAgendaItem(this.agendaItem)
-      .subscribe((res) => response = res, (error) => {
-        console.log(error);
-      }, () => {
-        this.navHelper.goToAgendaItemDetails(response._id);
-      });
+      .subscribe((res) => response = res,
+        (error) => {
+          console.log(error);
+        }, () => {
+          this.finish(response._id, addAnother);
+        });
+  }
+
+  private finish(id, addAnother: boolean) {
+    if (addAnother) {
+      this.prepAddAnother();
+    } else {
+      this.navHelper.goToAgendaItemDetails(id);
+    }
+  }
+
+  private prepAddAnother() {
+    this.itemId = null;
+    this.showErrors = false;
+    this.buildAgendaItem(this.agendaItem.section);
   }
 
   private setup(): void {
@@ -127,9 +143,13 @@ export class AgendaItemFormComponent implements OnInit {
 
   private setupAdd() {
     this.meetingId = this.route.snapshot.paramMap.get("meetingId");
+    this.buildAgendaItem();
+  }
+
+  private buildAgendaItem(section: string = "") {
     this.agendaItem = {
       name: "",
-      section: "",
+      section,
       cityText: "",
       ourText: "",
       cityAttachments: [],
@@ -141,5 +161,4 @@ export class AgendaItemFormComponent implements OnInit {
       _id: null,
     };
   }
-
 }

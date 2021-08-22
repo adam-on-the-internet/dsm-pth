@@ -47,10 +47,20 @@
                   </li>
                 </ul>
               </div>
-              <button class="btn btn-success btn-block" (click)="submit()">
-                <i class="fa fa-save"></i>
-                SUBMIT
-              </button>
+              <div class="row">
+                <div class="col-md-6">
+                  <button class="btn btn-success btn-block" (click)="submit(false)">
+                    <i class="fa fa-save"></i>
+                    SUBMIT ONE
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <button class="btn btn-success btn-block" (click)="submit(true)">
+                    <i class="fa fa-save"></i>
+                    SUBMIT ANOTHER
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </form>
