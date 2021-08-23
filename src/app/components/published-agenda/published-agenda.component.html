@@ -57,17 +57,19 @@
             <p class="text-left">
               <app-quill-view-default [content]="item.cityText"></app-quill-view-default>
             </p>
-            <hr>
-            <div class="row">
-              <div class="col-md-6 mt-2">
-                <h5>City Documents</h5>
-                <app-link-display [links]="item.cityAttachments"></app-link-display>
+            <ng-container *ngIf="item.cityAttachments.length > 0 || item.ourLinks.length > 0">
+              <hr>
+              <div class="row">
+                <div class="col-md-6 mt-2" *ngIf="item.cityAttachments.length > 0">
+                  <h5>City Documents</h5>
+                  <app-link-display [links]="item.cityAttachments"></app-link-display>
+                </div>
+                <div class="col-md-6 mt-2" *ngIf="item.ourLinks.length > 0">
+                  <h5>Relevant Links</h5>
+                  <app-link-display [links]="item.ourLinks"></app-link-display>
+                </div>
               </div>
-              <div class="col-md-6 mt-2">
-                <h5>Relevant Links</h5>
-                <app-link-display [links]="item.ourLinks"></app-link-display>
-              </div>
-            </div>
+            </ng-container>
           </app-card>
           <br>
         </ng-container>
