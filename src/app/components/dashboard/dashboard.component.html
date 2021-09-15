@@ -30,12 +30,22 @@
           </app-card>
         </a>
       </div>
-      <div class="col-md-12 my-3">
+      <div class="col-md-6 my-3">
         <a (click)="goToAgendaList()">
           <app-card [useHover]="true" [autoHeight]="true">
             <h3>Our Agenda Overviews</h3>
             <p>
               Information on upcoming meetings.
+            </p>
+          </app-card>
+        </a>
+      </div>
+      <div class="col-md-6 my-3">
+        <a (click)="goToRules()">
+          <app-card [useHover]="true" [autoHeight]="true">
+            <h3>Procedural Rules of Council</h3>
+            <p>
+              Information about the Procedural Rules of DSM City Council
             </p>
           </app-card>
         </a>

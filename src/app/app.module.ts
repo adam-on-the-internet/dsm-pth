@@ -41,6 +41,7 @@ import {QuillEditorDefaultComponent} from "./components/quill-editor-default/qui
 import {QuillViewDefaultComponent} from "./components/quill-view-default/quill-view-default.component";
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
+import { RulesComponent } from './components/rules/rules.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +81,7 @@ import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-
     QuillViewDefaultComponent,
     ModalTriggerButtonComponent,
     ModalBoxBasicComponent,
+    RulesComponent,
   ],
   imports: [
     BrowserModule,

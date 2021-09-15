@@ -6,6 +6,7 @@ export const enum ROUTES_ENUM {
   Login = "login",
   ContactList = "contact-list",
   DocumentArchive = "document-archive",
+  Rules = "rules",
   Document = "document",
   CommunityCalendar = "community-calendar",
   AgendaPublished = "agenda-info",
