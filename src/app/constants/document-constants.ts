@@ -35,8 +35,8 @@ export const DOCUMENTS: DocumentInfo[] = [
   },
   {
     name: "Procedural Rules of DSM City Council",
-    link: "rules-as-of-2020.pdf",
-    description: "The rules of DSM City Council. NOTE: the rules do not reflect how meetings are actually run.",
+    link: "dsm_procedural_rules-as-of-2020.pdf",
+    description: "The dsm_procedural_rules of DSM City Council. NOTE: the dsm_procedural_rules do not reflect how meetings are actually run.",
     date: "as amended on 11/09/20",
   },
   {
