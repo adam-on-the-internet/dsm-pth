@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "Resolution from 08/09/21 on Retaining Outside Counsel",
+    link: "doc-archive/2021-08-09_outside_counsel.pdf",
+    description: "On August 9, 2021, DSM Council approved using outside counsel through Hopkins & Huebner, P.C.",
+    date: "08/09/21",
+  },
+  {
     name: "Court Document for the Petition against DMPD on Discrimination",
     link: "doc-archive/sex-discrimination-case-dmpd.pdf",
     description: "A court document for petition against DMPD on Discrimination, as of 9-28-21. Contributed by the Des Moines Register.",
