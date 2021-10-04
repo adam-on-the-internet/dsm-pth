@@ -2,53 +2,72 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 my-3 text-center transparent">
-        <h1>Contact List</h1>
+        <h1>Contacts</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12 my-3 text-center">
-        <app-card>
-          <a [href]="mailtoLinkWithDemands" class="btn btn-dark text-white">
-            <i class="fa fa-envelope"></i>
-            Email Des Moines City Council Our Demands
-          </a>
+    <div class="row text-center justify-content-center">
+      <div class="col-md-6">
+        <app-card [title]="'Contact groups'">
+          <div class="btn-group btn-group-vertical">
+            <ng-container *ngFor="let item of contactGroups">
+              <a href="{{item.emailLink}}" class="btn btn-dark text-white m-1">
+                <i class="fa fa-envelope"></i>
+                {{item.name}}
+              </a>
+            </ng-container>
+          </div>
+        </app-card>
+      </div>
+      <div class="col-md-6">
+        <app-card [title]="'Other Contacts & Links'">
+          <div class="btn-group btn-group-vertical">
+            <ng-container *ngFor="let item of specialContacts">
+              <a href="{{item.emailLink}}" class="btn btn-dark text-white m-1" target="_blank">
+                <i class="fa fa-envelope"></i>
+                {{item.name}}
+              </a>
+            </ng-container>
+            <a href="{{linkService.councilInfo}}" class="btn btn-dark text-white m-1" target="_blank">
+              <i class="fa fa-info-circle"></i>
+              City's Official Contact Page
+            </a>
+            <a href="{{linkService.myHouseTool}}" class="btn btn-dark text-white m-1" target="_blank">
+              <i class="fa fa-info-circle"></i>
+              Find Your Ward & Representatives
+            </a>
+          </div>
         </app-card>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 my-3">
-        <app-card>
-          <div style="overflow: auto;">
-            <table class="table">
-              <thead>
-              <tr>
-                <th>Name</th>
-                <th>Role</th>
-                <th>Phone #</th>
-                <th>Email</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr *ngFor="let contact of contactList">
-                <td>{{contact.name}}</td>
-                <td>{{contact.role}}</td>
-                <td>{{contact.phoneNumber}}</td>
-                <td>{{contact.email}}</td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-          <p>
-            * Ward 4 does not have representation. The sitting council person Joe Gatto does not live in Ward 4.
-          </p>
-          <p>
-            <a class="btn btn-outline-primary" [href]="linkService.councilInfo" target="_blank">
-              <i class="fa fa-link"></i>
-              City Contact Info Page
+      <div class="col-md-12 my-3 text-center transparent">
+        <h1>Direct Contacts</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <section class="col-md-6 my-1 py-1" *ngFor="let person of allCityContacts">
+        <app-card [title]="person.name" [autoHeight]="true" [subtitle]="person.role"
+        >
+          <p *ngIf="person.phoneNumber" class="mb-0">
+            <a class="btn btn-link" href="tel:{{getParsedPhone(person.phoneNumber)}}" target="_blank">
+              <i class="fa fa-phone"></i>
+              {{person.phoneNumber}}
             </a>
           </p>
+          <p *ngIf="person.email && person.emailLink" class="mb-0">
+            <a class="btn btn-link" href="{{person.emailLink}}" target="_blank">
+              <i class="fa fa-envelope"></i>
+              {{person.email}}
+            </a>
+          </p>
+          <ng-container *ngIf="person.note">
+            <hr>
+            <p class="mb-0">
+              {{person.note}}
+            </p>
+          </ng-container>
         </app-card>
-      </div>
+      </section>
     </div>
   </div>
 </div>
