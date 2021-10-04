@@ -5,6 +5,8 @@ import { Injectable } from "@angular/core";
 })
 export class LinkService {
   // dsm city links
+  public desMoinesYouTube = "https://www.youtube.com/channel/UCuAa7DaemcOS_q6Ql9Qo5Yg";
+  public DMTV = "https://www.dsm.city/DMTV/";
   public signUpToSpeak = "https://www.dsm.city/interactive_forms/request_to_speak_before_the_city_council.php";
   public cityCalendar = "https://www.dsm.city/calendar.php";
   public councilMeetings = "https://www.dsm.city/government/council_meetings_and_agendas/index.php";

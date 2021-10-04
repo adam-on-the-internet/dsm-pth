@@ -3,135 +3,111 @@
     <div class="row">
       <div class="col-md-12 my-3 text-center transparent">
         <h1>Des Moines People's Town Hall</h1>
-        <h3>Under Construction</h3>
-        <p>
-          We're still working on the site, check back soon!
-        </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 my-3">
-        <a [href]="linkService.petitionLink" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Sign Our Petition</h3>
-            <p>
-              Demand council restore public speaking at City Council meetings.
-            </p>
-          </app-card>
-        </a>
+      <div id="our-tools" class="col-md-6 my-3 text-center">
+        <app-card>
+          <h2>
+            Our Tools
+          </h2>
+          <div class="btn-group btn-group-vertical">
+            <a class="btn btn-outline-primary" [href]="linkService.petitionLink" target="_blank">
+              <h3>Sign Our Petition</h3>
+              <p>
+                Demand council restore public speaking at City Council meetings.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" (click)="goToContactList()">
+              <h3>Contact City Officials</h3>
+              <p>
+                How to contact people holding office in Des Moines.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" (click)="goToRules()">
+              <h3>Procedural Rules of Council</h3>
+              <p>
+                Information about the Procedural Rules of DSM City Council.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" (click)="goToDocs()">
+              <h3>Document Archive</h3>
+              <p>
+                Archive of some important documents.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" (click)="goToAgendaList()">
+              <h3>Our Agenda Overviews</h3>
+              <p>
+                Information on some DSM Council Meetings.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary disabled" (click)="goToCommunityCalendar()" disabled>
+              <h3>Community Calendar</h3>
+              <p>
+                Our list of community events. Coming soon!
+              </p>
+            </a>
+          </div>
+        </app-card>
       </div>
-      <div class="col-md-6 my-3">
-        <a (click)="goToContactList()">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Who to Contact</h3>
-            <p>
-              Contact info for people holding office.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-6 my-3">
-        <a (click)="goToAgendaList()">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Our Agenda Overviews</h3>
-            <p>
-              Information on upcoming meetings.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-6 my-3">
-        <a (click)="goToRules()">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Procedural Rules of Council</h3>
-            <p>
-              Information about the Procedural Rules of DSM City Council
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-6 my-3">
-        <a (click)="goToDocs()">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Document Archive</h3>
-            <p>
-              Archive of some important documents.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-6 my-3">
-        <a (click)="goToCommunityCalendar()">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Community Calendar</h3>
-            <p>
-              Our list of community events.
-            </p>
-          </app-card>
-        </a>
-      </div>
-    </div>
-    <div class="row py-3">
-      <div class="col-md-4 my-3">
-        <a [href]="linkService.signUpToSpeak" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Sign Up to Speak</h3>
-            <p>
-              You can sign up to speak at Des Moines City Council Meetings.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-4 my-3">
-        <a [href]="linkService.councilMeetings" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Council Meetings</h3>
-            <p>
-              More information on Des Moines Council Meetings, past and upcoming, including schedules, agendas, and
-              videos.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-4 my-3">
-        <a [href]="linkService.myHouseTool" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Find Your Ward</h3>
-            <p>
-              This tool shows you your Ward, Neighborhood, who your representatives are, and more.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-4 my-3">
-        <a [href]="linkService.subscribeDSM" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>Subscribe to DSM Alerts</h3>
-            <p>
-              Sign up for email alerts when the city announces things.
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-4 my-3">
-        <a [href]="linkService.newsDSM" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>DSM News</h3>
-            <p>
-              Read DSM News & Press Releases
-            </p>
-          </app-card>
-        </a>
-      </div>
-      <div class="col-md-4 my-3">
-        <a [href]="linkService.cityCalendar" target="_blank">
-          <app-card [useHover]="true" [autoHeight]="true">
-            <h3>City Calendar</h3>
-            <p>
-              More city-wide events including Board Meetings and City Services.
-            </p>
-          </app-card>
-        </a>
+      <div id="city-tools" class="col-md-6 my-3 text-center">
+        <app-card>
+          <h2>
+            City Tools
+          </h2>
+          <div class="btn-group btn-group-vertical">
+            <a class="btn btn-outline-primary" [href]="linkService.signUpToSpeak" target="_blank">
+              <h3>Sign Up to Speak</h3>
+              <p>
+                You can sign up to speak at Des Moines City Council Meetings.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.desMoinesYouTube" target="_blank">
+              <h3>City of Des Moines YouTube</h3>
+              <p>
+                Watch videos from the City of Des Moines, including Live and Past Council Meetings.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.DMTV" target="_blank">
+              <h3>DMTV</h3>
+              <p>
+                Des Moines TV - always streams live council meetings and other city videos.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.councilMeetings" target="_blank">
+              <h3>Council Meetings</h3>
+              <p>
+                More information on Des Moines Council Meetings, past and upcoming, including schedules, agendas, and
+                videos.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.myHouseTool" target="_blank">
+              <h3>Find Your Ward</h3>
+              <p>
+                This tool shows you your Ward, Neighborhood, who your representatives are, and more.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.subscribeDSM" target="_blank">
+              <h3>Subscribe to DSM Alerts</h3>
+              <p>
+                Sign up for email alerts when the city announces things.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.newsDSM" target="_blank">
+              <h3>DSM News</h3>
+              <p>
+                Read DSM News & Press Releases.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" [href]="linkService.cityCalendar" target="_blank">
+              <h3>City Calendar</h3>
+              <p>
+                More city-wide events including Board Meetings and City Services.
+              </p>
+            </a>
+          </div>
+        </app-card>
       </div>
     </div>
   </div>
