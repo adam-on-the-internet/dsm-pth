@@ -83,6 +83,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "Connieboesen@dmgov.org",
     emailLink: CONTACT_AT_LARGE_1,
     phoneNumber: "515-240-7929",
+    note: "Up for re-election on November 2nd.",
   },
   {
     role: "Council Member: At Large",
@@ -97,6 +98,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "Billgray@dmgov.org",
     emailLink: CONTACT_WARD_1,
     phoneNumber: "515-274-0077",
+    note: "Up for re-election on November 2nd.",
   },
   {
     role: "Council Member: Ward 2",
@@ -111,6 +113,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "Joshmandelbaum@dmgov.org",
     emailLink: CONTACT_WARD_3,
     phoneNumber: "515-250-3384",
+    note: "Up for re-election on November 2nd.",
   },
   {
     role: "Council Member: Ward 4",
@@ -120,14 +123,15 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     phoneNumber: "515-402-2626",
     note: "Although Joe Gatto represents Ward 4, he lives elsewhere. Read about how he was approved to represent Ward 4 anyway by Mayor Cownie and others: https://tinyurl.com/2876huf5"
   },
+];
+export const UNELECTED_CONTACTS: ContactInfo[] = [
   {
     role: "City Manager",
     name: "Scott Sanders",
     email: "Citymanager@dmgov.org",
     emailLink: CONTACT_MANAGER,
     phoneNumber: "515-283-4141",
-  }];
-export const UNELECTED_CONTACTS: ContactInfo[] = [
+  },
   {
     role: "City Attorney",
     name: "Jeff Lester",
