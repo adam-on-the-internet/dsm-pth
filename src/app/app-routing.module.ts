@@ -45,6 +45,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
   {path: ROUTES_ENUM.Document + "/:link", component: DocumentInfoComponent},
   // default
+  {path: ROUTES_ENUM.ContactListOld, redirectTo: ROUTES_ENUM.ContactList},
   {path: "**", redirectTo: ROUTES_ENUM.Dashboard},
 ];
 
