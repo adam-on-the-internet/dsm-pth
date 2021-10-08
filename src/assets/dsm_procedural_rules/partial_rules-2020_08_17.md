@@ -1,12 +1,14 @@
 # PROCEDURAL RULES OF DES MOINES CITY COUNCIL
 
+As of amendments made on August 17th, 2020
+
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules
 
 These rules shall govern the conduct
-of the Council and shall be interpreted to insure fair and open
-deliberations and decision making.
+of the Council and shall be interpreted to ensure fair
+and open deliberations and decision making.
 
 ### Rule 2. Technical Parliamentary Forms Abolished
 
@@ -35,65 +37,60 @@ of the State of Iowa and the ordinances of the City of Des Moines.
 
 ### Rule 5. Regular Meetings
 
-The City Clerk shall prepare an 
-annual schedule of Council meetings and forward it to the City
-Council, to adopt by resolution, at least 60 days prior to January
-1 of each year. Regular meetings will begin at 4:30 P.M. in City
-Council Chambers. The Council may, by resolution, continue or
-postpone any regular meeting to another day and time, or may cancel
-a meeting. All regular meetings shall end by 9:00 P.M unless the
-Council by a 2/3 vote agrees that the meeting may continue. All
-hearings shall be scheduled for 5:00 P.M. the day of a regular
-meeting.
+The City Clerk shall prepare an annual schedule of Council meetings
+and forward it to the City Council, to adopt by resolution,
+at least 60 days prior to January 1 of each year.
+Regular meetings will begin at 4:30 P.M. in City Council Chambers.
+The Council may, by resolution, continue or postpone any regular meeting
+to another day and time, or may cancel a meeting.
+All regular meetings shall end by 9:00 P.M unless the Council
+by a 2/3 vote agrees that the meeting may continue.
+All hearings shall be scheduled for 5:00 P.M.
+the day of a regular meeting.
 
 ### Rule 6. Special Meetings
 
-Special meetings may be called by
-the Mayor or by any four Council Members. A call for special
-meeting shall be filed with the City Clerk in written form unless
-the announcement of the special meeting is made at a regular
-meeting at which all Council members are present. The call for
-the special meeting shall specify the day, hour and subject of the
-meeting and shall be posted at the door of the City Council
-Chambers.
+Special meetings may be called by the Mayor or by any four Council Members. 
+A call for special meeting shall be filed with the City Clerk in written form
+unless the announcement of the special meeting is made at a regular meeting
+at which all Council members are present.
+The call for the special meeting shall specify the day, hour and subject
+of the meeting and shall be posted at the door of the City Council Chambers.
 
 ### Rule 7. Quorum
 
-A majority of all members elected to the
-City Council shall constitute a quorum for transaction of business.
+A majority of all members elected to the City Council
+shall constitute a quorum for transaction of business.
 
 ## Part III. Agenda
 
 ### Rule 8. Preparation of Agenda
 
-Prior to each regular Council
-meeting the City Clerk shall publish an Agenda which contains all 
-items the Council anticipates acting upon at the meeting. The
-Council may adopt the agenda as presented, or may amend the agenda
-as provided by these rules and may adopt the agenda as amended.
+Prior to each regular Council meeting the City Clerk shall
+publish an Agenda which contains all items the Council anticipates
+acting upon at the meeting.
+The Council may adopt the agenda as presented, or may amend the
+agenda as provided by these rules and may adopt the agenda as amended.
 
 ### Rule 9. Consent Agenda
 
-In preparing an Agenda the City
-Clerk shall separately designate items as "Consent Agenda" which
-may be acted upon by the Council under Rule 37. The "Consent
-Agenda" shall consist of routine non-controversial items which in
-the City Clerk's determination can be appropriately considered in
+In preparing an Agenda the City Clerk shall separately designate items
+as "Consent Agenda" which may be acted upon by the Council under Rule 37. 
+The "Consent Agenda" shall consist of routine non-controversial items 
+which in the City Clerk's determination can be appropriately considered in
 bulk at the Council meeting.
 
 ### Rule 10. Hearings, Permits and License Agenda
 
-The Clerk
-shall prepare as separate portions of the Agenda a schedule of
+The Clerk shall prepare as separate portions of the Agenda a schedule of
 hearings and separate listing of requests for Permits and Licenses.
 
 ### Rule 11. Agenda Deadline
 
-Any member of the Council, the
-City Manager, Corporation Counsel and City Clerk may have an item
-included upon the Agenda by requesting the City Clerk to include
-the item by 5:00 P.M. on the Wednesday preceding the Council
-meeting.
+Any member of the Council, the City Manager, Corporation Counsel
+and City Clerk may have an item included upon the Agenda by requesting
+the City Clerk to include the item by 5:00 P.M. on the Wednesday preceding
+the Council meeting.
 
 ### Rule 12. Extra Items
 
@@ -101,7 +98,7 @@ Items requested or filed after 5:00
 P.M. on the Wednesday preceding a Council meeting shall not be
 included upon the Agenda unless a Council Member shall deem the
 item of sufficient urgency to warrant immediate Council action.
-These items shall be designated as "Extra" items and will be 
+These items shall be designated as "Extra" items and will be
 considered at the appropriate place on the regular Agenda (prior
 to or after a related item) or at the end of the regular Agenda.
 The City Clerk shall record on the item the name of the sponsoring
@@ -163,7 +160,7 @@ rules.
 ### Rule 18. Call to Order
 
 The Mayor or Mayor Pro Tem shall
-call the meeting to order at the appointed hour. In the absence 
+call the meeting to order at the appointed hour. In the absence
 of the Mayor or Mayor Pro Tem the City Clerk shall call the meeting
 to order and a temporary presiding officer shall then be selected
 under Rule 19. The selected temporary presiding officer shall
@@ -194,7 +191,7 @@ considered in the numerical order assigned by the City Clerk. Each
 Agenda item shall be separately announced by the presiding officer,
 or City Clerk, for purposes of discussion and consideration. To
 announce an item it shall be sufficient to identify the item by
-the number assigned by the City Clerk, unless greater specificity 
+the number assigned by the City Clerk, unless greater specificity
 is requested by some person in attendance. This rule shall not
 apply to consideration of items under Rule 37 or Rule 38.
 
@@ -263,7 +260,10 @@ time is determined by the presiding officer. Total citizen in-
 put on any subject under Council consideration can be further
 limited to a fixed period by the presiding officer. A majority
 vote of the Council may alter the time limitations of this rule.
-Rule 30. Remarks of Citizens to be Germane. Citizen comments
+
+## Rule 30. Remarks of Citizens to be Germane
+
+Citizen comments
 must be directed to the subject under consideration. The presiding
 officer shall rule on the germaneness of citizen comments.
 Citizens making personal, repetitive slanderous or disruptive
@@ -287,7 +287,7 @@ the Council at the end of the regular Agenda.
 To enable the
 Council to transact the business of the City and conduct efficient
 meetings, persons other than Council members who fail to follow
-the direction of the presiding officer on more than one occasion 
+the direction of the presiding officer on more than one occasion
 during a Council meeting shall not be recognized by the presiding
 officer during the remainder of the meeting.
 
@@ -304,7 +304,7 @@ original action. The sponsoring of the reconsideration of a matter
 by the Mayor, or other presiding officer, has the effect of a
 motion to reconsider.
 
-### Rule 33A
+### Rule 33A.
 
 Rule 33 of these Rules notwithstanding, when less
 than seven members of the Council are in attendance at a meeting
@@ -316,7 +316,7 @@ the Agenda for subsequent meetings until it shall receive four
 affirmative or negative votes. In the event an Item continued
 under this rule is consideration of an ordinance, the ordinance
 shall not be considered to have been read or considered for its
-first or any subsequent passage unless it shall receive four 
+first or any subsequent passage unless it shall receive four
 affirmative votes.
 
 ### Rule 34. No Motions by Presiding Officer
@@ -350,51 +350,50 @@ they wish to speak or vote no, the presiding officer shall also
 ask if any person in attendance wishes to speak upon any single
 item, which Council may remove upon majority vote; items upon which
 any Council Member wishes to speak, or items upon which a citizen
-wishes to speak which have been removed from the consent agenda by 
+wishes to speak which have been removed from the consent agenda by
 majority vote, shall be considered separately and not as a portion
 of any motion calling for action upon the remainder of the "Consent
 Agenda". The City Clerk, on all matters contained in the "Consent
 Agenda" shall record the yes and no votes on each item separately
-as if each item had been moved and voted upon separately. Rule 21
-shall not apply.
+as if each item had been moved and voted upon separately.
+Rule 21 shall not apply.
 
 ### Rule 38. Action to Multiple Items
 
-With the consent of a
-majority of the Council, Rule 36 hereof notwithstanding, the
-Council may consider for voting purposes more than one item, but
-in such event the vote upon each item will be separately recorded
-by the City Clerk noting specific yes or no votes of each Council
-member on each item.
+With the consent of a majority of the Council,
+Rule 36 hereof notwithstanding,
+the Council may consider for voting purposes more than one item,
+but in such event the vote upon each item will be separately
+recorded by the City Clerk noting specific yes or no votes of
+each Council member on each item.
 
 ### Rule 39. Consideration Out of Order
 
 With the consent of
-the Council any Agenda item may be considered out of order at the
-request of a Council member.
+the Council any Agenda item may be considered out of order at 
+the request of a Council member.
 
 ### Rule 40. Recording Names of Moving Members
 
-The City Clerk
-shall record the name of the Council Member making each motion.
+The City Clerk shall record the name of the Council Member making each
+motion.
 
 ### Rule 41. Consideration of Matters Not on Agenda
 
-Except as
-to matter which by law require the publication of notice before 
-consideration by the Council any member of the Council may, at the
-close of the regular Agenda, bring a matter not on the Agenda to
-the Council's attention. Council may act upon such matters as
-permitted by law or direct such matter be included upon a later
-Agenda.
+Except as to matter which by law require the publication of notice before 
+consideration by the Council any member of the Council may,
+at the close of the regular Agenda, bring a matter not on the Agenda to
+the Council's attention.
+Council may act upon such matters 
+as permitted by law or direct such matter be included upon a later Agenda.
 
 ## Part VII. Miscellaneous
 
 ### Rule 42. Motions
 
 At any appropriate place on the Agenda
-any member of the Council may make a motion for the Council to act
-upon any matter if the motion is germane to the matter under
+any member of the Council may make a motion for the Council to 
+act upon any matter if the motion is germane to the matter under
 consideration.
 
 ### Rule 42A. Waiver of Ordinance Readings
@@ -402,15 +401,15 @@ consideration.
 A Council member may move the final passage of an ordinance,
 with waiver and suspension of the requirement that an ordinance
 must be considered and voted on for passage at two Council meetings
-prior to the meeting at which it is to be finally passed, by
-reciting the following motion:
-"Moved by (insert the moving Council member's name) that
-the rule requiring that an ordinance must be considered
+prior to the meeting at which it is to be finally passed, 
+by reciting the following motion:
+"Moved by (insert the moving Council member's name)
+that the rule requiring that an ordinance must be considered
 and voted on for passage at two Council meetings prior
 to the meeting at which it is to be finally passed be
 suspended, that the ordinance be placed upon its final
 passage and that the ordinance do now pass."
-or may move waiver and suspension by reference to the language of 
+or may move waiver and suspension by reference to the language of
 this section to be known as "the waiver rule".
 
 ### Rule 43. Applicability of Rules
@@ -434,19 +433,20 @@ majority of the Council.
 
 ### Rule 46. Hearings
 
-Any other rule to the contrary
-notwithstanding, unless required by statute or necessary to
-conform to proceedings required for a special purpose, a hearing
-shall commence when declared open by the presiding officer and
+Any other rule to the contrary notwithstanding, 
+unless required by statute or necessary to conform to 
+proceedings required for a special purpose, 
+a hearing shall commence when declared open by the presiding officer and
 shall close when closed by the presiding officer or by other formal
-action of the Council. Any member of the public who fails to follow
-these rules during any hearing process shall not be recognized by
-the presiding officer during the remainder of the meeting.
+action of the Council. 
+Any member of the public who fails to follow these rules during any 
+hearing process shall not be recognized by the presiding officer 
+during the remainder of the meeting.
 
 ### Rule 47. Informal Requests
 
 A member of the Council, before
 or during the consideration of any matter, or in the course of a
-hearing, may request and receive information, explanations or the 
+hearing, may request and receive information, explanations or the
 opinions of the City Manager, Corporation Counsel, City Clerk or
 any City employee.
