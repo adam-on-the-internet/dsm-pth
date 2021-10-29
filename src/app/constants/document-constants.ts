@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "Food Security Task Force Report",
+    link: "doc-archive/2021_10_27_foodsecuritytaskforcereport.pdf",
+    description: "The final report of the DSM Food Security Task Force.",
+    date: "10/27/21",
+  },
+  {
     name: "Resolution from 08/09/21 on Retaining Outside Counsel",
     link: "doc-archive/2021-08-09_outside_counsel.pdf",
     description: "On August 9, 2021, DSM Council approved using outside counsel through Hopkins & Huebner, P.C.",
