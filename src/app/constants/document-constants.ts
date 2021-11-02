@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "Performance Memo 2021",
+    link: "doc-archive/performance_memo_2021.pdf",
+    description: "A memo about city performance metrics.",
+    date: "06/02/21",
+  },
+  {
     name: "Food Security Task Force Report",
     link: "doc-archive/2021_10_27_foodsecuritytaskforcereport.pdf",
     description: "The final report of the DSM Food Security Task Force.",
