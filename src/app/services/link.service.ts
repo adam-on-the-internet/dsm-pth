@@ -14,6 +14,7 @@ export class LinkService {
   public subscribeDSM = "https://subscribe.dsm.city/";
   public newsDSM = "https://www.dsm.city/newslist.php";
   public myHouseTool = "https://showmemyhouse.dsm.city/";
+  public publicRecordRequest = "https://www.dsm.city/interactive_forms/public_records_request.php";
 
   // our social links
   public facebookLink = "https://www.facebook.com/Des-Moines-Peoples-Town-Hall-104767104729564/";
