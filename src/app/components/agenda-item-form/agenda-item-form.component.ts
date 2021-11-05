@@ -13,11 +13,11 @@ import {QuillEditorDefaultComponent} from "../quill-editor-default/quill-editor-
   styleUrls: ["./agenda-item-form.component.scss"]
 })
 export class AgendaItemFormComponent implements OnInit {
-  @ViewChild("cityAttachmentsInput", null) public cityAttachmentsInput: LinkListComponent;
-  @ViewChild("ourLinksInput", null) public ourLinksInput: LinkListComponent;
+  @ViewChild("cityAttachmentsInput", {static: false}) public cityAttachmentsInput: LinkListComponent;
+  @ViewChild("ourLinksInput", {static: false}) public ourLinksInput: LinkListComponent;
 
-  @ViewChild("cityTextInput", null) public cityTextInput: QuillEditorDefaultComponent;
-  @ViewChild("ourTextInput", null) public ourTextInput: QuillEditorDefaultComponent;
+  @ViewChild("cityTextInput", {static: false}) public cityTextInput: QuillEditorDefaultComponent;
+  @ViewChild("ourTextInput", {static: false}) public ourTextInput: QuillEditorDefaultComponent;
 
   public agendaItem: AgendaItem = null;
   public showErrors = false;

@@ -13,8 +13,8 @@ import {QuillEditorDefaultComponent} from "../quill-editor-default/quill-editor-
   styleUrls: ["./meeting-agenda-form.component.scss"]
 })
 export class MeetingAgendaFormComponent implements OnInit {
-  @ViewChild("linkInput", null) public linkList: LinkListComponent;
-  @ViewChild("descriptionInput", null) public descriptionInput: QuillEditorDefaultComponent;
+  @ViewChild("linkInput", {static: false}) public linkList: LinkListComponent;
+  @ViewChild("descriptionInput", {static: false}) public descriptionInput: QuillEditorDefaultComponent;
 
   public meetingAgenda: MeetingAgenda = null;
   public showErrors = false;
