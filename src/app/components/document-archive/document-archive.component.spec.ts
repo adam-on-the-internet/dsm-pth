@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import {DocumentArchiveComponent} from "./document-archive.component";
 import {RouterTestingModule} from "@angular/router/testing";
@@ -9,7 +9,7 @@ describe("DocumentArchiveComponent", () => {
   let component: DocumentArchiveComponent;
   let fixture: ComponentFixture<DocumentArchiveComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DocumentArchiveComponent, CardComponent, LoadingComponent],
       imports: [RouterTestingModule]

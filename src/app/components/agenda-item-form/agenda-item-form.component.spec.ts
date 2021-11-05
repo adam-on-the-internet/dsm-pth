@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import {AgendaItemFormComponent} from "./agenda-item-form.component";
 import {LoadingComponent} from "../simple/loading/loading.component";
@@ -16,7 +16,7 @@ describe("AgendaItemFormComponent", () => {
   let component: AgendaItemFormComponent;
   let fixture: ComponentFixture<AgendaItemFormComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         AgendaItemFormComponent, LoadingComponent, StringInputComponent,

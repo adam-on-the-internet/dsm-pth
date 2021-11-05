@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import { StringListDisplayComponent } from "./string-list-display.component";
 
@@ -6,7 +6,7 @@ describe("StringListDisplayComponent", () => {
   let component: StringListDisplayComponent;
   let fixture: ComponentFixture<StringListDisplayComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ StringListDisplayComponent ]
     })

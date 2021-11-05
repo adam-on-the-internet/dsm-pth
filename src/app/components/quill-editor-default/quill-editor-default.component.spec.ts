@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import {QuillEditorDefaultComponent} from "./quill-editor-default.component";
 import {FormsModule} from "@angular/forms";
@@ -9,7 +9,7 @@ describe("QuillEditorDefaultComponent", () => {
   let component: QuillEditorDefaultComponent;
   let fixture: ComponentFixture<QuillEditorDefaultComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [QuillEditorDefaultComponent, LoadingComponent],
       imports: [FormsModule, QuillModule.forRoot()]

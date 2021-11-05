@@ -52,7 +52,7 @@ const routes: Routes = [
 @NgModule({
   exports: [RouterModule],
   declarations: [],
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
+  imports: [RouterModule.forRoot(routes, { useHash: true, relativeLinkResolution: 'legacy' })],
 })
 export class AppRoutingModule {
 }

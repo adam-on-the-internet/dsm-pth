@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import {StringListInputComponent} from "./string-list-input.component";
 import {FormsModule} from "@angular/forms";
@@ -7,7 +7,7 @@ describe("StringListInputComponent", () => {
   let component: StringListInputComponent;
   let fixture: ComponentFixture<StringListInputComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [StringListInputComponent],
       imports: [FormsModule]

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import { ModalTriggerButtonComponent } from "./modal-trigger-button.component";
 
@@ -6,7 +6,7 @@ describe("ModalTriggerButtonComponent", () => {
   let component: ModalTriggerButtonComponent;
   let fixture: ComponentFixture<ModalTriggerButtonComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ModalTriggerButtonComponent ]
     })

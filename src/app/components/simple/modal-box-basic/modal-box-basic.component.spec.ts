@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
 import { ModalBoxBasicComponent } from "./modal-box-basic.component";
 
@@ -6,7 +6,7 @@ describe("ModalBoxBasicComponent", () => {
   let component: ModalBoxBasicComponent;
   let fixture: ComponentFixture<ModalBoxBasicComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ModalBoxBasicComponent ]
     })
