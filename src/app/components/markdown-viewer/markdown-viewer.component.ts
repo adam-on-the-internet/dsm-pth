@@ -23,7 +23,11 @@ export class MarkdownViewerComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-    this.path = this.route.snapshot.paramMap.get("path");
+    this.setPath();
   }
 
+  private setPath() {
+    const rawPath = this.route.snapshot.paramMap.get("path");
+    this.path = rawPath.replace(/~/g, "/");
+  }
 }
