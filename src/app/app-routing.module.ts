@@ -18,6 +18,7 @@ import {AgendaItemDetailsComponent} from "./components/agenda-item-details/agend
 import {PublishedAgendaListComponent} from "./components/published-agenda-list/published-agenda-list.component";
 import {PublishedAgendaComponent} from "./components/published-agenda/published-agenda.component";
 import {RulesComponent} from "./components/rules/rules.component";
+import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-viewer.component";
 
 const routes: Routes = [
   // main
@@ -44,6 +45,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Rules, component: RulesComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
   {path: ROUTES_ENUM.Document + "/:link", component: DocumentInfoComponent},
+  {path: ROUTES_ENUM.MarkdownViewer + "/:path", component: MarkdownViewerComponent},
   // default
   {path: ROUTES_ENUM.ContactListOld, redirectTo: ROUTES_ENUM.ContactList},
   {path: "**", redirectTo: ROUTES_ENUM.Dashboard},
@@ -52,7 +54,7 @@ const routes: Routes = [
 @NgModule({
   exports: [RouterModule],
   declarations: [],
-  imports: [RouterModule.forRoot(routes, { useHash: true, relativeLinkResolution: 'legacy' })],
+  imports: [RouterModule.forRoot(routes, {useHash: true, relativeLinkResolution: "legacy"})],
 })
 export class AppRoutingModule {
 }

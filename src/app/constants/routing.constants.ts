@@ -9,6 +9,7 @@ export const enum ROUTES_ENUM {
   DocumentArchive = "document-archive",
   Rules = "rules",
   Document = "document",
+  MarkdownViewer = "view",
   CommunityCalendar = "community-calendar",
   AgendaPublished = "agenda-info",
   AgendaManagement = "meeting-agenda-management",

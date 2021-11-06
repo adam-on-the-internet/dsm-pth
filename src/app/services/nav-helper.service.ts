@@ -44,6 +44,10 @@ export class NavHelperService {
     this.goToRoutes([ROUTES_ENUM.Document, document.link]);
   }
 
+  public goToMarkdownViewer(filePath: string): void {
+    this.goToRoutes([ROUTES_ENUM.MarkdownViewer, filePath]);
+  }
+
   // ADMIN
 
   public goToProfile(): void {

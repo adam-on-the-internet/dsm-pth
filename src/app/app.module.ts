@@ -1,7 +1,7 @@
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
 import {FormsModule} from "@angular/forms";
-import { MarkdownModule } from 'ngx-markdown';
+import {MarkdownModule} from "ngx-markdown";
 
 import {AppComponent} from "./app.component";
 import {DashboardComponent} from "./components/dashboard/dashboard.component";
@@ -42,7 +42,8 @@ import {QuillEditorDefaultComponent} from "./components/quill-editor-default/qui
 import {QuillViewDefaultComponent} from "./components/quill-view-default/quill-view-default.component";
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
-import { RulesComponent } from './components/rules/rules.component';
+import {RulesComponent} from "./components/rules/rules.component";
+import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-viewer.component";
 
 @NgModule({
   declarations: [
@@ -83,6 +84,7 @@ import { RulesComponent } from './components/rules/rules.component';
     ModalTriggerButtonComponent,
     ModalBoxBasicComponent,
     RulesComponent,
+    MarkdownViewerComponent,
   ],
   imports: [
     BrowserModule,

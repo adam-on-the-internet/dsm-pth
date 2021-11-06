@@ -18,7 +18,7 @@ export class ContactListComponent {
   }
 
   public getParsedPhone(phoneNumber: string): string {
-    return phoneNumber.replace(/-/g, '');
+    return phoneNumber.replace(/-/g, "");
   }
 
 }
