@@ -2,12 +2,6 @@
 
 June 28, 2021 - October 18, 2021
 
-PDF
-: [PDF Copy](./copy.pdf)
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
 These rules were amended at a Regular Council Meeting on June 28, 2021 as agenda item 1-I.
@@ -27,10 +21,14 @@ The vote passed unanimously and no public comment was permitted.
     If members of the public wish to request an item be pulled from the consent agenda, they must send a request to the City Clerk by 3pm the day of the meeting (via email, mail, or other writing).
     No such oral requests may be made at the meeting. 
     
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[PDF Copy of Rules](./copy.pdf)
 
-[Resolution](./resolution.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Roll Call](./roll_call.pdf)
+[Agenda for June 28, 2021](./agenda.pdf)
+
+[Resolution for Item I](./resolution.pdf)
+
+[Roll Call for 21-0944](./roll_call.pdf)

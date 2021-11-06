@@ -2,12 +2,6 @@
 
 May 24, 2021 - June 28, 2021 
 
-PDF
-: Not Available
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
  Council expanded their ability to call for a "Recess" of meetings. They have continually attempted to use "Recess" to cancel meetings with anything the Mayor deems disruptive, as they have more legal protection to arrest people in "Recess" since that period is treated differently for Speech laws.
@@ -28,10 +22,12 @@ Rule 42. Motions was amended as follows:
 
     Any member of Council may now make a motion to recess or adjourn the meeting at any time and for any reason. 
 
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Resolution](./resolution.pdf)
+[Agenda for May 24, 2021](./agenda.pdf)
 
-[Roll Call](./roll_call.pdf)
+[Resolution for Item 39I](./resolution.pdf)
+
+[Roll Call for 21-0796](./roll_call.pdf)

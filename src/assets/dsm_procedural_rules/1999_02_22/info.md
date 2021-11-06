@@ -2,12 +2,6 @@
 
 February 22, 1999 - May 9, 2005 
 
-PDF
-: Not Available
-
-Transcription
-: Not Available
-
 ## Summary
 
 Most context is unknown.
@@ -22,6 +16,6 @@ Council discussed **Rule 32. Motion Required** and **Rule 34. No Motions by Pres
 
 Council then eliminated **Rule 34. No Motions by Presiding Officer**. 
 
-## Other Documents
+## Documents
 
-[Meeting Minutes](./meeting_minutes.pdf)
+[Meeting Minutes for February 22, 1999](./meeting_minutes.pdf)

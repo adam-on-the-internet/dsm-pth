@@ -2,12 +2,6 @@
 
 July 6, 1987 - December 19, 1988
 
-PDF
-: Not Available
-
-Transcription
-: Not Available
-
 ## Summary
 
 The City of Des Moines amended the Procedural Rules.
@@ -16,6 +10,6 @@ The City of Des Moines amended the Procedural Rules.
 
 N/A
 
-## Other Documents
+## Documents
 
 N/A

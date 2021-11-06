@@ -2,12 +2,6 @@
 
 May 10, 2021 - May 24, 2021 
 
-PDF
-: Not Available
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
 ???
@@ -30,10 +24,13 @@ Council amended Rule 30. Remarks of Citizens to be Germane as follows:
     Any "arguing" with the presiding officer about a determination will be considered disruptive. Seemingly, this includes asking why something was considered disruptive or insisting something was not disruptive.
     Persons who make a single "non-germane remark" will not be recognized by the presiding officer for the rest of the meeting. Previously, this only took applied if a person was "non-germane" on more than one item. 
     
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Resolution](./resolution.pdf)
+[Agenda for May 10, 2021](./agenda.pdf)
 
-[Roll Call](./roll_call.pdf)
+[Resolution for Item I](./resolution.pdf)
+
+[Roll Call for 21-0662](./roll_call.pdf)
+

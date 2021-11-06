@@ -2,12 +2,6 @@
 
 September 23, 2013 - August 17, 2020 
 
-PDF
-: [PDF Copy](./copy.pdf)
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
 Most context is unknown.
@@ -24,10 +18,14 @@ Vote passed 6-1.
 
 Essentially, they changed the rules regarding how to skip the second and final readings of ordinances. 
 
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[PDF Copy of Rules](./copy.pdf)
 
-[Resolution](./resolution.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Roll Call](./roll_call.pdf)
+[Agenda for September 23, 2013](./agenda.pdf)
+
+[Resolution for Item 22](./resolution.pdf)
+
+[Roll Call for 13-1484](./roll_call.pdf)

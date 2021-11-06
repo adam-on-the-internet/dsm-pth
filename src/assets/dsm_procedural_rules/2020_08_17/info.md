@@ -2,12 +2,6 @@
 
 August 17, 2020 - May 10, 2021 
 
-PDF
-: Not Available
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
 ???
@@ -28,10 +22,12 @@ Council amended Rule 29. Time Limit on Citizen's Remarks.
 
 Council amended Rule 30. Remarks of Citizens to be Germane. 
 
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Resolution](./resolution.pdf)
+[Agenda for August 17, 2020](./agenda.pdf)
 
-[Roll Call](./roll_call.pdf)
+[Resolution for Item I](./resolution.pdf)
+
+[Roll Call for 20-1300](./roll_call.pdf)

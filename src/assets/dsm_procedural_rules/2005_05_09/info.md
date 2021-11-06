@@ -2,12 +2,6 @@
 
 May 9, 2005 - September 23, 2013 
 
-PDF
-: Not Available
-
-Transcription
-: Not Available
-
 ## Summary
 
 Most context is unknown.
@@ -22,8 +16,8 @@ Council amended **Rule 5. Regular Meetings** and **Rule 42A. Waiver of Ordinance
 
 Notes from 2013 say that this amendment removed distinction from pre-published and non-pre-published dates. 
 
-## Other Documents
+## Documents
 
-[Meeting Minutes](./meeting_minutes.pdf)
+[Meeting Minutes for May 9, 2005](./meeting_minutes.pdf)
 
-[Agenda](./agenda.pdf)
+[Agenda for May 9, 2005](./agenda.pdf)

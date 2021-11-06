@@ -22,6 +22,6 @@ Vote passed unanimously. The item was not on the consent agenda.
 
 N/A
 
-## Other Documents
+## Documents
 
-[Meeting Minutes](./meeting_minutes.pdf)
+[Meeting Minutes for January 2, 1996](./meeting_minutes.pdf)

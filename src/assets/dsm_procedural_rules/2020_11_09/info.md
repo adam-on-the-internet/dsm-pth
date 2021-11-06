@@ -2,12 +2,6 @@
 
 November 9, 2020 - May 10, 2021
 
-PDF
-: Not Available
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
 ???
@@ -24,10 +18,12 @@ Council amended Rule 12. Extra Items as follows:
 
     Requirements of Rule 11. Agenda Deadline also apply to Extra Items requests. 
 
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Resolution](./resolution.pdf)
+[Agenda for November 9, 2020](./agenda.pdf)
 
-[Roll Call](./roll_call.pdf)
+[Resolution for Item I](./resolution.pdf)
+
+[Roll Call for 20-1738](./roll_call.pdf)

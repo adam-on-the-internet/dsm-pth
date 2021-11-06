@@ -2,12 +2,6 @@
 
 November 18, 1991 - January 2, 1996 
 
-PDF
-: Not Available
-
-Transcription
-: Not Available
-
 ## Summary
 
 The City of Des Moines amended the Procedural Rules.
@@ -16,6 +10,6 @@ The City of Des Moines amended the Procedural Rules.
 
 N/A
 
-## Other Documents
+## Documents
 
 N/A

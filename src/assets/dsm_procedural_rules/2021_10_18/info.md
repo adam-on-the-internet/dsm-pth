@@ -2,12 +2,6 @@
 
 October 18, 2021 - Present 
 
-PDF
-: [PDF Copy](./copy.pdf)
-
-Transcription
-: [Transcription](./transcription.md)
-
 ## Summary
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim ipsa nulla quo. A ab blanditiis laboriosam necessitatibus nemo placeat? 
@@ -18,10 +12,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim ipsa nulla
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur eum nam necessitatibus odio. Deserunt? 
     
-## Other Documents
+## Documents
 
-[Agenda](./agenda.pdf)
+[PDF Copy of Rules](./copy.pdf)
 
-[Resolution](./resolution.pdf)
+[Transcription of Rules](./transcription.md)
 
-[Roll Call](./roll_call.pdf)
+[Agenda for October 18, 2021](./agenda.pdf)
+
+[Resolution for Item I](./resolution.pdf)
+
+[Roll Call for 21-1530](./roll_call.pdf)
