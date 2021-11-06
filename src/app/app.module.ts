@@ -1,6 +1,7 @@
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
 import {FormsModule} from "@angular/forms";
+import { MarkdownModule } from 'ngx-markdown';
 
 import {AppComponent} from "./app.component";
 import {DashboardComponent} from "./components/dashboard/dashboard.component";
@@ -89,6 +90,7 @@ import { RulesComponent } from './components/rules/rules.component';
     HttpClientModule,
     FormsModule,
     QuillModule.forRoot(),
+    MarkdownModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
