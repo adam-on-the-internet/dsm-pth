@@ -20,7 +20,7 @@ Essentially, they changed the rules regarding how to skip the second and final r
 
 [PDF Copy of Rules](assets/rules-archive/2013_09_23/copy.pdf)
 
-[Transcription of Rules](assets/rules-archive/2013_09_23/transcription.md)
+[Transcription of Rules](#/view/rules-archive~2013_09_23~transcription)
 
 [Agenda for September 23, 2013](assets/rules-archive/2013_09_23/agenda.pdf)
 

@@ -22,7 +22,7 @@ Rule 42. Motions was amended as follows:
 
 ## Documents
 
-[Transcription of Rules](assets/rules-archive/2021_05_24/transcription.md)
+[Transcription of Rules](#/view/rules-archive~2021_05_24~transcription)
 
 [Agenda for May 24, 2021](assets/rules-archive/2021_05_24/agenda.pdf)
 

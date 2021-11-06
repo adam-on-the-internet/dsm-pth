@@ -16,7 +16,7 @@ Council amended Rule 12. Extra Items as follows:
 
 ## Documents
 
-[Transcription of Rules](assets/rules-archive/2020_11_09/transcription.md)
+[Transcription of Rules](#/view/rules-archive~2020_11_09~transcription)
 
 [Agenda for November 9, 2020](assets/rules-archive/2020_11_09/agenda.pdf)
 
