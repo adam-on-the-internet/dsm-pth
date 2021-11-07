@@ -4,9 +4,7 @@ January 2, 1996 - November 16, 1998
 
 ## Summary
 
-The City amended the Procedural Rules as follows:
-
-> Amended Procedural Rules of the City Council, regarding waiving of ordinances.
+The City amended the Procedural Rules "regarding waiving of ordinances".
 
 ## Documents
 

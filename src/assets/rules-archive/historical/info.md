@@ -3,3 +3,6 @@ Over the summer in 2020, as protests happened in the streets, the Des Moines Bla
 These rule changes are complicated and petty, so we have attempted to document some of the context behind why the city changed certain rules.
 
 We start with the most recent change and work backwards to the original rules. We will continue to update this as council continues to amend the rules. 
+
+Some of this information may be inaccurate. It was created from city documents which are sometimes
+incomplete or inaccurate.
