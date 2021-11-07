@@ -21,3 +21,15 @@ Rule 28. Manner of Addressing Council was amended as follows:
 [Resolution for Item I](assets/rules-archive/2021_10_18/resolution.pdf)
 
 [Roll Call for 21-1530](assets/rules-archive/2021_10_18/roll_call.pdf)
+
+## Notes
+
+Amended rule 28.
+
+Amended at the meeting on October 18, 2021 as item I (not on the Consent Agenda).
+
+The vote passed 7-0 (unanimously) with Roll Call 21-1530.
+
+## Amendment Text
+
+TBD

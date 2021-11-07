@@ -23,3 +23,15 @@ Council amended Rule 12. Extra Items as follows:
 [Resolution for Item I](assets/rules-archive/2020_11_09/resolution.pdf)
 
 [Roll Call for 20-1738](assets/rules-archive/2020_11_09/roll_call.pdf)
+
+## Notes
+
+Amended rule 11 and rule 12.
+
+Amended at the meeting on November 9, 2020 as item I (not on the Consent Agenda).
+
+The vote passed 7-0 (unanimously) with Roll Call 20-1738.
+
+## Amendment Text
+
+TBD
