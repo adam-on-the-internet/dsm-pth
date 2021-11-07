@@ -4,14 +4,16 @@ January 2, 1996 - November 16, 1998
 
 ## Summary
 
-Council amended rules "regarding waiving of ordinances". 
+The City amended the Procedural Rules as follows:
 
-Most context is unknown.
-
-This was item 33 (roll call 96-88) on the January 2, 1996 agenda.
-
-Vote passed unanimously. The item was not on the consent agenda. 
+> Amended Procedural Rules of the City Council, regarding waiving of ordinances.
 
 ## Documents
 
 [Meeting Minutes for January 2, 1996](assets/rules-archive/1996_01_02/meeting_minutes.pdf)
+
+## Notes
+
+Amended at the meeting on January 2, 1996 as item 33 (not on the Consent Agenda).
+
+The vote passed 7-0 (unanimously) with Roll Call 96-88.

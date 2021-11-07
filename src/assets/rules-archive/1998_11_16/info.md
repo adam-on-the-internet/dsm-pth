@@ -4,14 +4,20 @@ November 16, 1998 - February 22, 1999
 
 ## Summary
 
-Most context is unknown.
+The City amended **Rule 18. Call to Order**  as follows:
 
-This was item 1I (roll call 98-3477) on the November 16, 1998 agenda.
-
-Vote passed 5-2. The item was not on the consent agenda. 
-
-Council amended **Rule 18. Call to Order** to allow a temporary Presiding officer to serve as successor Mayor Pro Tem in absence of Mayor and Mayor Pro Tem. 
+> Approve amending Council Procedural Rule 18 to allow temporary Presiding officer
+  to serve as successor Mayor Pro Tem in absence of Mayor and Mayor Pro Tem and to sign all
+  items approved at the meeting.
 
 ## Documents
 
 [Meeting Minutes for November 16, 1998](assets/rules-archive/1998_11_16/meeting_minutes.pdf)
+
+## Notes
+
+Amended rule 18.
+
+Amended at the meeting on November 16, 1998 as item 1I (not on the Consent Agenda).
+
+The vote passed 5-2 with Roll Call 98-3477.
