@@ -2,6 +2,10 @@
 
 As of amendments made on August 17, 2020.
 
+Transcribed from: [Resolution for Item I (Includes PDF Copy of Full Rules)](assets/rules-archive/2020_08_17/resolution.pdf)
+
+This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
+
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules
