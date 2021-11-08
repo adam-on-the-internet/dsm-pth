@@ -2,6 +2,10 @@
 
 As of amendments made on September 13, 2013.
 
+Transcribed from: [PDF Copy of Rules](assets/rules-archive/2013_09_23/copy.pdf)
+
+This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
+
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules
@@ -366,12 +370,14 @@ with waiver and suspension of the requirement that an ordinance
 must be considered and voted on for passage at two Council meetings
 prior to the meeting at which it is to be finally passed,
 by reciting the following motion:
+
 "Moved by (insert the moving Council member's name)
 that the rule requiring that an ordinance must be considered
 and voted on for passage at two Council meetings prior
 to the meeting at which it is to be finally passed be
 suspended, that the ordinance be placed upon its final
 passage and that the ordinance do now pass."
+
 or may move waiver and suspension by reference to the language of
 this section to be known as "the waiver rule".
 
