@@ -11,7 +11,7 @@ This is an unofficial transcription. For an official copy, submit a FOIA request
 ### Rule 1. Scope of Rules
 
 These rules shall govern the conduct
-of the Council and shall be interpreted to ensure fair
+of the Council and shall be interpreted to insure fair
 and open deliberations and decision making.
 
 ### Rule 2. Technical Parliamentary Forms Abolished
@@ -266,7 +266,7 @@ Total citizen in-put on any subject under Council consideration can be further
 limited to a fixed period by the presiding officer.
 A majority vote of the Council may alter the time limitations of this rule.
 
-## Rule 30. Remarks of Citizens to be Germane
+### Rule 30. Remarks of Citizens to be Germane
 
 Citizen comments must be directed to the subject under consideration.
 The presiding officer shall rule on the germaneness of citizen comments.
@@ -410,12 +410,14 @@ with waiver and suspension of the requirement that an ordinance
 must be considered and voted on for passage at two Council meetings
 prior to the meeting at which it is to be finally passed,
 by reciting the following motion:
+
 "Moved by (insert the moving Council member's name)
 that the rule requiring that an ordinance must be considered
 and voted on for passage at two Council meetings prior
 to the meeting at which it is to be finally passed be
 suspended, that the ordinance be placed upon its final
 passage and that the ordinance do now pass."
+
 or may move waiver and suspension by reference to the language of
 this section to be known as "the waiver rule".
 

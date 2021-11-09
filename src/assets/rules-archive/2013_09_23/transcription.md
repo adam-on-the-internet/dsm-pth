@@ -11,7 +11,7 @@ This is an unofficial transcription. For an official copy, submit a FOIA request
 ### Rule 1. Scope of Rules
 
 These rules shall govern the conduct
-of the Council and shall be interpreted to ensure fair
+of the Council and shall be interpreted to insure fair
 and open deliberations and decision making.
 
 ### Rule 2. Technical Parliamentary Forms Abolished
