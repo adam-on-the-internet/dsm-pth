@@ -1,5 +1,7 @@
 # PROCEDURAL RULES OF DES MOINES CITY COUNCIL
 
+Version 12
+
 As of amendments made on August 17, 2020.
 
 Transcribed from: [Resolution for Item I (Includes PDF Copy of Full Rules)](assets/rules-archive/2020_08_17/resolution.pdf)
