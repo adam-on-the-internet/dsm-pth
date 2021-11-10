@@ -9,6 +9,8 @@ to [the previous transcription](#/view/rules-archive~2013_08_17~transcription).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
+Amended rule(s): 11, 12
+
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules
