@@ -16,7 +16,7 @@ Amended rule(s): 16, 30
 ### Rule 1. Scope of Rules
 
 These rules shall govern the conduct
-of the Council and shall be interpreted to insure fair
+of the Council and shall be interpreted to ensure fair
 and open deliberations and decision making.
 
 ### Rule 2. Technical Parliamentary Forms Abolished

@@ -8,3 +8,5 @@ Transcribed by adding the amended Rule 28 from [Rules as of October 18, 2021](as
 to [the previous transcription](#/view/rules-archive~2021_06_28~transcription).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
+
+Rule(s) amended: 28
