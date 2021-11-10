@@ -8,8 +8,6 @@ Transcribed from: [Rules as of June 28, 2021](https://www.dsmpeoplestownhall.com
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
-NEEDS TO BE CHECKED
-
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules

@@ -10,7 +10,7 @@ The City of Des Moines refuses to make their City Council Procedural Rules publi
 
 The transcription was taken from a less-friendly PDF document (provided by the City Clerk in November 2021).
 
-[View Original Rules PDF](assets/rules-archive/2021_10_18/official.pdf)
+[View Original Rules PDF](assets/rules-archive/2021_10_18/copy.pdf)
 
 The Procedural Rules for city meetings are adopted and amended through Resolution action.
 
