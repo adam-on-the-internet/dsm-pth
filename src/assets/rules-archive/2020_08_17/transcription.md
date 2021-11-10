@@ -361,7 +361,7 @@ items upon which any Council Member wishes to speak,
 or items upon which a citizen wishes to speak which have been removed
 from the consent agenda by majority vote,
 shall be considered separately and not as a portion
-of any motion calling for action upon the remainder of the "Consent Agenda". 
+of any motion calling for action upon the remainder of the "Consent Agenda".
 The City Clerk, on all matters contained in the "Consent Agenda"
 shall record the yes and no votes on each item separately
 as if each item had been moved and voted upon separately.
@@ -445,11 +445,11 @@ majority of the Council.
 ### Rule 46. Hearings
 
 Any other rule to the contrary notwithstanding, 
-unless required by statute or necessary to conform to 
+unless required by statute or necessary to conform to
 proceedings required for a special purpose, 
 a hearing shall commence when declared open by the presiding officer and
 shall close when closed by the presiding officer or by other formal
-action of the Council. 
+action of the Council.
 Any member of the public who fails to follow these rules during any 
 hearing process shall not be recognized by the presiding officer 
 during the remainder of the meeting.

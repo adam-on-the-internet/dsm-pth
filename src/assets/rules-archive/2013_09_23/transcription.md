@@ -49,7 +49,7 @@ at least 60 days prior to January 1 of each year.
 Regular meetings will begin at 4:30 P.M. in City Council Chambers.
 The Council may, by resolution, continue or postpone any regular meeting
 to another day and time, or may cancel a meeting.
-All hearings shall be scheduled for 5:00 P.M. 
+All hearings shall be scheduled for 5:00 P.M.
 the day of a regular meeting.
 
 ### Rule 6. Special Meetings
@@ -137,7 +137,7 @@ before any other action which Council may consider.
 
 Any citizen may request
 the right to have an item placed on the Agenda (including a request to speak)
-by filing such request in writing with the City Clerk prior to 
+by filing such request in writing with the City Clerk prior to
 5:00 P.M. on the 
 Wednesday preceding the Council meeting.
 
