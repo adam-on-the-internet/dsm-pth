@@ -8,6 +8,8 @@ Transcribed from [PDF Copy of Rules](assets/rules-archive/2013_09_23/copy.pdf).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
+Rule(s) amended: 22
+
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules

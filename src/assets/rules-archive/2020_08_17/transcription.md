@@ -8,6 +8,8 @@ Transcribed from [Resolution for Item I (Includes PDF Copy of Full Rules)](asset
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
+Rule(s) amended: 5, 16, 20, 28, 29, 30, 31A (added), 37, 41, 43, 46
+
 ## Part I. General Provision
 
 ### Rule 1. Scope of Rules

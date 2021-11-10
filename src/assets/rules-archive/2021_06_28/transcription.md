@@ -46,78 +46,71 @@ of the State of Iowa and the ordinances of the City of Des Moines.
 ### Rule 5. Regular Meetings
 
 The City Clerk shall prepare an annual schedule of Council meetings
-and forward it to the City Council, to adopt by resolution, at least 60 days prior to January
-1 of each year. Regular meetings will begin at 5:00 P.M. in City
-Council Chambers. The Council may, by resolution or motion,
-continue or postpone any regular meeting to another day and time,
-or may cancel a meeting. All regular meetings shall end by 9:00
-P.M unless the Council by a 2/3 vote agrees that the meeting may
-continue. All hearings shall be scheduled for 5:00 P.M. the day
-of a regular meeting and shall commence promptly at the conclusion
-of the Consent Agenda and prior to consideration of any item
-removed from the Consent Agenda or any other Agenda item unless
-the presiding officer or the Council otherwise directs.
+and forward it to the City Council, to adopt by resolution,
+at least 60 days prior to January 1 of each year.
+Regular meetings will begin at 5:00 P.M. in City Council Chambers.
+The Council may, by resolution or motion, continue or postpone any regular meeting
+to another day and time, or may cancel a meeting.
+All regular meetings shall end by 9:00 P.M unless the Council
+by a 2/3 vote agrees that the meeting may continue.
+All hearings shall be scheduled for 5:00 P.M.
+the day of a regular meeting and shall commence promptly
+at the conclusion of the Consent Agenda and prior to consideration
+of any item removed from the Consent Agenda or any other Agenda item
+unless the presiding officer or the Council otherwise directs.
 
 ### Rule 6. Special Meetings
 
-Special meetings may be called by
-the Mayor or by any four Council Members. A call for special
-meeting shall be filed with the City Clerk in written form unless
-the announcement of the special meeting is made at a regular
-meeting at which all Council members are present. The call for
-the special meeting shall specify the day, hour and subject of the
-meeting and shall be posted at the door of the City Council
-Chambers.
+Special meetings may be called by the Mayor or by any four Council Members.
+A call for special meeting shall be filed with the City Clerk in written form
+unless the announcement of the special meeting is made at a regular meeting
+at which all Council members are present.
+The call for the special meeting shall specify the day, hour and subject
+of the meeting and shall be posted at the door of the City Council Chambers.
 
 ### Rule 7. Quorum
 
-A majority of all members elected to the
-City Council shall constitute a quorum for transaction of business.
+A majority of all members elected to the City Council
+shall constitute a quorum for transaction of business.
 
 ## Part III. Agenda
 
 ### Rule 8. Preparation of Agenda
 
-Prior to each regular Council
-meeting the City Clerk shall publish an Agenda which contains all
-items the Council anticipates acting upon at the meeting. The
-Council may adopt the agenda as presented, or may amend the agenda
-as provided by these rules and may adopt the agenda as amended.
+Prior to each regular Council meeting the City Clerk shall
+publish an Agenda which contains all items the Council anticipates
+acting upon at the meeting.
+The Council may adopt the agenda as presented, or may amend the
+agenda as provided by these rules and may adopt the agenda as amended.
 
 ### Rule 9. Consent Agenda
 
-In preparing an Agenda the City
-Clerk shall separately designate items as "Consent Agenda" which
-may be acted upon by the Council under Rule 37. The "Consent
-Agenda" shall consist of routine non-controversial items which in
-the City Clerk's determination can be appropriately considered in
+In preparing an Agenda the City Clerk shall separately designate items
+as "Consent Agenda" which may be acted upon by the Council under Rule 37.
+The "Consent Agenda" shall consist of routine non-controversial items
+which in the City Clerk's determination can be appropriately considered in
 bulk at the Council meeting.
 
 ### Rule 10. Hearings, Permits and License Agenda
 
-The Clerk
-shall prepare as separate portions of the Agenda a schedule of
+The Clerk shall prepare as separate portions of the Agenda a schedule of
 hearings and separate listing of requests for Permits and Licenses.
 
 ### Rule 11. Agenda Deadline
 
-Any member of the Council, the
-City Manager, Corporation Counsel and City Clerk may have an item
-included upon the Agenda by requesting the City Clerk to include
-the item by 5:00 P.M. on the Wednesday preceding the Council
-meeting. If the item is requested by a Council Member, it shall be
-approved by the Mayor and Mayor Pro Tem prior to inclusion on the
-Agenda. If either the Mayor or Mayor Pro Tem are the requesting
-Council Member, approval by the other for inclusion on the Agenda
-shall be sufficient for the purposes of this rule. If the Mayor
-and Mayor Pro Tem decline to include the requested item at the
-meeting at which it is first requested, then after that meeting
-occurs, the requesting Council Member may make a second request
-for inclusion on the Agenda for the next regular meeting. If the
-item is again declined by the Mayor and Mayor Pro Tem, the item
-shall be placed on the Agenda to be considered by the full council
-for inclusion at the next Council Workshop or other disposition as
-directed by Council.
+Any member of the Council, the City Manager, Corporation Counsel
+and City Clerk may have an item included upon the Agenda by requesting
+the City Clerk to include the item by 5:00 P.M. on the Wednesday preceding
+the Council meeting.
+
+If the item is requested by a Council Member, it shall be approved by the Mayor and Mayor Pro Tem
+prior to inclusion on the Agenda. If either the Mayor or Mayor Pro Tem are the requesting
+Council Member, approval by the other for inclusion on the Agenda shall be sufficient for the purposes
+of this rule. If the Mayor and Mayor Pro Tem decline to include the requested item at the
+meeting at which it is first requested, then after that meeting occurs, the requesting Council Member may 
+make a second request for inclusion on the Agenda for the next regular meeting. If the item is 
+again declined by the Mayor and Mayor Pro Tem, the item shall be placed on the Agenda to be considered
+by the full council for inclusion at the next Council Workshop or other disposition as directed by Council.
 
 ### Rule 12. Extra Items
 
@@ -128,9 +121,9 @@ item of sufficient urgency to warrant immediate Council action.
 These items shall be designated as "Extra" items and will be
 considered at the appropriate place on the regular Agenda (prior
 to or after a related item) or at the end of the regular Agenda.
-The requirements of Rule 11 shall also apply to Extra Items
-requests. The City Clerk shall record on the item the name of the
-sponsoring Council member.
+The requirements of Rule 11 shall also apply to Extra Items requests.
+The City Clerk shall record on the item the name of the sponsoring
+Council member.
 
 ### Rule 13. Sponsor Required
 
@@ -190,20 +183,20 @@ a request pending.
 
 Before proceeding with the business of
 the Council, the City Clerk shall call the roll call of members
-present, and enter those named in the minutes. The Clerk shall
-determine the presence of a quorum as required by law and these
-rules.
+present, and enter those named in the minutes.
+The Clerk shall determine the presence of a quorum as required by
+law and these rules.
 
 ### Rule 18. Call to Order
 
-The Mayor or Mayor Pro Tem shall
-call the meeting to order at the appointed hour. In the absence
-of the Mayor or Mayor Pro Tem the City Clerk shall call the meeting
-to order and a temporary presiding officer shall then be selected
-under Rule 19. The selected temporary presiding officer shall
-serve as successor Mayor Pro Tem for the meeting for purposes of
-Des Moines City Code Section 2-26 authorized to sign all measures
-passed and contracts approved at the meeting.
+The Mayor or Mayor Pro Tem shall call the meeting to order at the appointed hour.
+In the absence of the Mayor or Mayor Pro Tem the City Clerk
+shall call the meeting to order and a temporary presiding officer shall
+then be selected under Rule 19.
+The selected temporary presiding officer shall serve as
+successor Mayor Pro Tem for the meeting for purposes of
+Des Moines City Code Section 2-26 authorized to sign all measures passed
+and contracts approved at the meeting.
 
 ### Rule 19. Presiding Officer
 
@@ -243,18 +236,16 @@ interrupted except by the presiding officer to enforce these rules.
 
 ### Rule 23. Presiding Officer's Right to Enter into Discussion
 
-The Mayor (or other presiding officer) as a member of the Council
-may enter into any discussion.
+The Mayor (or other presiding officer) as a member
+of the Council may enter into any discussion.
 
 ### Rule 24. Limit on Remarks
 
-Each Council member shall limit
-his or her remarks to a reasonable length.
+Each Council member shall limit his or her remarks to a reasonable length.
 
 ### Rule 25. Presiding Officer's Right to Speak Last
 
-The
-presiding officer has the right to close debate and speak last on
+The presiding officer has the right to close debate and speak last on
 any item.
 
 ### Rule 26. Closing Debate
@@ -270,15 +261,14 @@ continued participation of citizens will be helpful to the Council.
 
 ### Rule 27. Citizen's Right to Address Council
 
-Persons other
-than Council Members shall be permitted to address the Council
-only upon specific Agenda items.
+Persons other than Council Members shall be permitted to address the
+Council only upon specific Agenda items.
 
 ### Rule 28. Manner of Addressing Council
 
-At each regular
-Council meeting, if any requests to speak have been received, a
-person desiring to address the Council shall step to the podium,
+At each regular Council meeting,
+if any requests to speak have been received,
+a person desiring to address the Council shall step to the podium,
 state his or her name, address, and group affiliation (if any) and
 speak clearly into the microphone. If the meeting is entirely
 electronic, the person shall use the prescribed method for
@@ -407,7 +397,7 @@ as if each item had been moved and voted upon separately. Rule 21
 shall not apply.
 
 ### Rule 38. Action to Multiple Items
- 
+
 With the consent of a majority of the Council,
 Rule 36 hereof notwithstanding,
 the Council may consider for voting purposes more than one item,
@@ -432,8 +422,8 @@ Except as to matter which by law require the publication of notice before
 consideration by the Council any member of the Council may,
 at the close of the regular Agenda, bring a matter not on the Agenda to
 the Council's attention.
-Council may act upon such matters as
-permitted by law or direct such matter be included upon a later Agenda.
+Council may act upon such matters
+as permitted by law or direct such matter be included upon a later Agenda.
 
 ## Part VII. Miscellaneous
 

@@ -122,7 +122,7 @@ item of sufficient urgency to warrant immediate Council action.
 These items shall be designated as "Extra" items and will be
 considered at the appropriate place on the regular Agenda (prior
 to or after a related item) or at the end of the regular Agenda.
-The requirements of Rule 11 shall also apply to Extra Items requests
+The requirements of Rule 11 shall also apply to Extra Items requests.
 The City Clerk shall record on the item the name of the sponsoring
 Council member.
 
@@ -448,7 +448,7 @@ any member of the Council may make a motion for the Council to
 act upon any matter if the motion is germane to the matter under
 consideration.
 
-Any member of the Council may make a motion to recess or adjourn the meeting at any time for any reason.
+Any member of the Council may make a motion to recess or adjourn the meeting at any time during the meeting for any reason.
 
 ### Rule 42A. Waiver of Ordinance Readings
 
