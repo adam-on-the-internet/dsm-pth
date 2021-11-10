@@ -154,28 +154,36 @@ before any other action which Council may consider.
 
 Any citizen may request
 to have an item placed on the Agenda (including a request to speak)
-by filing such request in writing with the City Clerk on or after
-the date ten days preceding a regular Council meeting but prior to
-5:00 P.M. on the Tuesday preceding a regular Council meeting. All
-such requests, up to a maximum of twenty items, shall be placed
-under a single item number, but last on the agenda, by lettered
-paragraph and limited collectively to no more than forty minutes
-in duration. Each item shall receive up to two minutes time and
-shall not be recalculated or additional speakers recognized if the
-time used by any speaker is less than two minutes or the collective
-time for all speakers is less than forty minutes. No other person
-may speak on any such item. Any requested item not included on
-the agenda due to the collective time limit and maximum number of
-items specified herein being exceeded, shall, subject to such time
-limit and maximum number of items applied to each Agenda for a
-subsequent regular meeting, move in the same order received by the
-City Clerk to the Agenda for the next regular meeting or, as
-necessary, the Agenda for the next subsequent meeting(s), with any
-new timely requests added to the end of the list of pending
-Citizen’s Agenda items in the order received. Any person may have
-no more than one Agenda item request pending at a time and the
-City Clerk shall not accept a new request from a person that has
-a request pending.
+by filing such request in writing with the City Clerk
+on or after the date ten days preceding a regular Council meeting but
+prior to
+5:00 P.M. on the 
+Tuesday preceding a regular Council meeting. 
+All such requests,
+up to a maximum of twenty items,
+shall be placed under a single item 
+number, but last
+on the agenda,
+by lettered paragraph and limited collectively to no more than
+forty minutes
+in duration. 
+
+Each item shall receive up to two minutes
+time and shall not be recalculated or additional speakers
+recognized if the time used by any speaker is less than two minutes
+or the collective time for all speakers is less than forty-minutes.
+
+No other person may speak on any such item. Any requested item not included
+on the agenda due to the collective time limit and maximum number of items
+specified herein being exceeded, shall, subject to such time limit and maximum number
+of items applied to each Agenda for a subsequent regular meeting, move in the same order
+received by the City Clerk to the Agenda for the next regular meeting or, as necessary, 
+the Agenda for the next subsequent
+meeting(s), with any new timely requests added to the end of the list of pending Citizen's 
+Agenda items in the order received.
+
+Any person may have no more than one Agenda item request pending at a time and the City Clerk 
+shall not accept a new request from a person that has a request pending.
 
 ## Part IV. Conduct of Meetings
 
@@ -218,21 +226,22 @@ full participation by the Council in accordance with these rules.
 
 Except as
 otherwise provided in these rules, each Agenda item shall be
-considered in the numerical order assigned by the City Clerk. Each
-Agenda item shall be separately announced by the presiding officer,
-or City Clerk, for purposes of discussion and consideration. To
-announce an item it shall be sufficient to identify the item by
-the number assigned by the City Clerk, unless greater specificity
-is requested by some person in attendance. This rule shall not
+considered in the numerical order assigned by the City Clerk.
+Each Agenda item shall be separately announced by the
+presiding officer, or City Clerk, for purposes of discussion and consideration.
+To announce an item it shall be sufficient to identify the item by
+the number assigned by the City Clerk,
+unless greater specificity is requested by some person in
+attendance.
+This rule shall not
 apply to consideration of items under Rule 37 or Rule 38.
 
 ### Rule 22. Discussion
 
-A Council member shall speak only after
-being recognized by the presiding officer. A Council member
-recognized for a specific purpose shall limit remarks to that
-purpose. A Council member, after being recognized shall not be
-interrupted except by the presiding officer to enforce these rules.
+A Council member shall speak only after being recognized by the presiding officer.
+A Council member recognized for a specific purpose shall limit remarks to that purpose.
+A Council member, after being recognized shall not be interrupted except
+by the presiding officer to enforce these rules.
 
 ### Rule 23. Presiding Officer's Right to Enter into Discussion
 
@@ -270,41 +279,47 @@ At each regular Council meeting,
 if any requests to speak have been received,
 a person desiring to address the Council shall step to the podium,
 state his or her name, address, and group affiliation (if any) and
-speak clearly into the microphone. If the meeting is entirely
-electronic, the person shall use the prescribed method for
-comments, but shall not speak on the same item more than once. If
-the meeting is not entirely electronic, then only those persons in
-attendance at the physical location of the meeting will be
-permitted to speak and only in accordance with these rules and the
-City Code. The person shall follow these rules and the direction
-of the presiding officer at all times.
+speak clearly into the microphone.
+If the meeting is entirely electronic,
+the person shall use the prescribed method for comments,
+but shall not speak on the same item more than once.
+If the meeting is not entirely electronic,
+then only those persons in attendance at the physical location
+of the meeting will be permitted to speak and only in accordance
+with these rules and the City Code.
+The person shall follow these rules and the direction of the presiding officer
+at all times.
 
 ### Rule 29. Time Limit on Citizen's Remarks
 
-Citizens shall be
-limited to no more than five minutes speaking time per Agenda item
+Citizens shall be limited to no more than five minutes
+speaking time per Agenda item
 on which the public is allowed to speak, unless additional or less
-time is determined by the presiding officer. Total citizen in-put 
-on any subject under Council consideration can be further
-limited to a fixed period by the presiding officer. A majority
-vote of the Council may alter the time limitations of this rule.
+time is determined by the presiding officer. 
+Total citizen in-put on any subject under Council consideration can be further
+limited to a fixed period by the presiding officer.
+A majority vote of the Council may alter the time limitations of this rule.
 
 ### Rule 30. Remarks of Citizens to be Germane
 
-Citizen comments
-must be directed to the subject under consideration. The presiding
-officer shall rule on the germaneness of citizen comments.
-Citizens making personal,repetitive, slanderous or disruptive
+Citizen comments must be directed to the subject under consideration.
+The presiding officer shall rule on the germaneness of citizen comments.
+Citizens making personal, repetitive, slanderous or disruptive
 remarks or engaging in any action that otherwise impedes the
 orderly conduct of a council meeting shall not be recognized by
-the presiding officer during the remainder of the meeting. To
-ensure the meeting is conducted orderly and free from interference
-or interruption, the presiding officer is vested with exclusive
-discretion to review and determine whether remarks or actions meet
-any prohibited terms of this rule. Without limitation, arguing
-with the presiding officer about any determination will be
-considered per se disruptive. Persons who make or attempt to make
-non-germane remarks during any portion of the meeting shall not be
+the presiding officer
+during the remainder of the meeting. 
+
+To ensure the meeting is conducted orderly and free from interference
+or interruption, the presiding officer is vested with exclusive discretion to
+review and determine whether remarks or actions meet any prohibited terms
+of this rule. Without limitation, arguing with the presiding officer about
+any determination will be considered per se disruptive.
+
+Persons who make or attempt
+to make non-germane remarks
+during any portion of the meeting
+shall not be
 recognized by the presiding officer during the remainder of the
 meeting.
 
@@ -312,17 +327,16 @@ meeting.
 
 The Council may in its
 discretion allow citizens who wish to raise a matter not on the
-Agenda and who have not filed a request under Rule 16 to address
-the Council at the end of the regular Agenda.
+Agenda and who have not filed a request under Rule 16 to
+address the Council at the end of the regular Agenda.
 
 ### Rule 31A. Failure to Follow Council Rules
 
-To enable the
-Council to transact the business of the City and conduct efficient
-meetings, persons other than Council members who fail to follow
-the direction of the presiding officer on more than one occasion
-during a Council meeting shall not be recognized by the presiding
-officer during the remainder of the meeting.
+To enable the Council to transact the business of the City
+and conduct efficient meetings, persons other than Council members
+who fail to follow the direction of the presiding officer
+on more than one occasion during a Council meeting shall not be recognized
+by the presiding officer during the remainder of the meeting.
 
 ## Part VI. Council Action
 
@@ -332,12 +346,11 @@ All action requiring a vote shall be moved by a member of the Council.
 
 ### Rule 33. Motion to Reconsider
 
-A motion to reconsider must
-be made by a Council member who was on the prevailing side in the
-original action or by a Council Member absent at the time of the
-original action. The sponsoring of the reconsideration of a matter
-by the Mayor, or other presiding officer, has the effect of a
-motion to reconsider.
+A motion to reconsider must be made by a Council member
+who was on the prevailing side in the original action
+or by a Council Member absent at the time of the original action.
+The sponsoring of the reconsideration of a matter by the Mayor,
+or other presiding officer, has the effect of a motion to reconsider.
 
 ### Rule 33A.
 
@@ -349,10 +362,9 @@ member in attendance at the meeting, be placed by the Clerk on the
 Agenda for the next Council meeting, and continued thereafter upon
 the Agenda for subsequent meetings until it shall receive four
 affirmative or negative votes.
-In the event an Item continued
-under this rule is consideration of an ordinance, the ordinance
-shall not be considered to have been read or considered for its
-first or any subsequent passage
+In the event an Item continued under this rule is consideration of
+an ordinance, the ordinance shall not be considered to have been
+read or considered for its first or any subsequent passage
 unless it shall receive four affirmative votes.
 
 ### Rule 34. No Motions by Presiding Officer

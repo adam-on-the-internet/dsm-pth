@@ -170,7 +170,7 @@ forty minutes
 in duration. 
 
 Each item shall receive up to two minutes
-time and time shall not be recalculated or additional speakers
+time and shall not be recalculated or additional speakers
 recognized if the time used by any speaker is less than two minutes
 or the collective time for all speakers is less than forty-minutes.
 
@@ -305,7 +305,7 @@ A majority vote of the Council may alter the time limitations of this rule.
 
 Citizen comments must be directed to the subject under consideration.
 The presiding officer shall rule on the germaneness of citizen comments.
-Citizens making personal, repetitive slanderous or disruptive
+Citizens making personal, repetitive, slanderous or disruptive
 remarks or engaging in any action that otherwise impedes the
 orderly conduct of a council meeting shall not be recognized by
 the presiding officer
