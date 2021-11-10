@@ -4,7 +4,7 @@ Version 11
 
 As of amendments made on September 13, 2013.
 
-Transcribed from: [PDF Copy of Rules](assets/rules-archive/2013_09_23/copy.pdf)
+Transcribed from [PDF Copy of Rules](assets/rules-archive/2013_09_23/copy.pdf).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 

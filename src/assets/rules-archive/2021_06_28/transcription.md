@@ -4,7 +4,7 @@ Version 16
 
 As of amendments made on June 28, 2021.
 
-Transcribed from: [Rules as of June 28, 2021](https://www.dsmpeoplestownhall.com/assets/rules-archive/2021_06_28/copy.pdf)
+Transcribed from [Rules as of June 28, 2021](https://www.dsmpeoplestownhall.com/assets/rules-archive/2021_06_28/copy.pdf).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 

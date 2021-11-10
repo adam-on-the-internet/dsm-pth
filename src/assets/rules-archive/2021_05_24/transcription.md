@@ -4,6 +4,7 @@ Verson 15
 
 As of amendments made on May 24, 2021.
 
-Transcribed from: ???
+Transcribed by adding [the amendments](assets/rules-archive/2021_05_24/resolution.pdf) 
+to [the previous transcription](#/view/rules-archive~2021_05_10~transcription).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
