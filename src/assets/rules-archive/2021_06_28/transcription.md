@@ -8,7 +8,8 @@ Transcribed from [Rules as of June 28, 2021](https://www.dsmpeoplestownhall.com/
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
-Rule(s) amended: 37
+Rule(s) amended: 
+ - Rule 37. Action on Consent Agenda
 
 ## Part I. General Provision
 

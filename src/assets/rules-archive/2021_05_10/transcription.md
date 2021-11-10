@@ -9,7 +9,9 @@ to [the previous transcription](#/view/rules-archive~2020_11_09~transcription).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
-Amended rule(s): 16, 30
+Amended rule(s):
+ - Rule 16. Citizen Agenda Requests
+ - Rule 30. Remarks of Citizens to be Germane
 
 ## Part I. General Provision
 

@@ -9,7 +9,9 @@ to [the previous transcription](#/view/rules-archive~2021_05_10~transcription).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
-Rule(s) amended: 5, 42
+Rule(s) amended: 
+ - Rule 5. Regular Meetings
+ - Rule 42. Motions
 
 ## Part I. General Provision
 

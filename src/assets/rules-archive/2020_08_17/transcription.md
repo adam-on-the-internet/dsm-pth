@@ -8,7 +8,18 @@ Transcribed from [Resolution for Item I (Includes PDF Copy of Full Rules)](asset
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
-Rule(s) amended: 5, 16, 20, 28, 29, 30, 31A (added), 37, 41, 43, 46
+Rule(s) amended: 
+ - Rule 5. Regular Meetings
+ - Rule 16. Citizen Agenda Requests
+ - Rule 20. Control of Discussion
+ - Rule 28. Manner of Addressing Council
+ - Rule 29. Time Limit on Citizen's Remarks
+ - Rule 30. Remarks of Citizens to be Germane
+ - Rule 31A. Failure to Follow Council Rules
+ - Rule 37. Action on Consent Agenda
+ - Rule 41. Consideration of Matters Not on Agenda
+ - Rule 43. Applicability of Rules
+ - Rule 46. Hearings
 
 ## Part I. General Provision
 

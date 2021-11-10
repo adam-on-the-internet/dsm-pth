@@ -9,7 +9,9 @@ to [the previous transcription](#/view/rules-archive~2013_08_17~transcription).
 
 This is an unofficial transcription. For an official copy, submit a FOIA request to the City of Des Moines.
 
-Amended rule(s): 11, 12
+Amended rule(s): 
+ - Rule 11. Agenda Deadline
+ - Rule 12. Extra Items
 
 ## Part I. General Provision
 

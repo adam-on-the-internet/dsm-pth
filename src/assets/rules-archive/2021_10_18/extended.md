@@ -57,6 +57,7 @@ It is not legal advice.
     * Rule 29. Time Limit on Citizen's Remarks
     * Rule 30. Remarks of Citizens to be Germane
     * Rule 31. Matters Not on the Agenda
+    * Rule 31A. Failure to Follow Council Rules
 * Part VI. Council Action
     * Rule 32. Motion Required
     * Rule 33. Motion to Reconsider

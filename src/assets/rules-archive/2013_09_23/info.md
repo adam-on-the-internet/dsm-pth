@@ -29,7 +29,7 @@ seemingly to fix an earlier mistake from past amendments.
 
 ## Notes
 
-Amended rule 22.
+Amended rule 42A.
 
 Amended at the meeting on September 23, 2013 as item 22 (on the Consent Agenda for the Legal Department).
 
