@@ -291,8 +291,8 @@ of the presiding officer at all times.
 Citizens shall be
 limited to no more than five minutes speaking time per Agenda item
 on which the public is allowed to speak, unless additional or less
-time is determined by the presiding officer. Total citizen in-
-put on any subject under Council consideration can be further
+time is determined by the presiding officer. Total citizen in-put 
+on any subject under Council consideration can be further
 limited to a fixed period by the presiding officer. A majority
 vote of the Council may alter the time limitations of this rule.
 
@@ -321,7 +321,10 @@ The Council may in its
 discretion allow citizens who wish to raise a matter not on the
 Agenda and who have not filed a request under Rule 16 to address
 the Council at the end of the regular Agenda.
-Rule 31A. Failure to Follow Council Rules. To enable the
+
+### Rule 31A. Failure to Follow Council Rules
+
+To enable the
 Council to transact the business of the City and conduct efficient
 meetings, persons other than Council members who fail to follow
 the direction of the presiding officer on more than one occasion
@@ -448,12 +451,14 @@ with waiver and suspension of the requirement that an ordinance
 must be considered and voted on for passage at two Council meetings
 prior to the meeting at which it is to be finally passed, by
 reciting the following motion:
+
 "Moved by (insert the moving Council member's name) that
 the rule requiring that an ordinance must be considered
 and voted on for passage at two Council meetings prior
 to the meeting at which it is to be finally passed be
 suspended, that the ordinance be placed upon its final
 passage and that the ordinance do now pass."
+
 or may move waiver and suspension by reference to the language of
 this section to be known as "the waiver rule".
 
