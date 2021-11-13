@@ -1,4 +1,4 @@
-# 2021-11-15 Council Agenda (v1) 
+# 2021-11-15 Council Agenda (v2) 
 
 TITLE: Agenda 2021-11-15 
 
@@ -932,7 +932,11 @@ Revitalization Area:
 
 Citywide Urban Revitalization Area. 
 
-(B) First consideration of ordinance above. 
+(B) First consideration of an ordinance to amend Municipal Code Section 135-2.11, 
+
+Figures 135-2.11-A, 135-2.11-B, 135-2.11-C, 135-2.11-D, and Tables 135-2.1-1 and 
+
+135-2.1-2, relating to Flat A and Flat B building types and regulations. 
 
 (C) Final consideration of ordinance above (waiver requested by Development Services 
 
@@ -1188,7 +1192,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-11-15 
 
-Version: 1 
+Version: 2 
 
-Agenda scan taken at 2021-11-10 19:14:41.552262 
+Agenda scan taken at 2021-11-13 10:43:42.739339 
 
