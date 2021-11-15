@@ -4,6 +4,21 @@ Amendment from September 23, 2013 to August 17, 2020
 
 ## Rule 5. Regular Meetings
 
+### Difference
+
+The City Clerk shall prepare an annual schedule of Council meetings
+and forward it to the City Council, to adopt by resolution,
+at least 60 days prior to January 1 of each year.
+Regular meetings will begin at 4:30 P.M. in City Council Chambers.
+The Council may, by resolution, continue or postpone any regular meeting
+to another day and time, or may cancel a meeting.
+
+**All regular meetings shall end by 9:00 P.M unless the Council
+by a 2/3 vote agrees that the meeting may continue.**
+
+All hearings shall be scheduled for 5:00 P.M.
+the day of a regular meeting.
+
 ### Before
 
 The City Clerk shall prepare an annual schedule of Council meetings
@@ -12,6 +27,7 @@ at least 60 days prior to January 1 of each year.
 Regular meetings will begin at 4:30 P.M. in City Council Chambers.
 The Council may, by resolution, continue or postpone any regular meeting
 to another day and time, or may cancel a meeting.
+
 All hearings shall be scheduled for 5:00 P.M.
 the day of a regular meeting.
 
@@ -23,12 +39,35 @@ at least 60 days prior to January 1 of each year.
 Regular meetings will begin at 4:30 P.M. in City Council Chambers.
 The Council may, by resolution, continue or postpone any regular meeting
 to another day and time, or may cancel a meeting.
+
 All regular meetings shall end by 9:00 P.M unless the Council
 by a 2/3 vote agrees that the meeting may continue.
+
 All hearings shall be scheduled for 5:00 P.M.
 the day of a regular meeting.
 
 ## Rule 16. Citizen Agenda Requests
+
+### Difference
+
+Any citizen may request
+~~the right~~ 
+to have an item placed on the Agenda (including a request to speak)
+by filing such request in writing with the City Clerk prior to
+5:00 P.M. on the 
+~~Wednesday~~ **Tuesday**
+preceding ~~the~~ **regular** Council meeting.
+
+**All such requests shall be placed under a single item on the agenda,
+by lettered paragraph and limited collectively to no more than
+one-half hour in duration. Each item shall receive three minutes
+or the same amount of time as the presiding officer determines by
+dividing thirty minutes by the number of speakers, whichever is
+less. No other person may speak on any such item. Any item not
+addressed within the one half-hour time limit shall move in the
+same order to the next regular meeting’s Agenda, with any new
+requests added to the end of the Citizen’s Agenda item in the order
+received.**
 
 ### Before
 
@@ -44,7 +83,8 @@ Any citizen may request
 to have an item placed on the Agenda (including a request to speak)
 by filing such request in writing with the City Clerk prior to
 5:00 P.M. on the 
-Tuesday preceding regular Council meeting. 
+Tuesday preceding regular Council meeting.
+
 All such requests shall be placed under a single item on the agenda,
 by lettered paragraph and limited collectively to no more than
 one-half hour in duration. Each item shall receive three minutes
@@ -57,6 +97,12 @@ requests added to the end of the Citizen’s Agenda item in the order
 received.
 
 ## Rule 20. Control of Discussion
+
+### Difference
+
+The presiding officer shall
+control discussion of the Council on each Agenda item to assure
+full participation **by the Council** in accordance with these rules.
 
 ### Before
 
@@ -72,6 +118,25 @@ full participation by the Council in accordance with these rules.
 
 ## Rule 28. Manner of Addressing Council
 
+### Difference
+
+**At each regular Council meeting, if any requests to speak have been received,**
+~~A~~ 
+**a**
+person desiring to address the Council shall step to the podium,
+state his or her name, address, and group affiliation (if any)
+and speak clearly into the microphone.
+
+**If the meeting is entirely electronic,
+the person shall use the prescribed method for comments,
+but shall not speak on the same item more than once.
+If the meeting is not entirely electronic,
+then only those persons in attendance at the physical location
+of the meeting will be permitted to speak and only in accordance
+with these rules and the City Code.
+The person shall follow these rules and the direction of the presiding officer
+at all times.**
+
 ### Before
 
 A person desiring to address the Council shall step to the podium,
@@ -85,6 +150,7 @@ if any requests to speak have been received,
 a person desiring to address the Council shall step to the podium,
 state his or her name, address, and group affiliation (if any) and
 speak clearly into the microphone.
+
 If the meeting is entirely electronic,
 the person shall use the prescribed method for comments,
 but shall not speak on the same item more than once.
@@ -97,13 +163,29 @@ at all times.
 
 ## Rule 29. Time Limit on Citizen's Remarks
 
+### Difference
+
+Citizens shall be limited to 
+**no more than**
+five minutes
+speaking time per **Agenda** item
+**on which the public is allowed to speak**,
+unless additional **or less** time is ~~granted~~ **determined** by the presiding officer.
+
+Total citizen in-put on any subject under Council consideration can be **further**
+limited to a fixed period by the presiding officer.
+
+A majority vote of the Council may ~~extend~~ **alter** the time limitations of this rule.
+
 ### Before
 
 Citizens shall be limited to five minutes
 speaking time per item,
 unless additional time is granted by the presiding officer.
+
 Total citizen in-put on any subject under Council consideration can be
 limited to a fixed period by the presiding officer.
+
 A majority vote of the Council may extend the time limitations of this rule.
 
 ### After
@@ -112,8 +194,10 @@ Citizens shall be limited to no more than five minutes
 speaking time per Agenda item
 on which the public is allowed to speak, unless additional or less
 time is determined by the presiding officer. 
+
 Total citizen in-put on any subject under Council consideration can be further
 limited to a fixed period by the presiding officer.
+
 A majority vote of the Council may alter the time limitations of this rule.
 
 ## Rule 30. Remarks of Citizens to be Germane
