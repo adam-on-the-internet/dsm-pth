@@ -1,6 +1,6 @@
 # Amendment Text
 
-September 23, 2013
+Amendment from September 23, 2013
 
 ## Rule 42A. Waiver of Ordinance Readings
 

@@ -25,6 +25,8 @@ Rule 37. Action on Consent Agenda was amended as follows:
 
 [Transcription of Rules](#/view/rules-archive~2021_06_28~transcription)
 
+[Amendment Text](#/view/rules-archive~2021_06_28~amendment)
+
 [Agenda for June 28, 2021](assets/rules-archive/2021_06_28/agenda.pdf)
 
 [Resolution for Item I](assets/rules-archive/2021_06_28/resolution.pdf)
@@ -38,7 +40,3 @@ Amended rule 37.
 Amended at the meeting on June 28, 2021 as item I (not on the Consent Agenda).
 
 The vote passed 7-0 (unanimously) with Roll Call 21-0944.
-
-## Amendment Text
-
-TBD

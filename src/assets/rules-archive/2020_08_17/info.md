@@ -26,6 +26,8 @@ Council amended Rule 30. Remarks of Citizens to be Germane.
 
 [Transcription of Rules](#/view/rules-archive~2020_08_17~transcription)
 
+[Amendment Text](#/view/rules-archive~2020_08_17~amendment)
+
 [Agenda for August 17, 2020](assets/rules-archive/2020_08_17/agenda.pdf)
 
 [Resolution for Item I (Includes PDF Copy of Full Rules)](assets/rules-archive/2020_08_17/resolution.pdf)
@@ -39,7 +41,3 @@ Amended rule 5, rule 16, rule 20, rule 28, rule 29, rule 30, rule 31, rule 37, r
 Amended at the meeting on August 17, 2020 as item I (not on the Consent Agenda).
 
 The vote passed 7-0 (unanimously) with Roll Call 20-1300.
-
-## Amendment Text
-
-TBD

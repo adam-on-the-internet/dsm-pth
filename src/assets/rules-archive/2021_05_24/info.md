@@ -26,6 +26,8 @@ Rule 42. Motions was amended as follows:
 
 [Agenda for May 24, 2021](assets/rules-archive/2021_05_24/agenda.pdf)
 
+[Amendment Text](#/view/rules-archive~2021_05_24~amendment)
+
 [Resolution for Item 39I](assets/rules-archive/2021_05_24/resolution.pdf)
 
 [Roll Call for 21-0796](assets/rules-archive/2021_05_24/roll_call.pdf)
@@ -37,7 +39,3 @@ Amended rule 5 and rule 42.
 Amended at the meeting on May 24, 2021 as item 39I (on the Consent Agenda).
 
 The vote passed 7-0 (unanimously) with Roll Call 21-0796.
-
-## Amendment Text
-
-TBD

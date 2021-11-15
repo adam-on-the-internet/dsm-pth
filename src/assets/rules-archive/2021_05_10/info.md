@@ -24,6 +24,8 @@ Council amended Rule 30. Remarks of Citizens to be Germane as follows:
 
 [Transcription of Rules](#/view/rules-archive~2021_05_10~transcription)
 
+[Amendment Text](#/view/rules-archive~2021_05_10~amendment)
+
 [Agenda for May 10, 2021](assets/rules-archive/2021_05_10/agenda.pdf)
 
 [Resolution for Item I](assets/rules-archive/2021_05_10/resolution.pdf)
@@ -37,7 +39,3 @@ Amended rule 16 and rule 30.
 Amended at the meeting on May 10, 2021 as item I (not on the Consent Agenda).
 
 The vote passed 6-1 with Roll Call 21-0662.
-
-## Amendment Text
-
-TBD
