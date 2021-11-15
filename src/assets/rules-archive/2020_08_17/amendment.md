@@ -1,6 +1,6 @@
 # Amendment Text
 
-Amendment from August 17, 2020
+Amendment from September 23, 2013 to August 17, 2020
 
 ## Rule 5. Regular Meetings
 
@@ -118,10 +118,31 @@ A majority vote of the Council may alter the time limitations of this rule.
 
 ## Rule 30. Remarks of Citizens to be Germane
 
+### Difference
+
+Citizen comments must be directed to the subject under consideration.
+The presiding officer shall rule on the germaneness of citizen comments.
+
+Citizens making personal, 
+~~impertinent, or slanderous~~
+**repetitive slanderous or disruptive**
+remarks
+**or engaging in any action that otherwise impedes the orderly counduct of a council meeting**
+~~shall be barred~~
+**shall not be recognized**
+by the presiding officer from further comment before the Council during the
+**remainder of the** meeting.
+
+**Persons who make or attempt
+to make non-germane remarks on more than one item shall not be
+recognized by the presiding officer during the remainder of the
+meeting.**
+
 ### Before
 
 Citizen comments must be directed to the subject under consideration.
 The presiding officer shall rule on the germaneness of citizen comments.
+
 Citizens making personal, impertinent, or slanderous remarks
 shall be barred by the presiding officer from further
 comment before the Council during the meeting.
@@ -130,20 +151,31 @@ comment before the Council during the meeting.
 
 Citizen comments must be directed to the subject under consideration.
 The presiding officer shall rule on the germaneness of citizen comments.
+
 Citizens making personal, repetitive slanderous or disruptive
 remarks or engaging in any action that otherwise impedes the
 orderly conduct of a council meeting shall not be recognized by
 the presiding officer from further comment before the Council
-during the remainder of the meeting. Persons who make or attempt
+during the remainder of the meeting.
+
+Persons who make or attempt
 to make non-germane remarks on more than one item shall not be
 recognized by the presiding officer during the remainder of the
 meeting.
 
 ## Rule 31A. Failure to Follow Council Rules
 
+### Difference
+
+**To enable the Council to transact the business of the City
+and conduct efficient meetings, persons other than Council members
+who fail to follow the direction of the presiding officer
+on more than one occasion during a Council meeting shall not be recognized
+by the presiding officer during the remainder of the meeting.**
+
 ### Before
 
-N/A (This was an entirely new rule.)
+N/A (new rule added)
 
 ### After
 
@@ -155,6 +187,36 @@ by the presiding officer during the remainder of the meeting.
 
 ## Rule 37. Action on Consent Agenda
 
+### Difference
+
+Except as herein provided the "Consent Agenda" shall be considered
+in bulk and voted upon in single motion.
+Each Council Member shall separately note upon a form provided
+by the City Clerk any matter on the "Consent Agenda" upon which
+he or she wishes to speak or to vote no.
+
+At the time of consideration of the "Consent Agenda" the presiding officer
+shall announce the items upon which Council members have indicated
+they wish to speak or vote no,
+the presiding officer shall also ask if any person in
+attendance wishes to speak
+upon any 
+item;
+~~items upon which any Council Member or citizen wishes to speak~~
+**single item,
+which Council may remove upon majority vote;
+items upon which any Council Member wishes to speak,
+or items upon which a citizen wishes to speak which have been removed
+from the consent agenda by majority vote,**
+shall be considered
+separately and not as a portion
+of any motion calling for action upon the remainder of the "Consent Agenda".
+
+The City Clerk, on all matters contained in the "Consent Agenda"
+shall record the yes and no votes on each item separately
+as if each item had been moved and voted upon separately.
+Rule 21 shall not apply.
+
 ### Before
 
 Except as herein provided the "Consent Agenda" shall be considered
@@ -162,6 +224,7 @@ in bulk and voted upon in single motion.
 Each Council Member shall separately note upon a form provided
 by the City Clerk any matter on the "Consent Agenda" upon which
 he or she wishes to speak or to vote no.
+
 At the time of consideration of the "Consent Agenda" the presiding officer
 shall announce the items upon which Council members have indicated
 they wish to speak or vote no,
@@ -171,6 +234,7 @@ upon any item;
 items upon which any Council Member or citizen wishes to speak shall be considered
 separately and not as a portion
 of any motion calling for action upon the remainder of the "Consent Agenda".
+
 The City Clerk, on all matters contained in the "Consent Agenda"
 shall record the yes and no votes on each item separately
 as if each item had been moved and voted upon separately.
@@ -183,6 +247,7 @@ in bulk and voted upon in single motion.
 Each Council Member shall separately note upon a form provided
 by the City Clerk any matter on the "Consent Agenda" upon which
 he or she wishes to speak or to vote no.
+
 At the time of consideration of the "Consent Agenda" the presiding officer
 shall announce the items upon which Council members have indicated
 they wish to speak or vote no,
@@ -195,6 +260,7 @@ or items upon which a citizen wishes to speak which have been removed
 from the consent agenda by majority vote,
 shall be considered separately and not as a portion
 of any motion calling for action upon the remainder of the "Consent Agenda".
+
 The City Clerk, on all matters contained in the "Consent Agenda"
 shall record the yes and no votes on each item separately
 as if each item had been moved and voted upon separately.
@@ -222,6 +288,14 @@ as permitted by law or direct such matter be included upon a later Agenda.
 
 ## Rule 43. Applicability of Rules
 
+### Difference
+
+These rules shall apply to
+the Council when meeting in any form including such times as it
+acts as the 
+~~Board of Health.~~
+**Municipal Housing Agency Governing Board.**
+
 ### Before
 
 These rules shall apply to
@@ -235,6 +309,19 @@ the Council when meeting in any form including such times as it
 acts as the Municipal Housing Agency Governing Board.
 
 ## Rule 46. Hearings
+
+### Difference
+
+Any other rule to the contrary notwithstanding, 
+unless required by statute or necessary to conform to
+proceedings required for a special purpose, 
+a hearing shall commence when declared open by the presiding officer and
+shall close when closed by the presiding officer or by other
+formal action of the Council.
+
+**Any member of the public who fails to follow these rules during any 
+hearing process shall not be recognized by the presiding officer 
+during the remainder of the meeting.**
 
 ### Before
 
@@ -253,6 +340,7 @@ proceedings required for a special purpose,
 a hearing shall commence when declared open by the presiding officer and
 shall close when closed by the presiding officer or by other formal
 action of the Council.
+
 Any member of the public who fails to follow these rules during any 
 hearing process shall not be recognized by the presiding officer 
 during the remainder of the meeting.
