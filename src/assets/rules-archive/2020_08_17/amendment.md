@@ -352,6 +352,16 @@ Rule 21 shall not apply.
 
 ## Rule 41. Consideration of Matters Not on Agenda
 
+### Difference
+
+Except as to matter which by law require the publication of notice before
+consideration by the Council any member of the Council may,
+at the close of the regular Agenda, bring a matter not on the Agenda to
+the Council's attention.
+Council may act upon such matters
+**as permitted by law**
+or direct such matter be included upon a later Agenda.
+
 ### Before
 
 Except as to matter which by law require the publication of notice before
