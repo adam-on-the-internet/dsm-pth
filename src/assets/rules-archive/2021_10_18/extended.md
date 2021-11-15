@@ -30,7 +30,7 @@ It is not legal advice.
 ## Contents
 
 * Part I. General Provision
-    * Rule 1. Scope of Rules
+    * [Rule 1. Scope of Rules](#rule-1-scope-of-rules)
     * Rule 2. Technical Parliamentary Forms Abolished
     * Rule 3. Matters Not Covered
     * Rule 4. Interpretation
