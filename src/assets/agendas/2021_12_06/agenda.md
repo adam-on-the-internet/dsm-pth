@@ -1,4 +1,4 @@
-# 2021-12-06 Council Agenda (v3) 
+# 2021-12-06 Council Agenda (v4) 
 
 TITLE: Agenda 2021-12-06 
 
@@ -690,7 +690,13 @@ Recommendation from Council Member Westergaard to reappoint William Thompson to
 
 the Park and Recreation Board, Seat 10, for a four-year term expiring June 30, 2025. 
 
+25I   Recommendation from Council Member Voss to reappoint Brian Clark to the Urban 
+
+Design Review Board, Seat 3, for the three-year term expiring June 30, 2024. 
+
 [Resolution Link - 25](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/25.pdf) 
+
+[Resolution Link - 25I](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/25I.pdf) 
 
 
 
@@ -1458,7 +1464,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-06 
 
-Version: 3 
+Version: 4 
 
-Agenda scan taken at 2021-12-04 12:06:35.468018 
+Agenda scan taken at 2021-12-04 17:37:15.019958 
 
