@@ -1,4 +1,4 @@
-# 2021-12-06 Council Agenda (v1) 
+# 2021-12-06 Council Agenda (v2) 
 
 TITLE: Agenda 2021-12-06 
 
@@ -542,7 +542,11 @@ Final Plat �Merle Hay Anchors, LLC Subdivision�, to divide the property into
 
 development lots. 
 
-(Council Communication No.   21-536) 
+(Council Communication No.  21-536) 
+
+[Resolution Link - 16](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/16.pdf) 
+
+[Communication Link - 21-536](http://www.dmgov.org/Government/CityCouncil/Communications/21-536.pdf) 
 
 
 
@@ -1106,17 +1110,21 @@ currently owned by the Des Moines Metro Wastewater Reclamation Authority City of
 
 Moines. (Continued from August 23, 2021). 
 
+[Resolution Link - 51](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/51.pdf) 
+
 
 
 ### Item #52 - HEARINGS - HEARING ITEM 
 
 ###### Tags: HEARING ITEM 
 
-Dismissing hearing on vacation of excess City right-of-way located north of and adjoining 
+Continuing hearing on vacation of excess City right-of-way located north of and adjoining 
 
 1661 County Line Road, and conveyance to JOPPA for $30,000, (Continued from 
 
 August 23, 2021). 
+
+[Resolution Link - 52](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/52.pdf) 
 
 
 
@@ -1344,9 +1352,11 @@ Amending Sections 2-1176 and 2-1177, relating to the creation, composition, appo
 
 and powers and duties of the Youth Advisory Board. 
 
-(Council Communication No. 21-537) 
+(Council Communication No.  21-537) 
 
 [Resolution Link - 63](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/63.pdf) 
+
+[Communication Link - 21-537](http://www.dmgov.org/Government/CityCouncil/Communications/21-537.pdf) 
 
 
 
@@ -1440,7 +1450,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-06 
 
-Version: 1 
+Version: 2 
 
-Agenda scan taken at 2021-12-02 17:03:25.596000 
+Agenda scan taken at 2021-12-03 19:55:39.140153 
 
