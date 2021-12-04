@@ -1,4 +1,4 @@
-# 2021-12-06 Council Agenda (v2) 
+# 2021-12-06 Council Agenda (v3) 
 
 TITLE: Agenda 2021-12-06 
 
@@ -838,13 +838,21 @@ District to N3a Neighborhood District, (12-20-21).
 
 [Resolution Link - 35](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/35.pdf) 
 
+[Resolution Link - 35I](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/35I.pdf) 
+
 
 
 ### Item #35I - SETTING DATE OF HEARINGS - CONSENT ITEM 
 
 ###### Tags: CONSENT ITEM 
 
-Number Not Used. 
+On Appeal by Genesis Health Club Sports Complex SE, LLC of denial of Type 2 Design 
+
+Alternatives for Site Plan for property located at 1111 East Army Post Road. Sponsored 
+
+by Council Member Gatto. 
+
+[Resolution Link - 35I](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/35I.pdf) 
 
 
 
@@ -1450,7 +1458,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-06 
 
-Version: 2 
+Version: 3 
 
-Agenda scan taken at 2021-12-03 19:55:39.140153 
+Agenda scan taken at 2021-12-04 12:06:35.468018 
 
