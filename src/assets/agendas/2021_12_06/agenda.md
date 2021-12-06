@@ -1,4 +1,4 @@
-# 2021-12-06 Council Agenda (v4) 
+# 2021-12-06 Council Agenda (v5) 
 
 TITLE: Agenda 2021-12-06 
 
@@ -556,9 +556,7 @@ development lots.
 
 Recommendation by Council Member Gray to appoint Deb Chido to Parks and Recreation 
 
-Board, Seat 8, to fill a vacancy with the term ending June 30, 2023, and first full-term 
-
-beginning July 1, 2023 and expiring June 30, 2027. 
+Board, Seat 8, to fill a vacancy with the term ending June 30, 2023. 
 
 [Resolution Link - 17](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/17.pdf) 
 
@@ -584,7 +582,7 @@ Recommendation from Council Member Mandelbaum to appoint Debra Carr to the
 
 Neighborhood Revitalization Board, Seat 9, to fill vacancy with the term ending June 30, 
 
-2023 and first full-term commencing on July 1, 2023 and expiring June 30, 2026. 
+2023. 
 
 [Resolution Link - 19](http://www.dmgov.org/government/CityCouncil/Resolutions/20211206/19.pdf) 
 
@@ -1132,7 +1130,7 @@ Moines. (Continued from August 23, 2021).
 
 ###### Tags: HEARING ITEM 
 
-Continuing hearing on vacation of excess City right-of-way located north of and adjoining 
+Dismissing hearing on vacation of excess City right-of-way located north of and adjoining 
 
 1661 County Line Road, and conveyance to JOPPA for $30,000, (Continued from 
 
@@ -1464,7 +1462,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-06 
 
-Version: 4 
+Version: 5 
 
-Agenda scan taken at 2021-12-04 17:37:15.019958 
+Agenda scan taken at 2021-12-06 13:58:01.936327 
 
