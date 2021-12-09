@@ -60,6 +60,12 @@
               {{person.email}}
             </a>
           </p>
+          <ng-container *ngIf="person.term">
+            <hr>
+            <p class="mb-0">
+              {{person.term}}
+            </p>
+          </ng-container>
           <ng-container *ngIf="person.note">
             <hr>
             <p class="mb-0">

@@ -70,20 +70,22 @@ export const SPECIAL_CONTACTS: SimpleContact[] = [
   },
 ];
 
-export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
-  role: "Mayor",
-  name: "T.M. Franklin Cownie",
-  email: "Fcownie@dmgov.org",
-  emailLink: CONTACT_MAYOR,
-  phoneNumber: "515-283-4944",
-},
+export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [
+  {
+    role: "Mayor",
+    name: "T.M. Franklin Cownie",
+    email: "Fcownie@dmgov.org",
+    emailLink: CONTACT_MAYOR,
+    phoneNumber: "515-283-4944",
+    term: "Elected 2004, term expires 2024. Up for election in 2023."
+  },
   {
     role: "Council Member: At Large",
     name: "Connie Boesen",
     email: "Connieboesen@dmgov.org",
     emailLink: CONTACT_AT_LARGE_1,
     phoneNumber: "515-240-7929",
-    note: "Up for re-election on November 2nd.",
+    term: "Elected 2018, term expires 2026."
   },
   {
     role: "Council Member: At Large",
@@ -91,6 +93,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "carlvoss@dmgov.org",
     emailLink: CONTACT_AT_LARGE_2,
     phoneNumber: "515-210-0237",
+    term: "Elected 2019, term expires 2024. Up for election in 2023."
   },
   {
     role: "Council Member: Ward 1",
@@ -98,7 +101,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "Billgray@dmgov.org",
     emailLink: CONTACT_WARD_1,
     phoneNumber: "515-274-0077",
-    note: "Up for re-election on November 2nd.",
+    term: "Elected 2014, term expires 2022. He will be replaced by Indira Sheumaker."
   },
   {
     role: "Council Member: Ward 2",
@@ -106,6 +109,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "LindaW@dmgov.org",
     emailLink: CONTACT_WARD_2,
     phoneNumber: "515-988-4288",
+    term: "Elected 2016, term expires 2024. Up for election in 2023."
   },
   {
     role: "Council Member: Ward 3",
@@ -113,7 +117,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "Joshmandelbaum@dmgov.org",
     emailLink: CONTACT_WARD_3,
     phoneNumber: "515-250-3384",
-    note: "Up for re-election on November 2nd.",
+    term: "Elected 2018, term expires 2026."
   },
   {
     role: "Council Member: Ward 4",
@@ -121,6 +125,7 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [{
     email: "Joegatto@dmgov.org",
     emailLink: CONTACT_WARD_4,
     phoneNumber: "515-402-2626",
+    term: "Elected 2014, term expires 2024. Up for election in 2023.",
     note: "Although Joe Gatto represents Ward 4, he lives elsewhere. Read about how he was approved to represent Ward 4 anyway by Mayor Cownie and others: https://tinyurl.com/2876huf5"
   },
 ];

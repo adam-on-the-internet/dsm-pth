@@ -1,6 +1,7 @@
 export interface SimpleContact {
   name: string;
   emailLink: string;
+  term?: string;
   note?: string;
 }
 
