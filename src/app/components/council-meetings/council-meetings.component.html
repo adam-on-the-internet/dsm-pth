@@ -1,0 +1,31 @@
+<div class="bg-townhall">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 my-3 text-center transparent">
+        <h1>Council Meetings</h1>
+      </div>
+      <div class="col-md-12 mb-3" *ngFor="let year of meetingYears">
+        <app-card>
+          <h2>2021</h2>
+          <ng-container *ngFor="let month of year.months">
+            <h3>December</h3>
+            <ng-container *ngFor="let date of month.dates">
+              <h4>
+                {{getReadableDate(date.date)}}
+              </h4>
+              <ul>
+                <li *ngFor="let meeting of date.meetings">
+                  <a [href]="getLink(date.date, meeting.type)">
+                    {{getReadableType(meeting.type)}} at
+                    {{meeting.time}}
+                  </a>
+                </li>
+              </ul>
+            </ng-container>
+
+          </ng-container>
+        </app-card>
+      </div>
+    </div>
+  </div>
+</div>

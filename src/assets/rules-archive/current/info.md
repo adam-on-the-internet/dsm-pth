@@ -4,7 +4,7 @@
 
 The City of Des Moines refuses to make their City Council Procedural Rules public, so we have transcribed a copy of the rules we obtained and added some additional information.
 
-[Transcription of Rules](#/view/rules-archive~2021_10_18~extended)
+[Transcription of Rules](#/view/rules-archive~current~extended)
 
 The transcription was taken from a less-friendly PDF document 
 (obtained through a FOIA request in November 2021).

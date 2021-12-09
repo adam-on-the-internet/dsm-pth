@@ -32,6 +32,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.ContactList);
   }
 
+  public goToCouncilMeetings(): void {
+    this.goToRoute(ROUTES_ENUM.CouncilMeetings);
+  }
+
   public goToAgendaInfoList(): void {
     this.goToRoute(ROUTES_ENUM.AgendaPublished);
   }
@@ -46,6 +50,10 @@ export class NavHelperService {
 
   public goToMarkdownViewer(filePath: string): void {
     this.goToRoutes([ROUTES_ENUM.MarkdownViewer, filePath]);
+  }
+
+  public goToCouncilToolkit(): void {
+    this.goToRoutes([ROUTES_ENUM.CouncilToolkit]);
   }
 
   // ADMIN

@@ -19,6 +19,8 @@ import {PublishedAgendaListComponent} from "./components/published-agenda-list/p
 import {PublishedAgendaComponent} from "./components/published-agenda/published-agenda.component";
 import {RulesComponent} from "./components/rules/rules.component";
 import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-viewer.component";
+import {CouncilToolkitComponent} from './components/council-toolkit/council-toolkit.component';
+import {CouncilMeetingsComponent} from "./components/council-meetings/council-meetings.component";
 
 const routes: Routes = [
   // main
@@ -27,6 +29,9 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Login, component: LoginComponent},
   {path: ROUTES_ENUM.Profile, component: ProfileComponent},
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
+
+  {path: ROUTES_ENUM.CouncilToolkit, component: CouncilToolkitComponent},
+  {path: ROUTES_ENUM.CouncilMeetings, component: CouncilMeetingsComponent},
 
   {path: ROUTES_ENUM.AgendaPublished, component: PublishedAgendaListComponent},
   {path: ROUTES_ENUM.AgendaPublished + "/:id", component: PublishedAgendaComponent},
