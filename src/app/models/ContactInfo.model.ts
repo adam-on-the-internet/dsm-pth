@@ -1,6 +1,8 @@
 export interface SimpleContact {
   name: string;
   emailLink: string;
+  salary?: string;
+  salaryLink?: string;
   term?: string;
   note?: string;
 }

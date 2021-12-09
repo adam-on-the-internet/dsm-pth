@@ -51,14 +51,23 @@
           <p *ngIf="person.phoneNumber" class="mb-0">
             <a class="btn btn-link" href="tel:{{getParsedPhone(person.phoneNumber)}}" target="_blank">
               <i class="fa fa-phone"></i>
-              {{person.phoneNumber}}
             </a>
+            {{person.phoneNumber}}
           </p>
           <p *ngIf="person.email && person.emailLink" class="mb-0">
             <a class="btn btn-link" href="{{person.emailLink}}" target="_blank">
               <i class="fa fa-envelope"></i>
-              {{person.email}}
             </a>
+            {{person.email}}
+          </p>
+          <p *ngIf="person.salary && person.salaryLink" class="mb-0">
+            <a class="btn btn-link"
+               href="{{person.salaryLink}}"
+               target="_blank">
+              <i class="fa fa-money"></i>
+            </a>
+            Salary:
+            {{person.salary}}
           </p>
           <ng-container *ngIf="person.term">
             <hr>
