@@ -113,6 +113,16 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [
     term: "Elected 2014, term expires 2022. He will be replaced by Indira Sheumaker."
   },
   {
+    role: "Council Member Elect: Ward 1",
+    name: "Indira Sheumaker",
+    email: null,
+    emailLink: null,
+    phoneNumber: null,
+    salary: "$28,880",
+    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+    term: "Elected 2021, term expires 2026. She will be sworn in on 1/10/22."
+  },
+  {
     role: "Council Member: Ward 2",
     name: "Linda Westergaard",
     email: "LindaW@dmgov.org",
