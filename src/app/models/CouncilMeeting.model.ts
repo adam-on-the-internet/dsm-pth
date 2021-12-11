@@ -5,10 +5,16 @@ export interface CouncilMeetingDTO {
   time: string;
   type: string;
   featured: boolean;
+  show: boolean;
 }
 
 export interface CouncilMeeting extends CouncilMeetingDTO {
   readableDate: string;
   readableType: string;
   link: string;
+}
+
+export interface CouncilMeetingYear {
+  year: number;
+  councilMeetings: CouncilMeeting[];
 }

@@ -8,40 +8,51 @@
     <div class="row justify-content-center">
       <div class="col-md-10 mb-3">
         <app-card>
-          <ul>
-            <ng-container id="current-meeting-info">
+          <section id="featured-meetings">
+            <h2>Featured Meetings</h2>
+            <ul>
               <ng-container *ngIf="!councilMeetingService.ready">
                 <li>
                   <app-loading></app-loading>
                 </li>
               </ng-container>
               <ng-container *ngIf="councilMeetingService.ready">
-                <ng-container *ngFor="let councilMeeting of councilMeetingService.featuredCouncilMeetings">
-                  <li>
-                    {{councilMeeting.readableDate}}
-                    at
-                    {{councilMeeting.time}} |
-                    {{councilMeeting.readableType}} |
-                    <a [href]="councilMeeting.link">
-                      View Notes
-                    </a>
-                  </li>
+                <ng-container *ngIf="!councilMeetingService.hasFeaturedMeetings">
+                  <li>No featured meetings are available.</li>
+                </ng-container>
+                <ng-container *ngIf="councilMeetingService.hasFeaturedMeetings">
+                  <ng-container *ngFor="let councilMeeting of councilMeetingService.featuredCouncilMeetings">
+                    <li>
+                      {{councilMeeting.readableDate}}
+                      at
+                      {{councilMeeting.time}} |
+                      {{councilMeeting.readableType}} |
+                      <a [href]="councilMeeting.link">
+                        View Notes
+                      </a>
+                    </li>
+                  </ng-container>
                 </ng-container>
               </ng-container>
-            </ng-container>
-            <li>
-              <a href="#/view/toolkit~council-glossary">Council Glossary</a>
-            </li>
-            <li>
-              <a href="#/view/rules-archive~current~extended">Council Procedural Rules</a>
-            </li>
-            <li>
-              <a href="#/contacts">Contact Council</a>
-            </li>
-            <li>
-              <a href="#/council-meetings">Council Meeting List</a>
-            </li>
-          </ul>
+            </ul>
+          </section>
+          <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+              <li>
+                <a href="#/view/toolkit~council-glossary">Council Glossary</a>
+              </li>
+              <li>
+                <a href="#/view/rules-archive~current~extended">Council Procedural Rules</a>
+              </li>
+              <li>
+                <a href="#/contacts">Contact Council</a>
+              </li>
+              <li>
+                <a href="#/council-meetings">Council Meeting List</a>
+              </li>
+            </ul>
+          </section>
         </app-card>
       </div>
     </div>

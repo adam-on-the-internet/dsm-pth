@@ -1,37 +1,85 @@
 import {Injectable} from '@angular/core';
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
-import {CouncilMeeting, CouncilMeetingDTO} from "../models/CouncilMeeting.model";
+import {CouncilMeeting, CouncilMeetingDTO, CouncilMeetingYear} from "../models/CouncilMeeting.model";
 
 @Injectable({
   providedIn: 'root'
 })
 export class CouncilMeetingService {
-  public councilMeetings2021: CouncilMeeting[] = null;
+  public councilMeetingsByYear: CouncilMeetingYear[] = null;
+  public yearlyCheckComplete = false;
+
+  public get allCouncilMeetings(): CouncilMeeting[] {
+    let _meetings: CouncilMeeting[] = [];
+    this.councilMeetingsByYear.forEach((year) => {
+      _meetings = _meetings.concat(year.councilMeetings);
+    });
+    return _meetings;
+  }
+
+  public get hasFeaturedMeetings(): boolean {
+    return this.featuredCouncilMeetings.length > 0;
+  }
 
   public get featuredCouncilMeetings(): CouncilMeeting[] {
     if (this.ready) {
-      return this.councilMeetings2021.filter((meeting) => {
-        return meeting.featured;
-      });
+      return this.allCouncilMeetings
+        .filter((meeting) => {
+          return meeting.featured;
+        });
     } else {
       return null;
     }
   }
 
   public get ready(): boolean {
-    return this.councilMeetings2021 !== null;
+    return this.councilMeetingsByYear !== null && this.yearlyCheckComplete;
   }
 
   constructor(
     private http: HttpClient
   ) {
-    this.readMeetings(2021).subscribe(data => {
-      const councilMeetingDTOs: CouncilMeetingDTO[] = data;
-      this.councilMeetings2021 = councilMeetingDTOs.map(meeting => {
+    this.setup();
+  }
+
+  private setup() {
+    this.yearlyCheckComplete = false;
+    this.councilMeetingsByYear = [];
+    const year = 2021;
+    this.checkYear(year);
+  }
+
+  private checkYear(year: number) {
+    let councilMeetingDTOs: CouncilMeetingDTO[];
+    this.readMeetings(year)
+      .subscribe((data) => councilMeetingDTOs = data,
+        () => {
+          this.yearlyCheckComplete = true;
+        }, () => {
+          this.convertYearlyMeetings(councilMeetingDTOs, year);
+        });
+  }
+
+  private convertYearlyMeetings(councilMeetingDTOs: CouncilMeetingDTO[], year: number) {
+    const meetingsComplete = councilMeetingDTOs
+      .filter(meeting => {
+        return meeting.show;
+      })
+      .map(meeting => {
         return this.mapDTOtoMeeting(meeting);
       });
-    });
+    if (meetingsComplete.length === 0) {
+      this.yearlyCheckComplete = true;
+    } else {
+      const yearly: CouncilMeetingYear = {
+        councilMeetings: meetingsComplete,
+        year: year,
+      };
+      this.councilMeetingsByYear.unshift(yearly);
+      const nextYear = year + 1;
+      this.checkYear(nextYear);
+    }
   }
 
   private mapDTOtoMeeting(meeting: CouncilMeetingDTO) {
@@ -42,6 +90,7 @@ export class CouncilMeetingService {
       time: meeting.time,
       type: meeting.type,
       featured: meeting.featured,
+      show: meeting.show,
       readableDate: this.getReadableDate(meeting),
       readableType: this.getReadableType(meeting),
       link: this.getLink(meeting),

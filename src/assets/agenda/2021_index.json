@@ -2,9 +2,28 @@
   {
     "year": "2021",
     "month": "12",
+    "day": "20",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2021",
+    "month": "12",
+    "day": "20",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2021",
+    "month": "12",
     "day": "06",
     "type": "RM",
     "time": "5:00pm",
+    "show": true,
     "featured": false
   },
   {
@@ -13,6 +32,7 @@
     "day": "06",
     "type": "WS",
     "time": "7:30am",
+    "show": true,
     "featured": false
   },
   {
@@ -21,6 +41,7 @@
     "day": "30",
     "type": "SM",
     "time": "5:15pm",
+    "show": true,
     "featured": false
   },
   {
@@ -29,6 +50,7 @@
     "day": "20",
     "type": "WS",
     "time": "7:30am",
+    "show": true,
     "featured": false
   }
 ]
