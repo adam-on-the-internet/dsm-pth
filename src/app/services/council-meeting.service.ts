@@ -108,12 +108,12 @@ export class CouncilMeetingService {
   }
 
   private readMeetings(year: number): Observable<any> {
-    return this.http.get(`./assets/agenda/${year}_index.json`);
+    return this.http.get(`./assets/agenda/${year}/_index.json`);
   }
 
   private getLink(councilMeeting: CouncilMeetingDTO): string {
-    const fileName = `${councilMeeting.year}-${councilMeeting.month}-${councilMeeting.day}_${councilMeeting.type}`;
-    return `/#/view/agenda~${fileName}`;
+    const fileName = `${councilMeeting.month}-${councilMeeting.day}_${councilMeeting.type}`;
+    return `/#/view/agenda~${councilMeeting.year}~${fileName}`;
   }
 
   private getReadableDate(councilMeeting: CouncilMeetingDTO): string {
