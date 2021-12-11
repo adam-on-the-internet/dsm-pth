@@ -89,6 +89,7 @@ export class CouncilMeetingService {
       day: meeting.day,
       time: meeting.time,
       type: meeting.type,
+      subtitle: meeting.subtitle,
       featured: meeting.featured,
       show: meeting.show,
       readableDate: this.getReadableDate(meeting),

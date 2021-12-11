@@ -6,6 +6,7 @@ export interface CouncilMeetingDTO {
   type: string;
   featured: boolean;
   show: boolean;
+  subtitle?: string;
 }
 
 export interface CouncilMeeting extends CouncilMeetingDTO {
