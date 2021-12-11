@@ -10,8 +10,9 @@
             <app-loading></app-loading>
           </ng-container>
           <ng-container *ngIf="councilMeetingService.ready">
+            <h2>2021 Meetings</h2>
             <ul>
-              <ng-container *ngFor="let councilMeeting of councilMeetingService.councilMeetings">
+              <ng-container *ngFor="let councilMeeting of councilMeetingService.councilMeetings2021">
                 <li>
                   {{councilMeeting.readableDate}}
                   at

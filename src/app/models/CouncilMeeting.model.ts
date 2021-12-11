@@ -1,5 +1,4 @@
 export interface CouncilMeetingDTO {
-  fileName: string;
   year: string;
   month: string;
   day: string;
