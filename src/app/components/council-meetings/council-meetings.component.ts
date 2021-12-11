@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {CouncilMeetingService} from 'src/app/services/council-meeting.service';
+import {CouncilMeeting} from "../../models/CouncilMeeting.model";
 
 @Component({
   selector: 'app-council-meetings',
@@ -7,24 +8,21 @@ import {CouncilMeetingService} from 'src/app/services/council-meeting.service';
   styleUrls: ['./council-meetings.component.css']
 })
 export class CouncilMeetingsComponent {
-  public meetingYears: any[] = this.councilMeetingService.meetingYears;
-
   constructor(
     public councilMeetingService: CouncilMeetingService,
   ) {
   }
 
-  public getLink(date, type): string {
-    return `#/view/agenda~${date}~${type}~overview`;
+  public getLink(councilMeeting: CouncilMeeting): string {
+    return `/#/view/agenda~${councilMeeting.fileName}`;
   }
 
-  public getReadableDate(date): string {
-    const datePieces = date.split("_");
-    return `${datePieces[1]}/${datePieces[2]}/${datePieces[0]}`;
+  public getReadableDate(councilMeeting: CouncilMeeting): string {
+    return `${councilMeeting.day}/${councilMeeting.month}/${councilMeeting.year}`;
   }
 
-  public getReadableType(type): string {
-    switch (type) {
+  public getReadableType(councilMeeting: CouncilMeeting): string {
+    switch (councilMeeting.type) {
       case "WS":
         return "Work Session";
       case "RM":

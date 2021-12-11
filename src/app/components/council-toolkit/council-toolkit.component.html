@@ -1,19 +1,33 @@
 <div class="bg-townhall">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-6 my-3 text-center transparent">
+      <div class="col-md-10 my-3 text-center transparent">
         <h1>Council Toolkit</h1>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-md-6 mb-3">
+      <div class="col-md-10 mb-3">
         <app-card>
           <ul>
             <ng-container id="current-meeting-info">
-              <!--              this section will need to be updated for each meeting -->
-              <li>
-                <a href="#/view/agenda~2021_12_06~WS~overview">12/20/21 Regular Meeting Info</a>
-              </li>
+              <ng-container *ngIf="!councilMeetingService.ready">
+                <li>
+                  <app-loading></app-loading>
+                </li>
+              </ng-container>
+              <ng-container *ngIf="councilMeetingService.ready">
+                <ng-container *ngFor="let councilMeeting of councilMeetingService.featuredCouncilMeetings">
+                  <li>
+                    {{councilMeeting.readableDate}}
+                    at
+                    {{councilMeeting.time}} |
+                    {{councilMeeting.readableType}} |
+                    <a [href]="councilMeeting.link">
+                      View Notes
+                    </a>
+                  </li>
+                </ng-container>
+              </ng-container>
             </ng-container>
             <li>
               <a href="#/view/toolkit~council-glossary">Council Glossary</a>
