@@ -10,6 +10,18 @@ export class CouncilMeetingService {
   public councilMeetingsByYear: CouncilMeetingYear[] = null;
   public yearlyCheckComplete = false;
 
+  public get shownCouncilMeetingsByYear(): CouncilMeetingYear[] {
+    const shownOnly: CouncilMeetingYear[] = [];
+    this.councilMeetingsByYear.forEach((year) => {
+      const shownYear = year.councilMeetings
+        .filter(meeting => {
+          return meeting.show;
+        });
+      shownOnly.push({councilMeetings: shownYear, year: year.year});
+    });
+    return shownOnly;
+  }
+
   public get allCouncilMeetings(): CouncilMeeting[] {
     let _meetings: CouncilMeeting[] = [];
     this.councilMeetingsByYear.forEach((year) => {
@@ -63,9 +75,6 @@ export class CouncilMeetingService {
 
   private convertYearlyMeetings(councilMeetingDTOs: CouncilMeetingDTO[], year: number) {
     const meetingsComplete = councilMeetingDTOs
-      .filter(meeting => {
-        return meeting.show;
-      })
       .map(meeting => {
         return this.mapDTOtoMeeting(meeting);
       });

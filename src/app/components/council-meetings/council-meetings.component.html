@@ -10,21 +10,23 @@
             <app-loading></app-loading>
           </ng-container>
           <ng-container *ngIf="councilMeetingService.ready">
-            <ng-container *ngFor="let year of councilMeetingService.councilMeetingsByYear">
-              <h2>{{year.year}} Meetings</h2>
-              <ul>
-                <ng-container *ngFor="let councilMeeting of year.councilMeetings">
-                  <li>
-                    {{councilMeeting.readableDate}}
-                    at
-                    {{councilMeeting.time}} |
-                    {{councilMeeting.readableType}} |
-                    <a [href]="councilMeeting.link">
-                      View Notes
-                    </a>
-                  </li>
-                </ng-container>
-              </ul>
+            <ng-container *ngFor="let year of meetingsByYear">
+              <ng-container *ngIf="year.councilMeetings.length > 0">
+                <h2>{{year.year}} Meetings</h2>
+                <ul>
+                  <ng-container *ngFor="let councilMeeting of year.councilMeetings">
+                    <li>
+                      {{councilMeeting.readableDate}}
+                      at
+                      {{councilMeeting.time}} |
+                      {{councilMeeting.readableType}} |
+                      <a [href]="councilMeeting.link">
+                        View Notes
+                      </a>
+                    </li>
+                  </ng-container>
+                </ul>
+              </ng-container>
             </ng-container>
           </ng-container>
         </app-card>
