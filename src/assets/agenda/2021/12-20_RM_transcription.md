@@ -1,4 +1,4 @@
-# 2021-12-20 Council Agenda (v1) 
+# 2021-12-20 Council Agenda (v3) 
 
 TITLE: Agenda 2021-12-20 
 
@@ -18,7 +18,7 @@ Consent Items: 3-67
 
 Hearing Items: 68-80 
 
-Content Tags: CONSTRUCTION, ACQUISITION, ZONING, PUBLIC TRANSIT, GENTRIFICATION, PLANDSM, CLEAN WATER, IOWA DEPARTMENT OF NATURAL RESOURCES, KNAPP, TRAFFIC, STORMWATER, PUBLIC REPORTS 
+Content Tags: CONSTRUCTION, POLICE, ACQUISITION, ZONING, GENTRIFICATION, PLANDSM, CLEAN WATER, IOWA DEPARTMENT OF NATURAL RESOURCES, KNAPP, TRAFFIC, STORMWATER, PUBLIC REPORTS 
 
 ## Intro 
 
@@ -80,7 +80,9 @@ person or group impinges on the rights of others present, so disruptive conduct 
 
 tolerated. 
 
-Farewell Reception 4:30 PM � 5:00 PM 
+Farewell Reception 
+
+4:30 PM � 5:00 PM 
 
 Great Hall, City Hall 
 
@@ -412,7 +414,7 @@ estimate, $5,350,000.
 
 ### Item #8 - PUBLIC IMPROVEMENTS - CONSENT ITEM 
 
-###### Tags: CONSTRUCTION, CONSENT ITEM 
+###### Tags: CONSTRUCTION, POLICE, CONSENT ITEM 
 
 Approving Private Construction Contract between the following: 
 
@@ -570,15 +572,7 @@ Receive and file communication from the Plan and Zoning regarding Preliminary Pl
 
 ###### Tags: CONSENT ITEM 
 
-Appointing T.M. Franklin Cownie, Joe Gatto and Linda Westergaard as Primary 
-
-Representatives and Matt Anderson, Pam Cooksey and Malcolm Hankins as Alternate 
-
-Representatives to the Wastewater Reclamation Authority (WRA) Management Agency 
-
-for Calendar Year 2022. 
-
-[Resolution Link - 18](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/18.pdf) 
+Number Not Used. 
 
 
 
@@ -600,29 +594,15 @@ expiring April 1, 2026.
 
 ###### Tags: CONSENT ITEM 
 
-Recommendation by Mayor T.M. Franklin Cownie to appoint Council Member Carl Voss 
-
-and to reappoint Erin Olson-Douglas, Development Services Director and Malcolm 
-
-Hankins, Assistant City Manager to the Neighborhood Development Corporation (NDC) 
-
-Board of Directors effective January 1, 2022. 
-
-[Resolution Link - 20](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/20.pdf) 
+Number Not Used. 
 
 
 
 ### Item #21 - BOARDS/COMMISSIONS/NEIGHBORHOODS - CONSENT ITEM 
 
-###### Tags: PUBLIC TRANSIT, CONSENT ITEM 
+###### Tags: CONSENT ITEM 
 
-Appointing Josh Mandelbaum and T.M. Franklin Cownie as the Primary and Alternate 
-
-Members to the Des Moines Area Regional Transit (DART) Authority for the Calendar 
-
-Year of 2022. 
-
-[Resolution Link - 21](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/21.pdf) 
+Number Not Used. 
 
 
 
@@ -630,11 +610,7 @@ Year of 2022.
 
 ###### Tags: CONSENT ITEM 
 
-Appointing Joe Gatto and Indira Sheumaker as the Primary and Alternate Members to the 
-
-Metro Waste Authority (MWA) for Calendar Year 2022. 
-
-[Resolution Link - 22](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/22.pdf) 
+Number Not Used. 
 
 
 
@@ -654,13 +630,7 @@ of affordable housing for Housing Choice Voucher (HCV) holders.
 
 ###### Tags: CONSENT ITEM 
 
-Appointing Linda Westergaard and Robert Mahaffey as Public Official and Senior 
-
-Representative to Aging Resources of Central Iowa Board of Directors for Calendar Year 
-
-2022. 
-
-[Resolution Link - 24](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/24.pdf) 
+Number Not Used. 
 
 
 
@@ -715,6 +685,18 @@ Recommendation by Council Member Voss to reappoint Dave Kriens, Jr. to the Build
 and Fire Code Board of Appeals, Seat 10, for three-year term expiring on April 1, 2024. 
 
 [Resolution Link - 28](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/28.pdf) 
+
+[Resolution Link - 28i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/28i.pdf) 
+
+
+
+### Item #28I - BOARDS/COMMISSIONS/NEIGHBORHOODS - CONSENT ITEM 
+
+###### Tags: CONSENT ITEM 
+
+Recommendation by Council Member Voss to reappoint Nathan Stieler, Seat 11, for a 
+
+four-year term expiring on June 15, 2025. 
 
 
 
@@ -1666,15 +1648,19 @@ Norwalk, for combined precincts.
 
 (A) Amending the Municipal Code regarding City Precinct. 
 
-(1) Final consideration of ordinance above (waiver requested by City Manager), 
+(1) Final consideration of ordinance above (To meet statutory guidelines and avoid 
 
-requires six votes. 
+additional special city council meetings to adopt the ordinance, waiver of 
+
+readings and consideration is requested by the City Manager), requires six votes. 
 
 (B) Amending the Municipal Code regarding Ward Boundaries. 
 
-(1) Final consideration of ordinance above (waiver requested by City Manager), 
+(1) Final consideration of ordinance above (To meet statutory guidelines and avoid 
 
-requires six votes. 
+additional special city council meetings to adopt the ordinance, waiver of 
+
+readings and consideration is requested by the City Manager), requires six votes. 
 
 [Resolution Link - 81](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/81.pdf) 
 
@@ -1780,7 +1766,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-20 
 
-Version: 1 
+Version: 3 
 
-Agenda scan taken at 2021-12-16 18:37:25.416935 
+Agenda scan taken at 2021-12-17 15:47:56.009263 
 
