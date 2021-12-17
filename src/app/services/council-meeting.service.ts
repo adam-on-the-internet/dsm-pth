@@ -131,6 +131,8 @@ export class CouncilMeetingService {
         return "Special Meeting";
       case "HB":
         return "Housing Board Meeting";
+      case "OM":
+        return "Other Meeting";
       default:
         return "?"
     }
