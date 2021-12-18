@@ -1,4 +1,4 @@
-# 2021-12-20 Council Agenda (v3) 
+# 2021-12-20 Council Agenda (v4) 
 
 TITLE: Agenda 2021-12-20 
 
@@ -18,7 +18,7 @@ Consent Items: 3-67
 
 Hearing Items: 68-80 
 
-Content Tags: CONSTRUCTION, POLICE, ACQUISITION, ZONING, GENTRIFICATION, PLANDSM, CLEAN WATER, IOWA DEPARTMENT OF NATURAL RESOURCES, KNAPP, TRAFFIC, STORMWATER, PUBLIC REPORTS 
+Content Tags: CONSTRUCTION, POLICE, ACQUISITION, ZONING, PUBLIC TRANSIT, GENTRIFICATION, PLANDSM, CLEAN WATER, IOWA DEPARTMENT OF NATURAL RESOURCES, KNAPP, TRAFFIC, STORMWATER, PUBLIC REPORTS 
 
 ## Intro 
 
@@ -572,7 +572,15 @@ Receive and file communication from the Plan and Zoning regarding Preliminary Pl
 
 ###### Tags: CONSENT ITEM 
 
-Number Not Used. 
+Appointing T.M. Franklin Cownie, Joe Gatto and Linda Westergaard as Primary 
+
+Representatives and Matt Anderson, Pam Cooksey and Malcolm Hankins as Alternate 
+
+Representatives to the Wastewater Reclamation Authority (WRA) Management Agency 
+
+for Calendar Year 2022. 
+
+[Resolution Link - 18](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/18.pdf) 
 
 
 
@@ -600,9 +608,15 @@ Number Not Used.
 
 ### Item #21 - BOARDS/COMMISSIONS/NEIGHBORHOODS - CONSENT ITEM 
 
-###### Tags: CONSENT ITEM 
+###### Tags: PUBLIC TRANSIT, CONSENT ITEM 
 
-Number Not Used. 
+Appointing Josh Mandelbaum and T.M. Franklin Cownie as the Primary and Alternate 
+
+Members to the Des Moines Area Regional Transit (DART) Authority for the Calendar 
+
+Year of 2022. 
+
+[Resolution Link - 21](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/21.pdf) 
 
 
 
@@ -610,7 +624,11 @@ Number Not Used.
 
 ###### Tags: CONSENT ITEM 
 
-Number Not Used. 
+Appointing Joe Gatto and Indira Sheumaker as the Primary and Alternate Members to the 
+
+Metro Waste Authority (MWA) for Calendar Year 2022. 
+
+[Resolution Link - 22](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/22.pdf) 
 
 
 
@@ -630,7 +648,13 @@ of affordable housing for Housing Choice Voucher (HCV) holders.
 
 ###### Tags: CONSENT ITEM 
 
-Number Not Used. 
+Appointing Linda Westergaard and Robert Mahaffey as Public Official and Senior 
+
+Representative to Aging Resources of Central Iowa Board of Directors for Calendar Year 
+
+2022. 
+
+[Resolution Link - 24](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/24.pdf) 
 
 
 
@@ -1766,7 +1790,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-20 
 
-Version: 3 
+Version: 4 
 
-Agenda scan taken at 2021-12-17 15:47:56.009263 
+Agenda scan taken at 2021-12-17 18:09:11.463376 
 
