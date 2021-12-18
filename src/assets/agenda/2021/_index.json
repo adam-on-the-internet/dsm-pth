@@ -16,6 +16,11 @@
   },
   {
     "year": "2021", "month": "12", "day": "20",
+    "type": "OM", "time": "4:30pm",
+    "show": true, "featured": false
+  },
+  {
+    "year": "2021", "month": "12", "day": "20",
     "type": "CS", "time": "3:00pm",
     "show": true, "featured": true
   },
