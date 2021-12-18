@@ -2,7 +2,8 @@
   {
     "year": "2021", "month": "12", "day": "21",
     "type": "OM", "time": "5:30pm",
-    "show": true, "featured": false
+    "show": true, "featured": false,
+    "subtitle": "Budget Meeting Webinar"
   },
   {
     "year": "2021", "month": "12", "day": "20",
@@ -17,7 +18,8 @@
   {
     "year": "2021", "month": "12", "day": "20",
     "type": "OM", "time": "4:30pm",
-    "show": true, "featured": false
+    "show": true, "featured": false,
+    "subtitle": "Bill Gray Farewell Reception"
   },
   {
     "year": "2021", "month": "12", "day": "20",
@@ -27,7 +29,8 @@
   {
     "year": "2021", "month": "12", "day": "15",
     "type": "OM", "time": "11:30am",
-    "show": true, "featured": false
+    "show": true, "featured": false,
+    "subtitle": "Budget Meeting In-Person"
   },
   {
     "year": "2021",
@@ -44,7 +47,7 @@
     "day": "06",
     "type": "RM",
     "time": "5:00pm",
-    "show": true,
+    "show": false,
     "featured": false
   },
   {
@@ -54,7 +57,8 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": false
+    "featured": false,
+    "subtitle": "Zoo Update"
   },
   {
     "year": "2021",
@@ -72,6 +76,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": false
+    "featured": false,
+    "subtitle": "Property Improvement Initiative"
   }
 ]

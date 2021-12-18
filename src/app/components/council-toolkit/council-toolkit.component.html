@@ -26,7 +26,11 @@
                       {{councilMeeting.readableDate}}
                       at
                       {{councilMeeting.time}} |
-                      {{councilMeeting.readableType}} |
+                      {{councilMeeting.readableType}}
+                      <span *ngIf="councilMeeting.subtitle">
+                        : {{councilMeeting.subtitle}}
+                      </span>
+                      |
                       <a [href]="councilMeeting.link">
                         View Notes
                       </a>

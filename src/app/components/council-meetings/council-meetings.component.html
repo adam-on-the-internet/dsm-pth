@@ -12,17 +12,28 @@
           <ng-container *ngIf="councilMeetingService.ready">
             <ng-container *ngFor="let year of meetingsByYear">
               <ng-container *ngIf="year.councilMeetings.length > 0">
+                <p>
+                  <a href="#/council-toolkit">Council Toolkit</a>
+                </p>
+                <hr>
                 <h2>{{year.year}} Meetings</h2>
                 <ul>
                   <ng-container *ngFor="let councilMeeting of year.councilMeetings">
                     <li>
+                      <span [class.font-weight-bold]="councilMeeting.featured">
                       {{councilMeeting.readableDate}}
-                      at
-                      {{councilMeeting.time}} |
-                      {{councilMeeting.readableType}} |
+                        at
+                        {{councilMeeting.time}}
+                        |
+                        {{councilMeeting.readableType}}
+                        <span *ngIf="councilMeeting.subtitle">
+                        : {{councilMeeting.subtitle}}
+                      </span>
+                      |
                       <a [href]="councilMeeting.link">
                         View Notes
                       </a>
+                      </span>
                     </li>
                   </ng-container>
                 </ul>

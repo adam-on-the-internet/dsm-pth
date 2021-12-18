@@ -18,6 +18,14 @@ export class DashboardComponent {
     this.settings.showNav = true;
   }
 
+  public goToToolkit() {
+    this.navHelper.goToCouncilToolkit();
+  }
+
+  public goToMeetings() {
+    this.navHelper.goToCouncilMeetings();
+  }
+
   public goToDocs() {
     this.navHelper.goToDocs();
   }

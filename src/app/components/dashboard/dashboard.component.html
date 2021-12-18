@@ -12,6 +12,18 @@
             Our Tools
           </h2>
           <div class="btn-group btn-group-vertical">
+            <a class="btn btn-outline-primary" (click)="goToToolkit()" target="_blank">
+              <h3>Council Toolkit</h3>
+              <p>
+                A set of tools for engaging with Des Moines City Council.
+              </p>
+            </a>
+            <a class="btn btn-outline-primary" (click)="goToMeetings()" target="_blank">
+              <h3>Council Meetings</h3>
+              <p>
+                Our notes on Des Moines City Council Meetings.
+              </p>
+            </a>
             <a class="btn btn-outline-primary" [href]="linkService.petitionLink" target="_blank">
               <h3>Sign Our Petition</h3>
               <p>
@@ -28,12 +40,6 @@
               <h3>Document Archive</h3>
               <p>
                 Archive of some important documents.
-              </p>
-            </a>
-            <a class="btn btn-outline-primary" (click)="goToAgendaList()">
-              <h3>Our Agenda Overviews</h3>
-              <p>
-                Information on some DSM Council Meetings.
               </p>
             </a>
             <a class="btn btn-outline-primary" (click)="goToRules()">
