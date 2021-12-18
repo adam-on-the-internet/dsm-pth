@@ -1,4 +1,4 @@
-# 2021-12-20 Council Agenda (v4) 
+# 2021-12-20 Council Agenda (v5) 
 
 TITLE: Agenda 2021-12-20 
 
@@ -718,9 +718,9 @@ and Fire Code Board of Appeals, Seat 10, for three-year term expiring on April 1
 
 ###### Tags: CONSENT ITEM 
 
-Recommendation by Council Member Voss to reappoint Nathan Stieler, Seat 11, for a 
+Recommendation by Council Member Voss to reappoint Nathan Stieler to the Access 
 
-four-year term expiring on June 15, 2025. 
+Advisory Board, Seat 11, for a  four-year term expiring on June 15, 2025. 
 
 
 
@@ -1262,9 +1262,15 @@ Temporarily closing a portion of a Multi-Use Recreational Trail between SW 11th 
 
 ###### Tags: CONSENT ITEM 
 
-Abatement of public nuisances at 2215 High Street. 
+Abatement of public nuisances as follows: 
 
-[Resolution Link - 62](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62.pdf) 
+(A)   2215 High Street. 
+
+(B) 323 E. Jackson Avenue. 
+
+[Resolution Link - 62a](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62a.pdf) 
+
+[Resolution Link - 62b](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62b.pdf) 
 
 [Resolution Link - 62i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62i.pdf) 
 
@@ -1790,7 +1796,7 @@ DSM Email List Subscriptions: https://subscribe.dsm.city/
 
 Agenda Code: 2021-12-20 
 
-Version: 4 
+Version: 5 
 
-Agenda scan taken at 2021-12-17 18:09:11.463376 
+Agenda scan taken at 2021-12-18 14:38:26.436083 
 
