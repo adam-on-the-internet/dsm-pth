@@ -34,6 +34,8 @@ December 20, 2021
 
 5:00 P.M. 
 
+### COVID Notice
+
 Due to the increased community transmission of COVID-19 in Polk County, we have 
 
 implemented a face covering requirement in City buildings. The requirement applies to both 
@@ -41,6 +43,8 @@ implemented a face covering requirement in City buildings. The requirement appli
 staff and the visiting public and includes attendance at Council meetings.  If you do not have a 
 
 face covering, one will be provided for you. 
+
+### Council "Rules" Soapbox
 
 The public is hereby notified that the City Council will not tolerate disruption of its business 
 
@@ -712,8 +716,6 @@ and Fire Code Board of Appeals, Seat 10, for three-year term expiring on April 1
 
 [Resolution Link - 28](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/28.pdf) 
 
-[Resolution Link - 28i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/28i.pdf) 
-
 
 
 ### Item #28I - BOARDS/COMMISSIONS/NEIGHBORHOODS - CONSENT ITEM 
@@ -724,7 +726,7 @@ Recommendation by Council Member Voss to reappoint Nathan Stieler to the Access
 
 Advisory Board, Seat 11, for a  four-year term expiring on June 15, 2025. 
 
-
+[Resolution Link - 28i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/28i.pdf) 
 
 ### Item #29 - SETTING DATE OF HEARINGS - CONSENT ITEM 
 
@@ -964,8 +966,6 @@ E. 6th Street.
 
 [Resolution Link - 43](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/43.pdf) 
 
-[Resolution Link - 43i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/43i.pdf) 
-
 [Communication Link - 21-550](http://www.dmgov.org/Government/CityCouncil/Communications/21-550.pdf) 
 
 
@@ -978,7 +978,7 @@ Contract termination to Economic Development Assistance Contract between Cogniza
 
 Technology Solutions U.S. Corporation and the Iowa Economic Development Authority. 
 
-
+[Resolution Link - 43i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/43i.pdf) 
 
 ### Item #44 - APPROVING - CONSENT ITEM 
 
@@ -994,8 +994,6 @@ consolidate and relocate office space and an innovation center into a new headqu
 
 [Resolution Link - 44](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/44.pdf) 
 
-[Resolution Link - 44i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/44i.pdf) 
-
 [Communication Link - 21-575](http://www.dmgov.org/Government/CityCouncil/Communications/21-575.pdf) 
 
 
@@ -1008,7 +1006,7 @@ Contract amendment to Economic Development Assistance Contract between Meredith
 
 Corporation and the Iowa Economic Development Authority. 
 
-
+[Resolution Link - 44i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/44i.pdf) 
 
 ### Item #45 - APPROVING - CONSENT ITEM 
 
@@ -1274,17 +1272,13 @@ Abatement of public nuisances as follows:
 
 [Resolution Link - 62b](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62b.pdf) 
 
-[Resolution Link - 62i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62i.pdf) 
-
-
-
 ### Item #62I - APPROVING - CONSENT ITEM 
 
 ###### Tags: CONSENT ITEM 
 
 Beaverdale Farmers Market at the Franklin Jr. High for 2022. 
 
-
+[Resolution Link - 62i](http://www.dmgov.org/government/CityCouncil/Resolutions/20211220/62i.pdf) 
 
 ### Item #63 - APPROVING - CONSENT ITEM 
 
