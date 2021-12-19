@@ -3,6 +3,19 @@
     <div class="col-md-12">
       <ng-container *ngIf="ready; else loading">
         <div class="my-3">
+          <section id="agenda-extensions" *ngIf="isAgenda">
+            <p>
+              Agenda Options |
+              <ng-container *ngIf="hasAgendaNotesUrl">
+                <a href="{{agendaNotesUrl}}">Meeting Notes</a>
+                |
+              </ng-container>
+              <a href="#/council-toolkit">Council Toolkit</a>
+              |
+              <a href="#/council-meetings">Other Council Meetings</a>
+            </p>
+            <hr>
+          </section>
           <markdown [src]="fullPath"></markdown>
           <section id="file-options">
             <hr>

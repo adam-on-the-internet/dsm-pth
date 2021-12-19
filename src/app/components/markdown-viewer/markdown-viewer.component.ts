@@ -7,7 +7,7 @@ import {ActivatedRoute, NavigationEnd, Router} from "@angular/router";
   styleUrls: ["./markdown-viewer.component.css"]
 })
 export class MarkdownViewerComponent implements OnInit {
-  private path: string = null;
+  public path: string = null;
 
   public get ready(): boolean {
     return this.path !== null;
@@ -15,6 +15,20 @@ export class MarkdownViewerComponent implements OnInit {
 
   public get fullPath(): string {
     return `assets/${this.path}.md`;
+  }
+
+  public get isAgenda(): boolean {
+    return this.path.startsWith("agenda/");
+  }
+
+  public get hasAgendaNotesUrl(): boolean {
+    return this.isAgenda && this.path.endsWith("transcription")
+  }
+
+  public get agendaNotesUrl(): string {
+    let _url = this.path.replace(/\//g, "~");
+    _url = _url.replace("_transcription", "")
+    return `#/view/${_url}`;
   }
 
   constructor(
