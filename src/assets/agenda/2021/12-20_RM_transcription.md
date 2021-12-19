@@ -16,7 +16,7 @@ Agenda Items: 1-84
 
 Consent Items: 3-67 
 
-Hearing Items: 68-80 
+Hearing Items: 68-81
 
 Content Tags: CONSTRUCTION, POLICE, ACQUISITION, ZONING, PUBLIC TRANSIT, GENTRIFICATION, PLANDSM, CLEAN WATER, IOWA DEPARTMENT OF NATURAL RESOURCES, KNAPP, TRAFFIC, STORMWATER, PUBLIC REPORTS 
 
@@ -80,7 +80,7 @@ person or group impinges on the rights of others present, so disruptive conduct 
 
 tolerated. 
 
-Farewell Reception 
+### Farewell Reception 
 
 4:30 PM � 5:00 PM 
 
@@ -99,6 +99,8 @@ Those who disrupt the meeting will not be called on during the meeting, will be 
 the building and may be cited or arrested for disorderly conduct, trespass or interfering with the 
 
 good order of the meeting or other applicable charges. 
+
+### Closed Session 
 
 I. 
 
@@ -1668,7 +1670,7 @@ $1,317,344.90.
 
 
 
-### Item #81 - HEARINGS 
+### Item #81 - HEARINGS - HEARING ITEM
 
 On proposed amendments to the City Precinct and Ward Boundaries and approving the 
 
