@@ -2,7 +2,7 @@
   {
     "year": "2022", "month": "01", "day": "10",
     "type": "RM", "time": "5:00pm",
-    "show": true, "featured": false
+    "show": true, "featured": true
   },
   {
     "year": "2022", "month": "01", "day": "24",

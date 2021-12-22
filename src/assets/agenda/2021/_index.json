@@ -2,7 +2,7 @@
   {
     "year": "2021", "month": "12", "day": "21",
     "type": "OM", "time": "5:30pm",
-    "show": true, "featured": true,
+    "show": true, "featured": false,
     "subtitle": "Budget Meeting Webinar"
   },
   {

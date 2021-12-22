@@ -6,15 +6,15 @@
       </div>
       <div class="col-md-10 my-3">
         <app-card>
+          <p>
+            <a href="#/council-toolkit">Council Toolkit</a>
+          </p>
           <ng-container *ngIf="!councilMeetingService.ready">
             <app-loading></app-loading>
           </ng-container>
           <ng-container *ngIf="councilMeetingService.ready">
             <ng-container *ngFor="let year of meetingsByYear">
               <ng-container *ngIf="year.councilMeetings.length > 0">
-                <p>
-                  <a href="#/council-toolkit">Council Toolkit</a>
-                </p>
                 <hr>
                 <h2>{{year.year}} Meetings</h2>
                 <ul>
