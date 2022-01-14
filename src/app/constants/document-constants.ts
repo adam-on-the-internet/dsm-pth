@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "Emergency Winter Conditions & Unhoused Population",
+    link: "doc-archive/Emergency_Winter_Conditons_and_Unhoused_Population.pdf",
+    description: "Document submitted by Council Member Indira Sheumaker at the 1/14/22 special council meeting.",
+    date: "01/14/22",
+  },
+  {
     name: "Performance Memo 2021",
     link: "doc-archive/performance_memo_2021.pdf",
     description: "A memo about city performance metrics.",
