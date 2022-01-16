@@ -1,5 +1,7 @@
 # Council Glossary
 
+**Blue Letters:**
+
 **Closed Session:** Closed Session meetings are not open to the public
 but they are still listed publicly. 
 Council is allowed to hold these meetings for sensitive topics like
@@ -25,6 +27,10 @@ directly before Regular Meetings.
 **Legislative Update:** Legislative Updates are occasional council meetings where council 
 discusses (with city staff) what is going on in the State of Iowa's legislative session.
 Council considers lobbying opportunities and legislation that would affect the city.
+
+**Neighborhood Associations:** 
+
+**NID- Neighborhood Inspections Department/Director:**
 
 **Ordinance:** Council passes Ordinances to alter City Code. Ordinances regularly 
 require 3 readings, but may have the 2nd and 3rd readings waived in some circumstances.
