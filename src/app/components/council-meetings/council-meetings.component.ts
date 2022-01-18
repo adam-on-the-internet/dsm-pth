@@ -1,12 +1,12 @@
-import {Component, OnInit} from '@angular/core';
-import {CouncilMeetingService} from 'src/app/services/council-meeting.service';
+import {Component, OnInit} from "@angular/core";
+import {CouncilMeetingService} from "src/app/services/council-meeting.service";
 import {CouncilMeetingYear} from "../../models/CouncilMeeting.model";
 import {ActivatedRoute} from "@angular/router";
 
 @Component({
-  selector: 'app-council-meetings',
-  templateUrl: './council-meetings.component.html',
-  styleUrls: ['./council-meetings.component.css']
+  selector: "app-council-meetings",
+  templateUrl: "./council-meetings.component.html",
+  styleUrls: ["./council-meetings.component.css"]
 })
 export class CouncilMeetingsComponent implements OnInit {
   private showAll = false;

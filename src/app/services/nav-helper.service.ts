@@ -28,6 +28,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.CommunityCalendar);
   }
 
+  public goToSignupToSpeak(): void {
+    this.goToRoute(ROUTES_ENUM.SignupToSpeak);
+  }
+
   public goToContactList(): void {
     this.goToRoute(ROUTES_ENUM.ContactList);
   }

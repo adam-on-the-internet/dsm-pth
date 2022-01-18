@@ -13,6 +13,7 @@ export const enum ROUTES_ENUM {
   MarkdownViewer = "view",
   CouncilToolkit = "council-toolkit",
   CommunityCalendar = "community-calendar",
+  SignupToSpeak = "signup-to-speak-to-council",
   AgendaPublished = "agenda-info",
   AgendaManagement = "meeting-agenda-management",
   AgendaForm = "meeting-agenda-form",

@@ -1,8 +1,8 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { CouncilToolkitComponent } from './council-toolkit.component';
+import { CouncilToolkitComponent } from "./council-toolkit.component";
 
-describe('CouncilToolkitComponent', () => {
+describe("CouncilToolkitComponent", () => {
   let component: CouncilToolkitComponent;
   let fixture: ComponentFixture<CouncilToolkitComponent>;
 
@@ -19,7 +19,7 @@ describe('CouncilToolkitComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

@@ -22,12 +22,12 @@ export class MarkdownViewerComponent implements OnInit {
   }
 
   public get hasAgendaNotesUrl(): boolean {
-    return this.isAgenda && this.path.includes("/transcription/")
+    return this.isAgenda && this.path.includes("/transcription/");
   }
 
   public get agendaNotesUrl(): string {
     let _url = this.path.replace(/\//g, "~");
-    _url = _url.replace("~transcription", "")
+    _url = _url.replace("~transcription", "");
     return `#/view/${_url}`;
   }
 

@@ -1,0 +1,69 @@
+<div class="container">
+  <div class="row my-4 justify-content-center">
+    <div class="col-md-12 text-center">
+      <h1>Sign Up to Speak to Council</h1>
+      <hr>
+    </div>
+    <div class="col-md-6 text-center">
+      <p>You can sign up to speak via a web page made by the City.</p>
+      <a class="btn btn-primary" [href]="linkService.signUpToSpeak" target="_blank">
+        Sign Up to Speak via City Form
+      </a>
+    </div>
+    <div class="col-md-6 text-center" *ngIf="loggedIn">
+      <p>You can sign up to speak via email to the City Clerk. We have an email template you can use.</p>
+      <div class="form-group">
+        <p class="font-weight-bold">
+          Meeting
+        </p>
+        <p>
+          {{date}}
+        </p>
+      </div>
+      <div class="form-group">
+        <label for="name" class="font-weight-bold">Name</label>
+        <input class="form-control" type="text" id="name" [(ngModel)]="name"/>
+      </div>
+      <div class="form-group">
+        <label for="name" class="font-weight-bold">Email</label>
+        <input class="form-control" type="text" id="email" [(ngModel)]="email"/>
+      </div>
+      <div class="form-group">
+        <label for="address" class="font-weight-bold">Address</label>
+        <input class="form-control" type="text" id="address" [(ngModel)]="address"/>
+      </div>
+      <div class="form-group">
+        <p class="font-weight-bold">Send Copy</p>
+        <p>
+          You can choose to send us a copy (BCC) so we can track requests and know if you've been left off the agenda.
+          This is entirely optional. If you choose to send us a copy, we will have a record of your email including
+          whatever information you have entered.
+        </p>
+        <div class="btn-group">
+          <button class="btn btn-secondary" [class.active]="!sendCopy" (click)="setSendCopy(false)">
+            <i class="fa fa-check" *ngIf="!sendCopy"></i>
+            Do Not Send Copy
+          </button>
+          <button class="btn btn-secondary" [class.active]="sendCopy" (click)="setSendCopy(true)">
+            <i class="fa fa-check" *ngIf="sendCopy"></i>
+            Send Copy to People's
+            Town Hall
+          </button>
+        </div>
+      </div>
+      <br>
+
+      <ng-container *ngIf="allSet">
+        <a class="btn btn-primary" [href]="mailto" target="_blank">
+          Sign Up to Speak via Email
+        </a>
+      </ng-container>
+      <ng-container *ngIf="!allSet">
+        <div class="alert alert-warning">You cannot send without all the fields entered.</div>
+        <a class="btn btn-primary text-white" disabled>
+          Sign Up to Speak via Email
+        </a>
+      </ng-container>
+    </div>
+  </div>
+</div>

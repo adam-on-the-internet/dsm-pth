@@ -44,19 +44,20 @@ import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-but
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
 import {RulesComponent} from "./components/rules/rules.component";
 import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-viewer.component";
-import {CouncilToolkitComponent} from './components/council-toolkit/council-toolkit.component';
-import {CouncilMeetingsComponent} from './components/council-meetings/council-meetings.component';
+import {CouncilToolkitComponent} from "./components/council-toolkit/council-toolkit.component";
+import {CouncilMeetingsComponent} from "./components/council-meetings/council-meetings.component";
+import {SignupToSpeakComponent} from "./components/signup-to-speak/signup-to-speak.component";
 
 // function that returns `MarkedOptions` with renderer override
 export function markedOptionsFactory(): MarkedOptions {
   const renderer = new MarkedRenderer();
 
   renderer.blockquote = (text: string) => {
-    return '<div class="card mb-2 bg-grey-alt"><div class="card-body py-0 px-3"><blockquote class="blockquote"><p>' + text + '</p></blockquote></div></div>';
+    return "<div class=\"card mb-2 bg-grey-alt\"><div class=\"card-body py-0 px-3\"><blockquote class=\"blockquote\"><p>" + text + "</p></blockquote></div></div>";
   };
 
   return {
-    renderer: renderer,
+    renderer,
     gfm: true,
     breaks: false,
     pedantic: false,
@@ -107,6 +108,7 @@ export function markedOptionsFactory(): MarkedOptions {
     MarkdownViewerComponent,
     CouncilToolkitComponent,
     CouncilMeetingsComponent,
+    SignupToSpeakComponent,
   ],
   imports: [
     BrowserModule,

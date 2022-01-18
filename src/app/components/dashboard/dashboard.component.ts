@@ -38,6 +38,10 @@ export class DashboardComponent {
     this.navHelper.goToCommunityCalendar();
   }
 
+  public goToSignupToSpeak() {
+    this.navHelper.goToSignupToSpeak();
+  }
+
   public goToContactList() {
     this.navHelper.goToContactList();
   }

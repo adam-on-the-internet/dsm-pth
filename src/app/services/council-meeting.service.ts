@@ -1,10 +1,10 @@
-import {Injectable} from '@angular/core';
+import {Injectable} from "@angular/core";
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {CouncilMeeting, CouncilMeetingDTO, CouncilMeetingYear} from "../models/CouncilMeeting.model";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class CouncilMeetingService {
   public councilMeetingsByYear: CouncilMeetingYear[] = null;
@@ -83,7 +83,7 @@ export class CouncilMeetingService {
     } else {
       const yearly: CouncilMeetingYear = {
         councilMeetings: meetingsComplete,
-        year: year,
+        year,
       };
       this.councilMeetingsByYear.unshift(yearly);
       const nextYear = year + 1;
@@ -136,7 +136,7 @@ export class CouncilMeetingService {
       case "OM":
         return "Other Meeting";
       default:
-        return "?"
+        return "?";
     }
   }
 
