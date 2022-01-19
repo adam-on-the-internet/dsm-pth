@@ -6,6 +6,19 @@
     </div>
     <div class="col-md-6 text-center">
       <p>You can sign up to speak via a web page made by the City.</p>
+      <p>If you use this form, we advise:</p>
+      <ol>
+        <li>
+          Fill out all fields in the form. The City Clerk sometimes denies speaking requests that
+          have blank fields.
+        </li>
+        <li>
+          Keep documentation of your request. The city does not send a receipt or record when requests
+          were submitted, so its important to document your request in case the city denies it for any reason.
+        </li>
+      </ol>
+      <br>
+      <hr>
       <a class="btn btn-primary" [href]="linkService.signUpToSpeak" target="_blank">
         Sign Up to Speak via City Form
       </a>
@@ -52,6 +65,7 @@
         </div>
       </div>
       <br>
+      <hr>
 
       <ng-container *ngIf="allSet">
         <a class="btn btn-primary" [href]="mailto" target="_blank">
