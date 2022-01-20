@@ -20,9 +20,19 @@
     "show": true, "featured": true
   },
   {
+    "year": "2022", "month": "01", "day": "29",
+    "type": "SM", "time": "10:00am",
+    "show": true, "featured": false
+  },
+  {
     "year": "2022", "month": "02", "day": "07",
     "type": "RM", "time": "5:00pm",
     "show": false, "featured": false
+  },
+  {
+    "year": "2022", "month": "02", "day": "15",
+    "type": "SM", "time": "6:30pm",
+    "show": true, "featured": false
   },
   {
     "year": "2022", "month": "02", "day": "21",
