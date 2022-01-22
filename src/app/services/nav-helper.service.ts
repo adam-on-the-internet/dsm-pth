@@ -20,10 +20,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.DocumentArchive);
   }
 
-  public goToRules(): void {
-    this.goToRoute(ROUTES_ENUM.Rules);
-  }
-
   public goToCommunityCalendar(): void {
     this.goToRoute(ROUTES_ENUM.CommunityCalendar);
   }

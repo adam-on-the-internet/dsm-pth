@@ -30,10 +30,6 @@ export class DashboardComponent {
     this.navHelper.goToDocs();
   }
 
-  public goToRules() {
-    this.navHelper.goToRules();
-  }
-
   public goToCommunityCalendar() {
     this.navHelper.goToCommunityCalendar();
   }

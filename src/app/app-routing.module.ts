@@ -17,7 +17,6 @@ import {AgendaItemFormComponent} from "./components/agenda-item-form/agenda-item
 import {AgendaItemDetailsComponent} from "./components/agenda-item-details/agenda-item-details.component";
 import {PublishedAgendaListComponent} from "./components/published-agenda-list/published-agenda-list.component";
 import {PublishedAgendaComponent} from "./components/published-agenda/published-agenda.component";
-import {RulesComponent} from "./components/rules/rules.component";
 import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-viewer.component";
 import {CouncilToolkitComponent} from "./components/council-toolkit/council-toolkit.component";
 import {CouncilMeetingsComponent} from "./components/council-meetings/council-meetings.component";
@@ -49,7 +48,6 @@ const routes: Routes = [
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.SignupToSpeak, component: SignupToSpeakComponent},
   {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
-  {path: ROUTES_ENUM.Rules, component: RulesComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
   {path: ROUTES_ENUM.Document + "/:link", component: DocumentInfoComponent},
   {path: ROUTES_ENUM.MarkdownViewer + "/:path", component: MarkdownViewerComponent},

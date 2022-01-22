@@ -42,7 +42,6 @@ import {QuillEditorDefaultComponent} from "./components/quill-editor-default/qui
 import {QuillViewDefaultComponent} from "./components/quill-view-default/quill-view-default.component";
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
-import {RulesComponent} from "./components/rules/rules.component";
 import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-viewer.component";
 import {CouncilToolkitComponent} from "./components/council-toolkit/council-toolkit.component";
 import {CouncilMeetingsComponent} from "./components/council-meetings/council-meetings.component";
@@ -104,7 +103,6 @@ export function markedOptionsFactory(): MarkedOptions {
     QuillViewDefaultComponent,
     ModalTriggerButtonComponent,
     ModalBoxBasicComponent,
-    RulesComponent,
     MarkdownViewerComponent,
     CouncilToolkitComponent,
     CouncilMeetingsComponent,

@@ -8,7 +8,6 @@ export const enum ROUTES_ENUM {
   CouncilMeetings = "council-meetings",
   ContactListOld = "contact-list",
   DocumentArchive = "document-archive",
-  Rules = "rules",
   Document = "document",
   MarkdownViewer = "view",
   CouncilToolkit = "council-toolkit",
