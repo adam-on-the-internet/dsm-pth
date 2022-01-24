@@ -3,7 +3,7 @@ import {ContactInfo, SimpleContact} from "../models/ContactInfo.model";
 // contact mayor frank
 export const CONTACT_MAYOR = "https://tinyurl.com/ad53ynnk";
 // contact ward 1 bill
-export const CONTACT_WARD_1 = "https://tinyurl.com/jw99whe7";
+export const CONTACT_WARD_1 = "https://tinyurl.com/jw99whe7"; // changed
 // contact ward 2 linda
 export const CONTACT_WARD_2 = "https://tinyurl.com/2kj8x4yj";
 // contact ward 3 josh
@@ -11,7 +11,7 @@ export const CONTACT_WARD_3 = "https://tinyurl.com/4mbx47cv";
 // contact ward 4 joe
 export const CONTACT_WARD_4 = "https://tinyurl.com/6p78v94w";
 // contact at large 1 connie
-export const CONTACT_AT_LARGE_1 = "https://tinyurl.com/38sxufxa";
+export const CONTACT_AT_LARGE_1 = "https://tinyurl.com/38sxufxa"; // changed
 // contact at large 2 carl
 export const CONTACT_AT_LARGE_2 = "https://tinyurl.com/59zz84bf";
 // contact city clerk
@@ -23,9 +23,9 @@ export const CONTACT_MANAGER = "https://tinyurl.com/w22h3rp7";
 // contact zoning enforcement
 export const CONTACT_ZONING = "https://tinyurl.com/8ae4jcuu";
 // contact council & mayor
-export const CONTACT_COUNCIL_AND_MAYOR = "https://tinyurl.com/sf8p5bnh";
+export const CONTACT_COUNCIL_AND_MAYOR = "https://tinyurl.com/sf8p5bnh"; // changed
 // contact for ward 1 + AL + M
-export const CONTACT_WARD_1_REPS = "https://tinyurl.com/49hjaafj";
+export const CONTACT_WARD_1_REPS = "https://tinyurl.com/49hjaafj"; // changed
 // contact for ward 2 + AL + M
 export const CONTACT_WARD_2_REPS = "https://tinyurl.com/hhhbye4j";
 // contact for ward 3 + AL + M
@@ -103,24 +103,14 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [
     term: "Elected 2019, term expires 2024. Up for election in 2023."
   },
   {
-    role: "Council Member: Ward 1",
-    name: "Bill Gray",
-    email: "Billgray@dmgov.org",
-    emailLink: CONTACT_WARD_1,
-    phoneNumber: "515-274-0077",
-    salary: "$28,880",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-    term: "Elected 2014, term expires 2022. He will be replaced by Indira Sheumaker."
-  },
-  {
     role: "Council Member Elect: Ward 1",
     name: "Indira Sheumaker",
-    email: null,
-    emailLink: null,
-    phoneNumber: null,
+    email: "indiras@dmgov.org",
+    emailLink: CONTACT_WARD_1,
+    phoneNumber: "515-979-2619",
     salary: "$28,880",
     salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-    term: "Elected 2021, term expires 2026. She will be sworn in on 1/10/22."
+    term: "Elected 2021, sworn in on 1/10/22. Term expires 2026."
   },
   {
     role: "Council Member: Ward 2",
