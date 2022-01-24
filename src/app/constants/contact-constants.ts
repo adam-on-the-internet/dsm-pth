@@ -11,7 +11,7 @@ export const CONTACT_WARD_3 = "https://tinyurl.com/4mbx47cv";
 // contact ward 4 joe
 export const CONTACT_WARD_4 = "https://tinyurl.com/6p78v94w";
 // contact at large 1 connie
-export const CONTACT_AT_LARGE_1 = "https://tinyurl.com/38sxufxa"; // changed
+export const CONTACT_AT_LARGE_1 = "https://tinyurl.com/38sxufxa";
 // contact at large 2 carl
 export const CONTACT_AT_LARGE_2 = "https://tinyurl.com/59zz84bf";
 // contact city clerk
@@ -23,9 +23,9 @@ export const CONTACT_MANAGER = "https://tinyurl.com/w22h3rp7";
 // contact zoning enforcement
 export const CONTACT_ZONING = "https://tinyurl.com/8ae4jcuu";
 // contact council & mayor
-export const CONTACT_COUNCIL_AND_MAYOR = "https://tinyurl.com/sf8p5bnh"; // changed
+export const CONTACT_COUNCIL_AND_MAYOR = "https://tinyurl.com/4rx8hbrc";
 // contact for ward 1 + AL + M
-export const CONTACT_WARD_1_REPS = "https://tinyurl.com/49hjaafj"; // changed
+export const CONTACT_WARD_1_REPS = "https://tinyurl.com/3bc56p7t";
 // contact for ward 2 + AL + M
 export const CONTACT_WARD_2_REPS = "https://tinyurl.com/hhhbye4j";
 // contact for ward 3 + AL + M
