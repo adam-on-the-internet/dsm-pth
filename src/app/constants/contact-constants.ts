@@ -2,8 +2,8 @@ import {ContactInfo, SimpleContact} from "../models/ContactInfo.model";
 
 // contact mayor frank
 export const CONTACT_MAYOR = "https://tinyurl.com/ad53ynnk";
-// contact ward 1 bill
-export const CONTACT_WARD_1 = "https://tinyurl.com/jw99whe7"; // changed
+// contact ward 1 indira
+export const CONTACT_WARD_1 = "https://tinyurl.com/4sh7wjk9";
 // contact ward 2 linda
 export const CONTACT_WARD_2 = "https://tinyurl.com/2kj8x4yj";
 // contact ward 3 josh
