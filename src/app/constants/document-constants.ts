@@ -4,6 +4,12 @@ import {DocumentInfo} from "../models/DocumentInfo.model";
 
 export const DOCUMENTS: DocumentInfo[] = [
   {
+    name: "Consent Agenda Notes Read By Council Member Indira Sheumaker on 1/24/22",
+    link: "doc-archive/01_24_22_consent_notes.pdf",
+    description: "Consent Agenda Notes submitted by constituents and read by Council Member Indira Sheumaker at the 1/24/22 council meeting.",
+    date: "01/24/22",
+  },
+  {
     name: "Emergency Winter Conditions & Unhoused Population",
     link: "doc-archive/Emergency_Winter_Conditons_and_Unhoused_Population.pdf",
     description: "Document submitted by Council Member Indira Sheumaker at the 1/14/22 special council meeting.",
