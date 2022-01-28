@@ -81,14 +81,10 @@ ${nameParam}
     return this.sendCopy ? this.pthEmail : "";
   }
 
-  public get bccParam(): string {
-    return this.sendCopy ? `bcc=${this.pthEmail}&` : "";
-  }
-
   public get mailto(): string {
     const parsedSubject = encodeURIComponent(this.subject);
     const parsedBody = encodeURIComponent(this.removeHtml(this.body));
-    return `mailto:${this.toAddress}?${this.bccParam}subject=${parsedSubject}&body=${parsedBody}`;
+    return SignupToSpeakComponent.buildMailto(this.toAddress, parsedSubject, parsedBody, this.bcc);
   }
 
   constructor(
@@ -102,6 +98,14 @@ ${nameParam}
 
   public removeHtml(string: string): string {
     return string.replace(/<p>/g, "").replace(/<\/p>/g, "").replace(/<br>/g, "");
+  }
+
+  // TODO make more generic, include URI encoding, etc
+  private static buildMailto(TO: string, SUBJECT: string, BODY: string, BCC: string = ""): string {
+    if (BCC) {
+      BCC = `bcc=${BCC}&`
+    }
+    return `mailto:${TO}?${BCC}subject=${SUBJECT}&body=${BODY}`;
   }
 
 }
