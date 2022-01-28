@@ -32,11 +32,12 @@ export class SignupToSpeakComponent {
   public get body(): string {
     const greeting = `Hello City Clerk,`;
     const request = `I am requesting to speak at the ${this.date} Regular City Council Meeting.`;
-    const nameParam = this.name ? this.name : "_______";
-    const addressParam = this.address ? this.address : "_______";
-    const cityParam = this.city ? this.city : "_______";
-    const stateParam = this.state ? this.state : "_______";
-    const emailParam = this.email ? this.email : "_______";
+    const BLANK = "__________";
+    const nameParam = this.name ? this.name : BLANK;
+    const addressParam = this.address ? this.address : BLANK;
+    const cityParam = this.city ? this.city : BLANK;
+    const stateParam = this.state ? this.state : BLANK;
+    const emailParam = this.email ? this.email : BLANK;
     const disclaimer = `
 If this email is insufficient, or if the rules to speak vary from the Procedural Rules,
 please let me know what the requirements are for a member of the public to sign up to speak at a meeting.
