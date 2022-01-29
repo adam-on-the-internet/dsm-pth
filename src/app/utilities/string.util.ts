@@ -9,4 +9,9 @@ export abstract class StringHelper {
     const spacedName = text.replaceAll("-", " ");
     return StringHelper.toTitleCase(spacedName);
   }
+  public static removeHtml(string: string): string {
+    string = string.replace(/<p>/g, "");
+    string = string.replace(/<\/p>/g, "");
+    return string.replace(/<br>/g, "");
+  }
 }

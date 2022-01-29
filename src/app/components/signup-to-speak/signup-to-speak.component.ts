@@ -1,5 +1,7 @@
 import {Component} from "@angular/core";
 import {LinkService} from "../../services/link.service";
+import {MailUtil} from "../../utilities/mail.util";
+import {StringHelper} from "../../utilities/string.util";
 
 @Component({
   selector: "app-signup-to-speak",
@@ -83,9 +85,8 @@ ${nameParam}
   }
 
   public get mailto(): string {
-    const parsedSubject = encodeURIComponent(this.subject);
-    const parsedBody = encodeURIComponent(this.removeHtml(this.body));
-    return SignupToSpeakComponent.buildMailto(this.toAddress, parsedSubject, parsedBody, this.bcc);
+    const parsedBody = StringHelper.removeHtml(this.body);
+    return MailUtil.buildMailto(this.toAddress, this.subject, parsedBody, "", this.bcc);
   }
 
   constructor(
@@ -95,18 +96,6 @@ ${nameParam}
 
   public setSendCopy(sendCopy: boolean): void {
     this.sendCopy = sendCopy;
-  }
-
-  public removeHtml(string: string): string {
-    return string.replace(/<p>/g, "").replace(/<\/p>/g, "").replace(/<br>/g, "");
-  }
-
-  // TODO make more generic, include URI encoding, etc
-  private static buildMailto(TO: string, SUBJECT: string, BODY: string, BCC: string = ""): string {
-    if (BCC) {
-      BCC = `bcc=${BCC}&`
-    }
-    return `mailto:${TO}?${BCC}subject=${SUBJECT}&body=${BODY}`;
   }
 
 }
