@@ -21,6 +21,7 @@ import {MarkdownViewerComponent} from "./components/markdown-viewer/markdown-vie
 import {CouncilToolkitComponent} from "./components/council-toolkit/council-toolkit.component";
 import {CouncilMeetingsComponent} from "./components/council-meetings/council-meetings.component";
 import {SignupToSpeakComponent} from "./components/signup-to-speak/signup-to-speak.component";
+import {MailtoGeneratorComponent} from "./components/mailto-generator/mailto-generator.component";
 
 const routes: Routes = [
   // main
@@ -49,6 +50,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.SignupToSpeak, component: SignupToSpeakComponent},
   {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
+  {path: ROUTES_ENUM.MailtoGenerator, component: MailtoGeneratorComponent},
   {path: ROUTES_ENUM.Document + "/:link", component: DocumentInfoComponent},
   {path: ROUTES_ENUM.MarkdownViewer + "/:path", component: MarkdownViewerComponent},
   // default

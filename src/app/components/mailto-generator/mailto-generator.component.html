@@ -1,1 +1,76 @@
-<p>mailto-generator works!</p>
+<div class="container">
+  <div class="row my-4 justify-content-center">
+    <div class="col-md-12 text-center">
+      <h1>Mail To Generator</h1>
+      <hr>
+    </div>
+
+    <div class="col-md-6 my-3">
+      <p>You can sign up to speak via email to the City Clerk. We have an email template you can use.</p>
+      <div class="form-group">
+        <label for="to" class="font-weight-bold">To</label>
+        <input class="form-control" type="text" id="to" [(ngModel)]="to"/>
+      </div>
+      <div class="form-group">
+        <label for="cc" class="font-weight-bold">CC</label>
+        <input class="form-control" type="text" id="cc" [(ngModel)]="cc"/>
+      </div>
+      <div class="form-group">
+        <label for="bcc" class="font-weight-bold">BCC</label>
+        <input class="form-control" type="text" id="bcc" [(ngModel)]="bcc"/>
+      </div>
+      <div class="form-group">
+        <label for="subject" class="font-weight-bold">Subject</label>
+        <input class="form-control" type="text" id="subject" [(ngModel)]="subject"/>
+      </div>
+      <div class="form-group">
+        <label for="body" class="font-weight-bold">Body</label>
+        <input class="form-control" type="text" id="body" [(ngModel)]="body"/>
+      </div>
+      <hr>
+      <ng-container *ngIf="allSet">
+        <p>
+          <strong>Mail To Link:</strong>
+        </p>
+        <p id="mailto-link">
+          {{mailto}}
+        </p>
+        <hr>
+        <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
+          <i class="fa fa-envelope"></i>
+          Use Mailto
+        </a>
+      </ng-container>
+      <ng-container *ngIf="!allSet">
+        <div class="alert alert-danger">You cannot send without a TO address, SUBJECT, and BODY.</div>
+      </ng-container>
+    </div>
+
+    <div class="col-md-6 my-3">
+      <h2>Sample</h2>
+      <hr>
+      <p>
+        <strong>TO:</strong>
+        {{to}}
+      </p>
+      <p>
+        <strong>CC:</strong>
+        {{cc}}
+      </p>
+      <p>
+        <strong>BCC:</strong>
+        {{bcc}}
+      </p>
+      <p>
+        <strong>SUBJECT:</strong>
+        {{subject}}
+      </p>
+      <p>
+        <strong>BODY:</strong>
+      </p>
+      <div [innerHTML]="body">
+      </div>
+    </div>
+
+  </div>
+</div>

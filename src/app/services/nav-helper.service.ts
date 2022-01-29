@@ -24,6 +24,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.CommunityCalendar);
   }
 
+  public goToMailtoGenerator(): void {
+    this.goToRoute(ROUTES_ENUM.MailtoGenerator);
+  }
+
   public goToSignupToSpeak(): void {
     this.goToRoute(ROUTES_ENUM.SignupToSpeak);
   }

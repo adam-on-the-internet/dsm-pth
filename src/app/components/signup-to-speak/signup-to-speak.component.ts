@@ -1,7 +1,6 @@
 import {Component} from "@angular/core";
 import {LinkService} from "../../services/link.service";
 import {MailUtil} from "../../utilities/mail.util";
-import {StringHelper} from "../../utilities/string.util";
 
 @Component({
   selector: "app-signup-to-speak",
@@ -85,8 +84,7 @@ ${nameParam}
   }
 
   public get mailto(): string {
-    const parsedBody = StringHelper.removeHtml(this.body);
-    return MailUtil.buildMailto(this.toAddress, this.subject, parsedBody, "", this.bcc);
+    return MailUtil.buildMailto(this.toAddress, this.subject, this.body, "", this.bcc);
   }
 
   constructor(
