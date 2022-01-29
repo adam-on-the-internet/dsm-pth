@@ -1,7 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Router} from "@angular/router";
 import {ROUTES_ENUM} from "../constants/routing.constants";
-import {DocumentInfo} from "../models/DocumentInfo.model";
 
 @Injectable({
   providedIn: "root"
@@ -14,10 +13,6 @@ export class NavHelperService {
 
   public goToDashboard(): void {
     this.goToRoute(ROUTES_ENUM.Dashboard);
-  }
-
-  public goToDocs(): void {
-    this.goToRoute(ROUTES_ENUM.DocumentArchive);
   }
 
   public goToCommunityCalendar(): void {
@@ -46,10 +41,6 @@ export class NavHelperService {
 
   public goToAgendaInfo(id: string): void {
     this.goToRoutes([ROUTES_ENUM.AgendaPublished, id]);
-  }
-
-  public goToDocument(document: DocumentInfo): void {
-    this.goToRoutes([ROUTES_ENUM.Document, document.link]);
   }
 
   public goToMarkdownViewer(filePath: string): void {

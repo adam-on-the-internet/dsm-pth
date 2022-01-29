@@ -7,8 +7,6 @@ import {LoginComponent} from "./components/login/login.component";
 import {ProfileComponent} from "./components/profile/profile.component";
 import {AdminComponent} from "./components/admin/admin.component";
 import {CommunityCalendarComponent} from "./components/community-calendar/community-calendar.component";
-import {DocumentArchiveComponent} from "./components/document-archive/document-archive.component";
-import {DocumentInfoComponent} from "./components/document-info/document-info.component";
 import {ContactListComponent} from "./components/contact-list/contact-list.component";
 import {MeetingAgendaManagementComponent} from "./components/meeting-agenda-management/meeting-agenda-management.component";
 import {MeetingAgendaFormComponent} from "./components/meeting-agenda-form/meeting-agenda-form.component";
@@ -48,10 +46,8 @@ const routes: Routes = [
 
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.SignupToSpeak, component: SignupToSpeakComponent},
-  {path: ROUTES_ENUM.DocumentArchive, component: DocumentArchiveComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
   {path: ROUTES_ENUM.MailtoGenerator, component: MailtoGeneratorComponent},
-  {path: ROUTES_ENUM.Document + "/:link", component: DocumentInfoComponent},
   {path: ROUTES_ENUM.MarkdownViewer + "/:path", component: MarkdownViewerComponent},
   // default
   {path: ROUTES_ENUM.ContactListOld, redirectTo: ROUTES_ENUM.ContactList},

@@ -26,10 +26,6 @@ export class DashboardComponent {
     this.navHelper.goToCouncilMeetings();
   }
 
-  public goToDocs() {
-    this.navHelper.goToDocs();
-  }
-
   public goToCommunityCalendar() {
     this.navHelper.goToCommunityCalendar();
   }

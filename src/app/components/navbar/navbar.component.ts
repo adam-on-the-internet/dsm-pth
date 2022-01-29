@@ -28,14 +28,6 @@ export class NavbarComponent {
     this.navHelper.goToContactList();
   }
 
-  public goToCalendar(): void {
-    this.navHelper.goToCommunityCalendar();
-  }
-
-  public goToDocuments(): void {
-    this.navHelper.goToDocs();
-  }
-
   public goToDashboard(): void {
     this.navHelper.goToDashboard();
   }
