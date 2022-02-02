@@ -1,48 +1,29 @@
 <div class="container">
   <div class="row my-4 justify-content-center">
     <div class="col-md-12 text-center">
-      <h1>Mail To Generator</h1>
+      <h1>Mail To: Cops Off Consent</h1>
       <hr>
     </div>
 
     <div class="col-md-6 my-3">
-      <p>You can sign up to speak via email to the City Clerk. We have an email template you can use.</p>
+      <p>Send an email to City Officials.</p>
       <div class="form-group">
-        <label for="to" class="font-weight-bold">To</label>
-        <input class="form-control" type="text" id="to" [(ngModel)]="to"/>
+        <label for="name" class="font-weight-bold">Name</label>
+        <input class="form-control" type="text" id="name" [(ngModel)]="name"/>
       </div>
       <div class="form-group">
-        <label for="cc" class="font-weight-bold">CC</label>
-        <input class="form-control" type="text" id="cc" [(ngModel)]="cc"/>
-      </div>
-      <div class="form-group">
-        <label for="bcc" class="font-weight-bold">BCC</label>
-        <input class="form-control" type="text" id="bcc" [(ngModel)]="bcc"/>
-      </div>
-      <div class="form-group">
-        <label for="subject" class="font-weight-bold">Subject</label>
-        <input class="form-control" type="text" id="subject" [(ngModel)]="subject"/>
-      </div>
-      <div class="form-group">
-        <label for="body" class="font-weight-bold">Body</label>
-        <input class="form-control" type="text" id="body" [(ngModel)]="body"/>
+        <label for="personalNote" class="font-weight-bold">Personal Note (optional, will be added to the top)</label>
+        <input class="form-control" type="text" id="personalNote" [(ngModel)]="personalNote"/>
       </div>
       <hr>
       <ng-container *ngIf="allSet">
-        <p>
-          <strong>Mail To Link:</strong>
-        </p>
-        <p id="mailto-link">
-          {{mailto}}
-        </p>
-        <hr>
         <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
           <i class="fa fa-envelope"></i>
           Use Mailto
         </a>
       </ng-container>
       <ng-container *ngIf="!allSet">
-        <div class="alert alert-danger">You cannot send without a TO address, SUBJECT, and BODY.</div>
+        <div class="alert alert-danger">You cannot send without a NAME.</div>
       </ng-container>
     </div>
 
@@ -51,7 +32,7 @@
       <hr>
       <p>
         <strong>TO:</strong>
-        {{to}}
+        {{toDisplay}}
       </p>
       <p>
         <strong>CC:</strong>
