@@ -14,6 +14,7 @@ export class SignupToSpeakComponent {
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
+  public topic = "The People's Voice";
   public email = "";
   public name = "";
   public address = "";
@@ -23,7 +24,7 @@ export class SignupToSpeakComponent {
 
   public get allSet(): boolean {
     return this.email !== "" && this.name !== "" && this.address !== ""
-      && this.city !== "" && this.state !== "";
+      && this.city !== "" && this.state !== "" && this.topic !== "";
   }
 
   public get date(): string {
@@ -39,6 +40,7 @@ export class SignupToSpeakComponent {
     const cityParam = this.city ? this.city : BLANK;
     const stateParam = this.state ? this.state : BLANK;
     const emailParam = this.email ? this.email : BLANK;
+    const topicParam = this.topic ? this.topic : BLANK;
     const disclaimer = `
 If this email is insufficient, or if the rules to speak vary from the Procedural Rules,
 please let me know what the requirements are for a member of the public to sign up to speak at a meeting.
@@ -61,6 +63,7 @@ but prior to 5:00 P.M. on the Tuesday preceding a regular Council meeting."
 <p>Address: ${addressParam}</p>
 <p>City: ${cityParam}</p>
 <p>State: ${stateParam}</p>
+<p>Topic: ${topicParam}</p>
 
 <p>${ruleHeader}</p>
 <p>${ruleText}</p>
