@@ -29,7 +29,9 @@ ${this.personalNote}
 <p>
 The City of Des Moines explicitly designates the Consent Agenda for "routine non-controversial items".
 The City Clerk is responsible for preparing these items, under the authority of the City Manager.
-The City of Des Moines has been constantly placing controversial items on this agenda, to a degree not seen in other cities.
+The City of Des Moines has been constantly placing controversial items on this agenda
+and refusing to allow public requests for removal and discussion
+to a degree not seen in other cities.
 </p>
 
 <p>
