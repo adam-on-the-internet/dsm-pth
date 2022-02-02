@@ -21,6 +21,11 @@ export class SignupToSpeakComponent {
   public city = "Des Moines";
   public state = "IA";
   public sendCopy = false;
+  public signupOpen = false;
+
+  public get canSubmit(): boolean {
+    return this.allSet && this.signupOpen;
+  }
 
   public get allSet(): boolean {
     return this.email !== "" && this.name !== "" && this.address !== ""

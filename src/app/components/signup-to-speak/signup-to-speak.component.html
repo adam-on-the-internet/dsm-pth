@@ -14,6 +14,9 @@
         <p>
           {{date}}
         </p>
+        <div class="alert alert-warning" *ngIf="!signupOpen">
+          The signup for this meeting is not open at this time.
+        </div>
       </div>
       <div class="form-group">
         <label for="name" class="font-weight-bold">Name</label>
@@ -59,14 +62,15 @@
         </div>
       </div>
       <hr>
-      <ng-container *ngIf="allSet">
+      <ng-container *ngIf="canSubmit">
         <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
           <i class="fa fa-envelope"></i>
           Sign Up to Speak via Email
         </a>
       </ng-container>
-      <ng-container *ngIf="!allSet">
-        <div class="alert alert-danger">You cannot send without all the fields entered.</div>
+      <ng-container *ngIf="!canSubmit">
+        <div class="alert alert-danger" *ngIf="!allSet">You cannot send without all the fields entered.</div>
+        <div class="alert alert-danger" *ngIf="!signupOpen">Signups are not open at this time.</div>
         <a class="btn btn-primary btn-block text-white disabled">
           <i class="fa fa-envelope"></i>
           Sign Up to Speak via Email
