@@ -8,7 +8,7 @@ import {MailUtil} from "../../utilities/mail.util";
 })
 export class MailtoGeneratorComponent {
   public to: string = "CityClerk@dmgov.org;Fcownie@dmgov.org;carlvoss@dmgov.org;Connieboesen@dmgov.org;LindaW@dmgov.org;Joshmandelbaum@dmgov.org;Joegatto@dmgov.org;indiras@dmgov.org;Citymanager@dmgov.org;maanderson@dmgov.org;pscooksey@dmgov.org;mahankins@dmgov.org;JLSchulte@dmgov.org;";
-  public subject: string = "Cops Off Consent";
+  public subject: string = "Keep Cops Off Consent";
   public cc: string = "";
   public bcc: string = "";
   public name: string = "";
