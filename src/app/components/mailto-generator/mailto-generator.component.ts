@@ -62,7 +62,7 @@ ${this.name}
   }
 
   public get mailto(): string {
-    return MailUtil.buildMailto(this.to, this.subject, this.body, this.cc, this.bcc);
+    return MailUtil.buildMailto(this.toDisplay, this.subject, this.body, this.cc, this.bcc);
   }
 
   public get allSet(): boolean {
