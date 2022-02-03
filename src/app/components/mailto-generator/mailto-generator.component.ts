@@ -7,11 +7,14 @@ import {MailUtil} from "../../utilities/mail.util";
   styleUrls: ['./mailto-generator.component.css']
 })
 export class MailtoGeneratorComponent {
+  public open = true;
+
   public to: string = "CityClerk@dmgov.org,Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,LindaW@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,indiras@dmgov.org,Citymanager@dmgov.org,maanderson@dmgov.org,pscooksey@dmgov.org,mahankins@dmgov.org,JLSchulte@dmgov.org,";
   public subject: string = "Keep Cops Off Consent";
   public cc: string = "";
   public bcc: string = "";
   public name: string = "";
+
   public personalNote: string = "";
 
   public get toDisplay(): string {
