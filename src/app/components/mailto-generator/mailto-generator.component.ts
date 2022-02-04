@@ -35,9 +35,17 @@ ${this.personalNote}
 
 <p>
     This item involves a grant for over $200,000 passing through DMPD under the discretion of
-    Police Chief Dana Wingert. This is controversial and clearly does not belong on the Consent Agenda.
+    Police Chief Dana Wingert.
+    The attached council communications does not indicate what equipment this money will
+    be used for, instead saying that broadly
+    "These funds are to be utilized to purchase specialized equipment for the certified
+    statewide teams".
+    The City needs to have more scrutiny over police funding, especially when we're talking about such big sums of money
+    going to unspecified actors.
 </p>
-
+<p>
+    This is controversial and clearly does not belong on the Consent Agenda.
+</p>
 <p>
 The City of Des Moines explicitly designates the Consent Agenda for "routine non-controversial items".
 The City Clerk is responsible for preparing these items, under the authority of the City Manager.
