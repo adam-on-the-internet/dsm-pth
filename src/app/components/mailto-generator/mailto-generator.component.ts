@@ -7,10 +7,10 @@ import {MailUtil} from "../../utilities/mail.util";
   styleUrls: ['./mailto-generator.component.css']
 })
 export class MailtoGeneratorComponent {
-  public open = false;
+  public open = true;
 
   public to: string = "CityClerk@dmgov.org,Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,LindaW@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,indiras@dmgov.org,Citymanager@dmgov.org,maanderson@dmgov.org,pscooksey@dmgov.org,mahankins@dmgov.org,JLSchulte@dmgov.org,";
-  public subject: string = "Keep Cops Off Consent";
+  public subject: string = "Take Cops Off Consent";
   public cc: string = "";
   public bcc: string = "";
   public name: string = "";
@@ -30,17 +30,20 @@ ${this.personalNote}
 </p>
 
 <p>
+    I am writing to request that you remove Consent Agenda Item #28 from the 2/7/22 Meeting Agenda.
+</p>
+
+<p>
+    This item involves a grant for over $200,000 passing through DMPD under the discretion of
+    Police Chief Dana Wingert. This is controversial and clearly does not belong on the Consent Agenda.
+</p>
+
+<p>
 The City of Des Moines explicitly designates the Consent Agenda for "routine non-controversial items".
 The City Clerk is responsible for preparing these items, under the authority of the City Manager.
 The City of Des Moines has been constantly placing controversial items on this agenda
 and refusing to allow public requests for removal and discussion
 to a degree not seen in other cities.
-</p>
-
-<p>
-For the 2/7/22 meeting I am requesting that you don't include agenda items about policing on the Consent Agenda.
-You are all well aware by this point that items related to law enforcement are controversial in Des Moines.
-Putting items on the Consent Agenda to block comments and avoid discussion is inappropriate, insulting, and makes a mockery of the city's meetings.
 </p>
 
 <p>
