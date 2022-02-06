@@ -97,7 +97,7 @@
                 This tool shows you your Ward, Neighborhood, who your representatives are, and more.
               </p>
             </a>
-            <a class="btn btn-outline-primary" [href]="linkService.publicRecordRequest" target="_blank">
+            <a class="btn btn-outline-primary" (click)="goToFOIA()">
               <h3>Submit a FOIA Request</h3>
               <p>
                 Submit a Public Records Request for the city, also known as FOIA.

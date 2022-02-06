@@ -26,6 +26,10 @@ export class DashboardComponent {
     this.navHelper.goToCouncilMeetings();
   }
 
+  public goToFOIA() {
+    this.navHelper.goToCityFOIA();
+  }
+
   public goToCommunityCalendar() {
     this.navHelper.goToCommunityCalendar();
   }

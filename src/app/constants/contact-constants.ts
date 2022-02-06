@@ -70,27 +70,57 @@ export const SPECIAL_CONTACTS: SimpleContact[] = [
   },
 ];
 
-export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [
-  {
-    role: "Mayor",
-    name: "T.M. Franklin Cownie",
-    email: "Fcownie@dmgov.org",
-    emailLink: CONTACT_MAYOR,
-    phoneNumber: "515-283-4944",
-    salary: "$57,760",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-    term: "Elected 2004, term expires 2024. Up for election in 2023."
-  },
-  {
-    role: "Council Member: At Large",
-    name: "Connie Boesen",
-    email: "Connieboesen@dmgov.org",
-    emailLink: CONTACT_AT_LARGE_1,
-    phoneNumber: "515-240-7929",
-    salary: "$28,880",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-    term: "Elected 2018, term expires 2026."
-  },
+export const WARD_4_REP = {
+  role: "Council Member: Ward 4",
+  name: "Joe Gatto",
+  email: "Joegatto@dmgov.org",
+  emailLink: CONTACT_WARD_4,
+  phoneNumber: "515-402-2626",
+  term: "Elected 2014, term expires 2024. Up for election in 2023.",
+  salary: "$28,880",
+  salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+  note: "Although Joe Gatto represents Ward 4, he lives elsewhere. Read about how he was approved to represent Ward 4 anyway by Mayor Cownie and others: https://tinyurl.com/2876huf5"
+};
+export const WARD_3_REP = {
+  role: "Council Member: Ward 3",
+  name: "Josh Mandelbaum",
+  email: "Joshmandelbaum@dmgov.org",
+  emailLink: CONTACT_WARD_3,
+  phoneNumber: "515-250-3384",
+  term: "Elected 2018, term expires 2026.",
+  salary: "$28,880",
+  salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+};
+export const WARD_2_REP = {
+  role: "Council Member: Ward 2",
+  name: "Linda Westergaard",
+  email: "LindaW@dmgov.org",
+  emailLink: CONTACT_WARD_2,
+  phoneNumber: "515-988-4288",
+  term: "Elected 2016, term expires 2024. Up for election in 2023.",
+  salary: "$28,880",
+  salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+};
+export const WARD_1_REP = {
+  role: "Council Member Elect: Ward 1",
+  name: "Indira Sheumaker",
+  email: "indiras@dmgov.org",
+  emailLink: CONTACT_WARD_1,
+  phoneNumber: "515-979-2619",
+  salary: "$28,880",
+  salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+  term: "Elected 2021, sworn in on 1/10/22. Term expires 2026."
+};
+export const AT_LARGE_REPS = [{
+  role: "Council Member: At Large",
+  name: "Connie Boesen",
+  email: "Connieboesen@dmgov.org",
+  emailLink: CONTACT_AT_LARGE_1,
+  phoneNumber: "515-240-7929",
+  salary: "$28,880",
+  salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+  term: "Elected 2018, term expires 2026."
+},
   {
     role: "Council Member: At Large",
     name: "Carl Voss",
@@ -101,106 +131,89 @@ export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [
     salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
 
     term: "Elected 2019, term expires 2024. Up for election in 2023."
-  },
-  {
-    role: "Council Member Elect: Ward 1",
-    name: "Indira Sheumaker",
-    email: "indiras@dmgov.org",
-    emailLink: CONTACT_WARD_1,
-    phoneNumber: "515-979-2619",
-    salary: "$28,880",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-    term: "Elected 2021, sworn in on 1/10/22. Term expires 2026."
-  },
-  {
-    role: "Council Member: Ward 2",
-    name: "Linda Westergaard",
-    email: "LindaW@dmgov.org",
-    emailLink: CONTACT_WARD_2,
-    phoneNumber: "515-988-4288",
-    term: "Elected 2016, term expires 2024. Up for election in 2023.",
-    salary: "$28,880",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-  },
-  {
-    role: "Council Member: Ward 3",
-    name: "Josh Mandelbaum",
-    email: "Joshmandelbaum@dmgov.org",
-    emailLink: CONTACT_WARD_3,
-    phoneNumber: "515-250-3384",
-    term: "Elected 2018, term expires 2026.",
-    salary: "$28,880",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-  },
-  {
-    role: "Council Member: Ward 4",
-    name: "Joe Gatto",
-    email: "Joegatto@dmgov.org",
-    emailLink: CONTACT_WARD_4,
-    phoneNumber: "515-402-2626",
-    term: "Elected 2014, term expires 2024. Up for election in 2023.",
-    salary: "$28,880",
-    salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
-    note: "Although Joe Gatto represents Ward 4, he lives elsewhere. Read about how he was approved to represent Ward 4 anyway by Mayor Cownie and others: https://tinyurl.com/2876huf5"
-  },
+  }];
+export const MAYOR = {
+  role: "Mayor",
+  name: "T.M. Franklin Cownie",
+  email: "Fcownie@dmgov.org",
+  emailLink: CONTACT_MAYOR,
+  phoneNumber: "515-283-4944",
+  salary: "$57,760",
+  salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
+  term: "Elected 2004, term expires 2024. Up for election in 2023."
+};
+export const MAYOR_AND_COUNCIL_CONTACTS: ContactInfo[] = [
+  MAYOR,
+  ...AT_LARGE_REPS,
+  WARD_1_REP,
+  WARD_2_REP,
+  WARD_3_REP,
+  WARD_4_REP,
 ];
-export const UNELECTED_CONTACTS: ContactInfo[] = [
-  {
-    role: "City Manager",
-    name: "Scott Sanders",
-    email: "Citymanager@dmgov.org",
-    emailLink: CONTACT_MANAGER,
-    phoneNumber: "515-283-4141",
-    salary: "$284,268",
-    salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
-    note: "Scott Sanders is unelected and serves at the pleasure of City Council.",
-  },
-  {
-    role: "City Attorney",
-    name: "Jeff Lester",
-    email: "Jdlester@dmgov.org",
-    emailLink: CONTACT_ATTORNEY,
-    phoneNumber: "515-283-4130",
-    salary: "$222,720",
-    salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
-  },
-  {
-    role: "City Clerk",
-    name: "P. Kay Clemik",
-    email: "CityClerk@dmgov.org",
-    emailLink: CONTACT_CLERK,
-    phoneNumber: "515-283-4209",
-    salary: "$121,713",
-    salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
-
-  },
-  {
-    role: "Zoning Enforcement",
-    name: "SuAnn Donovan",
-    email: "smdonovan@dmgov.org",
-    emailLink: CONTACT_ZONING,
-    phoneNumber: null,
-    salaryLink: "https://govsalaries.com/donovan-suann-7188989",
-    salary: "$112,195"
-  },
-  {
-    role: "Police Chief",
-    name: "Dana Wingert",
-    email: null,
-    emailLink: null,
-    phoneNumber: null,
-    salaryLink: "https://www.kwwl.com/news/cedar-rapids/a-look-at-police-chief-salaries-across-iowa/article_9db2dbee-705c-5797-891a-314291eff189.html",
-    salary: "$183,404",
-  },
-  {
-    role: "Deputy City Manager",
-    name: "Matthew Anderson",
-    email: "maanderson@dmgov.org",
-    emailLink: "mailto:maanderson@dmgov.org",
-    phoneNumber: "515-283-4141",
-    salaryLink: "https://govsalaries.com/anderson-matthew-112610979",
-    salary: "$187,181",
-  },
+export const OPEN_RECORDS_COORDINATOR = {
+  role: "Open Records Coordinator (FOIA Office)",
+  name: "Lisa Mickey",
+  email: "LMMickey@dmgov.org",
+  emailLink: "mailto:LMMickey@dmgov.org",
+  phoneNumber: "515-283-4566",
+  salaryLink: "https://govsalaries.com/mickey-lisa-7278173",
+  salary: "$68,786",
+};
+export const CITY_MANAGER = {
+  role: "City Manager",
+  name: "Scott Sanders",
+  email: "Citymanager@dmgov.org",
+  emailLink: CONTACT_MANAGER,
+  phoneNumber: "515-283-4141",
+  salary: "$284,268",
+  salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
+  note: "Scott Sanders is unelected and serves at the pleasure of City Council.",
+};
+export const CITY_ATTORNEY = {
+  role: "City Attorney",
+  name: "Jeff Lester",
+  email: "Jdlester@dmgov.org",
+  emailLink: CONTACT_ATTORNEY,
+  phoneNumber: "515-283-4130",
+  salary: "$222,720",
+  salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
+};
+export const CITY_CLERK = {
+  role: "City Clerk",
+  name: "P. Kay Clemik",
+  email: "CityClerk@dmgov.org",
+  emailLink: CONTACT_CLERK,
+  phoneNumber: "515-283-4209",
+  salary: "$121,713",
+  salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
+};
+export const ZONING_ENFORCEMENT = {
+  role: "Zoning Enforcement",
+  name: "SuAnn Donovan",
+  email: "smdonovan@dmgov.org",
+  emailLink: CONTACT_ZONING,
+  phoneNumber: null,
+  salaryLink: "https://govsalaries.com/donovan-suann-7188989",
+  salary: "$112,195"
+};
+export const POLICE_CHIEF = {
+  role: "Police Chief",
+  name: "Dana Wingert",
+  email: null,
+  emailLink: null,
+  phoneNumber: null,
+  salaryLink: "https://www.kwwl.com/news/cedar-rapids/a-look-at-police-chief-salaries-across-iowa/article_9db2dbee-705c-5797-891a-314291eff189.html",
+  salary: "$183,404",
+};
+export const CITY_MANAGERS_OFFICE = [{
+  role: "Deputy City Manager",
+  name: "Matthew Anderson",
+  email: "maanderson@dmgov.org",
+  emailLink: "mailto:maanderson@dmgov.org",
+  phoneNumber: "515-283-4141",
+  salaryLink: "https://govsalaries.com/anderson-matthew-112610979",
+  salary: "$187,181",
+},
   {
     role: "Assistant City Manager",
     name: "Pam Cooksey",
@@ -227,16 +240,25 @@ export const UNELECTED_CONTACTS: ContactInfo[] = [
     phoneNumber: "515-283-4058",
     salaryLink: "https://govsalaries.com/schulte-jennifer-7193695",
     salary: "$104,728",
-  },
-  {
-    role: "LGBTQ Liaison/Chief Equity Officer",
-    name: "Manisha Paudel",
-    email: "mpaudel@dmgov.org",
-    emailLink: "mailto:mpaudel@dmgov.org",
-    phoneNumber: "515-237-1483",
-    salaryLink: "",
-    salary: "",
-  },
+  }];
+export const CHIEF_EQUITY_OFFICER = {
+  role: "LGBTQ Liaison/Chief Equity Officer",
+  name: "Manisha Paudel",
+  email: "mpaudel@dmgov.org",
+  emailLink: "mailto:mpaudel@dmgov.org",
+  phoneNumber: "515-237-1483",
+  salaryLink: "",
+  salary: "",
+};
+export const UNELECTED_CONTACTS: ContactInfo[] = [
+  CITY_MANAGER,
+  CITY_ATTORNEY,
+  CITY_CLERK,
+  ZONING_ENFORCEMENT,
+  POLICE_CHIEF,
+  ...CITY_MANAGERS_OFFICE,
+  CHIEF_EQUITY_OFFICER,
+  OPEN_RECORDS_COORDINATOR,
 ];
 export const ALL_CITY_CONTACTS: ContactInfo[] = [
   ...MAYOR_AND_COUNCIL_CONTACTS,

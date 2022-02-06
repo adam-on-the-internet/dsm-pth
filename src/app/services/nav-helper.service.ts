@@ -23,6 +23,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.MailtoGenerator);
   }
 
+  public goToCityFOIA(): void {
+    this.goToRoute(ROUTES_ENUM.CityFOIA);
+  }
+
   public goToSignupToSpeak(): void {
     this.goToRoute(ROUTES_ENUM.SignupToSpeak);
   }

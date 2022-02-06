@@ -45,6 +45,8 @@ import {CouncilToolkitComponent} from "./components/council-toolkit/council-tool
 import {CouncilMeetingsComponent} from "./components/council-meetings/council-meetings.component";
 import {SignupToSpeakComponent} from "./components/signup-to-speak/signup-to-speak.component";
 import {MailtoGeneratorComponent} from './components/mailto-generator/mailto-generator.component';
+import {CityFoiaComponent} from './components/city-foia/city-foia.component';
+import {EmailDisplayComponent} from './components/email-display/email-display.component';
 
 // function that returns `MarkedOptions` with renderer override
 export function markedOptionsFactory(): MarkedOptions {
@@ -105,6 +107,8 @@ export function markedOptionsFactory(): MarkedOptions {
     CouncilMeetingsComponent,
     SignupToSpeakComponent,
     MailtoGeneratorComponent,
+    CityFoiaComponent,
+    EmailDisplayComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<ng-container *ngIf="email">
+  <p>
+    <strong>TO:</strong>
+    {{toDisplay}}
+  </p>
+  <p *ngIf="email.cc">
+    <strong>CC:</strong>
+    {{email.cc}}
+  </p>
+  <p *ngIf="email.bcc">
+    <strong>BCC:</strong>
+    {{email.bcc}}
+  </p>
+  <p>
+    <strong>SUBJECT:</strong>
+    {{email.subject}}
+  </p>
+  <p>
+    <strong>BODY:</strong>
+  </p>
+  <div [innerHTML]="email.body">
+  </div>
+</ng-container>
