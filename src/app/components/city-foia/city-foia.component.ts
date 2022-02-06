@@ -20,6 +20,7 @@ export class CityFoiaComponent {
     return {
       to: OPEN_RECORDS_COORDINATOR.email,
       subject: "Public Record Request",
+      bcc: this.emailAddress,
       body: this.body,
     };
   }
