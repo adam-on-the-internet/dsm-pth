@@ -30,7 +30,7 @@ export class CityFoiaComponent {
 Dear Lisa Mickey,
 <br>
 <br>
-I am submitting a request as follows:
+I am submitting a public records request as follows:
 <br>
 <br>
 Name = ${this.name}
