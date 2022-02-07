@@ -19,6 +19,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.CommunityCalendar);
   }
 
+  public goToResources(): void {
+    this.goToRoute(ROUTES_ENUM.Resources);
+  }
+
   public goToMailtoGenerator(): void {
     this.goToRoute(ROUTES_ENUM.MailtoGenerator);
   }

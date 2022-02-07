@@ -65,9 +65,15 @@
                href="{{person.salaryLink}}"
                target="_blank">
               <i class="fa fa-money"></i>
+              Salary:
+              {{person.salary}}
             </a>
-            Salary:
-            {{person.salary}}
+          </p>
+          <p *ngIf="person.campaignDisclosureLink">
+            <a href="{{person.campaignDisclosureLink}}" class="btn btn-link" target="_blank">
+              <i class="fa fa-university"></i>
+              Campaign Disclosures
+            </a>
           </p>
           <ng-container *ngIf="person.term">
             <hr>

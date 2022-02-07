@@ -47,6 +47,7 @@ import {SignupToSpeakComponent} from "./components/signup-to-speak/signup-to-spe
 import {MailtoGeneratorComponent} from './components/mailto-generator/mailto-generator.component';
 import {CityFoiaComponent} from './components/city-foia/city-foia.component';
 import {EmailDisplayComponent} from './components/email-display/email-display.component';
+import {ResourcesComponent} from './components/resources/resources.component';
 
 // function that returns `MarkedOptions` with renderer override
 export function markedOptionsFactory(): MarkedOptions {
@@ -109,6 +110,7 @@ export function markedOptionsFactory(): MarkedOptions {
     MailtoGeneratorComponent,
     CityFoiaComponent,
     EmailDisplayComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,

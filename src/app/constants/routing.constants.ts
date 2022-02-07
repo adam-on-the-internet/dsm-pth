@@ -11,6 +11,7 @@ export const enum ROUTES_ENUM {
   CouncilToolkit = "council-toolkit",
   CommunityCalendar = "community-calendar",
   MailtoGenerator = "mailto",
+  Resources = "Resources",
   CityFOIA = "city-foia",
   SignupToSpeak = "signup-to-speak-to-council",
   AgendaPublished = "agenda-info",

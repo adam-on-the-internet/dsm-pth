@@ -34,6 +34,10 @@ export class DashboardComponent {
     this.navHelper.goToCommunityCalendar();
   }
 
+  public goToResources() {
+    this.navHelper.goToResources();
+  }
+
   public goToSignupToSpeak() {
     this.navHelper.goToSignupToSpeak();
   }

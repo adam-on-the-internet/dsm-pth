@@ -11,4 +11,5 @@ export interface ContactInfo extends SimpleContact {
   role: string;
   phoneNumber: string;
   email: string;
+  campaignDisclosureLink?: string;
 }

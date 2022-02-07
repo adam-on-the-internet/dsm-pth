@@ -21,6 +21,7 @@ import {CouncilMeetingsComponent} from "./components/council-meetings/council-me
 import {SignupToSpeakComponent} from "./components/signup-to-speak/signup-to-speak.component";
 import {MailtoGeneratorComponent} from "./components/mailto-generator/mailto-generator.component";
 import {CityFoiaComponent} from "./components/city-foia/city-foia.component";
+import {ResourcesComponent} from "./components/resources/resources.component";
 
 const routes: Routes = [
   // main
@@ -48,6 +49,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.SignupToSpeak, component: SignupToSpeakComponent},
   {path: ROUTES_ENUM.MailtoGenerator, component: MailtoGeneratorComponent},
+  {path: ROUTES_ENUM.Resources, component: ResourcesComponent},
   {path: ROUTES_ENUM.CityFOIA, component: CityFoiaComponent},
   {path: ROUTES_ENUM.CommunityCalendar, component: CommunityCalendarComponent},
   {path: ROUTES_ENUM.MarkdownViewer + "/:path", component: MarkdownViewerComponent},
