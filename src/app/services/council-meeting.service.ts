@@ -123,6 +123,8 @@ export class CouncilMeetingService {
 
   private getReadableType(councilMeeting: CouncilMeetingDTO): string {
     switch (councilMeeting.type) {
+      case "QWS":
+        return "Quarterly Work Session";
       case "WS":
         return "Work Session";
       case "RM":

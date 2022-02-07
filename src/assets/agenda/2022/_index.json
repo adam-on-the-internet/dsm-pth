@@ -1,53 +1,68 @@
 [
   {
+    "year": "2022", "month": "02", "day": "24",
+    "type": "OM", "time": "12:15pm",
+    "show": true, "featured": false,
+    "subtitle": "Budget @ Southside Senior Center"
+  },
+  {
+    "year": "2022", "month": "02", "day": "23",
+    "type": "OM", "time": "10:30am",
+    "show": true, "featured": false,
+    "subtitle": "Budget @ North Senior Center"
+  },
+  {
+    "year": "2022", "month": "02", "day": "17",
+    "type": "OM", "time": "12:30pm",
+    "show": true, "featured": false,
+    "subtitle": "Budget @ Northwest Senior Center"
+  },
+  {
+    "year": "2022", "month": "02", "day": "15",
+    "type": "OM", "time": "6:30pm",
+    "show": true, "featured": false,
+    "subtitle": "Budget @ South Side Library"
+  },
+  {
     "year": "2022", "month": "02", "day": "07",
-    "type": "RM", "time": "5:00pm",
+    "type": "RM", "time": "4:45pm",
     "show": true, "featured": true
   },
   {
-    "year": "2022", "month": "02", "day": "07",
-    "type": "WS", "time": "7:30am",
-    "show": false, "featured": false
-  },
-  {
     "year": "2022", "month": "01", "day": "31",
-    "type": "WS", "time": "8:00am",
-    "show": true, "featured": false
-  },
-  {
-    "year": "2022", "month": "01", "day": "10",
-    "type": "RM", "time": "5:00pm",
-    "show": true, "featured": false
-  },
-  {
-    "year": "2022", "month": "01", "day": "10",
-    "type": "WS", "time": "7:30am",
-    "show": true, "featured": false
-  },
-  {
-    "year": "2022", "month": "01", "day": "24",
-    "type": "RM", "time": "5:00pm",
-    "show": true, "featured": false
-  },
-  {
-    "year": "2022", "month": "01", "day": "24",
-    "type": "WS", "time": "7:30am",
+    "type": "QWS", "time": "8:00am",
     "show": true, "featured": false
   },
   {
     "year": "2022", "month": "01", "day": "29",
-    "type": "SM", "time": "10:00am",
+    "type": "OM", "time": "10:00am",
+    "show": true, "featured": false,
+    "subtitle": "Budget @ Forest Avenue Library"
+  },
+  {
+    "year": "2022", "month": "01", "day": "24",
+    "type": "RM", "time": "5:00pm",
+    "show": true, "featured": false
+  },
+  {
+    "year": "2022", "month": "01", "day": "24",
+    "type": "WS", "time": "7:30am",
+    "show": true, "featured": false
+  },
+  {
+    "year": "2022", "month": "01", "day": "10",
+    "type": "RM", "time": "5:00pm",
+    "show": true, "featured": false
+  },
+  {
+    "year": "2022", "month": "01", "day": "10",
+    "type": "WS", "time": "7:30am",
     "show": true, "featured": false
   },
   {
     "year": "2022", "month": "02", "day": "07",
     "type": "RM", "time": "5:00pm",
     "show": false, "featured": false
-  },
-  {
-    "year": "2022", "month": "02", "day": "15",
-    "type": "SM", "time": "6:30pm",
-    "show": true, "featured": false
   },
   {
     "year": "2022", "month": "02", "day": "21",
