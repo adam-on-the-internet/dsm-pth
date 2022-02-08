@@ -11,17 +11,17 @@ export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "February";
   public councilMeetingDay = "21";
+  public signupOpen = false;
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
-  public topic = "The People's Voice";
+  public topic = "What's Going On in Des Moines";
   public email = "";
   public name = "";
   public address = "";
   public city = "Des Moines";
   public state = "IA";
   public sendCopy = false;
-  public signupOpen = false;
 
   public get canSubmit(): boolean {
     return this.allSet && this.signupOpen;

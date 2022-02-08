@@ -24,9 +24,15 @@
     "subtitle": "Budget @ South Side Library"
   },
   {
+    "year": "2022", "month": "02", "day": "09",
+    "type": "OM", "time": "9:00am",
+    "show": true, "featured": true,
+    "subtitle": "Budget Discussion"
+  },
+  {
     "year": "2022", "month": "02", "day": "07",
     "type": "RM", "time": "4:45pm",
-    "show": true, "featured": true
+    "show": true, "featured": false
   },
   {
     "year": "2022", "month": "01", "day": "31",
