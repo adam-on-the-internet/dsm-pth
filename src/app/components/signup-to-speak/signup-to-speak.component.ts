@@ -11,11 +11,11 @@ export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "February";
   public councilMeetingDay = "21";
-  public signupOpen = false;
+  public signupOpen = true;
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
-  public topic = "What's Going On in Des Moines";
+  public topic = "Problems with Des Moines City Council";
   public email = "";
   public name = "";
   public address = "";

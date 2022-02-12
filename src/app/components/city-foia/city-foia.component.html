@@ -1,131 +1,142 @@
 <div class="container">
   <div class="row my-4 justify-content-center">
 
-    <section id="header" class="col-md-12">
-      <h1 class="text-center">City of Des Moines FOIA Records Request Helper</h1>
-    </section>
+    <div id="intro">
+      <section id="header" class="col-md-12">
+        <h1 class="text-center">City of Des Moines FOIA Records Request Helper</h1>
+      </section>
 
-    <section id="help" class="col-md-12">
-      <div class="alert alert-info">
-        Our mailer tool makes a lot of assumptions about what kind of requests you are making to streamline the process.
-        For more information and other ways to submit, visit the
-        <a href="{{linkService.publicRecordRequest}}"
-           target="_blank">City Web Form</a>
-        or contact
-        Lisa M. Mickey (Open Records Coordinator) at LMMickey@dmgov.org
-      </div>
-
-      <p>
-        <a class="btn btn-link" data-toggle="collapse" href="#collapseTopHelp" role="button" aria-expanded="false"
-           aria-controls="collapseTopHelp">
-          <i class="fa fa-info-circle"></i>
-          More about FOIA
-        </a>
-      </p>
-      <div class="collapse" id="collapseTopHelp">
-        <div class="card card-body">
-          <p>
-            You can submit FOIA Requests to receive copies of any public city documents.
-            Fees may be charged for staff time.
-          </p>
-          <p>
-            For most requests, you will receive an estimate and then be prompted to pay 1/2 of the estimate
-            before the FOIA office starts on your work.
-          </p>
-          <p>
-            Iowa FOIA is set through
-            <a href="https://www.legis.iowa.gov/docs/ico/chapter/22.pdf">Iowa Code Chapter 22</a>.
-          </p>
-          <p>
-            For more about FOIA Law in Iowa, visit <a href="https://www.nfoic.org/iowa-foia-laws/">
-            National Free of Information Coalition
-          </a>.
-          </p>
+      <section id="help" class="col-md-12">
+        <div class="alert alert-info">
+          Our mailer tool makes a lot of assumptions about what kind of requests you are making to streamline the
+          process.
+          For more information and other ways to submit, visit the
+          <a href="{{linkService.publicRecordRequest}}"
+             target="_blank">City Web Form</a>
+          or contact
+          Lisa M. Mickey (Open Records Coordinator) at LMMickey@dmgov.org
         </div>
-      </div>
 
-      <hr>
-    </section>
-
-    <section id="form" class="col-md-6 my-3">
-      <div class="form-group">
-        <label for="name" class="font-weight-bold">Name</label>
-        <input class="form-control" type="text" id="name" [(ngModel)]="name"/>
-      </div>
-      <div class="form-group">
-        <label for="address" class="font-weight-bold">Mailing Address</label>
-        <input class="form-control" type="text" id="address" [(ngModel)]="address"/>
-      </div>
-      <div class="form-group">
-        <label for="phone" class="font-weight-bold">Daytime Phone Number</label>
-        <input class="form-control" type="text" id="phone" [(ngModel)]="phone"/>
-      </div>
-      <div class="form-group">
-        <label for="emailAddress" class="font-weight-bold">Email Address</label>
-        <input class="form-control" type="text" id="emailAddress" [(ngModel)]="emailAddress"/>
-      </div>
-      <div class="form-group">
-        <label for="request" class="font-weight-bold">Request</label>
         <p>
-          <a class="btn btn-link" data-toggle="collapse" href="#collapseRequestTip" role="button" aria-expanded="false"
-             aria-controls="collapseRequestTip">
+          <a class="btn btn-link" data-toggle="collapse" href="#collapseTopHelp" role="button" aria-expanded="false"
+             aria-controls="collapseTopHelp">
             <i class="fa fa-info-circle"></i>
-            Tips for Building Requests
+            More about FOIA
           </a>
         </p>
-        <div class="collapse mb-2" id="collapseRequestTip">
+        <div class="collapse" id="collapseTopHelp">
           <div class="card card-body">
             <p>
-              <strong>Requesting a Document:</strong>
+              You can submit FOIA Requests to receive copies of any public city documents.
+              Fees may be charged for staff time.
             </p>
             <p>
-              When requesting a document, be as specific as possible.
-              Mentioning related dates and who has the document should help.
+              For most requests, you will receive an estimate and then be prompted to pay 1/2 of the estimate
+              before the FOIA office starts on your work.
             </p>
             <p>
-              <strong>Requesting Emails:</strong>
+              Iowa FOIA is set through
+              <a href="https://www.legis.iowa.gov/docs/ico/chapter/22.pdf">Iowa Code Chapter 22</a>.
             </p>
             <p>
-              Requesting emails can be tricky, you have to cast a careful net to catch what you
-              want without picking up tons of random emails.
-              In general, be as specific as you can!
-              Some things to include:
-            </p>
-            <ul>
-              <li>Names of people you want emails to & from</li>
-              <li>Start & end date, with day, month, year, and time if applicable</li>
-              <li>Key words or phrases (this is the trickiest part)</li>
-              <li>If you somehow know the subject line or other exact details, that's a huge help</li>
-            </ul>
-            <p>
-              <strong>Requesting Something Else:</strong>
-            </p>
-            <p>
-              There are lots of other things you can request, such as text messages and videos.
+              For more about FOIA Law in Iowa, visit <a href="https://www.nfoic.org/iowa-foia-laws/">
+              National Free of Information Coalition
+            </a>.
             </p>
           </div>
         </div>
-        <textarea class="form-control" id="request" name="request" [(ngModel)]="request" rows="5" cols="50">
-        </textarea>
+
+        <hr>
+      </section>
+    </div>
+
+    <div class="col-md-6" *ngIf="!open">
+      <div class="alert alert-warning">
+        This isn't ready yet, sorry!
       </div>
-      <hr>
+    </div>
+    <div id="body" *ngIf="open">
+      <section id="form" class="col-md-6 my-3">
+        <div class="form-group">
+          <label for="name" class="font-weight-bold">Name</label>
+          <input class="form-control" type="text" id="name" [(ngModel)]="name"/>
+        </div>
+        <div class="form-group">
+          <label for="address" class="font-weight-bold">Mailing Address</label>
+          <input class="form-control" type="text" id="address" [(ngModel)]="address"/>
+        </div>
+        <div class="form-group">
+          <label for="phone" class="font-weight-bold">Daytime Phone Number</label>
+          <input class="form-control" type="text" id="phone" [(ngModel)]="phone"/>
+        </div>
+        <div class="form-group">
+          <label for="emailAddress" class="font-weight-bold">Email Address</label>
+          <input class="form-control" type="text" id="emailAddress" [(ngModel)]="emailAddress"/>
+        </div>
+        <div class="form-group">
+          <label for="request" class="font-weight-bold">Request</label>
+          <p>
+            <a class="btn btn-link" data-toggle="collapse" href="#collapseRequestTip" role="button"
+               aria-expanded="false"
+               aria-controls="collapseRequestTip">
+              <i class="fa fa-info-circle"></i>
+              Tips for Building Requests
+            </a>
+          </p>
+          <div class="collapse mb-2" id="collapseRequestTip">
+            <div class="card card-body">
+              <p>
+                <strong>Requesting a Document:</strong>
+              </p>
+              <p>
+                When requesting a document, be as specific as possible.
+                Mentioning related dates and who has the document should help.
+              </p>
+              <p>
+                <strong>Requesting Emails:</strong>
+              </p>
+              <p>
+                Requesting emails can be tricky, you have to cast a careful net to catch what you
+                want without picking up tons of random emails.
+                In general, be as specific as you can!
+                Some things to include:
+              </p>
+              <ul>
+                <li>Names of people you want emails to & from</li>
+                <li>Start & end date, with day, month, year, and time if applicable</li>
+                <li>Key words or phrases (this is the trickiest part)</li>
+                <li>If you somehow know the subject line or other exact details, that's a huge help</li>
+              </ul>
+              <p>
+                <strong>Requesting Something Else:</strong>
+              </p>
+              <p>
+                There are lots of other things you can request, such as text messages and videos.
+              </p>
+            </div>
+          </div>
+          <textarea class="form-control" id="request" name="request" [(ngModel)]="request" rows="5" cols="50">
+        </textarea>
+        </div>
+        <hr>
 
-      <ng-container *ngIf="allSet">
-        <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
-          <i class="fa fa-envelope"></i>
-          Use Mailto
-        </a>
-      </ng-container>
-      <ng-container *ngIf="!allSet">
-        <div class="alert alert-warning">You cannot send without a entering all fields.</div>
-      </ng-container>
-    </section>
+        <ng-container *ngIf="allSet">
+          <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
+            <i class="fa fa-envelope"></i>
+            Use Mailto
+          </a>
+        </ng-container>
+        <ng-container *ngIf="!allSet">
+          <div class="alert alert-warning">You cannot send without a entering all fields.</div>
+        </ng-container>
+      </section>
 
-    <section id="sample" class="col-md-6 my-3">
-      <h2>Sample</h2>
-      <hr>
-      <app-email-display [email]="email"></app-email-display>
-    </section>
+      <section id="sample" class="col-md-6 my-3">
+        <h2>Sample</h2>
+        <hr>
+        <app-email-display [email]="email"></app-email-display>
+      </section>
+    </div>
 
   </div>
 </div>
