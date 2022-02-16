@@ -9,9 +9,9 @@ import {MailUtil} from "../../utilities/mail.util";
 })
 export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
-  public councilMeetingMonth = "February";
-  public councilMeetingDay = "21";
-  public signupOpen = true;
+  public councilMeetingMonth = "March";
+  public councilMeetingDay = "7";
+  public signupOpen = false;
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";

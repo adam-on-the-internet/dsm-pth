@@ -5,6 +5,7 @@ export const enum ROUTES_ENUM {
   Admin = "admin",
   Login = "login",
   ContactList = "contacts",
+  CouncilMeetingGuide = "council-meeting-guide",
   CouncilMeetings = "council-meetings",
   ContactListOld = "contact-list",
   MarkdownViewer = "view",

@@ -22,6 +22,7 @@ import {SignupToSpeakComponent} from "./components/signup-to-speak/signup-to-spe
 import {MailtoGeneratorComponent} from "./components/mailto-generator/mailto-generator.component";
 import {CityFoiaComponent} from "./components/city-foia/city-foia.component";
 import {ResourcesComponent} from "./components/resources/resources.component";
+import {CouncilMeetingGuideComponent} from "./components/council-meeting-guide/council-meeting-guide.component";
 
 const routes: Routes = [
   // main
@@ -33,6 +34,7 @@ const routes: Routes = [
 
   {path: ROUTES_ENUM.CouncilToolkit, component: CouncilToolkitComponent},
   {path: ROUTES_ENUM.CouncilMeetings, component: CouncilMeetingsComponent},
+  {path: ROUTES_ENUM.CouncilMeetingGuide, component: CouncilMeetingGuideComponent},
 
   {path: ROUTES_ENUM.AgendaPublished, component: PublishedAgendaListComponent},
   {path: ROUTES_ENUM.AgendaPublished + "/:id", component: PublishedAgendaComponent},
