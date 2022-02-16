@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row my-4 justify-content-center">
 
-    <div id="intro">
+    <ng-container id="intro">
       <section id="header" class="col-md-12">
         <h1 class="text-center">City of Des Moines FOIA Records Request Helper</h1>
       </section>
@@ -48,14 +48,9 @@
 
         <hr>
       </section>
-    </div>
+    </ng-container>
 
-    <div class="col-md-6" *ngIf="!open">
-      <div class="alert alert-warning">
-        This isn't ready yet, sorry!
-      </div>
-    </div>
-    <div id="body" *ngIf="open">
+    <ng-container id="body">
       <section id="form" class="col-md-6 my-3">
         <div class="form-group">
           <label for="name" class="font-weight-bold">Name</label>
@@ -136,7 +131,7 @@
         <hr>
         <app-email-display [email]="email"></app-email-display>
       </section>
-    </div>
+    </ng-container>
 
   </div>
 </div>
