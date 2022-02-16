@@ -28,6 +28,14 @@ export class NavbarComponent {
     this.navHelper.goToContactList();
   }
 
+  public toToolkit(): void {
+    this.navHelper.goToCouncilToolkit();
+  }
+
+  public toResources(): void {
+    this.navHelper.goToResources();
+  }
+
   public goToDashboard(): void {
     this.navHelper.goToDashboard();
   }

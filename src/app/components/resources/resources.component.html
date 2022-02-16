@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row mb-3 justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-12">
       <h1>Resources</h1>
       <p>Links to other resources.</p>
       <p>
@@ -8,9 +8,26 @@
         useful community resources.
       </p>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-6">
+      <h2>Community Resources</h2>
       <ul class="list-group">
-        <li class="list-group-item" *ngFor="let resource of resources">
+        <li class="list-group-item" *ngFor="let resource of communityResources">
+          <strong>
+            {{resource.text}}
+          </strong>
+          <a [href]="resource.link" target="_blank" *ngIf="resource.link">
+            <i class="fa fa-link"></i> Link
+          </a>
+          <p *ngIf="resource.details">
+            {{resource.details}}
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h2>State Resources</h2>
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let resource of stateResources">
           <strong>
             {{resource.text}}
           </strong>

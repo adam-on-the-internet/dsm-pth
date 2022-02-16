@@ -18,10 +18,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" [href]="linkService.petitionLink" target="_blank">Our Petition</a>
+        <a class="nav-link" (click)="goToContacts()">City Contacts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="goToContacts()">Contacts</a>
+        <a class="nav-link" (click)="toToolkit()">Council Toolkit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="toResources()">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [href]="linkService.petitionLink" target="_blank">Sign Our Petition</a>
       </li>
       <ng-container *ngIf="isLoggedIn">
         <li class="nav-item">

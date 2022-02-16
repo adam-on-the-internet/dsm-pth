@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ResourceItem, RESOURCES} from "../../constants/resource.constants";
+import {ResourceItem, IOWA_RESOURCES, COMMUNITY_RESOURCES} from "../../constants/resource.constants";
 
 @Component({
   selector: 'app-resources',
@@ -7,5 +7,6 @@ import {ResourceItem, RESOURCES} from "../../constants/resource.constants";
   styleUrls: ['./resources.component.css']
 })
 export class ResourcesComponent {
-  public resources: ResourceItem[] = RESOURCES;
+  public stateResources: ResourceItem[] = IOWA_RESOURCES;
+  public communityResources: ResourceItem[] = COMMUNITY_RESOURCES;
 }
