@@ -2,13 +2,32 @@
   <div class="row my-3">
     <div class="col-md-6">
       <h1>The People's Gazette</h1>
-      <p>
-        Our newsletters:
-      </p>
+      <hr>
+      <h3>Latest Newsletter</h3>
+      <div class="card card-primary">
+        <div class="card-body">
+          <div class="card-heading">
+            <div class="card-title">
+              <h4>
+                <a [attr.href]="latestNewsletter.link" target="_blank">
+                  {{latestNewsletter.name}}
+                </a>
+              </h4>
+            </div>
+          </div>
+          <div class="card-text">
+            {{latestNewsletter.details}}
+            <hr>
+            Released: {{latestNewsletter.released}}
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h3>All Newsletters</h3>
       <ul class="list-group">
-        <li class="list-group-item">
-          <a href="assets/newsletter/peoples_gazette_february_2022.pdf" target="_blank">
-            People's Gazette: February 2022
+        <li class="list-group-item" *ngFor="let newsletter of allNewsletters">
+          <a [attr.href]="newsletter.link" target="_blank">
+            {{newsletter.name}} (released {{newsletter.released}})
           </a>
         </li>
       </ul>
