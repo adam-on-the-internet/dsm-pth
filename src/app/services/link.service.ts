@@ -26,4 +26,5 @@ export class LinkService {
 
   // specific links
   public petitionLink = "https://t.co/GXc99YcO4d?amp=1";
+  public registerForMarch2 = "https://bit.ly/March2Call";
 }

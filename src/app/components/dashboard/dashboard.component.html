@@ -6,16 +6,22 @@
       </div>
       <div id="our-tools" class="col-md-8 my-3 text-center">
         <div class="btn-group btn-group-vertical bg-white">
-          <a class="btn btn-outline-primary" (click)="goToToolkit()" target="_blank">
-            <h3>Council Toolkit</h3>
-            <p>
-              A set of tools for engaging with Des Moines City Council.
-            </p>
-          </a>
           <a class="btn btn-outline-primary" (click)="navHelper.toNewsletter()" target="_blank">
             <h3>Newsletter</h3>
             <p>
               Check out our Newsletter, The People's Gazette!
+            </p>
+          </a>
+          <a class="btn btn-outline-primary" [attr.href]="linkService.registerForMarch2" target="_blank">
+            <h3>Register for Our March 2nd Call</h3>
+            <p>
+              We're hosting an virtual event on March 2nd at 7:00pm, register now!
+            </p>
+          </a>
+          <a class="btn btn-outline-primary" (click)="goToToolkit()" target="_blank">
+            <h3>Council Toolkit</h3>
+            <p>
+              A set of tools for engaging with Des Moines City Council.
             </p>
           </a>
           <a class="btn btn-outline-primary" (click)="goToContactList()">

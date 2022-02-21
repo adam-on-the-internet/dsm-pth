@@ -18,6 +18,9 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
+        <a class="nav-link" [href]="linkService.registerForMarch2" target="_blank">Register for March 2nd</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" (click)="toNewsletter()">Newsletter</a>
       </li>
       <li class="nav-item">
@@ -28,9 +31,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" (click)="toResources()">Resources</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [href]="linkService.petitionLink" target="_blank">Sign Our Petition</a>
       </li>
       <ng-container *ngIf="isLoggedIn">
         <li class="nav-item">
