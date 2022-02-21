@@ -39,6 +39,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.ContactList);
   }
 
+  public toNewsletter(): void {
+    this.goToRoute(ROUTES_ENUM.Newsletter);
+  }
+
   public goToCouncilMeetings(): void {
     this.goToRoute(ROUTES_ENUM.CouncilMeetings);
   }
