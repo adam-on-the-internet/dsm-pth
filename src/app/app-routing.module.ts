@@ -23,6 +23,7 @@ import {MailtoGeneratorComponent} from "./components/mailto-generator/mailto-gen
 import {CityFoiaComponent} from "./components/city-foia/city-foia.component";
 import {ResourcesComponent} from "./components/resources/resources.component";
 import {CouncilMeetingGuideComponent} from "./components/council-meeting-guide/council-meeting-guide.component";
+import {NewsletterComponent} from "./components/newsletter/newsletter.component";
 
 const routes: Routes = [
   // main
@@ -49,6 +50,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.AgendaItemDetails + "/:itemId", component: AgendaItemDetailsComponent},
 
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
+  {path: ROUTES_ENUM.Newsletter, component: NewsletterComponent},
   {path: ROUTES_ENUM.SignupToSpeak, component: SignupToSpeakComponent},
   {path: ROUTES_ENUM.MailtoGenerator, component: MailtoGeneratorComponent},
   {path: ROUTES_ENUM.Resources, component: ResourcesComponent},
