@@ -11,8 +11,8 @@ import {LinkService} from "../../services/link.service";
 export class DashboardComponent {
 
   constructor(
-    private navHelper: NavHelperService,
     private settings: SettingsService,
+    public navHelper: NavHelperService,
     public linkService: LinkService,
   ) {
     this.settings.showNav = true;
