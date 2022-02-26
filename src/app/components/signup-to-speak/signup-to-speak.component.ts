@@ -11,7 +11,7 @@ export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "March";
   public councilMeetingDay = "7";
-  public signupOpen = false;
+  public signupOpen = true;
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
