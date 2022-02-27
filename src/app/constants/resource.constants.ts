@@ -58,7 +58,11 @@ export const IOWA_RESOURCES: ResourceItem[] = [
   },
   {
     text: "Des Moines: Find Your House District",
-    link: "https://www.google.com/url?q=https://iowa-legis.maps.arcgis.com/apps/instant/lookup/index.html?appid%3Dd32118cf09ed47beacd12742c1cf3fb3&sa=D&source=editors&ust=1643847758091459&usg=AOvVaw3Y_rM5CXS-sCUbrn_TSIqd\n",
+    link: "https://www.google.com/url?q=https://iowa-legis.maps.arcgis.com/apps/instant/lookup/index.html?appid%3Dd32118cf09ed47beacd12742c1cf3fb3&sa=D&source=editors&ust=1643847758091459&usg=AOvVaw3Y_rM5CXS-sCUbrn_TSIqd",
+  },
+  {
+    text: "Iowa: Find Your Legislators",
+    link: "https://www.legis.iowa.gov/legislators/find",
   },
   {
     text: "Subscribe to DSM Alerts",
