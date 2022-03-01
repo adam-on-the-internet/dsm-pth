@@ -10,8 +10,8 @@ import {MailUtil} from "../../utilities/mail.util";
 export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "March";
-  public councilMeetingDay = "7";
-  public signupOpen = true;
+  public councilMeetingDay = "21";
+  public signupOpen = false;
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
@@ -47,16 +47,8 @@ export class SignupToSpeakComponent {
     const emailParam = this.email ? this.email : BLANK;
     const topicParam = this.topic ? this.topic : BLANK;
     const disclaimer = `
-If this email is insufficient, or if the rules to speak vary from the Procedural Rules,
+If this email is insufficient,
 please let me know what the requirements are for a member of the public to sign up to speak at a meeting.
-    `;
-    const ruleHeader = `
-Per Procedural Rule 16 (Des Moines Residents, Property Owners and City Taxpayers Requests to Speak):
-    `;
-    const ruleText = `
-"Any City resident, property owner or taxpayer may request to speak on a regular Agenda by filing such
-request in writing with the City Clerk on or after the date ten days preceding a regular Council meeting
-but prior to 5:00 P.M. on the Tuesday preceding a regular Council meeting."
     `;
     return `
 <p>${greeting}</p>
@@ -69,9 +61,6 @@ but prior to 5:00 P.M. on the Tuesday preceding a regular Council meeting."
 <p>City: ${cityParam}</p>
 <p>State: ${stateParam}</p>
 <p>Topic: ${topicParam}</p>
-
-<p>${ruleHeader}</p>
-<p>${ruleText}</p>
 
 <p>${disclaimer}</p>
 
