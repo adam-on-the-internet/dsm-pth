@@ -11,6 +11,10 @@ export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "March";
   public councilMeetingDay = "21";
+  public cutoffYear = "2022";
+  public cutoffMonth = "March";
+  public cutoffDay = "15";
+  public cutoffTime = "5:00pm";
   public signupOpen = true; // TODO open and close logic based on dates
 
   public toAddress = "CityClerk@dmgov.org";
@@ -34,6 +38,10 @@ export class SignupToSpeakComponent {
 
   public get date(): string {
     return `${this.councilMeetingMonth} ${this.councilMeetingDay}, ${this.councilMeetingYear}`;
+  }
+
+  public get cutoffDate(): string {
+    return `${this.cutoffMonth} ${this.cutoffDay}, ${this.cutoffYear} at ${this.cutoffTime}`;
   }
 
   public get body(): string {
