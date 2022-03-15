@@ -9,13 +9,13 @@ import {MailUtil} from "../../utilities/mail.util";
 })
 export class SignupToSpeakComponent {
   public councilMeetingYear = "2022";
-  public councilMeetingMonth = "March";
-  public councilMeetingDay = "21";
+  public councilMeetingMonth = "April";
+  public councilMeetingDay = "4";
   public cutoffYear = "2022";
   public cutoffMonth = "March";
-  public cutoffDay = "15";
+  public cutoffDay = "29";
   public cutoffTime = "5:00pm";
-  public signupOpen = true; // TODO open and close logic based on dates
+  public signupOpen = false; // TODO open and close logic based on dates
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
