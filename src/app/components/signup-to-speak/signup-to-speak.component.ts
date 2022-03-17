@@ -8,6 +8,7 @@ import {MailUtil} from "../../utilities/mail.util";
   styleUrls: ["./signup-to-speak.component.css"]
 })
 export class SignupToSpeakComponent {
+  // https://www.dsm.city/government/council_meetings_and_agendas/meeting_schedule.php
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "April";
   public councilMeetingDay = "4";

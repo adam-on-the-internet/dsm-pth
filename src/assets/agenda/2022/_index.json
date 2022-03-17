@@ -6,7 +6,16 @@
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": false
+    "featured": true
+  },
+  {
+    "year": "2022",
+    "month": "03",
+    "day": "21",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
   },
   {
     "year": "2022",
@@ -15,7 +24,7 @@
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2022",
@@ -24,27 +33,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
-  },
-  {
-    "year": "2022",
-    "month": "02",
-    "day": "24",
-    "type": "OM",
-    "time": "12:15pm",
-    "show": false,
-    "featured": false,
-    "subtitle": "Budget @ Southside Senior Center"
-  },
-  {
-    "year": "2022",
-    "month": "02",
-    "day": "23",
-    "type": "OM",
-    "time": "10:30am",
-    "show": false,
-    "featured": false,
-    "subtitle": "Budget @ North Senior Center"
+    "featured": false
   },
   {
     "year": "2022",
