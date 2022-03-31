@@ -11,12 +11,12 @@ export class SignupToSpeakComponent {
   // https://www.dsm.city/government/council_meetings_and_agendas/meeting_schedule.php
   public councilMeetingYear = "2022";
   public councilMeetingMonth = "April";
-  public councilMeetingDay = "4";
+  public councilMeetingDay = "18";
   public cutoffYear = "2022";
-  public cutoffMonth = "March";
-  public cutoffDay = "29";
+  public cutoffMonth = "April";
+  public cutoffDay = "12";
   public cutoffTime = "5:00pm";
-  public signupOpen = true; // TODO open and close logic based on dates
+  public signupOpen = false; // TODO open and close logic based on dates
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
