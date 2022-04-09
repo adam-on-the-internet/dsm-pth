@@ -16,7 +16,7 @@ export class SignupToSpeakComponent {
   public cutoffMonth = "April";
   public cutoffDay = "12";
   public cutoffTime = "5:00pm";
-  public signupOpen = false; // TODO open and close logic based on dates
+  public signupOpen = true; // TODO open and close logic based on dates
 
   public toAddress = "CityClerk@dmgov.org";
   public pthEmail = "dsmpeoplestownhall@gmail.com";
