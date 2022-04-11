@@ -9,8 +9,8 @@ import {MailUtil} from "../../utilities/mail.util";
 export class MailtoGeneratorComponent {
   public open = false;
 
-  public to: string = "CityClerk@dmgov.org,Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,LindaW@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,indiras@dmgov.org,Citymanager@dmgov.org,maanderson@dmgov.org,pscooksey@dmgov.org,mahankins@dmgov.org,JLSchulte@dmgov.org,";
-  public subject: string = "Take Cops Off Consent";
+  public to: string = "Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,LindaW@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,indiras@dmgov.org,Citymanager@dmgov.org,";
+  public subject: string = "Rename George Flagg Parkway";
   public cc: string = "";
   public bcc: string = "";
   public name: string = "";
@@ -23,48 +23,20 @@ export class MailtoGeneratorComponent {
 
   public get body(): string {
     return `
-<p>Dear City Clerk, City Managers, City Council, and Mayor,</p>
+<p>Dear City Council, Mayor, and City Manager,</p>
+
+<p>
+    I am writing to request that you rename George Flagg Parkway.
+</p>
 
 <p>
 ${this.personalNote}
 </p>
 
 <p>
-    I am writing to request that you remove Consent Agenda Item #28 from the 2/7/22 Meeting Agenda.
-</p>
-
-<p>
-    This item involves a grant for over $200,000 passing through DMPD under the discretion of
-    Police Chief Dana Wingert.
-    The attached council communications does not indicate what equipment this money will
-    be used for, instead saying that broadly
-    "These funds are to be utilized to purchase specialized equipment for the certified
-    statewide teams".
-    The City needs to have more scrutiny over police funding, especially when we're talking about such big sums of money
-    going to unspecified actors.
-</p>
-<p>
-    This is controversial and clearly does not belong on the Consent Agenda.
-</p>
-<p>
-The City of Des Moines explicitly designates the Consent Agenda for "routine non-controversial items".
-The City Clerk is responsible for preparing these items, under the authority of the City Manager.
-The City of Des Moines has been constantly placing controversial items on this agenda
-and refusing to allow public requests for removal and discussion
-to a degree not seen in other cities.
-</p>
-
-<p>
-From the City's own rules:
-</p>
-
-<p>
-Rule 9. Consent Agenda
-</p>
-<p>
-In preparing an Agenda the City Clerk shall separately designate items as "Consent Agenda" which may be acted upon by the Council under Rule 37.
-The "Consent Agenda" shall consist of routine non-controversial items which in the City Clerk's determination can be appropriately considered
-in bulk at the Council meeting.
+  <a href="https://www.desmoinesregister.com/story/opinion/columnists/iowa-view/2022/04/07/des-moines-george-flagg-parkway-rename-street/9484958002/">
+  Register Article: Opinion: Des Moines should rename George Flagg Parkway (and make it safer for animals while they're at it)
+  </a>
 </p>
 
 <p>
