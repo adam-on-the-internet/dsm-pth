@@ -9,6 +9,7 @@
     <div class="col-md-12">
       <h1 class="text-center">Mail To: Cops Off Consent</h1>
 
+      <ng-container *ngIf="showConsentNotes">
       <div class="alert alert-info">
         This contact request is in direction violation of
         <a href="https://dsm-procedural-rules-archive.netlify.app/#/view/rules-archive~2022_01_24~transcription"
@@ -27,7 +28,6 @@
           <strong>We do not know what the ramifications of breaking this rule may be.</strong>
         </p>
       </div>
-
       <p>
         <a class="btn btn-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
            aria-controls="collapseExample">
@@ -66,6 +66,7 @@
           </p>
         </div>
       </div>
+      </ng-container>
 
       <hr>
     </div>
