@@ -35,6 +35,27 @@ ${this.personalNote}
 </p>
 
 <p>
+    Former Council Member George Flagg took many discriminatory actions while serving on Council,
+    and his name should not be honored on a City road. As the City is currently invested in restoring the road,
+    the City should use this opportunity to remove the name George Flagg.
+</p>
+
+<p>
+    During his time on Council, George Flagg voted to deny liquor licenses to applicants with "foreign" sounding names.
+    He was also openly anti-gay and campaigned on a racially biased tough-on-crime platform.
+</p>
+
+<p>
+    The street's name was changed from Valley Drive to George Flagg Parkway in a controversial surprise move
+    as a commendation to George Flagg,
+    without taking public comment.
+</p>
+
+<p>
+    You can learn more in this article published in the Des Moines Register:
+</p>
+
+<p>
   <a href="https://www.desmoinesregister.com/story/opinion/columnists/iowa-view/2022/04/07/des-moines-george-flagg-parkway-rename-street/9484958002/">
   Register Article: Opinion: Des Moines should rename George Flagg Parkway (and make it safer for animals while they're at it)
   </a>
