@@ -27,7 +27,8 @@ export class MailtoGeneratorComponent {
 <p>Dear City Council, Mayor, and City Manager,</p>
 
 <p>
-    I am writing to request that you rename George Flagg Parkway.
+    I am writing to request that the City rename George Flagg Parkway and hold a public meeting
+    on what the new street name should be.
 </p>
 
 <p>
@@ -49,6 +50,8 @@ ${this.personalNote}
     The street's name was changed from Valley Drive to George Flagg Parkway in a controversial surprise move
     as a commendation to George Flagg,
     without taking public comment.
+    To correct this, we are asking that the City hold a public meeting to select a new name rather than
+    selecting another name privately.
 </p>
 
 <p>
