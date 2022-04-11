@@ -7,7 +7,7 @@ import {MailUtil} from "../../utilities/mail.util";
   styleUrls: ['./mailto-generator.component.css']
 })
 export class MailtoGeneratorComponent {
-  public open = false;
+  public open = true;
 
   public to: string = "Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,LindaW@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,indiras@dmgov.org,Citymanager@dmgov.org,";
   public subject: string = "Rename George Flagg Parkway";
