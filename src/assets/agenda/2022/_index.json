@@ -22,6 +22,15 @@
     "month": "04",
     "day": "27",
     "type": "QWS",
+    "time": "8:15am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2022",
+    "month": "04",
+    "day": "27",
+    "type": "SM",
     "time": "8:00am",
     "show": true,
     "featured": true

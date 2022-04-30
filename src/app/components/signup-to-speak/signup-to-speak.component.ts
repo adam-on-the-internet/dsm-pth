@@ -9,7 +9,7 @@ import {MailUtil} from "../../utilities/mail.util";
 })
 export class SignupToSpeakComponent {
   // https://www.dsm.city/government/council_meetings_and_agendas/meeting_schedule.php
-  public signupOpen = false; // TODO open and close logic based on dates
+  public signupOpen = true; // TODO open and close logic based on dates
 
   // meeting day
   public councilMeetingMonth = "May";
