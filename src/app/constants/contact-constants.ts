@@ -219,6 +219,7 @@ export const CITY_MANAGERS_OFFICE = [{
   phoneNumber: "515-283-4141",
   salaryLink: "https://govsalaries.com/anderson-matthew-112610979",
   salary: "$187,181",
+  note: "The Deputy City Manager also serves as the Ethics Officer for any complaints over City Council Members. View the Council Ethics Code here: https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH2AD_ARTIIICICO_DIV3CICOETCO"
 },
   {
     role: "Assistant City Manager",
