@@ -9,15 +9,15 @@ import {MailUtil} from "../../utilities/mail.util";
 })
 export class SignupToSpeakComponent {
   // https://www.dsm.city/government/council_meetings_and_agendas/meeting_schedule.php
-  public signupOpen = true; // TODO open and close logic based on dates
+  public signupOpen = false; // TODO open and close logic based on dates
 
   // meeting day
-  public councilMeetingMonth = "May";
-  public councilMeetingDay = "23";
+  public councilMeetingMonth = "June";
+  public councilMeetingDay = "13";
 
   // cutoff day
-  public cutoffMonth = "May";
-  public cutoffDay = "17";
+  public cutoffMonth = "June";
+  public cutoffDay = "7";
 
   public councilMeetingYear = "2022";
   public cutoffYear = "2022";
