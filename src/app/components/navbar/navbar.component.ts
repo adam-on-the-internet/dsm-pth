@@ -36,6 +36,10 @@ export class NavbarComponent {
     this.navHelper.goToCouncilToolkit();
   }
 
+  public toSpeakerSignup(): void {
+    this.navHelper.goToSignupToSpeak();
+  }
+
   public toResources(): void {
     this.navHelper.goToResources();
   }
