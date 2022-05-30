@@ -2,131 +2,158 @@
   <div class="row my-4 justify-content-center">
     <div class="col-md-12 text-center">
       <h1>Sign Up to Speak to Council</h1>
+      <p>
+        You can signup to speak at a Des Moines City Council Regular Meeting via an email to the City Clerk.
+        We have an email template that you can use.
+      </p>
       <hr>
     </div>
 
-    <div class="col-md-6 my-3">
-      <p>You can sign up to speak via email to the City Clerk. We have an email template you can use.</p>
-      <div class="form-group">
-        <p class="font-weight-bold">
-          Meeting
+    <ng-container *ngIf="!isWithinAcceptableDates">
+      <div class="col-md-12">
+        <div class="alert alert-info">
+          Submissions for the next Council Meeting are not yet open. Check back later.
+          <ul *ngIf="nextMeeting">
+            <li>
+              Submissions open: {{displaySubmissionStartDate}}
+            </li>
+            <li>
+              Submissions close: {{displaySubmissionEndDate}} at 5pm
+            </li>
+            <li>
+              Meeting date: {{displayMeetingDay}}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="isWithinAcceptableDates">
+      <div class="col-md-6 my-3">
+        <div class="form-group">
+          <p class="font-weight-bold">
+            Speaker Signup for {{displayMeetingDay}} DSM Council Regular Meeting
+          </p>
+          <div class="alert alert-warning">
+            The signup for this meeting is open until {{displaySubmissionEndDate}} at 5pm.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="name" class="font-weight-bold">Name</label>
+          <input class="form-control" type="text" id="name" [(ngModel)]="name"/>
+        </div>
+        <div class="form-group">
+          <label for="email" class="font-weight-bold">Email</label>
+          <input class="form-control" type="text" id="email" [(ngModel)]="email"/>
+        </div>
+        <div class="form-group">
+          <label for="address" class="font-weight-bold">Address</label>
+          <input class="form-control" type="text" id="address" [(ngModel)]="address"/>
+        </div>
+        <div class="form-group">
+          <label for="city" class="font-weight-bold">City</label>
+          <input class="form-control" type="text" id="city" [(ngModel)]="city"/>
+        </div>
+        <div class="form-group">
+          <label for="state" class="font-weight-bold">State</label>
+          <input class="form-control" type="text" id="state" [(ngModel)]="state"/>
+        </div>
+        <div class="form-group">
+          <label for="topic" class="font-weight-bold">Topic</label>
+          <input class="form-control" type="text" id="topic" [(ngModel)]="topic"/>
+        </div>
+        <div class="form-group">
+          <p class="font-weight-bold">Send Copy</p>
+          <p>
+            You can choose to send us a copy (BCC) so we can track requests and know if you've been left off the agenda.
+            This is entirely optional. If you choose to send us a copy, we will have a record of your email including
+            whatever information you have entered.
+          </p>
+          <div class="btn-group">
+            <button class="btn btn-secondary" [class.active]="!sendCopy" (click)="setSendCopy(false)">
+              <i class="fa fa-check" *ngIf="!sendCopy"></i>
+              Do Not Send Copy
+            </button>
+            <button class="btn btn-secondary" [class.active]="sendCopy" (click)="setSendCopy(true)">
+              <i class="fa fa-check" *ngIf="sendCopy"></i>
+              Send Copy to People's
+              Town Hall
+            </button>
+          </div>
+        </div>
+        <hr>
+        <ng-container *ngIf="canSubmit">
+          <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
+            <i class="fa fa-envelope"></i>
+            Sign Up to Speak via Email
+          </a>
+        </ng-container>
+        <ng-container *ngIf="!canSubmit">
+          <div class="alert alert-danger" *ngIf="!allSet">You cannot send without all the fields entered.</div>
+          <a class="btn btn-primary btn-block text-white disabled">
+            <i class="fa fa-envelope"></i>
+            Sign Up to Speak via Email
+          </a>
+        </ng-container>
+      </div>
+
+      <div class="col-md-6 my-3">
+        <h2>Sample Template</h2>
+        <hr>
+        <p>
+          <strong>TO:</strong>
+          {{toAddress}}
         </p>
         <p>
-          {{date}}
+          <strong>BCC:</strong>
+          {{bcc}}
         </p>
-        <div class="alert alert-warning" *ngIf="!signupOpen">
-          The signup for this meeting is not open at this time.
-        </div>
-        <div class="alert alert-warning" *ngIf="signupOpen">
-          The signup for this meeting is open until {{cutoffDate}}.
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="name" class="font-weight-bold">Name</label>
-        <input class="form-control" type="text" id="name" [(ngModel)]="name"/>
-      </div>
-      <div class="form-group">
-        <label for="email" class="font-weight-bold">Email</label>
-        <input class="form-control" type="text" id="email" [(ngModel)]="email"/>
-      </div>
-      <div class="form-group">
-        <label for="address" class="font-weight-bold">Address</label>
-        <input class="form-control" type="text" id="address" [(ngModel)]="address"/>
-      </div>
-      <div class="form-group">
-        <label for="city" class="font-weight-bold">City</label>
-        <input class="form-control" type="text" id="city" [(ngModel)]="city"/>
-      </div>
-      <div class="form-group">
-        <label for="state" class="font-weight-bold">State</label>
-        <input class="form-control" type="text" id="state" [(ngModel)]="state"/>
-      </div>
-      <div class="form-group">
-        <label for="topic" class="font-weight-bold">Topic</label>
-        <input class="form-control" type="text" id="topic" [(ngModel)]="topic"/>
-      </div>
-      <div class="form-group">
-        <p class="font-weight-bold">Send Copy</p>
         <p>
-          You can choose to send us a copy (BCC) so we can track requests and know if you've been left off the agenda.
-          This is entirely optional. If you choose to send us a copy, we will have a record of your email including
-          whatever information you have entered.
+          <strong>SUBJECT:</strong>
+          {{subject}}
         </p>
-        <div class="btn-group">
-          <button class="btn btn-secondary" [class.active]="!sendCopy" (click)="setSendCopy(false)">
-            <i class="fa fa-check" *ngIf="!sendCopy"></i>
-            Do Not Send Copy
-          </button>
-          <button class="btn btn-secondary" [class.active]="sendCopy" (click)="setSendCopy(true)">
-            <i class="fa fa-check" *ngIf="sendCopy"></i>
-            Send Copy to People's
-            Town Hall
-          </button>
+        <p>
+          <strong>BODY:</strong>
+        </p>
+        <div [innerHTML]="body">
         </div>
       </div>
-      <hr>
-      <ng-container *ngIf="canSubmit">
-        <a class="btn btn-primary btn-block" [href]="mailto" target="_blank">
-          <i class="fa fa-envelope"></i>
-          Sign Up to Speak via Email
-        </a>
-      </ng-container>
-      <ng-container *ngIf="!canSubmit">
-        <div class="alert alert-danger" *ngIf="!allSet">You cannot send without all the fields entered.</div>
-        <div class="alert alert-danger" *ngIf="!signupOpen">Signups are not open at this time.</div>
-        <a class="btn btn-primary btn-block text-white disabled">
-          <i class="fa fa-envelope"></i>
-          Sign Up to Speak via Email
-        </a>
-      </ng-container>
-    </div>
 
-    <div class="col-md-6 my-3">
-      <h2>Sample Template</h2>
-      <hr>
-      <p>
-        <strong>TO:</strong>
-        {{toAddress}}
-      </p>
-      <p>
-        <strong>BCC:</strong>
-        {{bcc}}
-      </p>
-      <p>
-        <strong>SUBJECT:</strong>
-        {{subject}}
-      </p>
-      <p>
-        <strong>BODY:</strong>
-      </p>
-      <div [innerHTML]="body">
+      <div class="col-md-12">
+        <hr>
       </div>
-    </div>
 
-    <div class="col-md-12">
-      <hr>
-    </div>
+      <div class="col-md-6 my-3">
+        <h2>City Form Alternative</h2>
+        <p>You can sign up to speak via a web page made by the City.</p>
+        <p>This form has technical difficulties that lead to people being excluded from the speaker list.</p>
+        <p>If you use this form, we advise:</p>
+        <ol>
+          <li>
+            Fill out all fields in the form. The City Clerk sometimes denies speaking requests that
+            have blank fields.
+          </li>
+          <li>
+            Keep documentation of your request. The city does not send a receipt or record when requests
+            were submitted, so its important to document your request in case the city denies it for any reason.
+          </li>
+        </ol>
+        <hr>
+        <a class="btn btn-primary btn-block" [href]="linkService.signUpToSpeak" target="_blank">
+          <i class="fa fa-file"></i>
+          Sign Up to Speak via City Form
+        </a>
+      </div>
+    </ng-container>
 
-    <div class="col-md-6 my-3">
-      <h2>City Form Alternative</h2>
-      <p>You can sign up to speak via a web page made by the City.</p>
-      <p>This form has technical difficulties that lead to people being excluded from the speaker list.</p>
-      <p>If you use this form, we advise:</p>
-      <ol>
-        <li>
-          Fill out all fields in the form. The City Clerk sometimes denies speaking requests that
-          have blank fields.
-        </li>
-        <li>
-          Keep documentation of your request. The city does not send a receipt or record when requests
-          were submitted, so its important to document your request in case the city denies it for any reason.
-        </li>
-      </ol>
+    <div class="col-md-12" *ngIf="futureMeetingDates && futureMeetingDates.length > 0">
       <hr>
-      <a class="btn btn-primary btn-block" [href]="linkService.signUpToSpeak" target="_blank">
-        <i class="fa fa-file"></i>
-        Sign Up to Speak via City Form
-      </a>
+      <h2>Future Meeting Dates</h2>
+      <ul>
+        <li *ngFor="let meetingDate of futureMeetingDates">
+          {{convertMDYtoDisplayDate(meetingDate)}}
+        </li>
+      </ul>
     </div>
   </div>
 </div>

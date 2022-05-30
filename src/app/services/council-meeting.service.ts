@@ -2,6 +2,7 @@ import {Injectable} from "@angular/core";
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {CouncilMeeting, CouncilMeetingDTO, CouncilMeetingYear} from "../models/CouncilMeeting.model";
+import {DateHelper} from "../utilities/date.util";
 
 @Injectable({
   providedIn: "root"
@@ -117,7 +118,7 @@ export class CouncilMeetingService {
   }
 
   private getReadableDate(councilMeeting: CouncilMeetingDTO): string {
-    const monthName = this.getMonthName(Number(councilMeeting.month) - 1);
+    const monthName = DateHelper.getMonthName(Number(councilMeeting.month) - 1);
     return `${monthName} ${Number(councilMeeting.day)}, ${councilMeeting.year}`;
   }
 
@@ -140,14 +141,6 @@ export class CouncilMeetingService {
       default:
         return "?";
     }
-  }
-
-  private getMonthName(monthNumber) {
-    const monthNames = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-    return monthNames[monthNumber];
   }
 
 }
