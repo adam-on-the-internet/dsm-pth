@@ -28,3 +28,8 @@ Des Moines Peoples' Townhall does not formally endorse candidates, but we have p
     - Alejandro isn't on the ballot in the primary, but will be an independent candidate you can vote for on November 8, 2022!
     - [Website](https://www.ale4iowa.com/)
     - [Twitter](https://twitter.com/ale4iowa)
+    
+ # Share This Information
+ 
+- https://www.dsmpeoplestownhall.com/#/view/pages~june_2022_candidates
+    - [https://tinyurl.com/58fr2vst](https://tinyurl.com/58fr2vst)
