@@ -17,13 +17,13 @@ export abstract class DateHelper {
     return `${monthName} ${dayOfMonth}, ${year}`;
   }
 
-  public static convertToCST(date) {
-    return date.toLocaleString('en-US', {timeZone: 'CST'});
+  public static convertToIowaTime(date) {
+    return date.toLocaleString('en-US', {timeZone: 'America/Chicago'});
   }
 
   public static subtractDays(initialDate: string, numberOfDays: number) {
     const initialDateParsed = Date.parse(initialDate);
     const adjustedDate = new Date(initialDateParsed - (numberOfDays * 24 * 60 * 60 * 1000));
-    return DateHelper.convertToCST(adjustedDate).split(",")[0];
+    return DateHelper.convertToIowaTime(adjustedDate).split(",")[0];
   }
 }

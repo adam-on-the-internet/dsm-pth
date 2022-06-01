@@ -40,7 +40,7 @@ export class SignupToSpeakComponent {
   public get currentTime(): string {
     // ex: 5/30/2022, 3:48:58 PM
     const currentTime = new Date();
-    return DateHelper.convertToCST(currentTime);
+    return DateHelper.convertToIowaTime(currentTime);
   }
 
   public get nextMeetingSubmissionStart(): string {
