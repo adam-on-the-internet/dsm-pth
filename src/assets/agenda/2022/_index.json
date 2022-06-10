@@ -1,8 +1,17 @@
 [
   {
     "year": "2022",
-    "month": "05",
-    "day": "23",
+    "month": "06",
+    "day": "13",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2022",
+    "month": "06",
+    "day": "13",
     "type": "RM",
     "time": "5:00pm",
     "show": true,
@@ -12,10 +21,19 @@
     "year": "2022",
     "month": "05",
     "day": "23",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": false
+  },
+  {
+    "year": "2022",
+    "month": "05",
+    "day": "23",
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2022",
