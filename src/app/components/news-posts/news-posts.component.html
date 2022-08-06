@@ -1,19 +1,42 @@
-<h1 class="text-center">News Posts</h1>
-<p *ngIf="!newsPosts">
+<h2 class="text-center">News Posts</h2>
+<p *ngIf="!ready">
   Loading...
 </p>
-<ul class="list-group" *ngIf="newsPosts">
-  <li class="list-group-item" *ngFor="let post of newsPosts">
-    <h2>
-      {{post.heading_title}}
-      <small>
-        ({{post.heading_date}})
-      </small>
-    </h2>
-    <a href="{{post.url}}" target="_blank">
-      {{post.url}}
-    </a>
-    <br>
-    found: {{post.found_date}} | checked: {{post.checked}}
-  </li>
-</ul>
+<ng-container *ngIf="ready">
+  <p *ngIf="newsPostsForDisplay.length === 0">
+    No News Posts to show.
+  </p>
+  <ng-container *ngIf="newsPostsForDisplay.length > 0">
+    <p>
+      Showing {{newsPostsForDisplay.length}} News Post(s)...
+    </p>
+    <ul class="list-group" *ngIf="newsPosts">
+      <ng-container *ngFor="let newsPost of newsPostsForDisplay">
+        <li class="list-group-item">
+          <h3>
+            {{newsPost.heading_title}}
+          </h3>
+          <p>
+            Dated: {{newsPost.heading_date}}
+          </p>
+          <p>
+            <a href="{{newsPost.url}}" target="_blank">
+              <i class="fa fa-link"></i>
+              {{newsPost.url}}
+            </a>
+          </p>
+          <ng-container *ngIf="manageable">
+            <button class="btn btn-secondary btn-block" (click)="checkNewsPost(newsPost)">
+              Check
+            </button>
+            <br>
+            found: {{newsPost.found_date}}
+            <br>
+            id: {{newsPost._id}}
+          </ng-container>
+        </li>
+      </ng-container>
+    </ul>
+  </ng-container>
+</ng-container>
+

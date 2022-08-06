@@ -23,4 +23,12 @@ export class DsmCityUpdateService {
     });
     return this.http.get(url, CookieHelper.unauthHeaders) as Observable<NewsPost[]>;
   }
+
+  public checkNewsPost(newsPost: NewsPost): Observable<NewsPost> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: `dsmScrape/newsPost/${newsPost._id}/check`
+    });
+    return this.http.post(url, null, CookieHelper.unauthHeaders) as Observable<NewsPost>;
+  }
 }

@@ -4,7 +4,7 @@ export interface NewsPost {
   heading_date: string;
   page_title: string;
   page_content: string;
-  checked: false;
+  checked: boolean;
   found_date: string;
   _id: string;
 }

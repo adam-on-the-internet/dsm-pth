@@ -1,7 +1,34 @@
 <div class="container">
   <div class="row my-3">
-    <div class="col-md-6">
-      <app-news-posts [newsPosts]="newsPosts"></app-news-posts>
+    <div class="col-md-12">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" data-toggle="tab" data-target="#unchecked-items" type="button" role="tab"
+                  aria-controls="unchecked-items" aria-selected="true">
+            Unchecked Items
+          </button>
+          <button class="nav-link" data-toggle="tab" data-target="#all-news-posts" type="button" role="tab"
+                  aria-controls="all-news-posts" aria-selected="false">
+            All News Posts
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content mt-2" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="unchecked-items" role="tabpanel">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <app-news-posts [newsPosts]="newsPosts" [manageable]="true"></app-news-posts>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="all-news-posts" role="tabpanel">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <app-news-posts [newsPosts]="newsPosts"></app-news-posts>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
