@@ -11,13 +11,27 @@
                   aria-controls="all-news-posts" aria-selected="false">
             All News Posts
           </button>
+          <button class="nav-link" data-toggle="tab" data-target="#all-calendar-events" type="button" role="tab"
+                  aria-controls="all-calendar-events" aria-selected="false">
+            All Calendar Events
+          </button>
         </div>
       </nav>
       <div class="tab-content mt-2" id="nav-tabContent">
         <div class="tab-pane fade show active" id="unchecked-items" role="tabpanel">
           <div class="row justify-content-center">
             <div class="col-md-8">
-              <app-news-posts [newsPosts]="newsPosts" [manageable]="true"></app-news-posts>
+              <p *ngIf="!hasUncheckedItems">No Unchecked Items available.</p>
+              <ng-container *ngIf="hasUncheckedItems">
+                <ng-container *ngIf="hasUncheckedNewsPosts">
+                  <app-news-posts [newsPosts]="newsPosts" [manageable]="true"></app-news-posts>
+                  <br>
+                </ng-container>
+                <ng-container *ngIf="hasUncheckedCalendarEvents">
+                  <app-calendar-events [calendarEvents]="calendarEvents" [manageable]="true"></app-calendar-events>
+                  <br>
+                </ng-container>
+              </ng-container>
             </div>
           </div>
         </div>
@@ -25,6 +39,13 @@
           <div class="row justify-content-center">
             <div class="col-md-8">
               <app-news-posts [newsPosts]="newsPosts"></app-news-posts>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="all-calendar-events" role="tabpanel">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <app-calendar-events [calendarEvents]="calendarEvents"></app-calendar-events>
             </div>
           </div>
         </div>

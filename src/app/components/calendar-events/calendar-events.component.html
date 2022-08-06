@@ -1,0 +1,49 @@
+<h2 class="text-center">Calendar Events</h2>
+<p *ngIf="!ready">
+  Loading...
+</p>
+<ng-container *ngIf="ready">
+  <p *ngIf="calendarEventsForDisplay.length === 0">
+    No Calendar Events to show.
+  </p>
+  <ng-container *ngIf="calendarEventsForDisplay.length > 0">
+    <p>
+      Showing {{calendarEventsForDisplay.length}} Calendar Event(s)...
+    </p>
+    <ul class="list-group">
+      <ng-container *ngFor="let calendarEvent of calendarEventsForDisplay">
+        <li class="list-group-item">
+          <h3>
+            {{calendarEvent.name}}
+          </h3>
+          <p>
+            {{getMonthName(calendarEvent.month)}} {{calendarEvent.day}}, {{calendarEvent.year}}
+            at {{calendarEvent.time}} ({{calendarEvent.duration}})
+          </p>
+          <div class="alert alert-success" *ngIf="calendarEvent.is_notable">
+            This event is notable.
+          </div>
+          <p [innerHTML]="calendarEvent.detail"></p>
+          <p>
+            Contact:
+            {{calendarEvent.contact_name}}
+            {{calendarEvent.contact_email}}
+            {{calendarEvent.contact_phone}}
+          </p>
+          <ng-container *ngIf="manageable">
+            <div class="alert alert-info">
+              <button class="btn btn-secondary btn-block" (click)="checkCalendarEvent(calendarEvent)">
+                Check
+              </button>
+              <br>
+              found: {{calendarEvent.found_date}}
+              <br>
+              id: {{calendarEvent._id}}
+            </div>
+          </ng-container>
+        </li>
+      </ng-container>
+    </ul>
+  </ng-container>
+</ng-container>
+
