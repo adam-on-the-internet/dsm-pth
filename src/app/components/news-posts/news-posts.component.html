@@ -1,0 +1,19 @@
+<h1 class="text-center">News Posts</h1>
+<p *ngIf="!newsPosts">
+  Loading...
+</p>
+<ul class="list-group" *ngIf="newsPosts">
+  <li class="list-group-item" *ngFor="let post of newsPosts">
+    <h2>
+      {{post.heading_title}}
+      <small>
+        ({{post.heading_date}})
+      </small>
+    </h2>
+    <a href="{{post.url}}" target="_blank">
+      {{post.url}}
+    </a>
+    <br>
+    found: {{post.found_date}} | checked: {{post.checked}}
+  </li>
+</ul>
