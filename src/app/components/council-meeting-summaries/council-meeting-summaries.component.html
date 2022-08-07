@@ -1,0 +1,56 @@
+<h2 class="text-center">Council Meetings</h2>
+<p *ngIf="!ready">
+  Loading...
+</p>
+<ng-container *ngIf="ready">
+  <p *ngIf="councilMeetingsForDisplay.length === 0">
+    No Council Meetings to show.
+  </p>
+  <ng-container *ngIf="councilMeetingsForDisplay.length > 0">
+    <p>
+      Showing {{councilMeetingsForDisplay.length}} Council Meeting(s)...
+    </p>
+    <ul class="list-group">
+      <ng-container *ngFor="let councilMeeting of councilMeetingsForDisplay">
+        <li class="list-group-item">
+          <h3>
+            {{getMonthName(councilMeeting.month)}} {{councilMeeting.day}},
+            {{councilMeeting.year}} {{councilMeeting.title}}
+          </h3>
+          <p>
+            at {{councilMeeting.time}}
+          </p>
+          <p *ngIf="councilMeeting.subtitle">
+            {{councilMeeting.subtitle}}
+          </p>
+          <p>
+            <a href="{{councilMeeting.url}}" target="_blank">
+              <i class="fa fa-link"></i>
+              {{councilMeeting.url}}
+            </a>
+          </p>
+          <ul class="list-group mb-3">
+            <li class="list-group-item" *ngFor="let link of councilMeeting.links">
+              <a href="{{getLinkHref(link)}}" target="_blank">
+                <i class="fa fa-link"></i>
+                {{getLinkText(link)}}
+              </a>
+            </li>
+          </ul>
+          <ng-container *ngIf="manageable">
+            <div class="alert alert-info">
+              <button class="btn btn-secondary btn-block" (click)="checkCouncilMeeting(councilMeeting)">
+                Check
+              </button>
+              <br>
+              found: {{councilMeeting.found_date}}
+              <br>
+              id: {{councilMeeting._id}}
+            </div>
+          </ng-container>
+        </li>
+      </ng-container>
+    </ul>
+  </ng-container>
+</ng-container>
+

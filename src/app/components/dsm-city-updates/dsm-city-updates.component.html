@@ -11,6 +11,10 @@
                   aria-controls="all-news-posts" aria-selected="false">
             All News Posts
           </button>
+          <button class="nav-link" data-toggle="tab" data-target="#all-council-meetings" type="button" role="tab"
+                  aria-controls="all-council-meetings" aria-selected="false">
+            All Council Meetings
+          </button>
           <button class="nav-link" data-toggle="tab" data-target="#all-calendar-events" type="button" role="tab"
                   aria-controls="all-calendar-events" aria-selected="false">
             All Calendar Events
@@ -18,13 +22,23 @@
         </div>
       </nav>
       <div class="tab-content mt-2" id="nav-tabContent">
+
         <div class="tab-pane fade show active" id="unchecked-items" role="tabpanel">
           <div class="row justify-content-center">
             <div class="col-md-8">
+              <ng-container *ngIf="!uncheckedReady">
+                <p>Loading...</p>
+              </ng-container>
+              <ng-container *ngIf="uncheckedReady"></ng-container>
               <p *ngIf="!hasUncheckedItems">No Unchecked Items available.</p>
               <ng-container *ngIf="hasUncheckedItems">
                 <ng-container *ngIf="hasUncheckedNewsPosts">
                   <app-news-posts [newsPosts]="newsPosts" [manageable]="true"></app-news-posts>
+                  <br>
+                </ng-container>
+                <ng-container *ngIf="hasUncheckedCouncilMeetings">
+                  <app-council-meeting-summaries [councilMeetings]="councilMeetings"
+                                                 [manageable]="true"></app-council-meeting-summaries>
                   <br>
                 </ng-container>
                 <ng-container *ngIf="hasUncheckedCalendarEvents">
@@ -35,6 +49,7 @@
             </div>
           </div>
         </div>
+
         <div class="tab-pane fade show" id="all-news-posts" role="tabpanel">
           <div class="row justify-content-center">
             <div class="col-md-8">
@@ -42,6 +57,15 @@
             </div>
           </div>
         </div>
+
+        <div class="tab-pane fade show" id="all-council-meetings" role="tabpanel">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <app-council-meeting-summaries [councilMeetings]="councilMeetings"></app-council-meeting-summaries>
+            </div>
+          </div>
+        </div>
+
         <div class="tab-pane fade show" id="all-calendar-events" role="tabpanel">
           <div class="row justify-content-center">
             <div class="col-md-8">
@@ -49,6 +73,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>

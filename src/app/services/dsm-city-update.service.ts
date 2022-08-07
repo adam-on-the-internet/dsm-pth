@@ -6,6 +6,7 @@ import {CookieHelper} from "../utilities/cookie.util";
 import {HttpClient} from "@angular/common/http";
 import {NewsPost} from "../models/NewsPost.model";
 import {CalendarEvent} from "../models/CalendarEvent.model";
+import {CouncilMeetingSummary} from "../models/CouncilMeetingSummary.model";
 
 @Injectable({
   providedIn: 'root'
@@ -31,6 +32,22 @@ export class DsmCityUpdateService {
       controller: `dsmScrape/newsPost/${newsPost._id}/check`
     });
     return this.http.post(url, null, CookieHelper.unauthHeaders) as Observable<NewsPost>;
+  }
+
+  public getAllCouncilMeetings(): Observable<CouncilMeetingSummary[]> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: "dsmScrape/councilMeeting"
+    });
+    return this.http.get(url, CookieHelper.unauthHeaders) as Observable<CouncilMeetingSummary[]>;
+  }
+
+  public checkCouncilMeeting(councilMeetingSummary: CouncilMeetingSummary): Observable<CouncilMeetingSummary> {
+    const url = RestUrlBuilder.buildRestUrl({
+      service: ServiceUrl.MainService,
+      controller: `dsmScrape/councilMeeting/${councilMeetingSummary._id}/check`
+    });
+    return this.http.post(url, null, CookieHelper.unauthHeaders) as Observable<CouncilMeetingSummary>;
   }
 
   public getAllCalendarEvents(): Observable<CalendarEvent[]> {
