@@ -17,7 +17,7 @@
             {{getMonthName(councilMeeting.month)}} {{councilMeeting.day}},
             {{councilMeeting.year}} {{councilMeeting.title}}
           </h3>
-          <p>
+          <p *ngIf="councilMeeting.time">
             at {{councilMeeting.time}}
           </p>
           <p *ngIf="councilMeeting.subtitle">
