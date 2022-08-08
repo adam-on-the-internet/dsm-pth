@@ -42,6 +42,12 @@
               found: {{calendarEvent.found_date}}
               <br>
               id: {{calendarEvent._id}}
+              <br>
+              <ul>
+                <li *ngFor="let log of calendarEvent.check_message_log">
+                  {{log}}
+                </li>
+              </ul>
             </div>
           </ng-container>
         </li>

@@ -37,6 +37,12 @@
               found: {{newsPost.found_date}}
               <br>
               id: {{newsPost._id}}
+              <br>
+              <ul>
+                <li *ngFor="let log of newsPost.check_message_log">
+                  {{log}}
+                </li>
+              </ul>
             </div>
           </ng-container>
         </li>

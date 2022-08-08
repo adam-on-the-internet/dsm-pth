@@ -11,6 +11,7 @@ export interface CalendarEvent {
   is_notable: boolean;
   checked: boolean;
   check_message: string;
+  check_message_log: string[];
   found_date: string;
   _id: string;
 }

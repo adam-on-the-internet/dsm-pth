@@ -40,7 +40,7 @@
           <ng-container *ngIf="manageable">
             <div class="alert alert-info">
               <p>
-                {{councilMeeting.checkMessage}}
+                {{councilMeeting.check_message}}
               </p>
               <button class="btn btn-secondary btn-block" (click)="checkCouncilMeeting(councilMeeting)">
                 Check
@@ -49,6 +49,12 @@
               found: {{councilMeeting.found_date}}
               <br>
               id: {{councilMeeting._id}}
+              <br>
+              <ul>
+                <li *ngFor="let log of councilMeeting.check_message_log">
+                  {{log}}
+                </li>
+              </ul>
             </div>
           </ng-container>
         </li>
