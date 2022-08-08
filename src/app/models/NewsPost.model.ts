@@ -5,6 +5,7 @@ export interface NewsPost {
   page_title: string;
   page_content: string;
   checked: boolean;
+  check_message: string;
   found_date: string;
   _id: string;
 }

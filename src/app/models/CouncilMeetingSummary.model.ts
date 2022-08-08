@@ -8,6 +8,7 @@ export interface CouncilMeetingSummary {
   subtitle: string;
   links: string[];
   checked: boolean;
+  check_message: string;
   found_date: string;
   _id: string;
 }

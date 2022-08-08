@@ -10,6 +10,7 @@ export interface CalendarEvent {
   contact_phone: string;
   is_notable: boolean;
   checked: boolean;
+  check_message: string;
   found_date: string;
   _id: string;
 }

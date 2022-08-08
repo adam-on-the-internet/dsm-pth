@@ -27,6 +27,9 @@
           </p>
           <ng-container *ngIf="manageable">
             <div class="alert alert-info">
+              <p>
+                {{newsPost.check_message}}
+              </p>
               <button class="btn btn-secondary btn-block" (click)="checkNewsPost(newsPost)">
                 Check
               </button>
