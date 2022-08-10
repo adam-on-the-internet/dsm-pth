@@ -25,12 +25,23 @@
               {{newsPost.url}}
             </a>
           </p>
+          <ng-container *ngIf="newsPost.page_content">
+            <app-modal-trigger-button [boxId]="'news-post-' + newsPost._id">
+              <i class="fa fa-info mr-2"></i> News Post Content
+            </app-modal-trigger-button>
+            <app-modal-box-basic [boxId]="'news-post-' + newsPost._id" [title]="'News Post Content'">
+              <div [innerHTML]="newsPost.page_content"></div>
+            </app-modal-box-basic>
+          </ng-container>
+          <p *ngIf="!newsPost.page_content">
+            No content.
+          </p>
           <ng-container *ngIf="manageable">
             <div class="alert alert-info">
               <p>
                 {{newsPost.check_message}}
               </p>
-              <button class="btn btn-secondary btn-block" (click)="checkNewsPost(newsPost)">
+              <button class="btn btn-primary btn-block" (click)="checkNewsPost(newsPost)">
                 Check
               </button>
               <br>
