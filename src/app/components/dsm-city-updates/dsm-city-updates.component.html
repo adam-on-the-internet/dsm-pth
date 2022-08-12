@@ -25,6 +25,8 @@
           </button>
         </div>
       </nav>
+    </div>
+    <div class="col-md-12">
       <div class="tab-content mt-2" id="nav-tabContent">
 
         <div class="tab-pane fade show active" id="unchecked-items" role="tabpanel">
@@ -33,26 +35,27 @@
               <ng-container *ngIf="!uncheckedReady">
                 <p>Loading...</p>
               </ng-container>
-              <ng-container *ngIf="uncheckedReady"></ng-container>
-              <p *ngIf="!hasUncheckedItems">No Unchecked Items available.</p>
-              <ng-container *ngIf="hasUncheckedItems">
-                <ng-container *ngIf="hasUncheckedNewsPosts">
-                  <app-news-posts [newsPosts]="newsPosts" [manageable]="true"></app-news-posts>
-                  <br>
-                </ng-container>
-                <ng-container *ngIf="hasUncheckedCouncilMeetings">
-                  <app-council-meeting-summaries [councilMeetings]="councilMeetings"
-                                                 [manageable]="true"></app-council-meeting-summaries>
-                  <br>
-                </ng-container>
-                <ng-container *ngIf="hasUncheckedAgendaVersions">
-                  <app-agenda-versions [agendaVersions]="agendaVersions" [manageable]="true">
-                  </app-agenda-versions>
-                  <br>
-                </ng-container>
-                <ng-container *ngIf="hasUncheckedCalendarEvents">
-                  <app-calendar-events [calendarEvents]="calendarEvents" [manageable]="true"></app-calendar-events>
-                  <br>
+              <ng-container *ngIf="uncheckedReady">
+                <p *ngIf="!hasUncheckedItems">No Unchecked Items available.</p>
+                <ng-container *ngIf="hasUncheckedItems">
+                  <ng-container *ngIf="hasUncheckedNewsPosts">
+                    <app-news-posts [newsPosts]="newsPosts" [manageable]="true"></app-news-posts>
+                    <br>
+                  </ng-container>
+                  <ng-container *ngIf="hasUncheckedCouncilMeetings">
+                    <app-council-meeting-summaries [councilMeetings]="councilMeetings"
+                                                   [manageable]="true"></app-council-meeting-summaries>
+                    <br>
+                  </ng-container>
+                  <ng-container *ngIf="hasUncheckedAgendaVersions">
+                    <app-agenda-versions [agendaVersions]="agendaVersions" [manageable]="true">
+                    </app-agenda-versions>
+                    <br>
+                  </ng-container>
+                  <ng-container *ngIf="hasUncheckedCalendarEvents">
+                    <app-calendar-events [calendarEvents]="calendarEvents" [manageable]="true"></app-calendar-events>
+                    <br>
+                  </ng-container>
                 </ng-container>
               </ng-container>
             </div>
