@@ -3,6 +3,7 @@ import {DsmCityUpdateService} from "../../services/dsm-city-update.service";
 import {NewsPost} from "../../models/NewsPost.model";
 import {CalendarEvent} from "../../models/CalendarEvent.model";
 import {CouncilMeetingSummary} from "../../models/CouncilMeetingSummary.model";
+import {AgendaVersion} from "../../models/AgendaVersion.model";
 
 @Component({
   selector: 'app-dsm-city-updates',
@@ -13,17 +14,24 @@ export class DsmCityUpdatesComponent implements OnInit {
   public newsPosts: NewsPost[] = null;
   public calendarEvents: CalendarEvent[] = null;
   public councilMeetings: CouncilMeetingSummary[] = null;
+  public agendaVersions: AgendaVersion[] = null;
 
   public get uncheckedReady(): boolean {
-    return this.newsPosts !== null && this.calendarEvents !== null && this.councilMeetings !== null;
+    return this.newsPosts !== null && this.calendarEvents !== null && this.councilMeetings !== null &&
+      this.agendaVersions !== null;
   }
 
   public get hasUncheckedItems(): boolean {
-    return this.hasUncheckedNewsPosts || this.hasUncheckedCalendarEvents || this.hasUncheckedCouncilMeetings;
+    return this.hasUncheckedNewsPosts || this.hasUncheckedCalendarEvents || this.hasUncheckedCouncilMeetings ||
+      this.hasUncheckedAgendaVersions;
   }
 
   public get hasUncheckedNewsPosts(): boolean {
     return this.newsPosts && this.newsPosts.filter(x => !x.checked).length > 0;
+  }
+
+  public get hasUncheckedAgendaVersions(): boolean {
+    return this.agendaVersions && this.agendaVersions.filter(x => !x.checked).length > 0;
   }
 
   public get hasUncheckedCalendarEvents(): boolean {
@@ -43,6 +51,7 @@ export class DsmCityUpdatesComponent implements OnInit {
     this.getAllNewsPosts();
     this.getAllCalendarEvents();
     this.getAllCouncilMeetings();
+    this.getAllAgendaVersions();
   }
 
   private getAllNewsPosts() {
@@ -51,6 +60,15 @@ export class DsmCityUpdatesComponent implements OnInit {
       .subscribe((res) => this.newsPosts = res,
         (error) => {
           console.log("get all news posts failed");
+        });
+  }
+
+  private getAllAgendaVersions() {
+    this.agendaVersions = null;
+    this.dsmCityUpdateService.getAllAgendaVersions()
+      .subscribe((res) => this.agendaVersions = res,
+        (error) => {
+          console.log("get all agenda versions failed");
         });
   }
 

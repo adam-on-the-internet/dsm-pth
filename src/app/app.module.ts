@@ -54,6 +54,7 @@ import {DsmCityUpdatesComponent} from "./components/dsm-city-updates/dsm-city-up
 import {NewsPostsComponent} from './components/news-posts/news-posts.component';
 import {CalendarEventsComponent} from './components/calendar-events/calendar-events.component';
 import {CouncilMeetingSummariesComponent} from './components/council-meeting-summaries/council-meeting-summaries.component';
+import {AgendaVersionsComponent} from './components/agenda-versions/agenda-versions.component';
 
 // function that returns `MarkedOptions` with renderer override
 export function markedOptionsFactory(): MarkedOptions {
@@ -123,6 +124,7 @@ export function markedOptionsFactory(): MarkedOptions {
     NewsPostsComponent,
     CalendarEventsComponent,
     CouncilMeetingSummariesComponent,
+    AgendaVersionsComponent,
   ],
   imports: [
     BrowserModule,
