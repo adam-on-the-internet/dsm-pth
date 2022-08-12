@@ -30,6 +30,14 @@ export class AgendaVersionsComponent {
   ) {
   }
 
+  public getFriendlyTitle(agendaVersion: AgendaVersion): string {
+    return agendaVersion.meeting_code.replace(/_/g, ' ');
+  }
+
+  public getHtmlContent(agendaVersion: AgendaVersion): string {
+    return agendaVersion.plaintext.replace(/\n/g, '<br>');
+  }
+
   public checkAgendaVersion(agendaVersion: AgendaVersion) {
     let response;
     this.dsmCityUpdateService.checkAgendaVersion(agendaVersion)

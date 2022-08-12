@@ -14,7 +14,7 @@
       <ng-container *ngFor="let agendaVersion of agendaVersionsForDisplay">
         <li class="list-group-item">
           <h3>
-            {{agendaVersion.meeting_code}}
+            {{getFriendlyTitle(agendaVersion)}}
             <small>
               Version: {{agendaVersion.version}}
             </small>
@@ -26,13 +26,14 @@
             <app-modal-trigger-button [boxId]="'agenda-version-' + agendaVersion._id">
               <i class="fa fa-info mr-2"></i> Agenda Version Content
             </app-modal-trigger-button>
-            <app-modal-box-basic [boxId]="'agenda-version-' + agendaVersion._id" [title]="'Agenda Version Content'">
-              {{agendaVersion.plaintext}}
+            <app-modal-box-basic [large]="true" [boxId]="'agenda-version-' + agendaVersion._id"
+                                 [title]="'Agenda Text'">
+              <div [innerHTML]="getHtmlContent(agendaVersion)"></div>
             </app-modal-box-basic>
             <br>
           </ng-container>
           <ng-container *ngIf="manageable">
-            <div class="alert alert-info">
+            <div class="alert alert-info mt-3">
               <p>
                 {{agendaVersion.check_message}}
               </p>

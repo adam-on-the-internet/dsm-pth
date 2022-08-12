@@ -8,4 +8,5 @@ import {Component, Input} from "@angular/core";
 export class ModalBoxBasicComponent {
   @Input() public title = "Modal Title";
   @Input() public boxId = "boxId";
+  @Input() public large = false;
 }
