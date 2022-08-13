@@ -38,6 +38,10 @@ export class AgendaVersionsComponent {
     return agendaVersion.plaintext.replace(/\n/g, '<br>');
   }
 
+  public copyPlaintextToClipboard(agendaVersion: AgendaVersion): void {
+    this.copyTextToClipboard(agendaVersion.plaintext);
+  }
+
   public checkAgendaVersion(agendaVersion: AgendaVersion) {
     let response;
     this.dsmCityUpdateService.checkAgendaVersion(agendaVersion)
@@ -47,6 +51,10 @@ export class AgendaVersionsComponent {
         }, () => {
           agendaVersion.checked = true;
         });
+  }
+
+  private copyTextToClipboard(copyText: string) {
+    navigator.clipboard.writeText(copyText);
   }
 
 }

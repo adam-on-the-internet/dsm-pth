@@ -27,7 +27,13 @@
               <i class="fa fa-info mr-2"></i> Agenda Version Content
             </app-modal-trigger-button>
             <app-modal-box-basic [large]="true" [boxId]="'agenda-version-' + agendaVersion._id"
-                                 [title]="'Agenda Text'">
+                                 [title]="'Agenda Version Content'">
+              <h2>Plaintext Agenda</h2>
+              <button class="btn btn-secondary" (click)="copyPlaintextToClipboard(agendaVersion)">
+                <i class="fa fa-copy"></i>
+                Copy Plaintext to Clipboard
+              </button>
+              <hr>
               <div [innerHTML]="getHtmlContent(agendaVersion)"></div>
             </app-modal-box-basic>
             <br>
