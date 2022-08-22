@@ -2,6 +2,15 @@
   {
     "year": "2022",
     "month": "08",
+    "day": "24",
+    "type": "QWS",
+    "time": "8:00am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2022",
+    "month": "08",
     "day": "22",
     "type": "WS",
     "time": "7:30am",
