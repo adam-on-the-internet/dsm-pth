@@ -10,43 +10,50 @@
     <p>
       Showing {{agendaVersionsForDisplay.length}} Agenda Version(s)...
     </p>
-    <ul class="list-group">
-      <ng-container *ngFor="let agendaVersion of agendaVersionsForDisplay">
-        <li class="list-group-item">
-          <h3>
-            {{getFriendlyTitle(agendaVersion)}}
-            <small>
-              Version: {{agendaVersion.version}}
-            </small>
-          </h3>
-          <p>
-            Length: {{agendaVersion.plaintext.length}}
-          </p>
-          <ng-container *ngIf="agendaVersion.plaintext">
-            <app-modal-trigger-button [boxId]="'agenda-version-' + agendaVersion._id">
-              <i class="fa fa-info mr-2"></i> Agenda Version Content
-            </app-modal-trigger-button>
-            <app-modal-box-basic [large]="true" [boxId]="'agenda-version-' + agendaVersion._id"
-                                 [title]="'Agenda Version Content'">
-              <h2>Plaintext Agenda</h2>
-              <button class="btn btn-secondary" (click)="copyPlaintextToClipboard(agendaVersion)">
-                <i class="fa fa-copy"></i>
-                Copy Plaintext to Clipboard
-              </button>
-              <hr>
-              <div [innerHTML]="getHtmlContent(agendaVersion)"></div>
-            </app-modal-box-basic>
-            <br>
-          </ng-container>
-          <ng-container *ngIf="manageable">
+    <div class="row">
+      <div class="col-md-12" *ngFor="let agendaVersion of agendaVersionsForDisplay">
+        <div class="card border-dark my-2">
+          <div class="card-body">
+            <h5 class="card-title">
+              {{getFriendlyTitle(agendaVersion)}}
+              <small>
+                Version: {{agendaVersion.version}}
+              </small>
+            </h5>
+            <div class="card-text">
+              <p>
+                Length: {{agendaVersion.plaintext.length}}
+              </p>
+              <ng-container *ngIf="agendaVersion.plaintext">
+                <app-modal-trigger-button [boxId]="'agenda-version-' + agendaVersion._id">
+                  <i class="fa fa-info mr-2"></i> Agenda Version Content
+                </app-modal-trigger-button>
+                <app-modal-box-basic [large]="true" [boxId]="'agenda-version-' + agendaVersion._id"
+                                     [title]="'Agenda Version Content'">
+                  <h2>Plaintext Agenda</h2>
+                  <button class="btn btn-secondary" (click)="copyPlaintextToClipboard(agendaVersion)">
+                    <i class="fa fa-copy"></i>
+                    Copy Plaintext to Clipboard
+                  </button>
+                  <hr>
+                  <div [innerHTML]="getHtmlContent(agendaVersion)"></div>
+                </app-modal-box-basic>
+                <br>
+              </ng-container>
+            </div>
+          </div>
+          <div class="card-footer" *ngIf="manageable">
             <div class="alert alert-info mt-3">
+              <p><strong>Update Activity</strong></p>
               <p>
                 {{agendaVersion.check_message}}
               </p>
-              <button class="btn btn-primary btn-block" (click)="checkAgendaVersion(agendaVersion)">
-                Check
-              </button>
-              <br>
+              <ng-container *ngIf="!agendaVersion.checked">
+                <button class="btn btn-primary btn-block" (click)="checkAgendaVersion(agendaVersion)">
+                  Check
+                </button>
+                <br>
+              </ng-container>
               found: {{agendaVersion.found_date}}
               <br>
               id: {{agendaVersion._id}}
@@ -57,10 +64,10 @@
                 </li>
               </ul>
             </div>
-          </ng-container>
-        </li>
-      </ng-container>
-    </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </ng-container>
 </ng-container>
 

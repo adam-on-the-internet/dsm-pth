@@ -3,6 +3,7 @@ import {NewsPost} from "../../models/NewsPost.model";
 import {CalendarEvent} from "../../models/CalendarEvent.model";
 import {DsmCityUpdateService} from "../../services/dsm-city-update.service";
 import {CouncilMeetingSummary} from "../../models/CouncilMeetingSummary.model";
+import {AgendaVersion} from "../../models/AgendaVersion.model";
 
 @Component({
   selector: 'app-dsm-all-updates',
@@ -15,13 +16,16 @@ export class DsmAllUpdatesComponent implements OnInit {
   public newsPosts: NewsPost[] = null;
   public calendarEvents: CalendarEvent[] = null;
   public councilMeetings: CouncilMeetingSummary[] = null;
+  public agendaVersions: AgendaVersion[] = null;
 
   public get uncheckedReady(): boolean {
-    return this.newsPosts !== null && this.calendarEvents !== null && this.councilMeetings !== null;
+    return this.newsPosts !== null && this.calendarEvents !== null
+      && this.councilMeetings !== null && this.agendaVersions !== null;
   }
 
   public get hasUncheckedItems(): boolean {
-    return this.hasUncheckedNewsPosts || this.hasUncheckedCalendarEvents || this.hasUncheckedCouncilMeetings;
+    return this.hasUncheckedNewsPosts || this.hasUncheckedCalendarEvents || this.hasUncheckedCouncilMeetings
+      || this.hasUncheckedAgendaVersions;
   }
 
   public get hasUncheckedNewsPosts(): boolean {
@@ -36,6 +40,10 @@ export class DsmAllUpdatesComponent implements OnInit {
     return this.councilMeetings && this.councilMeetings.filter(x => !x.checked).length > 0;
   }
 
+  public get hasUncheckedAgendaVersions(): boolean {
+    return this.agendaVersions && this.agendaVersions.filter(x => !x.checked).length > 0;
+  }
+
   constructor(
     private dsmCityUpdateService: DsmCityUpdateService,
   ) {
@@ -45,6 +53,19 @@ export class DsmAllUpdatesComponent implements OnInit {
     this.getAllNewsPosts();
     this.getAllCalendarEvents();
     this.getAllCouncilMeetings();
+    this.getAllAgendaVersions();
+  }
+
+  private getAllAgendaVersions() {
+    this.agendaVersions = null;
+    if (!this.managementMode) {
+      return; // Only management mode should use Agenda Versions.
+    }
+    this.dsmCityUpdateService.getAllAgendaVersions()
+      .subscribe((res) => this.agendaVersions = res,
+        (error) => {
+          console.log("get all agenda versions failed");
+        });
   }
 
   private getAllCouncilMeetings() {

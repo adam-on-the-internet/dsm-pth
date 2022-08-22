@@ -50,7 +50,6 @@ import {EmailDisplayComponent} from './components/email-display/email-display.co
 import {ResourcesComponent} from './components/resources/resources.component';
 import {CouncilMeetingGuideComponent} from './components/council-meeting-guide/council-meeting-guide.component';
 import {NewsletterComponent} from './components/newsletter/newsletter.component';
-import {DsmCityUpdatesComponent} from "./components/dsm-city-updates/dsm-city-updates.component";
 import {NewsPostsComponent} from './components/news-posts/news-posts.component';
 import {CalendarEventsComponent} from './components/calendar-events/calendar-events.component';
 import {CouncilMeetingSummariesComponent} from './components/council-meeting-summaries/council-meeting-summaries.component';
@@ -123,7 +122,6 @@ export function markedOptionsFactory(): MarkedOptions {
     ResourcesComponent,
     CouncilMeetingGuideComponent,
     NewsletterComponent,
-    DsmCityUpdatesComponent,
     NewsPostsComponent,
     CalendarEventsComponent,
     CouncilMeetingSummariesComponent,

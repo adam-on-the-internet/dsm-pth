@@ -62,9 +62,15 @@
                     <ng-container *ngIf="hasUncheckedCouncilMeetings">
                       <app-council-meeting-summaries [councilMeetings]="councilMeetings"
                                                      [manageable]="managementMode"
-                                                     [showOnlyUnchecked]="true"
-                                                     *ngIf="councilMeetings; else loading">
+                                                     [showOnlyUnchecked]="true">
                       </app-council-meeting-summaries>
+                      <br>
+                    </ng-container>
+                    <ng-container *ngIf="hasUncheckedAgendaVersions">
+                      <app-agenda-versions [agendaVersions]="agendaVersions"
+                                           [manageable]="managementMode"
+                                           [showOnlyUnchecked]="false">
+                      </app-agenda-versions>
                       <br>
                     </ng-container>
                   </ng-container>
@@ -110,7 +116,11 @@
         </div>
 
         <div class="tab-pane fade show" id="agenda-versions" role="tabpanel">
-          tbd
+          <app-agenda-versions [agendaVersions]="agendaVersions"
+                               [manageable]="managementMode"
+                               [showOnlyUnchecked]="false"
+                               *ngIf="agendaVersions; else loading">
+          </app-agenda-versions>
         </div>
 
       </div>

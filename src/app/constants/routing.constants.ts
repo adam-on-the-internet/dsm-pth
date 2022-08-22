@@ -7,7 +7,6 @@ export const enum ROUTES_ENUM {
   ContactList = "contacts",
   DsmUpdates = "dsm-updates",
   DsmUpdatesManagement = "dsm-updates-management",
-  DsmCityUpdates = "dsm-city-updates",
   Newsletter = "newsletter",
   CouncilMeetingGuide = "council-meeting-guide",
   CouncilMeetings = "council-meetings",

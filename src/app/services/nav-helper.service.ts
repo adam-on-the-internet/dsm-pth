@@ -39,10 +39,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.ContactList);
   }
 
-  public goToDsmCityUpdates(): void {
-    this.goToRoute(ROUTES_ENUM.DsmCityUpdates);
-  }
-
   public toDsmUpdates(): void {
     this.goToRoute(ROUTES_ENUM.DsmUpdates);
   }

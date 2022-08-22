@@ -10,6 +10,7 @@ import {AgendaVersion} from "../../models/AgendaVersion.model";
 export class AgendaVersionsComponent {
   @Input() public agendaVersions: AgendaVersion[] = null;
   @Input() public manageable = false;
+  @Input() public showOnlyUnchecked = false;
 
   public get ready(): boolean {
     return this.agendaVersions !== null;
@@ -18,7 +19,7 @@ export class AgendaVersionsComponent {
   public get agendaVersionsForDisplay(): AgendaVersion[] {
     if (!this.ready) {
       return [];
-    } else if (this.manageable) {
+    } else if (this.showOnlyUnchecked) {
       return this.agendaVersions.filter(x => !x.checked);
     } else {
       return this.agendaVersions;
