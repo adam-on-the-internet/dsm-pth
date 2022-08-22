@@ -10,35 +10,61 @@
     <p>
       Showing {{calendarEventsForDisplay.length}} Calendar Event(s)...
     </p>
-    <ul class="list-group">
-      <ng-container *ngFor="let calendarEvent of calendarEventsForDisplay">
-        <li class="list-group-item">
-          <h3>
+    <div class="col-md-12" *ngFor="let calendarEvent of calendarEventsForDisplay">
+      <div class="card border-dark my-2">
+        <div class="card-body">
+          <h5 class="card-title">
             {{calendarEvent.name}}
-          </h3>
-          <p>
-            {{getMonthName(calendarEvent.month)}} {{calendarEvent.day}}, {{calendarEvent.year}}
-            at {{calendarEvent.time}} ({{calendarEvent.duration}})
-          </p>
-          <div class="alert alert-success" *ngIf="calendarEvent.is_notable">
-            This event is notable.
+          </h5>
+          <div class="card-text">
+            <p>
+              {{getMonthName(calendarEvent.month)}} {{calendarEvent.day}}, {{calendarEvent.year}}
+              at {{calendarEvent.time}} ({{calendarEvent.duration}})
+            </p>
+            <p *ngIf="calendarEvent.is_notable">
+              <strong>
+                This event is notable.
+              </strong>
+            </p>
+
+            <p>
+              Contact:
+              {{calendarEvent.contact_name}}
+              {{calendarEvent.contact_email}}
+              {{calendarEvent.contact_phone}}
+            </p>
+
+            <div id="page-content">
+              <ng-container *ngIf="calendarEvent.detail">
+                <app-modal-trigger-button [boxId]="'calendar-event-' + calendarEvent._id">
+                  <i class="fa fa-info mr-2"></i> Event Details
+                </app-modal-trigger-button>
+                <app-modal-box-basic [boxId]="'calendar-event-' + calendarEvent._id" [title]="'Calendar Event Content'">
+                  <div [innerHTML]="calendarEvent.detail"></div>
+                </app-modal-box-basic>
+              </ng-container>
+              <p *ngIf="!calendarEvent.detail">
+                No detail.
+              </p>
+            </div>
+
           </div>
-          <p [innerHTML]="calendarEvent.detail"></p>
-          <p>
-            Contact:
-            {{calendarEvent.contact_name}}
-            {{calendarEvent.contact_email}}
-            {{calendarEvent.contact_phone}}
-          </p>
+        </div>
+        <div class="card-footer">
           <ng-container *ngIf="manageable">
             <div class="alert alert-info">
+              <p><strong>Update Activity</strong></p>
               <p>
                 {{calendarEvent.check_message}}
               </p>
-              <button class="btn btn-primary btn-block" (click)="checkCalendarEvent(calendarEvent)">
-                Check
-              </button>
-              <br>
+              <ng-container *ngIf="!calendarEvent.checked">
+                <button
+                  class="btn btn-outline-primary btn-block"
+                  (click)="checkCalendarEvent(calendarEvent)">
+                  Check
+                </button>
+                <br>
+              </ng-container>
               found: {{calendarEvent.found_date}}
               <br>
               id: {{calendarEvent._id}}
@@ -50,9 +76,9 @@
               </ul>
             </div>
           </ng-container>
-        </li>
-      </ng-container>
-    </ul>
+        </div>
+      </div>
+    </div>
   </ng-container>
 </ng-container>
 

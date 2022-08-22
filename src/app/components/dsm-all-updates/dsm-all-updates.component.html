@@ -1,0 +1,96 @@
+<div class="container">
+  <div class="row my-3">
+    <div class="col-md-12">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" data-toggle="tab" data-target="#home" type="button" role="tab">
+            Home
+          </button>
+          <button class="nav-link" data-toggle="tab" data-target="#news-posts" type="button" role="tab">
+            News Posts
+          </button>
+          <button class="nav-link" data-toggle="tab" data-target="#calendar-events" type="button" role="tab">
+            Calendar Events
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div class="col-md-12">
+      <div class="tab-content mt-2" id="nav-tabContent">
+
+        <div class="tab-pane fade show active" id="home" role="tabpanel">
+          <ng-container *ngIf="managementMode">
+            <div class="card border-dark my-2">
+              <div class="card-body">
+                <h5 class="card-title">Des Moines Updates Management</h5>
+                <div class="card-text">
+                  <p>
+                    Welcome to the Des Moines City Updates Management page.
+                    Here, we display and manage information about various city activities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-dark my-2">
+              <div class="card-body">
+                <h5 class="card-title">Unchecked Items</h5>
+                <ng-container *ngIf="!uncheckedReady">
+                  <p>Loading...</p>
+                </ng-container>
+                <ng-container *ngIf="uncheckedReady">
+                  <p *ngIf="!hasUncheckedItems">No Unchecked Items available.</p>
+                  <ng-container *ngIf="hasUncheckedItems">
+                    <ng-container *ngIf="hasUncheckedNewsPosts">
+                      <app-news-posts [newsPosts]="newsPosts"
+                                      [manageable]="true" [showOnlyUnchecked]="true">
+                      </app-news-posts>
+                      <br>
+                    </ng-container>
+                    <ng-container *ngIf="hasUncheckedCalendarEvents">
+                      <app-calendar-events [calendarEvents]="calendarEvents"
+                                           [manageable]="true" [showOnlyUnchecked]="true">
+                      </app-calendar-events>
+                      <br>
+                    </ng-container>
+                  </ng-container>
+                </ng-container>
+              </div>
+            </div>
+          </ng-container>
+          <div class="card border-dark my-2" *ngIf="!managementMode">
+            <div class="card-body">
+              <h5 class="card-title">Des Moines Updates Display</h5>
+              <div class="card-text">
+                <p>
+                  Welcome to the Des Moines City Updates page.
+                  Here, we display information about various city activities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="news-posts" role="tabpanel">
+          <app-news-posts [newsPosts]="newsPosts"
+                          [manageable]="managementMode"
+                          [showOnlyUnchecked]="false"
+                          *ngIf="newsPosts; else loading">
+          </app-news-posts>
+        </div>
+
+        <div class="tab-pane fade show" id="calendar-events" role="tabpanel">
+          <app-calendar-events [calendarEvents]="calendarEvents"
+                               [manageable]="managementMode"
+                               [showOnlyUnchecked]="false"
+                               *ngIf="newsPosts; else loading">
+          </app-calendar-events>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>

@@ -43,6 +43,14 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.DsmCityUpdates);
   }
 
+  public toDsmUpdates(): void {
+    this.goToRoute(ROUTES_ENUM.DsmUpdates);
+  }
+
+  public toDsmUpdatesManagement(): void {
+    this.goToRoute(ROUTES_ENUM.DsmUpdatesManagement);
+  }
+
   public toNewsletter(): void {
     this.goToRoute(ROUTES_ENUM.Newsletter);
   }

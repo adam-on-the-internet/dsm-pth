@@ -11,6 +11,7 @@ import {DateHelper} from "../../utilities/date.util";
 export class CalendarEventsComponent {
   @Input() public calendarEvents: CalendarEvent[] = null;
   @Input() public manageable = false;
+  @Input() public showOnlyUnchecked = false;
 
   public get ready(): boolean {
     return this.calendarEvents !== null;
@@ -19,7 +20,7 @@ export class CalendarEventsComponent {
   public get calendarEventsForDisplay(): CalendarEvent[] {
     if (!this.ready) {
       return [];
-    } else if (this.manageable) {
+    } else if (this.showOnlyUnchecked) {
       return this.calendarEvents.filter(x => !x.checked);
     } else {
       return this.calendarEvents;

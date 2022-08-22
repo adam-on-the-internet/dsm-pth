@@ -28,6 +28,10 @@ export class NavbarComponent {
     this.navHelper.goToContactList();
   }
 
+  public toDsmUpdates(): void {
+    this.navHelper.toDsmUpdates();
+  }
+
   public toNewsletter(): void {
     this.navHelper.toNewsletter();
   }

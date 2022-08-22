@@ -8,43 +8,54 @@
   </p>
   <ng-container *ngIf="newsPostsForDisplay.length > 0">
     <p>
-      Showing {{newsPostsForDisplay.length}} News Post(s)...
+      This page is showing {{newsPostsForDisplay.length}} News Post(s)...
     </p>
-    <ul class="list-group">
-      <ng-container *ngFor="let newsPost of newsPostsForDisplay">
-        <li class="list-group-item">
-          <h3>
-            {{newsPost.heading_title}}
-          </h3>
-          <p>
-            Dated: {{newsPost.heading_date}}
-          </p>
-          <p>
-            <a href="{{newsPost.url}}" target="_blank">
+    <div class="row">
+      <div class="col-md-12" *ngFor="let newsPost of newsPostsForDisplay">
+        <div class="card border-dark my-2">
+          <div class="card-body">
+            <h5 class="card-title">{{newsPost.heading_title}}</h5>
+            <div class="card-text">
+              <p>
+                Dated: {{newsPost.heading_date}}
+              </p>
+            </div>
+            <a href="{{newsPost.url}}" target="_blank"
+               class="btn btn-outline-secondary">
               <i class="fa fa-link"></i>
-              {{newsPost.url}}
+              Read News Post
             </a>
-          </p>
-          <ng-container *ngIf="newsPost.page_content">
-            <app-modal-trigger-button [boxId]="'news-post-' + newsPost._id">
-              <i class="fa fa-info mr-2"></i> News Post Content
-            </app-modal-trigger-button>
-            <app-modal-box-basic [boxId]="'news-post-' + newsPost._id" [title]="'News Post Content'">
-              <div [innerHTML]="newsPost.page_content"></div>
-            </app-modal-box-basic>
-          </ng-container>
-          <p *ngIf="!newsPost.page_content">
-            No content.
-          </p>
-          <ng-container *ngIf="manageable">
+          </div>
+          <div class="card-footer" *ngIf="manageable">
             <div class="alert alert-info">
+              <p><strong>Extra Details</strong></p>
+              <div id="page-content">
+                <ng-container *ngIf="newsPost.page_content">
+                  <app-modal-trigger-button [boxId]="'news-post-' + newsPost._id">
+                    <i class="fa fa-info mr-2"></i> News Post Content
+                  </app-modal-trigger-button>
+                  <app-modal-box-basic [boxId]="'news-post-' + newsPost._id" [title]="'News Post Content'">
+                    <div [innerHTML]="newsPost.page_content"></div>
+                  </app-modal-box-basic>
+                </ng-container>
+                <p *ngIf="!newsPost.page_content">
+                  No content.
+                </p>
+              </div>
+              <hr>
+              <p><strong>Update Activity</strong></p>
               <p>
                 {{newsPost.check_message}}
               </p>
-              <button class="btn btn-primary btn-block" (click)="checkNewsPost(newsPost)">
-                Check
-              </button>
-              <br>
+              <ng-container *ngIf="!newsPost.checked">
+                <button
+                  class="btn btn-outline-primary btn-block"
+                  (click)="checkNewsPost(newsPost)"
+                >
+                  Check
+                </button>
+                <br>
+              </ng-container>
               found: {{newsPost.found_date}}
               <br>
               id: {{newsPost._id}}
@@ -55,10 +66,10 @@
                 </li>
               </ul>
             </div>
-          </ng-container>
-        </li>
-      </ng-container>
-    </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </ng-container>
 </ng-container>
 

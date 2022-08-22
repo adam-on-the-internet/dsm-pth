@@ -25,6 +25,8 @@ import {ResourcesComponent} from "./components/resources/resources.component";
 import {CouncilMeetingGuideComponent} from "./components/council-meeting-guide/council-meeting-guide.component";
 import {NewsletterComponent} from "./components/newsletter/newsletter.component";
 import {DsmCityUpdatesComponent} from "./components/dsm-city-updates/dsm-city-updates.component";
+import {DsmUpdatesComponent} from "./components/dsm-updates/dsm-updates.component";
+import {DsmUpdatesManagementComponent} from "./components/dsm-updates-management/dsm-updates-management.component";
 
 const routes: Routes = [
   // main
@@ -51,6 +53,8 @@ const routes: Routes = [
   {path: ROUTES_ENUM.AgendaItemDetails + "/:itemId", component: AgendaItemDetailsComponent},
 
   {path: ROUTES_ENUM.DsmCityUpdates, component: DsmCityUpdatesComponent},
+  {path: ROUTES_ENUM.DsmUpdates, component: DsmUpdatesComponent},
+  {path: ROUTES_ENUM.DsmUpdatesManagement, component: DsmUpdatesManagementComponent},
 
   {path: ROUTES_ENUM.ContactList, component: ContactListComponent},
   {path: ROUTES_ENUM.Newsletter, component: NewsletterComponent},

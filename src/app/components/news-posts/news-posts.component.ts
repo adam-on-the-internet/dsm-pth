@@ -10,6 +10,7 @@ import {DsmCityUpdateService} from "../../services/dsm-city-update.service";
 export class NewsPostsComponent {
   @Input() public newsPosts: NewsPost[] = null;
   @Input() public manageable = false;
+  @Input() public showOnlyUnchecked = false;
 
   public get ready(): boolean {
     return this.newsPosts !== null;
@@ -18,7 +19,7 @@ export class NewsPostsComponent {
   public get newsPostsForDisplay(): NewsPost[] {
     if (!this.ready) {
       return [];
-    } else if (this.manageable) {
+    } else if (this.showOnlyUnchecked) {
       return this.newsPosts.filter(x => !x.checked);
     } else {
       return this.newsPosts;
