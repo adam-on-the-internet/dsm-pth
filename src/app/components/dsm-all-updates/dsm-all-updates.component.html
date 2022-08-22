@@ -12,6 +12,13 @@
           <button class="nav-link" data-toggle="tab" data-target="#calendar-events" type="button" role="tab">
             Calendar Events
           </button>
+          <button class="nav-link" data-toggle="tab" data-target="#council-meetings" type="button" role="tab">
+            Council Meetings
+          </button>
+          <button class="nav-link" data-toggle="tab" data-target="#agenda-versions" type="button" role="tab"
+                  *ngIf="managementMode">
+            Agenda Versions
+          </button>
         </div>
       </nav>
     </div>
@@ -52,6 +59,14 @@
                       </app-calendar-events>
                       <br>
                     </ng-container>
+                    <ng-container *ngIf="hasUncheckedCouncilMeetings">
+                      <app-council-meeting-summaries [councilMeetings]="councilMeetings"
+                                                     [manageable]="managementMode"
+                                                     [showOnlyUnchecked]="true"
+                                                     *ngIf="councilMeetings; else loading">
+                      </app-council-meeting-summaries>
+                      <br>
+                    </ng-container>
                   </ng-container>
                 </ng-container>
               </div>
@@ -84,6 +99,18 @@
                                [showOnlyUnchecked]="false"
                                *ngIf="newsPosts; else loading">
           </app-calendar-events>
+        </div>
+
+        <div class="tab-pane fade show" id="council-meetings" role="tabpanel">
+          <app-council-meeting-summaries [councilMeetings]="councilMeetings"
+                                         [manageable]="managementMode"
+                                         [showOnlyUnchecked]="false"
+                                         *ngIf="councilMeetings; else loading">
+          </app-council-meeting-summaries>
+        </div>
+
+        <div class="tab-pane fade show" id="agenda-versions" role="tabpanel">
+          tbd
         </div>
 
       </div>

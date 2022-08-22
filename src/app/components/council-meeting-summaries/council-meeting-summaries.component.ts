@@ -11,6 +11,7 @@ import {CouncilMeetingSummary} from "../../models/CouncilMeetingSummary.model";
 export class CouncilMeetingSummariesComponent {
   @Input() public councilMeetings: CouncilMeetingSummary[] = null;
   @Input() public manageable = false;
+  @Input() public showOnlyUnchecked = false;
 
   public get ready(): boolean {
     return this.councilMeetings !== null;
@@ -19,7 +20,7 @@ export class CouncilMeetingSummariesComponent {
   public get councilMeetingsForDisplay(): CouncilMeetingSummary[] {
     if (!this.ready) {
       return [];
-    } else if (this.manageable) {
+    } else if (this.showOnlyUnchecked) {
       return this.councilMeetings.filter(x => !x.checked);
     } else {
       return this.councilMeetings;

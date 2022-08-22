@@ -2,6 +2,7 @@ import {Component, Input, OnInit} from '@angular/core';
 import {NewsPost} from "../../models/NewsPost.model";
 import {CalendarEvent} from "../../models/CalendarEvent.model";
 import {DsmCityUpdateService} from "../../services/dsm-city-update.service";
+import {CouncilMeetingSummary} from "../../models/CouncilMeetingSummary.model";
 
 @Component({
   selector: 'app-dsm-all-updates',
@@ -13,13 +14,14 @@ export class DsmAllUpdatesComponent implements OnInit {
 
   public newsPosts: NewsPost[] = null;
   public calendarEvents: CalendarEvent[] = null;
+  public councilMeetings: CouncilMeetingSummary[] = null;
 
   public get uncheckedReady(): boolean {
-    return this.newsPosts !== null && this.calendarEvents !== null;
+    return this.newsPosts !== null && this.calendarEvents !== null && this.councilMeetings !== null;
   }
 
   public get hasUncheckedItems(): boolean {
-    return this.hasUncheckedNewsPosts || this.hasUncheckedCalendarEvents;
+    return this.hasUncheckedNewsPosts || this.hasUncheckedCalendarEvents || this.hasUncheckedCouncilMeetings;
   }
 
   public get hasUncheckedNewsPosts(): boolean {
@@ -30,6 +32,9 @@ export class DsmAllUpdatesComponent implements OnInit {
     return this.calendarEvents && this.calendarEvents.filter(x => !x.checked).length > 0;
   }
 
+  public get hasUncheckedCouncilMeetings(): boolean {
+    return this.councilMeetings && this.councilMeetings.filter(x => !x.checked).length > 0;
+  }
 
   constructor(
     private dsmCityUpdateService: DsmCityUpdateService,
@@ -39,6 +44,16 @@ export class DsmAllUpdatesComponent implements OnInit {
   public ngOnInit(): void {
     this.getAllNewsPosts();
     this.getAllCalendarEvents();
+    this.getAllCouncilMeetings();
+  }
+
+  private getAllCouncilMeetings() {
+    this.councilMeetings = null;
+    this.dsmCityUpdateService.getAllCouncilMeetings()
+      .subscribe((res) => this.councilMeetings = res,
+        (error) => {
+          console.log("get all council meetings failed");
+        });
   }
 
   private getAllNewsPosts() {
