@@ -1,6 +1,33 @@
 [
   {
     "year": "2022",
+    "month": "09",
+    "day": "12",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2022",
+    "month": "09",
+    "day": "12",
+    "type": "CS",
+    "time": "7:30am after Work Session",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2022",
+    "month": "09",
+    "day": "12",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2022",
     "month": "08",
     "day": "24",
     "type": "QWS",
@@ -15,7 +42,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2022",
@@ -24,7 +51,7 @@
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2022",
