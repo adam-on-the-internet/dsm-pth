@@ -6,6 +6,10 @@ export interface ResourceItem {
 
 export const COMMUNITY_RESOURCES: ResourceItem[] = [
   {
+    link: "https://www.naloxoneiowa.org/",
+    text: "Naloxone Iowa (aka Narcan)",
+  },
+  {
     link: "https://iowamutualaid.org/",
     text: "Iowa Mutual Aid Network",
   },
