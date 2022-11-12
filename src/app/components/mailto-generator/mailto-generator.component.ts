@@ -10,7 +10,7 @@ export class MailtoGeneratorComponent {
   public open = true;
   public showConsentNotes = false;
 
-  public to: string = "dsmpeoplestownhall@gmail.com,";
+  public to: string = "dsmpeoplestownhall@gmail.com";
   public subject: string = "Project XYZ Demands";
   public cc: string = "";
   public bcc: string = "";
