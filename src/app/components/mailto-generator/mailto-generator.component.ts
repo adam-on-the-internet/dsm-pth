@@ -36,7 +36,7 @@ on account of prison staff failing to follow security measures
 and a lack of mental health resources for incarcerated individuals.
 </p>
 <p>
-https://drive.google.com/file/d/1BL-J9XkCEpWywmFNH9ppZ5nltpRy7hw8
+Account from Anamosa: https://drive.google.com/file/d/1BL-J9XkCEpWywmFNH9ppZ5nltpRy7hw8
 </p>
 
 <p>
@@ -47,7 +47,7 @@ demands issued in January 2021
 about the DoC’s mishandling of the COVID-19 pandemic, many of which are issues which continue to persist today:
 </p>
 <p>
-https://docs.google.com/document/d/1nfT27BuXFHvqC1NzPdeU5_GlNch1pYqgtbz-YzcdKCg
+Previous 2021 Demands: https://docs.google.com/document/d/1nfT27BuXFHvqC1NzPdeU5_GlNch1pYqgtbz-YzcdKCg
 </p>
 <p>--------</p>
 <p>
