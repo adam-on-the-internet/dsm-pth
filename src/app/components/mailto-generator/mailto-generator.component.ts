@@ -29,7 +29,7 @@ export class MailtoGeneratorComponent {
 <p>
 ${this.personalNote}
 </p>
-
+<p>𝗯𝗼𝗹𝗱</p>
 <p>
 Following an incident at Anamosa State Penitentiary in March 2021, the Iowa Department of Corrections issued an onslaught of new “security” measures for all of Iowa’s prisons. These measures effectively constitute a collective punishment for all incarcerated people across the state on account of the actions of a couple individuals. Contrary to what the DoC would have us believe, the deaths of two COs in Anamosa occurred
 <a href="https://drive.google.com/file/d/1BL-J9XkCEpWywmFNH9ppZ5nltpRy7hw8/view?usp=sharing">
@@ -45,7 +45,7 @@ demands issued in January 2021
 </a>
 about the DoC’s mishandling of the COVID-19 pandemic, many of which are issues which continue to persist today:
 </p>
-<hr>
+<p>--------</p>
 <p>
 <strong>
 Decarceration. Minimize the number of individuals being arrested. Parole boards must release people and the governor must commute sentences in order to decrease the prison/jail population enough to allow for safety protocols.
@@ -56,7 +56,7 @@ Decarceration. Minimize the number of individuals being arrested. Parole boards 
 Suspend ICE enforcement and release Immigrants in ICE custody--especially individuals that are most vulnerable to the virus. The majority of people being detained by ICE are no danger to the community.
 </strong>
 </p>
-<hr>
+<p>--------</p>
 <p>
 <strong>
 Communication Demands:
@@ -98,7 +98,7 @@ Ensure that any copies of photographs received by mail are of good or original q
 </strong>
 Scanned copies of photos on printer paper make images appear blurry, and they are often folded up and creased down the middle when received.
 </p>
-<hr>
+<p>--------</p>
 <p>
 <strong>
 Additional Demands:
