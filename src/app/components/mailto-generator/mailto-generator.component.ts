@@ -31,7 +31,7 @@ ${this.personalNote}
 </p>
 
 <p>
-Following an incident at Anamosa State Penitentiary in March 2021, the Iowa Department of Corrections issued an onslaught of new “security” measures for all of Iowa’s prisons. These measures effectively constitute a collective punishment for all incarcerated people across the state on account of the actions of a couple individuals. Contrary to what the Department of Corrections (DoC) would have us believe, the deaths of two COs in Anamosa occurred
+Following an incident at Anamosa State Penitentiary in March 2021, the Iowa Department of Corrections (DoC) issued an onslaught of new “security” measures for all of Iowa’s prisons. These measures effectively constitute a collective punishment for all incarcerated people across the state on account of the actions of a couple individuals. Contrary to what the DoC would have us believe, the deaths of two COs in Anamosa occurred
 on account of prison staff failing to follow security measures
 and a lack of mental health resources for incarcerated individuals.
 </p>
