@@ -25,24 +25,17 @@ export class MailtoGeneratorComponent {
   public get body(): string {
     return `
 <p>Dear Beth Skinner,</p>
-
 <p>
 ${this.personalNote}
 </p>
-
 <p>
-Following an incident at Anamosa State Penitentiary in March 2021, the Iowa Department of Corrections (DoC) issued an onslaught of new “security” measures for all of Iowa’s prisons. These measures effectively constitute a collective punishment for all incarcerated people across the state on account of the actions of a couple individuals. Contrary to what the DoC would have us believe, the deaths of two COs in Anamosa occurred
-on account of prison staff failing to follow security measures
-and a lack of mental health resources for incarcerated individuals.
+Following an incident at Anamosa State Penitentiary in March 2021, the Iowa Department of Corrections (DoC) issued an onslaught of new “security” measures for all of Iowa’s prisons. These measures effectively constitute a collective punishment for all incarcerated people across the state on account of the actions of a couple individuals. Contrary to what the DoC would have us believe, the deaths of two COs in Anamosa occurred on account of prison staff failing to follow security measures and a lack of mental health resources for incarcerated individuals.
 </p>
 <p>
 Account from Anamosa: https://drive.google.com/file/d/1BL-J9XkCEpWywmFNH9ppZ5nltpRy7hw8
 </p>
-
 <p>
-The result of the new changes has been a severe restriction on incarcerated people’s access to communication with friends and family on the outside. This has had further detrimental impacts on the mental health of both incarcerated people and the many people trying to get in touch with loved ones on the other side of the prison walls. Pushing people away from their family and friends does not bring safety and security to people in prisons or outside communities. These changes further propel a system which strips away dignity and humanity, preventing any chance of healing and rehabilitation. In response, we raise forth these demands on behalf of incarcerated people in Iowa as a continuation of the
-demands issued in January 2021
-about the DoC’s mishandling of the COVID-19 pandemic, many of which are issues which continue to persist today:
+The result of the new changes has been a severe restriction on incarcerated people’s access to communication with friends and family on the outside. This has had further detrimental impacts on the mental health of both incarcerated people and the many people trying to get in touch with loved ones on the other side of the prison walls. Pushing people away from their family and friends does not bring safety and security to people in prisons or outside communities. These changes further propel a system which strips away dignity and humanity, preventing any chance of healing and rehabilitation. In response, we raise forth these demands on behalf of incarcerated people in Iowa as a continuation of the demands issued in January 2021 about the DoC’s mishandling of the COVID-19 pandemic, many of which are issues which continue to persist today:
 </p>
 <p>
 Previous 2021 Demands: https://docs.google.com/document/d/1nfT27BuXFHvqC1NzPdeU5_GlNch1pYqgtbz-YzcdKCg
