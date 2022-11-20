@@ -76,13 +76,19 @@ It is difficult for visitors to find time slots that work for their schedules an
 Currently video visits can only be scheduled on Mondays and Fridays with one visitor at a time (unless visitors call in from the same location).
 </p>
 <p>
-5. Ensure that snail mail and photographs arrive in a timely manner (less than two weeks delivery) with no additional financial barriers besides postage.
+5. Allow food and snack access for visitors at all facilities.
+</p>
+<p>
+Currently, there is no food access in visiting rooms at Anamosa SP.
+</p>
+<p>
+6. Ensure that snail mail and photographs arrive in a timely manner (less than two weeks delivery) with no additional financial barriers besides postage.
 </p>
 <p>
 Currently the mail system through Pigeonly takes anywhere from two weeks to multiple months for mail to be delivered to people in prison.
 </p>
 <p>
-6. Ensure that any copies of photographs received by mail are of good or original quality.
+7. Ensure that any copies of photographs received by mail are of good or original quality.
 </p>
 <p>
 Scanned copies of photos on printer paper make images appear blurry, and they are often folded up and creased down the middle when received.
