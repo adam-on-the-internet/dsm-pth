@@ -2,6 +2,15 @@
   {
     "year": "2023",
     "month": "01",
+    "day": "25",
+    "type": "QWS",
+    "time": "8:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2023",
+    "month": "01",
     "day": "23",
     "type": "WS",
     "time": "7:30am",
