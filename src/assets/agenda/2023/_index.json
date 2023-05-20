@@ -2,7 +2,16 @@
   {
     "year": "2023",
     "month": "05",
-    "day": "08",
+    "day": "23",
+    "type": "WS",
+    "time": "8:00am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2023",
+    "month": "05",
+    "day": "22",
     "type": "WS",
     "time": "7:30am",
     "show": true,
@@ -11,11 +20,29 @@
   {
     "year": "2023",
     "month": "05",
-    "day": "08",
+    "day": "22",
     "type": "RM",
     "time": "5:00pm",
     "show": true,
     "featured": true
+  },
+  {
+    "year": "2023",
+    "month": "05",
+    "day": "08",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": false
+  },
+  {
+    "year": "2023",
+    "month": "05",
+    "day": "08",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": false
   },
   {
     "year": "2023",
