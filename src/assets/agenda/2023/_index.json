@@ -2,6 +2,24 @@
   {
     "year": "2023",
     "month": "05",
+    "day": "30",
+    "type": "WS",
+    "time": "8:00am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2023",
+    "month": "05",
+    "day": "30",
+    "type": "SM",
+    "time": "8:00am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2023",
+    "month": "05",
     "day": "23",
     "type": "WS",
     "time": "8:00am",
