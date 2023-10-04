@@ -2,6 +2,15 @@
   {
     "year": "2023",
     "month": "10",
+    "day": "04",
+    "type": "SM",
+    "time": "4:30pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2023",
+    "month": "10",
     "day": "02",
     "type": "WS",
     "time": "7:30am",
