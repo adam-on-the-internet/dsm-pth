@@ -11,7 +11,7 @@ export class MailtoGeneratorComponent {
   public showConsentNotes = false;
 
   public to: string = "beth.skinner@iowa.gov";
-  public subject: string = "2022 Demands";
+  public subject: string = "DART Funding";
   public cc: string = "";
   public bcc: string = "";
   public name: string = "";
