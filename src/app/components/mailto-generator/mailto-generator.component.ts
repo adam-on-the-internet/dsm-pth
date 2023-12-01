@@ -36,12 +36,8 @@ ${this.personalNote}
 
   public get body(): string {
     return `
-<p>
-To whom it may concern:
-</p>
-
+<p>To whom it may concern:</p>
 ${this.paddedPersonalNote}
-
 <p>
 I am reaching out to you as a concerned citizen. Specifically, around DART possibly losing 40% of funding that will represent a huge cut in services. Transit is a human right and a majority of DART riders are Des Moines residents. Over 60% of DART riders do not have valid licenses. Almost 60% of riders rely on DART for transit to-and-from work. As the region's population has grown by 23%, DART has only been able to expand their services by just under 1%.
 </p>
@@ -54,7 +50,6 @@ Why should Des Moines residents bear the financial brunt of DART cost changes wh
 <p>
 As a concerned citizen, I strongly advise that the city hosts public meetings and collects public input on this building purchase. In addition, figure out the best way to save and maintain DART at its current level, without adding additional tax costs to residents.
 </p>
-
 <p>
 Thank you,
 <br>
