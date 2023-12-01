@@ -171,7 +171,7 @@ export const CITY_MANAGER = {
   email: "Citymanager@dmgov.org",
   emailLink: CONTACT_MANAGER,
   phoneNumber: "515-283-4141",
-  salary: "$284,268",
+  salary: "$310,427",
   salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
   note: "Scott Sanders is unelected and serves at the pleasure of City Council.",
 };
@@ -181,7 +181,7 @@ export const CITY_ATTORNEY = {
   email: "Jdlester@dmgov.org",
   emailLink: CONTACT_ATTORNEY,
   phoneNumber: "515-283-4130",
-  salary: "$222,720",
+  salary: "$243,216",
   salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
 };
 export const CITY_CLERK = {
@@ -190,7 +190,7 @@ export const CITY_CLERK = {
   email: "CityClerk@dmgov.org",
   emailLink: CONTACT_CLERK,
   phoneNumber: "515-283-4209",
-  salary: "$121,713",
+  salary: "$139,335",
   salaryLink: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjetZOTndf0AhUHOs0KHcMpCpwQFnoECAMQAQ&url=https%3A%2F%2Fwww.axios.com%2Flocal%2Fdes-moines%2F2021%2F07%2F21%2Fdes-moines-city-manager-clerk-attorney-raise-bonus&usg=AOvVaw26ZYn_0nACVZfPh0wbQioN",
 };
 export const ZONING_ENFORCEMENT = {
