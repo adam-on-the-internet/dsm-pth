@@ -10,7 +10,7 @@ export class MailtoGeneratorComponent {
   public open = true;
   public showConsentNotes = false;
 
-  public to: string = "beth.skinner@iowa.gov";
+  public to: string = "dsmpeoplestownhall@gmail.com";
   public subject: string = "DART Funding";
   public cc: string = "";
   public bcc: string = "";
