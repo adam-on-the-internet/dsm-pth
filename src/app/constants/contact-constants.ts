@@ -78,7 +78,7 @@ export const WARD_4_REP = {
   phoneNumber: "515-402-2626",
   term: "Elected 2014, term expires 2024. Up for election in 2023.",
   campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fGatto_Joseph",
-  salary: "$28,880",
+  salary: "$35,000",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
   note: "Although Joe Gatto represents Ward 4, he lives elsewhere. Read about how he was approved to represent Ward 4 anyway by Mayor Cownie and others: https://tinyurl.com/2876huf5"
 };
@@ -90,7 +90,7 @@ export const WARD_3_REP = {
   phoneNumber: "515-250-3384",
   term: "Elected 2018, term expires 2026.",
   campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fMandelbaum_Joshua",
-  salary: "$28,880",
+  salary: "$35,000",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
 };
 export const WARD_2_REP = {
@@ -101,7 +101,7 @@ export const WARD_2_REP = {
   phoneNumber: "515-988-4288",
   term: "Elected 2016, term expires 2024. Up for election in 2023.",
   campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fWestergaard_Linda",
-  salary: "$28,880",
+  salary: "$35,000",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
 };
 export const WARD_1_REP = {
@@ -110,8 +110,8 @@ export const WARD_1_REP = {
   email: "chriscoleman@dmgov.org",
   emailLink: CONTACT_WARD_1,
   phoneNumber: "515-202-8845",
-  // campaignDisclosureLink: "",
-  salary: "$28,880",
+  campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/publicReports",
+  salary: "$35,000",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
   term: "Elected 2021, sworn in on 1/10/22. Term expires 2026."
 };
@@ -122,7 +122,7 @@ export const AT_LARGE_REPS = [{
   emailLink: CONTACT_AT_LARGE_1,
   phoneNumber: "515-240-7929",
   campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fboesen_connie",
-  salary: "$28,880",
+  salary: "$35,000",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
   term: "Elected 2018, term expires 2026."
 },
@@ -132,7 +132,7 @@ export const AT_LARGE_REPS = [{
     email: "carlvoss@dmgov.org",
     emailLink: CONTACT_AT_LARGE_2,
     phoneNumber: "515-210-0237",
-    salary: "$28,880",
+    salary: "$35,000",
     salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
     campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fVoss_Carl",
     term: "Elected 2019, term expires 2024. Up for election in 2023."
@@ -144,7 +144,7 @@ export const MAYOR = {
   emailLink: CONTACT_MAYOR,
   phoneNumber: "515-283-4944",
   campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fCownie_Frank",
-  salary: "$57,760",
+  salary: "$70,000",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
   term: "Elected 2004, term expires 2024. Up for election in 2023."
 };
