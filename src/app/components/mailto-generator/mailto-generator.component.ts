@@ -22,15 +22,25 @@ export class MailtoGeneratorComponent {
     return this.to.replace(/;/g, "; ");
   }
 
+  private get paddedPersonalNote(): string {
+    if (this.personalNote && this.personalNote.trim().length > 0) {
+    return `
+<p>
+${this.personalNote}
+</p>
+`
+    } else {
+      return "";
+    }
+  }
+
   public get body(): string {
     return `
 <p>
 To whom it may concern:
 </p>
 
-<p>
-${this.personalNote}
-</p>
+${this.paddedPersonalNote}
 
 <p>
 I am reaching out to you as a concerned citizen. Specifically, around DART possibly losing 40% of funding that will represent a huge cut in services. Transit is a human right and a majority of DART riders are Des Moines residents. Over 60% of DART riders do not have valid licenses. Almost 60% of riders rely on DART for transit to-and-from work. As the region's population has grown by 23%, DART has only been able to expand their services by just under 1%.
