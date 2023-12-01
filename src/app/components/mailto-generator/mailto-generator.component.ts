@@ -10,7 +10,7 @@ export class MailtoGeneratorComponent {
   public open = true;
   public showConsentNotes = false;
 
-  public to: string = "dsmpeoplestownhall@gmail.com";
+  public to: string = "Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,Citymanager@dmgov.org,chriscoleman@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,LindaW@dmgov.org";
   public subject: string = "DART Funding";
   public cc: string = "";
   public bcc: string = "";

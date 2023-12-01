@@ -3,7 +3,7 @@ import {ContactInfo, SimpleContact} from "../models/ContactInfo.model";
 // contact mayor frank
 export const CONTACT_MAYOR = "https://tinyurl.com/ad53ynnk";
 // contact ward 1 indira
-export const CONTACT_WARD_1 = "https://tinyurl.com/4sh7wjk9";
+export const CONTACT_WARD_1 = "mailto:chriscoleman@dmgov.org";
 // contact ward 2 linda
 export const CONTACT_WARD_2 = "https://tinyurl.com/2kj8x4yj";
 // contact ward 3 josh
@@ -105,12 +105,12 @@ export const WARD_2_REP = {
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
 };
 export const WARD_1_REP = {
-  role: "Council Member Elect: Ward 1",
-  name: "Indira Sheumaker",
-  email: "indiras@dmgov.org",
+  role: "Council Member: Ward 1",
+  name: "Chris Coleman",
+  email: "chriscoleman@dmgov.org",
   emailLink: CONTACT_WARD_1,
-  phoneNumber: "515-979-2619",
-  campaignDisclosureLink: "https://webapp.iecdb.iowa.gov/PublicView/?d=county%2fPolk%2fCity_Candidate%2fSheumaker_Indira",
+  phoneNumber: "515-202-8845",
+  // campaignDisclosureLink: "",
   salary: "$28,880",
   salaryLink: "https://www.desmoinesregister.com/story/news/2019/09/23/des-moines-city-council-gives-first-ok-raising-mayor-council-salaries/2418831001/",
   term: "Elected 2021, sworn in on 1/10/22. Term expires 2026."
@@ -186,7 +186,7 @@ export const CITY_ATTORNEY = {
 };
 export const CITY_CLERK = {
   role: "City Clerk",
-  name: "P. Kay Clemik",
+  name: "Laura Baumgartner",
   email: "CityClerk@dmgov.org",
   emailLink: CONTACT_CLERK,
   phoneNumber: "515-283-4209",
