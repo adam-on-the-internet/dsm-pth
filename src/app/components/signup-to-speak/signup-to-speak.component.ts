@@ -97,7 +97,7 @@ export class SignupToSpeakComponent {
   }
 
   public get nextMeetingSubmissionEnd(): string {
-    const DAYS_BEFORE_MEETING_SUBMISSION_CLOSES = 6; // typically, the Tuesday before the meeting
+    const DAYS_BEFORE_MEETING_SUBMISSION_CLOSES = 1; // typically, the Tuesday before the meeting
     return DateHelper.subtractDays(this.nextMeeting, DAYS_BEFORE_MEETING_SUBMISSION_CLOSES);
   }
 
