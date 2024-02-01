@@ -39,16 +39,16 @@ ${this.personalNote}
 <p>To whom it may concern:</p>
 ${this.paddedPersonalNote}
 <p>
-I am reaching out to you as a concerned citizen. Specifically, around DART possibly losing 40% of funding that will represent a huge cut in services. Transit is a human right and a majority of DART riders are Des Moines residents. Over 60% of DART riders do not have valid licenses. Almost 60% of riders rely on DART for transit to-and-from work. As the region's population has grown by 23%, DART has only been able to expand their services by just under 1%.
+I am reaching out as a concerned citizen about DART facing a 40% cut in services and the cities response to houseless folks during negative temperatures. During our past extreme winter storm our houseless folks were stuck in the cold, finding warmth in our DART buses as they rode- for free, to a warming shelter. But, sometimes they don't make it to a warming shelter- or the warming shelter is closed. We need 24/7 warming and cooling centers. This has become a more pressing issue with someone passing away due to these conditions.  It is also not helpful when our local police force forcefully evicts houseless people during abhorrent weather.
 </p>
 <p>
-Recently, a DART-funding survey was made available to Des Moines residents, concerning the possible cut to services. This survey presents a false dichotomy. The financial ‘options’ provided for maintaining the current DART services are: raise the franchise fee by 2.5% (which will increase residents’ gas costs by 2.5%) or increase property tax bills by up to $8 for residents who live in the 12 DART metro communities. The simplest solution to the projected $8 million increase in DART service costs during the next 5 years is to save the money the city intends to spend on Nationwide building.
+Recently the city purchased a new building to harbor the Des Moines Police department and the armory. Spending at least $56 million with no town halls or public meetings sharing their concerns with this purchase. If we have money for a new building, we should have the funds to house the houseless and save DART.
 </p>
 <p>
-Why should Des Moines residents bear the financial brunt of DART cost changes while the city spends tax-payer money on a new building? The Nationwide building will cost taxpayers approximately $56 million, including over $10 million going to a parking garage. The plans for this building is to create more space for the Des Moines Police Department and the Argonne Armory. DMPD already makes up almost 40% of the Des Moines city budget- over $78 million dollars. Time and time again, it has been proven that care for our communities is the preferred use of the budget, rather than more money for policing.
+Transit is the backbone of an accessible city, it connects everyday people to their jobs (57% of riders), to appointments, home, the grocery store and many essentials (61% of riders do not have a license). Not only are 100% of the riders reliant on DART, so are the drivers and workers for DART. If DART services get cut by 40%, many routes will be cut- resulting in many drivers and employees losing their jobs. Imagine if you relied on DART to make it to a council meeting, only to realize your normal bus route no longer exists, making you miss your work.
 </p>
 <p>
-As a concerned citizen, I strongly advise that the city hosts public meetings and collects public input on this building purchase. In addition, figure out the best way to save and maintain DART at its current level, without adding additional tax costs to residents.
+Des Moines has the power to save DART, whether it be raising the franchise agreement from 1.5%-2.5%, taking taxes from car registrations, sale taxes or car rentals. 50% of buildings in Des Moines do not pay a franchise fee but benefit from DART. While our general population has grown by over 20%, transit has only grown 1%, if we want to see Des Moines thrive and bring more diverse people to this city, we must save DART.
 </p>
 <p>
 Thank you,
