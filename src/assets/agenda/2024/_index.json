@@ -2,7 +2,7 @@
   {
     "year": "2024",
     "month": "04",
-    "day": "01",
+    "day": "15",
     "type": "RM",
     "time": "5:00pm",
     "show": true,
@@ -11,7 +11,7 @@
   {
     "year": "2024",
     "month": "04",
-    "day": "01",
+    "day": "15",
     "type": "SM",
     "time": "7:30am",
     "show": true,
@@ -21,10 +21,28 @@
     "year": "2024",
     "month": "04",
     "day": "01",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": false
+  },
+  {
+    "year": "2024",
+    "month": "04",
+    "day": "01",
+    "type": "SM",
+    "time": "7:30am",
+    "show": true,
+    "featured": false
+  },
+  {
+    "year": "2024",
+    "month": "04",
+    "day": "01",
     "type": "WS",
     "time": "7:30am - following Special Council Meeting",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
