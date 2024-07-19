@@ -2,11 +2,38 @@
   {
     "year": "2024",
     "month": "07",
+    "day": "22",
+    "type": "SM",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "07",
+    "day": "22",
+    "type": "RM",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "07",
+    "day": "22",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "07",
     "day": "15",
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -15,7 +42,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
