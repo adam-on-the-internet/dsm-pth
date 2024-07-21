@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {MailUtil} from "../../utilities/mail.util";
+import {CORE_EMAILS} from "../../constants/contact-constants";
 
 @Component({
   selector: 'app-mailto-generator',
@@ -10,7 +11,7 @@ export class MailtoGeneratorComponent {
   public open = true;
   public showConsentNotes = false;
 
-  public to: string = "Fcownie@dmgov.org,carlvoss@dmgov.org,Connieboesen@dmgov.org,Citymanager@dmgov.org,chriscoleman@dmgov.org,Joshmandelbaum@dmgov.org,Joegatto@dmgov.org,LindaW@dmgov.org";
+  public to: string = `${CORE_EMAILS}`;
   public subject: string = "DART Funding";
   public cc: string = "";
   public bcc: string = "";
@@ -24,7 +25,7 @@ export class MailtoGeneratorComponent {
 
   private get paddedPersonalNote(): string {
     if (this.personalNote && this.personalNote.trim().length > 0) {
-    return `
+      return `
 <p>
 ${this.personalNote}
 </p>

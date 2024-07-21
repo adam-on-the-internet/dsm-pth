@@ -1,14 +1,5 @@
 import {ContactInfo, SimpleContact} from "../models/ContactInfo.model";
 
-// contact council & mayor
-export const CONTACT_COUNCIL_AND_MAYOR = "https://tinyurl.com/4rx8hbrc";
-
-export const CONTACT_GROUPS: SimpleContact[] = [
-  {
-    name: "Contact All Elected Representatives",
-    emailLink: CONTACT_COUNCIL_AND_MAYOR,
-  },
-];
 export const SPECIAL_CONTACTS: SimpleContact[] = [];
 
 export const WARD_4_REP = {
@@ -40,22 +31,21 @@ export const WARD_1_REP = {
   emailLink: "mailto:chriscoleman@dmgov.org",
   phoneNumber: "515-202-8845",
 };
-export const AT_LARGE_REPS = [
-  {
-    role: "Council Member: At Large",
-    name: "Mike Simonson",
-    email: "MikeSimonson@dmgov.org",
-    emailLink: "mailto:MikeSimonson@dmgov.org",
-    phoneNumber: "515-238-0874",
-  },
-  {
-    role: "Council Member: At Large",
-    name: "Carl Voss",
-    email: "carlvoss@dmgov.org",
-    emailLink: "mailto:carlvoss@dmgov.org",
-    phoneNumber: "515-210-0237",
-  }
-];
+export const AT_LARGE_REP_ONE = {
+  role: "Council Member: At Large",
+  name: "Mike Simonson",
+  email: "MikeSimonson@dmgov.org",
+  emailLink: "mailto:MikeSimonson@dmgov.org",
+  phoneNumber: "515-238-0874",
+};
+export const AT_LARGE_REP_TWO =   {
+  role: "Council Member: At Large",
+  name: "Carl Voss",
+  email: "carlvoss@dmgov.org",
+  emailLink: "mailto:carlvoss@dmgov.org",
+  phoneNumber: "515-210-0237",
+};
+export const AT_LARGE_REPS = [AT_LARGE_REP_ONE, AT_LARGE_REP_TWO];
 export const MAYOR = {
   role: "Mayor",
   name: "Connie Boesen",
@@ -114,41 +104,6 @@ export const POLICE_CHIEF = {
   emailLink: null,
   phoneNumber: null,
 };
-export const CITY_MANAGERS_OFFICE = [{
-  role: "Deputy City Manager",
-  name: "Matthew Anderson",
-  email: "maanderson@dmgov.org",
-  emailLink: "mailto:maanderson@dmgov.org",
-  phoneNumber: "515-283-4141",
-  note: "The Deputy City Manager also serves as the Ethics Officer for any complaints over City Council Members. View the Council Ethics Code here: https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH2AD_ARTIIICICO_DIV3CICOETCO"
-},
-  {
-    role: "Assistant City Manager",
-    name: "Pam Cooksey",
-    email: "pscooksey@dmgov.org",
-    emailLink: "mailto:pscooksey@dmgov.org",
-    phoneNumber: "515-283-4141",
-    salaryLink: "https://govsalaries.com/cooksey-pamela-112610982",
-    salary: "$183,404",
-  },
-  {
-    role: "Assistant City Manager",
-    name: "Malcolm Hankins",
-    email: "mahankins@dmgov.org",
-    emailLink: "mailto:mahankins@dmgov.org",
-    phoneNumber: "515-283-4141",
-    salaryLink: "https://govsalaries.com/hankins-malcolm-112610989",
-    salary: "$170,000",
-  },
-  {
-    role: "Assistant City Manager",
-    name: "Jennifer Schulte",
-    email: "JLSchulte@dmgov.org",
-    emailLink: "mailto:JLSchulte@dmgov.org",
-    phoneNumber: "515-283-4058",
-    salaryLink: "https://govsalaries.com/schulte-jennifer-7193695",
-    salary: "$104,728",
-  }];
 export const CHIEF_EQUITY_OFFICER = {
   role: "LGBTQ Liaison/Chief Equity Officer",
   name: "Manisha Paudel",
@@ -170,4 +125,14 @@ export const UNELECTED_CONTACTS: ContactInfo[] = [
 export const ALL_CITY_CONTACTS: ContactInfo[] = [
   ...MAYOR_AND_COUNCIL_CONTACTS,
   ...UNELECTED_CONTACTS,
+];
+// contact council & mayor
+export const CORE_EMAILS = `${MAYOR.email},${AT_LARGE_REP_ONE},${AT_LARGE_REP_TWO},${WARD_1_REP},${WARD_2_REP},${WARD_3_REP},${WARD_4_REP},${CITY_MANAGER}`;
+export const CONTACT_COUNCIL_AND_MAYOR = `mailto:${CORE_EMAILS}`
+
+export const CONTACT_GROUPS: SimpleContact[] = [
+  {
+    name: "Contact All Elected Representatives & City Manager",
+    emailLink: CONTACT_COUNCIL_AND_MAYOR,
+  },
 ];
