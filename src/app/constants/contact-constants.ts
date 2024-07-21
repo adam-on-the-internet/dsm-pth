@@ -127,7 +127,7 @@ export const ALL_CITY_CONTACTS: ContactInfo[] = [
   ...UNELECTED_CONTACTS,
 ];
 // contact council & mayor
-export const CORE_EMAILS = `${MAYOR.email},${AT_LARGE_REP_ONE},${AT_LARGE_REP_TWO},${WARD_1_REP},${WARD_2_REP},${WARD_3_REP},${WARD_4_REP},${CITY_MANAGER}`;
+export const CORE_EMAILS = `${MAYOR.email},${AT_LARGE_REP_ONE.email},${AT_LARGE_REP_TWO.email},${WARD_1_REP.email},${WARD_2_REP.email},${WARD_3_REP.email},${WARD_4_REP.email},${CITY_MANAGER.email}`;
 export const CONTACT_COUNCIL_AND_MAYOR = `mailto:${CORE_EMAILS}`
 
 export const CONTACT_GROUPS: SimpleContact[] = [
