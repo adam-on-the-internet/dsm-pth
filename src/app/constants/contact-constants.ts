@@ -92,14 +92,6 @@ export const POLICE_CHIEF = {
   emailLink: null,
   phoneNumber: null,
 };
-export const CHIEF_EQUITY_OFFICER = {
-  role: "LGBTQ Liaison/Chief Equity Officer",
-  name: "Manisha Paudel",
-  email: "mpaudel@dmgov.org",
-  phoneNumber: "515-237-1483",
-  salaryLink: "",
-  salary: "",
-};
 export const UNELECTED_CONTACTS: ContactInfo[] = [
   CITY_MANAGER,
   CITY_ATTORNEY,
