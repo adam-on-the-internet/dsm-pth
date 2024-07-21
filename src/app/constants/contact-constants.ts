@@ -33,7 +33,7 @@ export const AT_LARGE_REP_ONE = {
   email: "MikeSimonson@dmgov.org",
   phoneNumber: "515-238-0874",
 };
-export const AT_LARGE_REP_TWO =   {
+export const AT_LARGE_REP_TWO = {
   role: "Council Member: At Large",
   name: "Carl Voss",
   email: "carlvoss@dmgov.org",
@@ -98,7 +98,6 @@ export const UNELECTED_CONTACTS: ContactInfo[] = [
   CITY_CLERK,
   ZONING_ENFORCEMENT,
   POLICE_CHIEF,
-  CHIEF_EQUITY_OFFICER,
   OPEN_RECORDS_COORDINATOR,
 ];
 export const ALL_CITY_CONTACTS: ContactInfo[] = [
