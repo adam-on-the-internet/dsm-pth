@@ -54,8 +54,8 @@
             </a>
             {{person.phoneNumber}}
           </p>
-          <p *ngIf="person.email && person.emailLink" class="mb-0">
-            <a class="btn btn-link" href="{{person.emailLink}}" target="_blank">
+          <p *ngIf="person.email" class="mb-0">
+            <a class="btn btn-link" href="mailto:{{person.email}}" target="_blank">
               <i class="fa fa-envelope"></i>
             </a>
             {{person.email}}
