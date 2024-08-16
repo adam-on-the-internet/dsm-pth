@@ -2,6 +2,15 @@
   {
     "year": "2024",
     "month": "08",
+    "day": "19",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "08",
     "day": "05",
     "type": "RM",
     "time": "5:00pm",
