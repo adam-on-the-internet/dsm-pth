@@ -1,6 +1,33 @@
 [
   {
     "year": "2024",
+    "month": "10",
+    "day": "03",
+    "type": "CS",
+    "time": "12:15pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "10",
+    "day": "02",
+    "type": "SM",
+    "time": "4:30pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "09",
+    "day": "24",
+    "type": "SM",
+    "time": "8:00am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
     "month": "09",
     "day": "16",
     "type": "WS",
