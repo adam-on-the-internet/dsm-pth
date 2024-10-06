@@ -2,11 +2,29 @@
   {
     "year": "2024",
     "month": "10",
+    "day": "07",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "10",
+    "day": "07",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2024",
+    "month": "10",
     "day": "03",
     "type": "CS",
     "time": "12:15pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -15,7 +33,7 @@
     "type": "SM",
     "time": "4:30pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -24,7 +42,7 @@
     "type": "SM",
     "time": "8:00am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -33,7 +51,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -42,7 +60,7 @@
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -51,7 +69,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -60,7 +78,7 @@
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -69,7 +87,7 @@
     "type": "RM",
     "time": "5:00pm",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
@@ -78,7 +96,7 @@
     "type": "WS",
     "time": "7:30am",
     "show": true,
-    "featured": true
+    "featured": false
   },
   {
     "year": "2024",
