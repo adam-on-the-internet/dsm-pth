@@ -2,7 +2,7 @@
   {
     "year": "2025",
     "month": "01",
-    "day": "13",
+    "day": "27",
     "type": "RM",
     "time": "5:00pm",
     "show": true,
@@ -11,10 +11,28 @@
   {
     "year": "2025",
     "month": "01",
-    "day": "13",
+    "day": "27",
     "type": "WS",
     "time": "7:30am",
     "show": true,
     "featured": true
+  },
+  {
+    "year": "2025",
+    "month": "01",
+    "day": "13",
+    "type": "RM",
+    "time": "5:00pm",
+    "show": true,
+    "featured": false
+  },
+  {
+    "year": "2025",
+    "month": "01",
+    "day": "13",
+    "type": "WS",
+    "time": "7:30am",
+    "show": true,
+    "featured": false
   }
 ]
