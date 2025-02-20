@@ -2,6 +2,15 @@
   {
     "year": "2025",
     "month": "02",
+    "day": "19",
+    "type": "SM",
+    "time": "8:00am",
+    "show": true,
+    "featured": true
+  },
+  {
+    "year": "2025",
+    "month": "02",
     "day": "10",
     "type": "RM",
     "time": "5:00pm",
